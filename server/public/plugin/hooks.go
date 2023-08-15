@@ -292,6 +292,9 @@ type Hooks interface {
 	// To reject a push notification, return an non-empty string describing why the notification
 	// was rejected.
 	//
+	// Note that this method will be called for push notification sent by plugins, including
+	// the plugin that created the push notification.
+	//
 	// Minimum server version: 9.0
 	NotificationWillBePushed(pushNotification *model.PluginPushNotification) string
 }
