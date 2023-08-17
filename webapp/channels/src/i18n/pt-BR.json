@@ -3954,7 +3954,7 @@
   "warn_metric_ack_modal.number_of_posts.description": "Seu sistema grommunio-chat possui um grande número de mensagens. A pesquisa padrão do banco de dados grommunio-chat começa a mostrar degradação de desempenho em cerca de 2,5 milhões de publicações. Com mais de 5 milhões de publicações, o Elasticsearch pode ajudar a evitar problemas de desempenho significativos, como tempo limite, com pesquisa e menções. Entre em contato para saber mais e nos diga como podemos ajudar.",
   "warn_metric_ack_modal.number_of_posts.header.title": "Melhorar Performance",
   "warn_metric_ack_modal.number_of_users.header.title": "Escalando com grommunio-chat",
-  "warn_metric_ack_modal.subtext": "Ao clicar em Reconhecer, você estará compartilhando suas informações com a grommunio-chat Inc. {link}",
+  "warn_metric_ack_modal.subtext": "Ao clicar em Reconhecer, você estará compartilhando suas informações com a grommunio GmbH {link}",
   "web.footer.about": "Sobre",
   "web.footer.help": "Ajuda",
   "web.footer.privacy": "Privacidade",

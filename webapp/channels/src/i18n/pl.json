@@ -5542,7 +5542,7 @@
   "warn_metric_ack_modal.number_of_posts.description": "Twój system grommunio-chat zawiera dużą liczbę wiadomości. Domyślne wyszukiwanie w bazie danych grommunio-chat zaczyna wykazywać spadek wydajności przy około 2,5 miliona postów. Przy ilości większej niż 5 milionów postów, Elasticsearch może pomóc w uniknięciu poważnych problemów z wydajnością, takich jak limity czasu, z wyszukiwaniem i wzmiankami. Skontaktuj się z nami, aby dowiedzieć się więcej i daj nam znać, jak możemy Ci pomóc.",
   "warn_metric_ack_modal.number_of_posts.header.title": "Polepsz Wydajność",
   "warn_metric_ack_modal.number_of_users.header.title": "Skalowanie z grommunio-chat",
-  "warn_metric_ack_modal.subtext": "Klikając Potwierdź, udostępnisz swoje informacje firmie grommunio-chat Inc. {link}",
+  "warn_metric_ack_modal.subtext": "Klikając Potwierdź, udostępnisz swoje informacje firmie grommunio GmbH {link}",
   "web.footer.about": "O",
   "web.footer.help": "Pomoc",
   "web.footer.privacy": "Polityka Prywatności",

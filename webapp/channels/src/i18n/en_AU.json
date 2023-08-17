@@ -5512,7 +5512,7 @@
   "warn_metric_ack_modal.number_of_posts.description": "Your grommunio-chat system has a large number of messages. The default grommunio-chat database search starts to show performance degradation at around 2.5 million posts. With over 5 million posts, Elasticsearch can help avoid significant performance issues, such as timeouts, with search and at-mentions. Contact us to learn more and let us know how we can help.",
   "warn_metric_ack_modal.number_of_posts.header.title": "Improve Performance",
   "warn_metric_ack_modal.number_of_users.header.title": "Scaling with grommunio-chat",
-  "warn_metric_ack_modal.subtext": "By clicking Acknowledge, you will be sharing your information with grommunio-chat Inc. {link}",
+  "warn_metric_ack_modal.subtext": "By clicking Acknowledge, you will be sharing your information with grommunio GmbH {link}",
   "web.footer.about": "About",
   "web.footer.help": "Help",
   "web.footer.privacy": "Privacy Policy",

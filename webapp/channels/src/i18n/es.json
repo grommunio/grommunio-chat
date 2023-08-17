@@ -4933,7 +4933,7 @@
   "warn_metric_ack_modal.number_of_posts.description": "Su sistema grommunio-chat tiene una gran cantidad de mensajes. La búsqueda predeterminada de la base de datos de grommunio-chat comienza a mostrar una degradación en el rendimiento en alrededor de 2,5 millones de mensajes. Con más de 5 millones de mensajes, Elasticsearch puede ayudar a evitar problemas de rendimiento importantes, como tiempos de espera, con búsquedas y menciones. Contáctenos para obtener más información y háganos saber cómo podemos ayudar.",
   "warn_metric_ack_modal.number_of_posts.header.title": "Mejorar el rendimiento",
   "warn_metric_ack_modal.number_of_users.header.title": "Escalando con grommunio-chat",
-  "warn_metric_ack_modal.subtext": "Al hacer clic en Admitir, estará compartiendo su información con grommunio-chat Inc. {link}",
+  "warn_metric_ack_modal.subtext": "Al hacer clic en Admitir, estará compartiendo su información con grommunio GmbH {link}",
   "web.footer.about": "Acerca",
   "web.footer.help": "Ayuda",
   "web.footer.privacy": "Privacidad",

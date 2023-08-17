@@ -4468,7 +4468,7 @@
   "warn_metric_ack_modal.number_of_posts.description": "您的 grommunio-chat 系统包含大量消息。默认的 grommunio-chat 数据库搜索在大约 250 万个帖子时开始性能下降。 在 Elasticsearch 拥有超过 500 万个帖子，可以帮助避免重大性能问题，例如超时，搜索以及提及问题。与我们联系以了解更多信息，并让我们知道我们将如何提供帮助。",
   "warn_metric_ack_modal.number_of_posts.header.title": "改善性能",
   "warn_metric_ack_modal.number_of_users.header.title": "与 grommunio-chat 扩展",
-  "warn_metric_ack_modal.subtext": "当点击确认，您将与grommunio-chat Inc.分享您的信息。{link}",
+  "warn_metric_ack_modal.subtext": "当点击确认，您将与grommunio GmbH分享您的信息。{link}",
   "web.footer.about": "关于",
   "web.footer.help": "帮助",
   "web.footer.privacy": "隐私",

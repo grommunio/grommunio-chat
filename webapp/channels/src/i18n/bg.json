@@ -4272,7 +4272,7 @@
   "warn_metric_ack_modal.number_of_posts.description": "Вашата система grommunio-chat има голям брой съобщения. Търсенето по подразбиране в база данни на grommunio-chat започва да показва влошаване на производителността при около 2.5 милиона публикации. С над 5 милиона публикации Elasticsearch може да помогне да се избегнат значителни проблеми с производителността, като изчаквания при търсене и споменавания. Свържете се с нас, за да научите повече и да ни уведомите как можем да помогнем.",
   "warn_metric_ack_modal.number_of_posts.header.title": "Подобри производителността",
   "warn_metric_ack_modal.number_of_users.header.title": "Интегрирай AD/LDAP",
-  "warn_metric_ack_modal.subtext": "Като щракнете върху Потвърждаване, ще споделяте информацията си с grommunio-chat Inc. {link}",
+  "warn_metric_ack_modal.subtext": "Като щракнете върху Потвърждаване, ще споделяте информацията си с grommunio GmbH {link}",
   "web.footer.about": "Относно",
   "web.footer.help": "Помощ",
   "web.footer.privacy": "Поверителност",

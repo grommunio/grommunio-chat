@@ -5622,7 +5622,7 @@
   "warn_metric_ack_modal.number_of_posts.description": "Dein grommunio-chat System hat eine hohe Anzahl an Nachrichten. Die Standard grommunio-chat Datenbanksuche fängt bei ungefähr 2.5 Millionen Beiträgen an Leistungseinbußen zu zeigen. Bei mehr als 5 Millionen Beiträgen kann ElasticSearch dabei helfen, signifikante Leistungsprobleme, wie z.B. Timeouts bei Suche und Erwähnungen, zu vermeiden. Kontaktiere uns und lasse uns wissen, wie wir dich unterstützen können.",
   "warn_metric_ack_modal.number_of_posts.header.title": "Leistung verbessern",
   "warn_metric_ack_modal.number_of_users.header.title": "Skalieren mit grommunio-chat",
-  "warn_metric_ack_modal.subtext": "Wenn du auf \"Bestätigen\" klickst, teilst du deine Informationen mit grommunio-chat Inc. {link}",
+  "warn_metric_ack_modal.subtext": "Wenn du auf \"Bestätigen\" klickst, teilst du deine Informationen mit grommunio GmbH {link}",
   "web.footer.about": "Über",
   "web.footer.help": "Hilfe",
   "web.footer.privacy": "Datenschutzbedingungen",

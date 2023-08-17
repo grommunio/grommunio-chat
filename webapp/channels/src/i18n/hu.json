@@ -5055,7 +5055,7 @@
   "warn_metric_ack_modal.number_of_posts.description": "A grommunio-chat rendszerében nagy számú üzenet van. Az alapértelmezett grommunio-chat adatbázis keresés körülbelül 2,5 millió hozzászólásnál kezdi mutatni a teljesítmény romlását. Több mint 5 millió bejegyzéssel az Elasticsearch kereséssel és megemlítésekkel segíthet elkerülni a jelentős teljesítményproblémákat, például az időtúllépéseket. Vegye fel velünk a kapcsolatot, hogy többet tudjon meg, és tudassa velünk, hogyan tudunk segíteni.",
   "warn_metric_ack_modal.number_of_posts.header.title": "Teljesítmény növelése",
   "warn_metric_ack_modal.number_of_users.header.title": "Méretezés a grommunio-chat-tal",
-  "warn_metric_ack_modal.subtext": "A \"Tudomásul veszem\" gombra kattintva meg fogja osztani adatait a grommunio-chat Inc.-vel. {link}",
+  "warn_metric_ack_modal.subtext": "A \"Tudomásul veszem\" gombra kattintva meg fogja osztani adatait a grommunio GmbH-vel. {link}",
   "web.footer.about": "Névjegy",
   "web.footer.help": "Súgó",
   "web.footer.privacy": "Adatvédelemi irányelvek",

@@ -4701,7 +4701,7 @@
   "warn_metric_ack_modal.number_of_posts.description": "سیستم grommunio-chat شما دارای تعداد زیادی پیام است. جستجوی پیش‌فرض پایگاه داده grommunio-chat شروع به نشان دادن کاهش عملکرد در حدود 2.5 میلیون پست می‌کند. با بیش از 5 میلیون پست، Elasticsearch می تواند به جلوگیری از مشکلات عملکرد مهم، مانند مهلت زمانی، با جستجو و اشاره کمک کند. برای کسب اطلاعات بیشتر با ما تماس بگیرید و به ما بگویید چگونه می توانیم کمک کنیم.",
   "warn_metric_ack_modal.number_of_posts.header.title": "بهبود کارایی",
   "warn_metric_ack_modal.number_of_users.header.title": "مقیاس گذاری با grommunio-chat",
-  "warn_metric_ack_modal.subtext": "با کلیک بر روی تصدیق‌کردن، اطلاعات خود را با grommunio-chat Inc. {link} به اشتراک می‌گذارید.",
+  "warn_metric_ack_modal.subtext": "با کلیک بر روی تصدیق‌کردن، اطلاعات خود را با grommunio GmbH {link} به اشتراک می‌گذارید.",
   "web.footer.about": "در باره",
   "web.footer.help": "کمک",
   "web.footer.privacy": "حریم خصوصی",

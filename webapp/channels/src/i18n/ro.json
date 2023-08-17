@@ -4087,7 +4087,7 @@
   "warn_metric_ack_modal.number_of_posts.description": "Sistemul dvs. grommunio-chat are un număr mare de mesaje. Căutarea implicită a bazei de date grommunio-chat începe să prezinte degradarea performanței la aproximativ 2,5 milioane de postări. Cu peste 5 milioane de postări, Elasticsearch poate ajuta la evitarea problemelor semnificative de performanță, cum ar fi expirarea timpului, cu căutare și mențiuni. Contactați-ne pentru a afla mai multe și anunțați-ne cum vă putem ajuta.",
   "warn_metric_ack_modal.number_of_posts.header.title": "Îmbunătățiți performanța",
   "warn_metric_ack_modal.number_of_users.header.title": "Integrați AD/LDAP",
-  "warn_metric_ack_modal.subtext": "Făcând clic pe Confirmare, veți distribui informațiile dvs. cu grommunio-chat Inc. {link}",
+  "warn_metric_ack_modal.subtext": "Făcând clic pe Confirmare, veți distribui informațiile dvs. cu grommunio GmbH {link}",
   "web.footer.about": "Despre",
   "web.footer.help": "Ajutor",
   "web.footer.privacy": "Confidențialitate",
