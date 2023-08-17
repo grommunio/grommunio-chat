@@ -133,12 +133,12 @@ const (
 
 	EmailSettingsDefaultFeedbackOrganization = ""
 
-	SupportSettingsDefaultTermsOfServiceLink = "https://mattermost.com/pl/terms-of-use/"
-	SupportSettingsDefaultPrivacyPolicyLink  = "https://mattermost.com/pl/privacy-policy/"
-	SupportSettingsDefaultAboutLink          = "https://mattermost.com/pl/about-mattermomst"
-	SupportSettingsDefaultHelpLink           = "https://mattermost.com/pl/help/"
-	SupportSettingsDefaultReportAProblemLink = "https://mattermost.com/pl/report-a-bug"
-	SupportSettingsDefaultSupportEmail       = ""
+	SupportSettingsDefaultTermsOfServiceLink = "https://grommunio.com/wp-content/uploads/2021/09/AGB_grommunio_EN_01OCT21.pdf"
+	SupportSettingsDefaultPrivacyPolicyLink  = "https://grommunio.com/privacy/"
+	SupportSettingsDefaultAboutLink          = "https://docs.grommunio.com/user/chat.html"
+	SupportSettingsDefaultHelpLink           = "https://docs.grommunio.com/user/chat.html"
+	SupportSettingsDefaultReportAProblemLink = "https://docs.grommunio.com/user/chat.html"
+	SupportSettingsDefaultSupportEmail       = "feedback@grommunio.com"
 	SupportSettingsDefaultReAcceptancePeriod = 365
 
 	LdapSettingsDefaultFirstNameAttribute        = ""
