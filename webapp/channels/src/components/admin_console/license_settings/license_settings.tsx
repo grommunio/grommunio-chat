@@ -339,38 +339,11 @@ export default class LicenseSettings extends React.PureComponent<Props, State> {
                 </AdminHeader>
                 <div className='admin-console__wrapper'>
                     <div className='admin-console__content'>
-                        <div className='admin-console__banner_section'>
-                            {!this.state.clickNormalUpgradeBtn && license.IsLicensed !== 'true' &&
-                                this.props.prevTrialLicense?.IsLicensed !== 'true' &&
-                                <TrialBanner
-                                    isDisabled={isDisabled}
-                                    gettingTrialResponseCode={this.state.gettingTrialResponseCode}
-                                    gettingTrialError={this.state.gettingTrialError}
-                                    gettingTrial={this.state.gettingTrial}
-                                    enterpriseReady={this.props.enterpriseReady}
-                                    upgradingPercentage={this.state.upgradingPercentage}
-                                    handleUpgrade={this.handleUpgrade}
-                                    upgradeError={this.state.upgradeError}
-                                    restartError={this.state.restartError}
-                                    handleRestart={this.handleRestart}
-                                    restarting={this.state.restarting}
-                                    openEEModal={this.openEELicenseModal}
-                                />
-                            }
-                            {this.renewLicenseCard()}
-                        </div>
                         <div className='top-wrapper'>
                             <div className='left-panel'>
                                 <div className='panel-card'>
                                     {leftPanel}
                                 </div>
-                                {(!isTrialLicense(license)) && this.termsAndPolicy}
-                            </div>
-                            <div className='right-panel'>
-                                <div className='panel-card'>
-                                    {rightPanel}
-                                </div>
-                                {!isEnterpriseOrE20License(license) && this.comparePlans}
                             </div>
                         </div>
                     </div>
