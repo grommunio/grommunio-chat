@@ -189,7 +189,7 @@
   "Mutator.new-board-from-template": "nauja lenta pagal šabloną",
   "Mutator.new-card-from-template": "nauja kortelė pagal šabloną",
   "Mutator.new-template-from-card": "naujas šablonas pagal kortelę",
-  "OnboardingTour.AddComments.Body": "Galite komentuoti problemas ir net @paminėti kitus Mattermost naudotojus, kad atkreiptumėte jų dėmesį.",
+  "OnboardingTour.AddComments.Body": "Galite komentuoti problemas ir net @paminėti kitus grommunio-chat naudotojus, kad atkreiptumėte jų dėmesį.",
   "OnboardingTour.AddComments.Title": "Pridėti komentarų",
   "OnboardingTour.AddDescription.Body": "Pridėkite aprašymą prie savo kortelės, kad komandos draugai žinotų, kam ji skirta.",
   "OnboardingTour.AddDescription.Title": "Pridėti aprašymą",

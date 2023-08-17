@@ -4448,7 +4448,7 @@ func testUserStoreAnalyticsGetGuestCount(t *testing.T, ss store.Store) {
 }
 
 func testUserStoreAnalyticsGetExternalUsers(t *testing.T, ss store.Store) {
-	localHostDomain := "mattermost.com"
+	localHostDomain := "grommunio.com"
 	result, err := ss.User().AnalyticsGetExternalUsers(localHostDomain)
 	require.NoError(t, err)
 	assert.False(t, result)

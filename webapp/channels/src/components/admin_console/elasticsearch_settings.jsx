@@ -282,7 +282,7 @@ export default class ElasticsearchSettings extends AdminSettings {
                     helpText={
                         <FormattedMessage
                             id='admin.elasticsearch.skipTLSVerificationDescription'
-                            defaultMessage='When true, Mattermost will not require the Elasticsearch certificate to be signed by a trusted Certificate Authority.'
+                            defaultMessage='When true, grommunio-chat will not require the Elasticsearch certificate to be signed by a trusted Certificate Authority.'
                         />
                     }
                     value={this.state.skipTLSVerification}
@@ -355,7 +355,7 @@ export default class ElasticsearchSettings extends AdminSettings {
                     helpText={
                         <FormattedMessage
                             id='admin.elasticsearch.testHelpText'
-                            defaultMessage='Tests if the Mattermost server can connect to the Elasticsearch server specified. Testing the connection only saves the configuration if the test is successful. A successful test will also re-initialize the client if you have started Elasticsearch after starting Mattermost. But this will not restart the workers. To do that, please toggle "Enable Elasticsearch Indexing".'
+                            defaultMessage='Tests if the grommunio-chat server can connect to the Elasticsearch server specified. Testing the connection only saves the configuration if the test is successful. A successful test will also re-initialize the client if you have started Elasticsearch after starting grommunio-chat. But this will not restart the workers. To do that, please toggle "Enable Elasticsearch Indexing".'
                         />
                     }
                     buttonText={

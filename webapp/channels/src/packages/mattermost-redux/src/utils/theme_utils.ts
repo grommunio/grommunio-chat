@@ -123,7 +123,7 @@ type ThemeTypeMap = Record<ThemeType | LegacyThemeType, ThemeKey>;
 const themeTypeMap: ThemeTypeMap = {
     Mattermost: 'denim',
     Organization: 'sapphire',
-    'Mattermost Dark': 'indigo',
+    'grommunio-chat Dark': 'indigo',
     'Windows Dark': 'onyx',
     Denim: 'denim',
     Sapphire: 'sapphire',

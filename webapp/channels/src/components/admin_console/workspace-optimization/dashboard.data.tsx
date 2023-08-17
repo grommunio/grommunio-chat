@@ -106,7 +106,7 @@ const getAccessData = async (
     }),
     description: formatMessage({
         id: 'admin.reporting.workspace_optimization.access.description',
-        defaultMessage: 'Web server configuration may be affecting access to your Mattermost workspace.',
+        defaultMessage: 'Web server configuration may be affecting access to your grommunio-chat workspace.',
     }),
     hide: options.isCloud,
     descriptionOk: formatMessage({
@@ -192,7 +192,7 @@ const getEaseOfManagementData = async (
     }),
     description: formatMessage({
         id: 'admin.reporting.workspace_optimization.ease_of_management.description',
-        defaultMessage: 'Make it easier to manage your Mattermost workspace.',
+        defaultMessage: 'Make it easier to manage your grommunio-chat workspace.',
     }),
     descriptionOk: formatMessage({
         id: 'admin.reporting.workspace_optimization.ease_of_management.descriptionOk',

@@ -71,19 +71,19 @@ export default class SessionLengthSettings extends AdminSettings<Props, State> {
             sessionLengthWebHelpText = (
                 <FormattedMessage
                     id='admin.service.webSessionHoursDesc.extendLength'
-                    defaultMessage="Set the number of hours from the last activity in Mattermost to the expiry of the user's session when using email and AD/LDAP authentication. After changing this setting, the new session length will take effect after the next time the user enters their credentials."
+                    defaultMessage="Set the number of hours from the last activity in grommunio-chat to the expiry of the user's session when using email and AD/LDAP authentication. After changing this setting, the new session length will take effect after the next time the user enters their credentials."
                 />
             );
             sessionLengthMobileHelpText = (
                 <FormattedMessage
                     id='admin.service.mobileSessionHoursDesc.extendLength'
-                    defaultMessage="Set the number of hours from the last activity in Mattermost to the expiry of the user's session on mobile. After changing this setting, the new session length will take effect after the next time the user enters their credentials."
+                    defaultMessage="Set the number of hours from the last activity in grommunio-chat to the expiry of the user's session on mobile. After changing this setting, the new session length will take effect after the next time the user enters their credentials."
                 />
             );
             sessionLengthSSOHelpText = (
                 <FormattedMessage
                     id='admin.service.ssoSessionHoursDesc.extendLength'
-                    defaultMessage="Set the number of hours from the last activity in Mattermost to the expiry of the user's session for SSO authentication, such as SAML, GitLab and OAuth 2.0. If the authentication method is SAML or GitLab, the user may automatically be logged back in to Mattermost if they are already logged in to SAML or GitLab. After changing this setting, the setting will take effect after the next time the user enters their credentials."
+                    defaultMessage="Set the number of hours from the last activity in grommunio-chat to the expiry of the user's session for SSO authentication, such as SAML, GitLab and OAuth 2.0. If the authentication method is SAML or GitLab, the user may automatically be logged back in to grommunio-chat if they are already logged in to SAML or GitLab. After changing this setting, the setting will take effect after the next time the user enters their credentials."
                 />
             );
         } else {
@@ -102,7 +102,7 @@ export default class SessionLengthSettings extends AdminSettings<Props, State> {
             sessionLengthSSOHelpText = (
                 <FormattedMessage
                     id='admin.service.ssoSessionHoursDesc'
-                    defaultMessage="The number of hours from the last time a user entered their credentials to the expiry of the user's session. If the authentication method is SAML or GitLab, the user may automatically be logged back in to Mattermost if they are already logged in to SAML or GitLab. After changing this setting, the setting will take effect after the next time the user enters their credentials."
+                    defaultMessage="The number of hours from the last time a user entered their credentials to the expiry of the user's session. If the authentication method is SAML or GitLab, the user may automatically be logged back in to grommunio-chat if they are already logged in to SAML or GitLab. After changing this setting, the setting will take effect after the next time the user enters their credentials."
                 />
             );
         }
@@ -145,7 +145,7 @@ export default class SessionLengthSettings extends AdminSettings<Props, State> {
                     helpText={
                         <FormattedMessage
                             id='admin.service.extendSessionLengthActivity.helpText'
-                            defaultMessage='When true, sessions will be automatically extended when the user is active in their Mattermost client. Users sessions will only expire if they are not active in their Mattermost client for the entire duration of the session lengths defined in the fields below. When false, sessions will not extend with activity in Mattermost. User sessions will immediately expire at the end of the session length or idle timeouts defined below. '
+                            defaultMessage='When true, sessions will be automatically extended when the user is active in their grommunio-chat client. Users sessions will only expire if they are not active in their grommunio-chat client for the entire duration of the session lengths defined in the fields below. When false, sessions will not extend with activity in grommunio-chat. User sessions will immediately expire at the end of the session length or idle timeouts defined below. '
                         />
                     }
                     value={this.state.extendSessionLengthWithActivity}

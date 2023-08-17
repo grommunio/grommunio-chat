@@ -58,7 +58,7 @@
             import "github.com/mattermost/mattermost-server/v5/model"
 
 
-            Client := model.NewAPIv4Client("https://your-mattermost-url.com")
+            Client := model.NewAPIv4Client("https://your-grommunio-chat-url.com")
 
             Client.Login("email@domain.com", "Password1")
 
@@ -110,7 +110,7 @@
             import "github.com/mattermost/mattermost-server/v5/model"
 
 
-            Client := model.NewAPIv4Client("https://your-mattermost-url.com")
+            Client := model.NewAPIv4Client("https://your-grommunio-chat-url.com")
 
             Client.Login("email@domain.com", "Password1")
 
@@ -174,7 +174,7 @@
               "github.com/mattermost/mattermost-server/v5/model"
             )
 
-            Client := model.NewAPIv4Client("https://your-mattermost-url.com")
+            Client := model.NewAPIv4Client("https://your-grommunio-chat-url.com")
             Client.Login("email@domain.com", "Password1")
 
             file, err := os.Open("file.png")

@@ -166,7 +166,7 @@ func TestCreateUserInputFilter(t *testing.T) {
 		th.App.UpdateConfig(func(cfg *model.Config) {
 			*cfg.TeamSettings.EnableOpenServer = true
 			*cfg.TeamSettings.EnableUserCreation = true
-			*cfg.TeamSettings.RestrictCreationToDomains = "mattermost.com"
+			*cfg.TeamSettings.RestrictCreationToDomains = "grommunio.com"
 			*cfg.ServiceSettings.EnableAPIUserDeletion = true
 		})
 

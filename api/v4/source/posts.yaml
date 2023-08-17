@@ -130,7 +130,7 @@
       x-code-samples:
         - lang: Go
           source: |
-            client := model.NewAPIv4Client("https://your-mattermost-url.com")
+            client := model.NewAPIv4Client("https://your-grommunio-chat-url.com")
             client.Login("email@domain.com", "Password1")
 
             ephemeralPost := &model.PostEphemeral{

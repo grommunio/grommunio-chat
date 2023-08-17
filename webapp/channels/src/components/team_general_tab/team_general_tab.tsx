@@ -589,14 +589,14 @@ export default class GeneralTab extends React.PureComponent<Props, State> {
                             onChange={this.updateAllowedDomains}
                             value={this.state.allowed_domains}
                             onFocus={moveCursorToEnd}
-                            placeholder={{id: t('general_tab.AllowedDomainsExample'), defaultMessage: 'corp.mattermost.com, mattermost.com'}}
+                            placeholder={{id: t('general_tab.AllowedDomainsExample'), defaultMessage: 'corp.grommunio.com, mattermost.com'}}
                             aria-label={localizeMessage('general_tab.allowedDomains.ariaLabel', 'Allowed Domains')}
                         />
                     </div>
                 </div>,
             );
 
-            const allowedDomainsInfo = <span>{localizeMessage('general_tab.AllowedDomainsInfo', 'Users can only join the team if their email matches a specific domain (e.g. "mattermost.com") or list of comma-separated domains (e.g. "corp.mattermost.com, mattermost.com").')}</span>;
+            const allowedDomainsInfo = <span>{localizeMessage('general_tab.AllowedDomainsInfo', 'Users can only join the team if their email matches a specific domain (e.g. "grommunio.com") or list of comma-separated domains (e.g. "corp.grommunio.com, mattermost.com").')}</span>;
 
             allowedDomainsSection = (
                 <SettingItemMax

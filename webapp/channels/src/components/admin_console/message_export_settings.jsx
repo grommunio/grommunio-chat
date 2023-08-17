@@ -244,7 +244,7 @@ export default class MessageExportSettings extends AdminSettings {
                     helpText={
                         <FormattedMessage
                             id='admin.service.complianceExportDesc'
-                            defaultMessage='When true, Mattermost will export all messages that were posted in the last 24 hours. The export task is scheduled to run once per day. See <link>the documentation</link> to learn more.'
+                            defaultMessage='When true, grommunio-chat will export all messages that were posted in the last 24 hours. The export task is scheduled to run once per day. See <link>the documentation</link> to learn more.'
                             values={{
                                 link: (msg) => (
                                     <ExternalLink

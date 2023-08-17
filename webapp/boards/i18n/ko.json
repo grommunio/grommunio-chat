@@ -189,7 +189,7 @@
   "Mutator.new-board-from-template": "템플릿에서 새 보드 만들기",
   "Mutator.new-card-from-template": "템플릿에서 새 카드 만들기",
   "Mutator.new-template-from-card": "카드에서 새 템플릿 만들기",
-  "OnboardingTour.AddComments.Body": "이슈에 댓글을 달거나, 동료 Mattermost 사용자를 @멘션하여 관심을 끌 수도 있습니다.",
+  "OnboardingTour.AddComments.Body": "이슈에 댓글을 달거나, 동료 grommunio-chat 사용자를 @멘션하여 관심을 끌 수도 있습니다.",
   "OnboardingTour.AddComments.Title": "댓글 추가",
   "OnboardingTour.AddDescription.Body": "팀원들이 카드에 대해 알 수 있도록 설명을 추가하세요.",
   "OnboardingTour.AddDescription.Title": "설명 추가",

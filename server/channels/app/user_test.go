@@ -860,7 +860,7 @@ func TestCreateUserWithInviteId(t *testing.T) {
 	})
 
 	t.Run("invalid domain", func(t *testing.T) {
-		th.BasicTeam.AllowedDomains = "mattermost.com"
+		th.BasicTeam.AllowedDomains = "grommunio.com"
 		_, nErr := th.App.Srv().Store().Team().Update(th.BasicTeam)
 		require.NoError(t, nErr)
 		_, err := th.App.CreateUserWithInviteId(th.Context, &user, th.BasicTeam.InviteId, "")

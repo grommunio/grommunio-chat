@@ -332,7 +332,7 @@ function StartTrialFormModal(props: Props): JSX.Element | null {
                 <div className='disclaimer'>
                     <FormattedMessage
                         id='start_trial_form.disclaimer'
-                        defaultMessage='By selecting Start trial, I agree to the <agreement>Mattermost Software Evaluation Agreement</agreement>, <privacypolicy>Privacy Policy</privacypolicy>, and receiving product emails.'
+                        defaultMessage='By selecting Start trial, I agree to the <agreement>grommunio-chat Software Evaluation Agreement</agreement>, <privacypolicy>Privacy Policy</privacypolicy>, and receiving product emails.'
                         values={{
                             agreement: (msg: React.ReactNode) => (
                                 <ExternalLink

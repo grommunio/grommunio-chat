@@ -15,8 +15,8 @@ describe('Markdown.Imgs', () => {
     });
 
     it('Image with hover text', () => {
-        expect(Markdown.format('![Mattermost](/images/icon.png "Mattermost Icon")').trim()).toBe(
-            '<p><img src="/images/icon.png" alt="Mattermost" title="Mattermost Icon" class="markdown-inline-img"></p>',
+        expect(Markdown.format('![Mattermost](/images/icon.png "grommunio-chat Icon")').trim()).toBe(
+            '<p><img src="/images/icon.png" alt="Mattermost" title="grommunio-chat Icon" class="markdown-inline-img"></p>',
         );
     });
 
@@ -27,14 +27,14 @@ describe('Markdown.Imgs', () => {
     });
 
     it('Image with width and height', () => {
-        expect(Markdown.format('![Mattermost](../../images/icon-76x76.png =50x76 "Mattermost Icon")').trim()).toBe(
-            '<p><img src="../../images/icon-76x76.png" alt="Mattermost" title="Mattermost Icon" width="50" height="76" class="markdown-inline-img"></p>',
+        expect(Markdown.format('![Mattermost](../../images/icon-76x76.png =50x76 "grommunio-chat Icon")').trim()).toBe(
+            '<p><img src="../../images/icon-76x76.png" alt="Mattermost" title="grommunio-chat Icon" width="50" height="76" class="markdown-inline-img"></p>',
         );
     });
 
     it('Image with width', () => {
-        expect(Markdown.format('![Mattermost](../../images/icon-76x76.png =50 "Mattermost Icon")').trim()).toBe(
-            '<p><img src="../../images/icon-76x76.png" alt="Mattermost" title="Mattermost Icon" width="50" height="auto" class="markdown-inline-img"></p>',
+        expect(Markdown.format('![Mattermost](../../images/icon-76x76.png =50 "grommunio-chat Icon")').trim()).toBe(
+            '<p><img src="../../images/icon-76x76.png" alt="Mattermost" title="grommunio-chat Icon" width="50" height="auto" class="markdown-inline-img"></p>',
         );
     });
 });

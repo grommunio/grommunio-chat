@@ -770,7 +770,7 @@ export default class GroupDetails extends React.PureComponent<Props, State> {
                             subtitleId={t(
                                 'admin.group_settings.group_detail.groupUsersDescription',
                             )}
-                            subtitleDefault='Listing of users in Mattermost associated with this group.'
+                            subtitleDefault='Listing of users in grommunio-chat associated with this group.'
                         >
                             <GroupUsers
                                 members={members}

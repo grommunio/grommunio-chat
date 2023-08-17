@@ -34,7 +34,7 @@ describe('components/admin_console/license_settings/LicenseSettings', () => {
             ExpiresAt: '1620335443650',
             SkuShortName: LicenseSkus.E20,
             Name: 'LicenseName',
-            Company: 'Mattermost Inc.',
+            Company: 'grommunio-chat Inc.',
             Users: '100',
         },
         prevTrialLicense: {

@@ -16,9 +16,9 @@ const CustomTermsOfServiceFeatureDiscovery: React.FC = () => {
             featureName='custom_terms_of_service'
             minimumSKURequiredForFeature={LicenseSkus.Enterprise}
             titleID='admin.custom_terms_of_service_feature_discovery.title'
-            titleDefault='Create custom terms of service with Mattermost Enterprise'
+            titleDefault='Create custom terms of service with grommunio-chat Enterprise'
             copyID='admin.custom_terms_of_service_feature_discovery.copy'
-            copyDefault={'Create your own terms of service that new users must accept before accessing your Mattermost instance on desktop, web, or mobile.'}
+            copyDefault={'Create your own terms of service that new users must accept before accessing your grommunio-chat instance on desktop, web, or mobile.'}
             learnMoreURL='https://docs.mattermost.com/cloud/cloud-administration/custom-terms-of-service.html'
             featureDiscoveryImage={<CustomTermsOfServiceSVG/>}
         />

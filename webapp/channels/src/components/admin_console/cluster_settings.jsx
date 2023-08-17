@@ -110,7 +110,7 @@ export default class ClusterSettings extends AdminSettings {
                     <WarningIcon/>
                     <FormattedMessage
                         id='admin.cluster.should_not_change'
-                        defaultMessage='WARNING: These settings may not sync with the other servers in the cluster. High Availability inter-node communication will not start until you modify the config.json to be identical on all servers and restart Mattermost. Please see the <link>documentation</link> on how to add or remove a server from the cluster. If you are accessing the System Console through a load balancer and experiencing issues, please see the Troubleshooting Guide in our <link>documentation</link>.'
+                        defaultMessage='WARNING: These settings may not sync with the other servers in the cluster. High Availability inter-node communication will not start until you modify the config.json to be identical on all servers and restart grommunio-chat. Please see the <link>documentation</link> on how to add or remove a server from the cluster. If you are accessing the System Console through a load balancer and experiencing issues, please see the Troubleshooting Guide in our <link>documentation</link>.'
                         values={{
                             link: (msg) => (
                                 <ExternalLink
@@ -153,7 +153,7 @@ export default class ClusterSettings extends AdminSettings {
                     helpText={
                         <FormattedMessage
                             id='admin.cluster.enableDescription'
-                            defaultMessage='When true, Mattermost will run in High Availability mode. Please see <link>documentation</link> to learn more about configuring High Availability for Mattermost.'
+                            defaultMessage='When true, grommunio-chat will run in High Availability mode. Please see <link>documentation</link> to learn more about configuring High Availability for grommunio-chat.'
                             values={{
                                 link: (msg) => (
                                     <ExternalLink

@@ -97,7 +97,7 @@
   },
   {
     "id": "api.admin.test_email.subject",
-    "translation": "Mattermost - 電子メール設定のテスト"
+    "translation": "grommunio-chat - 電子メール設定のテスト"
   },
   {
     "id": "api.admin.test_s3.missing_s3_bucket",
@@ -345,7 +345,7 @@
   },
   {
     "id": "api.command.invite_people.desc",
-    "translation": "あなたのMattermostチームへ招待する電子メールを送る"
+    "translation": "あなたのgrommunio-chatチームへ招待する電子メールを送る"
   },
   {
     "id": "api.command.invite_people.email_invitations_off",
@@ -619,7 +619,7 @@
   },
   {
     "id": "api.command_help.desc",
-    "translation": "Mattermostヘルプメッセージを表示"
+    "translation": "grommunio-chatヘルプメッセージを表示"
   },
   {
     "id": "api.command_help.name",
@@ -723,7 +723,7 @@
   },
   {
     "id": "api.command_logout.desc",
-    "translation": "Mattermostからログアウトする"
+    "translation": "grommunio-chatからログアウトする"
   },
   {
     "id": "api.command_logout.name",
@@ -1513,7 +1513,7 @@
   },
   {
     "id": "api.slackimport.slack_add_channels.merge",
-    "translation": "Slackチャンネル {{.DisplayName}} は有効なMattermostのチャンネルとして既に存在しています。両方のチャンネルがマージされます。\r\n"
+    "translation": "Slackチャンネル {{.DisplayName}} は有効なgrommunio-chatのチャンネルとして既に存在しています。両方のチャンネルがマージされます。\r\n"
   },
   {
     "id": "api.slackimport.slack_add_users.created",
@@ -1525,11 +1525,11 @@
   },
   {
     "id": "api.slackimport.slack_add_users.merge_existing",
-    "translation": "電子メールアドレス {{.Email}} とユーザー名 {{.Username}} を持つ既存のMattermostユーザーとSlackユーザーをマージしました。\r\n"
+    "translation": "電子メールアドレス {{.Email}} とユーザー名 {{.Username}} を持つ既存のgrommunio-chatユーザーとSlackユーザーをマージしました。\r\n"
   },
   {
     "id": "api.slackimport.slack_add_users.merge_existing_failed",
-    "translation": "電子メールアドレス {{.Email}} とユーザー名 {{.Username}} を持つ既存のMattermostユーザーとSlackユーザーをマージしましたが、そのユーザーをチームに追加できませんでした。\r\n"
+    "translation": "電子メールアドレス {{.Email}} とユーザー名 {{.Username}} を持つ既存のgrommunio-chatユーザーとSlackユーザーをマージしましたが、そのユーザーをチームに追加できませんでした。\r\n"
   },
   {
     "id": "api.slackimport.slack_add_users.missing_email_address",
@@ -1541,7 +1541,7 @@
   },
   {
     "id": "api.slackimport.slack_import.log",
-    "translation": "Mattermost Slackインポートログ\r\n"
+    "translation": "grommunio-chat Slackインポートログ\r\n"
   },
   {
     "id": "api.slackimport.slack_import.note1",
@@ -1849,7 +1849,7 @@
   },
   {
     "id": "api.templates.post_body.button",
-    "translation": "Mattermostで返信する"
+    "translation": "grommunio-chatで返信する"
   },
   {
     "id": "api.templates.reset_body.button",
@@ -1909,7 +1909,7 @@
   },
   {
     "id": "api.templates.verify_body.info",
-    "translation": "この電子メールアドレスがMattermostアカウントの作成に使用されました。"
+    "translation": "この電子メールアドレスがgrommunio-chatアカウントの作成に使用されました。"
   },
   {
     "id": "api.templates.verify_body.title",
@@ -1929,7 +1929,7 @@
   },
   {
     "id": "api.templates.welcome_body.info",
-    "translation": "この電子メールアドレスがMattermostアカウントの作成に使用されました。"
+    "translation": "この電子メールアドレスがgrommunio-chatアカウントの作成に使用されました。"
   },
   {
     "id": "api.templates.welcome_body.title",
@@ -3193,7 +3193,7 @@
   },
   {
     "id": "ent.ldap.do_login.user_filtered.app_error",
-    "translation": "あなたのAD/LDAPアカウントにはMattermostサーバを利用する権限がありません。システム管理者にAD/LDAPのユーザーフィルターをチェックするよう依頼してください。"
+    "translation": "あなたのAD/LDAPアカウントにはgrommunio-chatサーバを利用する権限がありません。システム管理者にAD/LDAPのユーザーフィルターをチェックするよう依頼してください。"
   },
   {
     "id": "ent.ldap.do_login.user_not_registered.app_error",
@@ -3213,7 +3213,7 @@
   },
   {
     "id": "ent.ldap.syncronize.search_failure.app_error",
-    "translation": "AD/LDAPでのユーザー検索に失敗しました。MattermostサーバーがAD/LDAPサーバーに接続できることを確認し、再度実行してください。"
+    "translation": "AD/LDAPでのユーザー検索に失敗しました。grommunio-chatサーバーがAD/LDAPサーバーに接続できることを確認し、再度実行してください。"
   },
   {
     "id": "ent.ldap.validate_filter.app_error",
@@ -3309,7 +3309,7 @@
   },
   {
     "id": "ent.migration.migratetosaml.username_already_used_by_other_user",
-    "translation": "ユーザー名は既に別のMattermostユーザーによって使用されています。"
+    "translation": "ユーザー名は既に別のgrommunio-chatユーザーによって使用されています。"
   },
   {
     "id": "ent.saml.attribute.app_error",
@@ -3409,7 +3409,7 @@
   },
   {
     "id": "mattermost.bulletin.subject",
-    "translation": "Mattermostセキュリティー通知"
+    "translation": "grommunio-chatセキュリティー通知"
   },
   {
     "id": "mfa.activate.bad_token.app_error",
@@ -4561,7 +4561,7 @@
   },
   {
     "id": "oauth.gitlab.tos.error",
-    "translation": "GitLabの利用規約が更新されました。{{.URL}}で新しい利用規約に同意してから、もう一度Mattermostへログインしてみてください。"
+    "translation": "GitLabの利用規約が更新されました。{{.URL}}で新しい利用規約に同意してから、もう一度grommunio-chatへログインしてみてください。"
   },
   {
     "id": "plugin.api.update_user_status.bad_status",
@@ -4725,11 +4725,11 @@
   },
   {
     "id": "web.error.unsupported_browser.no_longer_support_version",
-    "translation": "あなたのブラウザのバージョンはMattermostではサポートされていません"
+    "translation": "あなたのブラウザのバージョンはgrommunio-chatではサポートされていません"
   },
   {
     "id": "web.error.unsupported_browser.no_longer_support",
-    "translation": "このブラウザはMattermostではサポートされていません"
+    "translation": "このブラウザはgrommunio-chatではサポートされていません"
   },
   {
     "id": "web.error.unsupported_browser.min_os_version.windows",
@@ -4773,7 +4773,7 @@
   },
   {
     "id": "web.error.unsupported_browser.download_app_or_upgrade_browser",
-    "translation": "より良い体験のために、Mattermostアプリかサポートされたブラウザをダウンロードしてください。"
+    "translation": "より良い体験のために、grommunio-chatアプリかサポートされたブラウザをダウンロードしてください。"
   },
   {
     "id": "web.error.unsupported_browser.download",
@@ -5541,7 +5541,7 @@
   },
   {
     "id": "api.templates.remove_expired_license.subject",
-    "translation": "Mattermostエンタープライズライセンスは無効になっています。"
+    "translation": "grommunio-chatエンタープライズライセンスは無効になっています。"
   },
   {
     "id": "api.templates.remove_expired_license.body.title",
@@ -5773,7 +5773,7 @@
   },
   {
     "id": "api.bot.teams_channels.add_message_mobile",
-    "translation": "ブラウザ、もしくはMattermostデスクトップアプリから、Botをチーム・チャンネルに追加してください。"
+    "translation": "ブラウザ、もしくはgrommunio-chatデスクトップアプリから、Botをチーム・チャンネルに追加してください。"
   },
   {
     "id": "api.bot.create_disabled",
@@ -5929,7 +5929,7 @@
   },
   {
     "id": "api.license.request-trial.bad-request.terms-not-accepted",
-    "translation": "ライセンスをリクエストするには、Mattermost Software Evaluation Agreement と プライバシーポリシーに同意しなくてはなりません。"
+    "translation": "ライセンスをリクエストするには、grommunio-chat Software Evaluation Agreement と プライバシーポリシーに同意しなくてはなりません。"
   },
   {
     "id": "api.license.request-trial.bad-request",
@@ -6325,7 +6325,7 @@
   },
   {
     "id": "api.server.warn_metric.number_of_active_users_200.notification_body",
-    "translation": "あなたのMattermostには200ユーザーが登録しています。Mattermostをあなたの組織のシングルサインオンプロバイダーに接続することで、ユーザーは再度認証情報を入力することなくMattermostへアクセスできるようになります。MattermostサーバーをSAML 2.0プロバイダーと連携することをおすすめします。詳しくは[SAML2.0連携に関する説明](https://www.mattermost.com/docs-saml/?utm_medium=product&utm_source=mattermost-advisor-bot&utm_content=saml)を参照してください。\n\n問い合わせ をクリックすると、あなたの情報をMattermost, Inc. へ共有します。詳しくは[説明文書](https://mattermost.com/pl/default-admin-advisory)を参照してください"
+    "translation": "あなたのgrommunio-chatには200ユーザーが登録しています。grommunio-chatをあなたの組織のシングルサインオンプロバイダーに接続することで、ユーザーは再度認証情報を入力することなくgrommunio-chatへアクセスできるようになります。grommunio-chatサーバーをSAML 2.0プロバイダーと連携することをおすすめします。詳しくは[SAML2.0連携に関する説明](https://www.mattermost.com/docs-saml/?utm_medium=product&utm_source=mattermost-advisor-bot&utm_content=saml)を参照してください。\n\n問い合わせ をクリックすると、あなたの情報をgrommunio-chat, Inc. へ共有します。詳しくは[説明文書](https://mattermost.com/pl/default-admin-advisory)を参照してください"
   },
   {
     "id": "model.command.is_valid.plugin_id.app_error",
@@ -6337,7 +6337,7 @@
   },
   {
     "id": "app.system.warn_metric.bot_displayname",
-    "translation": "Mattermostアドバイザー"
+    "translation": "grommunio-chatアドバイザー"
   },
   {
     "id": "app.job.download_export_results_not_enabled",
@@ -6353,15 +6353,15 @@
   },
   {
     "id": "api.server.warn_metric.number_of_active_users_500.notification_title",
-    "translation": "Mattermostをスケーリングする"
+    "translation": "grommunio-chatをスケーリングする"
   },
   {
     "id": "api.server.warn_metric.number_of_active_users_500.notification_body",
-    "translation": "500ユーザーを超える場合は、ユーザー管理やサーバーのクラスタリング、パフォーマンスモニタリング機能の利用を強く推奨します。詳細についてはお問い合わせください。\n\n問い合わせる をクリックすると、あなたの情報をMattermost Inc.へ共有します。詳しくは [説明文書](https://mattermost.com/pl/default-admin-advisory)を参照してください"
+    "translation": "500ユーザーを超える場合は、ユーザー管理やサーバーのクラスタリング、パフォーマンスモニタリング機能の利用を強く推奨します。詳細についてはお問い合わせください。\n\n問い合わせる をクリックすると、あなたの情報をgrommunio-chat Inc.へ共有します。詳しくは [説明文書](https://mattermost.com/pl/default-admin-advisory)を参照してください"
   },
   {
     "id": "api.server.warn_metric.number_of_active_users_200.notification_title",
-    "translation": "Mattermostをスケーリングする"
+    "translation": "grommunio-chatをスケーリングする"
   },
   {
     "id": "api.server.warn_metric.email_us",
@@ -6369,7 +6369,7 @@
   },
   {
     "id": "api.server.warn_metric.bot_response.notification_success.message",
-    "translation": "Mattermostへお問い合わせていただき、ありがとうございます。すぐにこちらからご連絡いたします。"
+    "translation": "grommunio-chatへお問い合わせていただき、ありがとうございます。すぐにこちらからご連絡いたします。"
   },
   {
     "id": "api.server.warn_metric.bot_response.notification_failure.message",
@@ -6381,7 +6381,7 @@
   },
   {
     "id": "api.server.warn_metric.bot_response.mailto_subject",
-    "translation": "Mattermost Contact Usリクエスト"
+    "translation": "grommunio-chat Contact Usリクエスト"
   },
   {
     "id": "api.server.warn_metric.bot_response.mailto_site_url_header",
@@ -6425,7 +6425,7 @@
   },
   {
     "id": "api.templates.warn_metric_ack.subject",
-    "translation": "Mattermost Contact Usリクエスト"
+    "translation": "grommunio-chat Contact Usリクエスト"
   },
   {
     "id": "api.templates.warn_metric_ack.footer",
@@ -6765,31 +6765,31 @@
   },
   {
     "id": "api.upgrade_to_enterprise_status.signature.app_error",
-    "translation": "MattermostをEnterprise Editionにアップグレードできませんでした。ダウンロードされたバイナリファイルのデジタル署名を検証できませんでした。"
+    "translation": "grommunio-chatをEnterprise Editionにアップグレードできませんでした。ダウンロードされたバイナリファイルのデジタル署名を検証できませんでした。"
   },
   {
     "id": "api.upgrade_to_enterprise.system_not_supported.app_error",
-    "translation": "MattermostをEnterprise Editionにアップグレードできませんでした。この機能はx86-64アーキテクチャのLinux上でのみ動作します。"
+    "translation": "grommunio-chatをEnterprise Editionにアップグレードできませんでした。この機能はx86-64アーキテクチャのLinux上でのみ動作します。"
   },
   {
     "id": "api.upgrade_to_enterprise.invalid-user.app_error",
-    "translation": "MattermostをEnterprise Editionにアップグレードできませんでした。Mattermostシステムユーザー {{.MattermostUsername}} がバイナリファイルへの書き込み権限を持っていません。システム管理者がMattermostがインストールされたサーバーで下記のコマンドを実行することにより、ファイルに対する権限を更新することができます。\n\n```\nchown {{.MattermostUsername}} \"{{.Path}}\"\n```\n\nファイルの権限を変更した後、Mattermostのアップグレードを再度試してみてください。アップグレードが完了し再起動を行うことができた場合、バイナリファイルの権限を元に戻すことを忘れないでください。\n\n```\nchown {{.FileUsername}} \"{{.Path}}\"\n```"
+    "translation": "grommunio-chatをEnterprise Editionにアップグレードできませんでした。grommunio-chatシステムユーザー {{.grommunio-chatUsername}} がバイナリファイルへの書き込み権限を持っていません。システム管理者がgrommunio-chatがインストールされたサーバーで下記のコマンドを実行することにより、ファイルに対する権限を更新することができます。\n\n```\nchown {{.grommunio-chatUsername}} \"{{.Path}}\"\n```\n\nファイルの権限を変更した後、grommunio-chatのアップグレードを再度試してみてください。アップグレードが完了し再起動を行うことができた場合、バイナリファイルの権限を元に戻すことを忘れないでください。\n\n```\nchown {{.FileUsername}} \"{{.Path}}\"\n```"
   },
   {
     "id": "api.upgrade_to_enterprise.invalid-user-and-permission.app_error",
-    "translation": "MattermostをEnterprise Editionにアップグレードできませんでした。Mattermostシステムユーザー {{.MattermostUsername}} がバイナリファイルへの書き込み権限を持っていません。システム管理者がMattermostがインストールされたサーバーで下記のコマンドを実行することにより、ファイルに対する権限を更新することができます。\n\n```\nchown {{.MattermostUsername}} \"{{.Path}}\"\nchmod +w \"{{.Path}}\"\n```\n\nファイルの権限を変更した後、Mattermostのアップグレードを再度試してみてください。アップグレードが完了し再起動を行うことができた場合、バイナリファイルの権限を元に戻すことを忘れないでください。\n\n```\nchown {{.FileUsername}} \"{{.Path}}\"\nchmod -w \"{{.Path}}\"\n```"
+    "translation": "grommunio-chatをEnterprise Editionにアップグレードできませんでした。grommunio-chatシステムユーザー {{.grommunio-chatUsername}} がバイナリファイルへの書き込み権限を持っていません。システム管理者がgrommunio-chatがインストールされたサーバーで下記のコマンドを実行することにより、ファイルに対する権限を更新することができます。\n\n```\nchown {{.grommunio-chatUsername}} \"{{.Path}}\"\nchmod +w \"{{.Path}}\"\n```\n\nファイルの権限を変更した後、grommunio-chatのアップグレードを再度試してみてください。アップグレードが完了し再起動を行うことができた場合、バイナリファイルの権限を元に戻すことを忘れないでください。\n\n```\nchown {{.FileUsername}} \"{{.Path}}\"\nchmod -w \"{{.Path}}\"\n```"
   },
   {
     "id": "api.upgrade_to_enterprise.invalid-permission.app_error",
-    "translation": "MattermostをEnterprise Editionにアップグレードできませんでした。Mattermostシステムユーザー {{.MattermostUsername}} がバイナリファイルへの書き込み権限を持っていません。システム管理者がMattermostがインストールされたサーバーで下記のコマンドを実行することにより、ファイルに対する権限を更新することができます。\n\n```\nchmod +w \"{{.Path}}\"\n```\n\nファイルの権限を変更した後、Mattermostのアップグレードを再度試してみてください。アップグレードが完了し再起動を行うことができた場合、バイナリファイルの権限を元に戻すことを忘れないでください。\n\n```\nchmod -w \"{{.Path}}\"\n```"
+    "translation": "grommunio-chatをEnterprise Editionにアップグレードできませんでした。grommunio-chatシステムユーザー {{.grommunio-chatUsername}} がバイナリファイルへの書き込み権限を持っていません。システム管理者がgrommunio-chatがインストールされたサーバーで下記のコマンドを実行することにより、ファイルに対する権限を更新することができます。\n\n```\nchmod +w \"{{.Path}}\"\n```\n\nファイルの権限を変更した後、grommunio-chatのアップグレードを再度試してみてください。アップグレードが完了し再起動を行うことができた場合、バイナリファイルの権限を元に戻すことを忘れないでください。\n\n```\nchmod -w \"{{.Path}}\"\n```"
   },
   {
     "id": "api.upgrade_to_enterprise.generic_error.app_error",
-    "translation": "MattermostをEnterprise Editionにアップグレードできませんでした。"
+    "translation": "grommunio-chatをEnterprise Editionにアップグレードできませんでした。"
   },
   {
     "id": "api.upgrade_to_enterprise.already-enterprise.app_error",
-    "translation": "すでにMattermost Enterprise Editionが起動しているため、アップグレードできません。"
+    "translation": "すでにgrommunio-chat Enterprise Editionが起動しているため、アップグレードできません。"
   },
   {
     "id": "app.upload.upload_data.first_part_too_small.app_error",
@@ -6981,15 +6981,15 @@
   },
   {
     "id": "api.upgrade_to_enterprise_status.app_error",
-    "translation": "MattermostをEnterprise Editionにアップグレードできませんでした。"
+    "translation": "grommunio-chatをEnterprise Editionにアップグレードできませんでした。"
   },
   {
     "id": "api.upgrade_to_enterprise.app_error",
-    "translation": "Mattermost Enterprise Editionへのアップグレードはすでに開始されています。"
+    "translation": "grommunio-chat Enterprise Editionへのアップグレードはすでに開始されています。"
   },
   {
     "id": "api.upgrade_to_enterprise.already-done.app_error",
-    "translation": "すでにMattermost Enterprise Editionにアップグレードされています。アップグレードを完了するにはサーバーを再起動してください。"
+    "translation": "すでにgrommunio-chat Enterprise Editionにアップグレードされています。アップグレードを完了するにはサーバーを再起動してください。"
   },
   {
     "id": "api.post.search_posts.invalid_body.app_error",
@@ -7129,7 +7129,7 @@
   },
   {
     "id": "api.server.warn_metric.number_of_teams_5.start_trial.notification_body",
-    "translation": "あなたのMattermostにはいくつかのチームが存在します。多くのチームは、チャンネルの作成方法や、誰が新しいチームメイトを招待できるか、また、どのように統合機能を管理するかなどのチーム運営について各々が好む方法を持っています。チーム上書きスキームにより、それぞれの要求を満たすようチームごとにユーザー権限設定をカスタマイズできます。\n\n詳しくは[高度な権限設定に関する説明](https://www.mattermost.com/docs-advanced-permissions-team-override/?utm_medium=product&utm_source=mattermost-advisor-bot&utm_content=advanced-permissions-team-override)を参照してください。\n\nトライアル開始 をクリックすると、[Mattermost Software Evaluation Agreement](https://mattermost.com/software-evaluation-agreement/) と [プライバシーポリシー](https://mattermost.com/pl/privacy-policy/)に同意したことになり、製品に関する電子メールを受信するようになります。"
+    "translation": "あなたのgrommunio-chatにはいくつかのチームが存在します。多くのチームは、チャンネルの作成方法や、誰が新しいチームメイトを招待できるか、また、どのように統合機能を管理するかなどのチーム運営について各々が好む方法を持っています。チーム上書きスキームにより、それぞれの要求を満たすようチームごとにユーザー権限設定をカスタマイズできます。\n\n詳しくは[高度な権限設定に関する説明](https://www.mattermost.com/docs-advanced-permissions-team-override/?utm_medium=product&utm_source=mattermost-advisor-bot&utm_content=advanced-permissions-team-override)を参照してください。\n\nトライアル開始 をクリックすると、[grommunio-chat Software Evaluation Agreement](https://mattermost.com/software-evaluation-agreement/) と [プライバシーポリシー](https://mattermost.com/pl/privacy-policy/)に同意したことになり、製品に関する電子メールを受信するようになります。"
   },
   {
     "id": "api.server.warn_metric.number_of_teams_5.notification_title",
@@ -7137,11 +7137,11 @@
   },
   {
     "id": "api.server.warn_metric.number_of_teams_5.notification_body",
-    "translation": "あなたのMattermostにはいくつかのチームが存在します。多くのチームは、チャンネルの作成方法や、誰が新しいチームメイトを招待できるか、また、どのように統合機能を管理するかなどのチーム運営について各々が好む方法を持っています。チーム上書きスキームにより、それぞれの要求を満たすようチームごとにユーザー権限設定をカスタマイズできます。\n\n詳しくは[高度な権限設定に関する説明](https://www.mattermost.com/docs-advanced-permissions-team-override/?utm_medium=product&utm_source=mattermost-advisor-bot&utm_content=advanced-permissions-team-override)を参照してください。\n\n問い合わせ をクリックすることで、あなたの情報を Mattermost, Inc. へ共有します。詳しくは[説明文書](https://mattermost.com/pl/default-admin-advisory)を参照してください"
+    "translation": "あなたのgrommunio-chatにはいくつかのチームが存在します。多くのチームは、チャンネルの作成方法や、誰が新しいチームメイトを招待できるか、また、どのように統合機能を管理するかなどのチーム運営について各々が好む方法を持っています。チーム上書きスキームにより、それぞれの要求を満たすようチームごとにユーザー権限設定をカスタマイズできます。\n\n詳しくは[高度な権限設定に関する説明](https://www.mattermost.com/docs-advanced-permissions-team-override/?utm_medium=product&utm_source=mattermost-advisor-bot&utm_content=advanced-permissions-team-override)を参照してください。\n\n問い合わせ をクリックすることで、あなたの情報を grommunio-chat, Inc. へ共有します。詳しくは[説明文書](https://mattermost.com/pl/default-admin-advisory)を参照してください"
   },
   {
     "id": "api.server.warn_metric.number_of_teams_5.contact_us.email_body",
-    "translation": "Mattermostへ問い合わせる。チームスキームによる高度な権限設定に興味があります。\n"
+    "translation": "grommunio-chatへ問い合わせる。チームスキームによる高度な権限設定に興味があります。\n"
   },
   {
     "id": "api.server.warn_metric.number_of_posts_2M.start_trial.notification_success.message",
@@ -7149,7 +7149,7 @@
   },
   {
     "id": "api.server.warn_metric.number_of_posts_2M.start_trial.notification_body",
-    "translation": "あなたのMattermostシステムには非常に多くのメッセージがあります。Mattermostのデフォルトのデータベース検索は約250万投稿からパフォーマンスが劣化し始めます。500万投稿以上ある場合、Elasticsearchを導入することで、検索のタイムアウトなどの深刻なパフォーマンスの問題を回避することができます。Elasticsearchとの連携について詳しく知りたい場合や、何かサポートできることがないか私たちに問い合わせてください。\n\n詳しくは[パフォーマンス改善に関する説明](https://www.mattermost.com/docs-elasticsearch/?utm_medium=product&utm_source=mattermost-advisor-bot&utm_content=elasticsearch)を参照してください\n\nトライアル開始 をクリックすると、[Mattermost Software Evaluation Agreement](https://mattermost.com/software-evaluation-agreement/) と [プライバシーポリシー](https://mattermost.com/pl/privacy-policy/)に同意したことになり、製品に関する電子メールを受信するようになります。"
+    "translation": "あなたのgrommunio-chatシステムには非常に多くのメッセージがあります。grommunio-chatのデフォルトのデータベース検索は約250万投稿からパフォーマンスが劣化し始めます。500万投稿以上ある場合、Elasticsearchを導入することで、検索のタイムアウトなどの深刻なパフォーマンスの問題を回避することができます。Elasticsearchとの連携について詳しく知りたい場合や、何かサポートできることがないか私たちに問い合わせてください。\n\n詳しくは[パフォーマンス改善に関する説明](https://www.mattermost.com/docs-elasticsearch/?utm_medium=product&utm_source=mattermost-advisor-bot&utm_content=elasticsearch)を参照してください\n\nトライアル開始 をクリックすると、[grommunio-chat Software Evaluation Agreement](https://mattermost.com/software-evaluation-agreement/) と [プライバシーポリシー](https://mattermost.com/pl/privacy-policy/)に同意したことになり、製品に関する電子メールを受信するようになります。"
   },
   {
     "id": "api.server.warn_metric.number_of_posts_2M.notification_title",
@@ -7157,11 +7157,11 @@
   },
   {
     "id": "api.server.warn_metric.number_of_posts_2M.notification_body",
-    "translation": "あなたのMattermostシステムには非常に多くのメッセージがあります。Mattermostのデフォルトのデータベース検索は約250万投稿からパフォーマンスが劣化し始めます。500万投稿以上ある場合、Elasticsearchを導入することで、検索のタイムアウトなどの深刻なパフォーマンスの問題を回避することができます。Elasticsearchとの連携について詳しく知りたい場合や、何かサポートできることがないか私たちに問い合わせてください。\n\n詳しくは[パフォーマンス改善に関する説明](https://www.mattermost.com/docs-elasticsearch/?utm_medium=product&utm_source=mattermost-advisor-bot&utm_content=elasticsearch)を参照してください\n\n問い合わせ をクリックすると、あなたの情報は Mattermost, Inc. へ共有されます。詳しくは[説明文書}(https://mattermost.com/pl/default-admin-advisory)を参照してください"
+    "translation": "あなたのgrommunio-chatシステムには非常に多くのメッセージがあります。grommunio-chatのデフォルトのデータベース検索は約250万投稿からパフォーマンスが劣化し始めます。500万投稿以上ある場合、Elasticsearchを導入することで、検索のタイムアウトなどの深刻なパフォーマンスの問題を回避することができます。Elasticsearchとの連携について詳しく知りたい場合や、何かサポートできることがないか私たちに問い合わせてください。\n\n詳しくは[パフォーマンス改善に関する説明](https://www.mattermost.com/docs-elasticsearch/?utm_medium=product&utm_source=mattermost-advisor-bot&utm_content=elasticsearch)を参照してください\n\n問い合わせ をクリックすると、あなたの情報は grommunio-chat, Inc. へ共有されます。詳しくは[説明文書}(https://mattermost.com/pl/default-admin-advisory)を参照してください"
   },
   {
     "id": "api.server.warn_metric.number_of_posts_2M.contact_us.email_body",
-    "translation": "Mattermostへ問い合わせる。Elasticsearchによるパフォーマンスの改善に興味があります。\n"
+    "translation": "grommunio-chatへ問い合わせる。Elasticsearchによるパフォーマンスの改善に興味があります。\n"
   },
   {
     "id": "api.server.warn_metric.number_of_channels_50.start_trial.notification_success.message",
@@ -7169,15 +7169,15 @@
   },
   {
     "id": "api.server.warn_metric.number_of_channels_50.start_trial.notification_body",
-    "translation": "チャンネルはコミュニケーションの改善をサポートするものですが、Mattermost全体でチャンネルの作成や参加が多くなるにつれ、システムを整理されたものにし続けることが課題になってきます。高度な権限設定により、どのユーザー、もしくはどのロールの人が何のアクションを実行可能かを設定することができます。例えば、チャンネル設定やメンバーの管理や、@channel、@hereなどのタグによるグループへの発信、新たなウェブフックの作成などを制限できます。\n\n詳しくは[高度な権限設定の利用に関する説明](https://www.mattermost.com/docs-advanced-permissions/?utm_medium=product&utm_source=mattermost-advisor-bot&utm_content=advanced-permissions)を参照してください\n\nトライアル開始 をクリックすると、[Mattermost Software Evaluation Agreement](https://mattermost.com/software-evaluation-agreement/) と [プライバシーポリシー](https://mattermost.com/pl/privacy-policy/)に同意したことになり、製品に関する電子メールを受信するようになります。"
+    "translation": "チャンネルはコミュニケーションの改善をサポートするものですが、grommunio-chat全体でチャンネルの作成や参加が多くなるにつれ、システムを整理されたものにし続けることが課題になってきます。高度な権限設定により、どのユーザー、もしくはどのロールの人が何のアクションを実行可能かを設定することができます。例えば、チャンネル設定やメンバーの管理や、@channel、@hereなどのタグによるグループへの発信、新たなウェブフックの作成などを制限できます。\n\n詳しくは[高度な権限設定の利用に関する説明](https://www.mattermost.com/docs-advanced-permissions/?utm_medium=product&utm_source=mattermost-advisor-bot&utm_content=advanced-permissions)を参照してください\n\nトライアル開始 をクリックすると、[grommunio-chat Software Evaluation Agreement](https://mattermost.com/software-evaluation-agreement/) と [プライバシーポリシー](https://mattermost.com/pl/privacy-policy/)に同意したことになり、製品に関する電子メールを受信するようになります。"
   },
   {
     "id": "api.server.warn_metric.number_of_channels_50.contact_us.email_body",
-    "translation": "Mattermostへ問い合わせる。システムスキーマによる高度な権限設定に興味があります。\n"
+    "translation": "grommunio-chatへ問い合わせる。システムスキーマによる高度な権限設定に興味があります。\n"
   },
   {
     "id": "api.server.warn_metric.number_of_channels_50.notification_body",
-    "translation": "チャンネルはコミュニケーションの改善をサポートするものですが、Mattermost全体でチャンネルの作成や参加が多くなるにつれ、システムを整理されたものにし続けることが課題になってきます。高度な権限設定により、どのユーザー、もしくはどのロールの人が何のアクションを実行可能かを設定することができます。例えば、チャンネル設定やメンバーの管理や、@channel、@hereなどのタグによるグループへの発信、新たなウェブフックの作成などを制限できます。\n\n詳しくは[高度な権限設定の利用に関する説明](https://www.mattermost.com/docs-advanced-permissions/?utm_medium=product&utm_source=mattermost-advisor-bot&utm_content=advanced-permissions)を参照してください\n\n問い合わせ をクリックすると、あなたの情報が Mattermost, Inc. へ共有されます。詳しくは[説明文書](https://mattermost.com/pl/default-admin-advisory)を参照してください"
+    "translation": "チャンネルはコミュニケーションの改善をサポートするものですが、grommunio-chat全体でチャンネルの作成や参加が多くなるにつれ、システムを整理されたものにし続けることが課題になってきます。高度な権限設定により、どのユーザー、もしくはどのロールの人が何のアクションを実行可能かを設定することができます。例えば、チャンネル設定やメンバーの管理や、@channel、@hereなどのタグによるグループへの発信、新たなウェブフックの作成などを制限できます。\n\n詳しくは[高度な権限設定の利用に関する説明](https://www.mattermost.com/docs-advanced-permissions/?utm_medium=product&utm_source=mattermost-advisor-bot&utm_content=advanced-permissions)を参照してください\n\n問い合わせ をクリックすると、あなたの情報が grommunio-chat, Inc. へ共有されます。詳しくは[説明文書](https://mattermost.com/pl/default-admin-advisory)を参照してください"
   },
   {
     "id": "api.server.warn_metric.number_of_channels_50.notification_title",
@@ -7189,11 +7189,11 @@
   },
   {
     "id": "api.server.warn_metric.number_of_active_users_500.start_trial.notification_body",
-    "translation": "500ユーザーを超える場合は、ユーザー管理やサーバーのクラスタリング、パフォーマンスモニタリング機能の利用を強く推奨します。詳細についてはお問い合わせください。\n\nトライアル開始 をクリックすると、[Mattermost Software Evaluation Agreement](https://mattermost.com/software-evaluation-agreement/) と [プライバシーポリシー](https://mattermost.com/pl/privacy-policy/)に同意したことになり、製品に関する電子メールを受信するようになります。"
+    "translation": "500ユーザーを超える場合は、ユーザー管理やサーバーのクラスタリング、パフォーマンスモニタリング機能の利用を強く推奨します。詳細についてはお問い合わせください。\n\nトライアル開始 をクリックすると、[grommunio-chat Software Evaluation Agreement](https://mattermost.com/software-evaluation-agreement/) と [プライバシーポリシー](https://mattermost.com/pl/privacy-policy/)に同意したことになり、製品に関する電子メールを受信するようになります。"
   },
   {
     "id": "api.server.warn_metric.number_of_active_users_500.contact_us.email_body",
-    "translation": "Mattermostに問い合わせる。我々のチームには500名以上のユーザーがおり、Mattermost Enterprise Editionを検討しています。\n"
+    "translation": "grommunio-chatに問い合わせる。我々のチームには500名以上のユーザーがおり、grommunio-chat Enterprise Editionを検討しています。\n"
   },
   {
     "id": "api.server.warn_metric.number_of_active_users_300.start_trial.notification_title",
@@ -7205,15 +7205,15 @@
   },
   {
     "id": "api.server.warn_metric.number_of_active_users_300.start_trial.notification_body",
-    "translation": "Mattermost全体で多くの会話がなされている場合、どこに重要な情報があるかを知るのは難しいことかもしれません。多くのユーザーに対してメッセージを配信したい場合、誰でも参加可能だがチャンネル管理者しかメッセージの投稿ができないような閲覧専用の連絡チャンネルを立てることができます。\n\n詳しくは[閲覧専用の連絡チャンネルの作成に関する説明](https://www.mattermost.com/docs-channel-moderation/?utm_medium=product&utm_source=mattermost-advisor-bot&utm_content=channel-moderation)を参照してください\n\nトライアル開始 をクリックすると、[Mattermost Software Evaluation Agreement](https://mattermost.com/software-evaluation-agreement/) と [プライバシーポリシー](https://mattermost.com/pl/privacy-policy/)に同意したことになり、製品に関する電子メールを受信するようになります。"
+    "translation": "grommunio-chat全体で多くの会話がなされている場合、どこに重要な情報があるかを知るのは難しいことかもしれません。多くのユーザーに対してメッセージを配信したい場合、誰でも参加可能だがチャンネル管理者しかメッセージの投稿ができないような閲覧専用の連絡チャンネルを立てることができます。\n\n詳しくは[閲覧専用の連絡チャンネルの作成に関する説明](https://www.mattermost.com/docs-channel-moderation/?utm_medium=product&utm_source=mattermost-advisor-bot&utm_content=channel-moderation)を参照してください\n\nトライアル開始 をクリックすると、[grommunio-chat Software Evaluation Agreement](https://mattermost.com/software-evaluation-agreement/) と [プライバシーポリシー](https://mattermost.com/pl/privacy-policy/)に同意したことになり、製品に関する電子メールを受信するようになります。"
   },
   {
     "id": "api.server.warn_metric.number_of_active_users_300.notification_body",
-    "translation": "Mattermost全体で多くの会話がなされている場合、どこに重要な情報があるかを知るのは難しいことかもしれません。多くのユーザーに対してメッセージを配信したい場合、誰でも参加可能だがチャンネル管理者しかメッセージの投稿ができないような閲覧専用の連絡チャンネルを立てることができます。\n\n詳しくは[閲覧専用の連絡チャンネルの作成に関する説明](https://www.mattermost.com/docs-channel-moderation/?utm_medium=product&utm_source=mattermost-advisor-bot&utm_content=channel-moderation)を参照してください\n\n問い合わせ をクリックすると、あなたの情報を Mattermost, Inc. へ共有します。詳しくは[説明文書](https://mattermost.com/pl/default-admin-advisory)を参照してください"
+    "translation": "grommunio-chat全体で多くの会話がなされている場合、どこに重要な情報があるかを知るのは難しいことかもしれません。多くのユーザーに対してメッセージを配信したい場合、誰でも参加可能だがチャンネル管理者しかメッセージの投稿ができないような閲覧専用の連絡チャンネルを立てることができます。\n\n詳しくは[閲覧専用の連絡チャンネルの作成に関する説明](https://www.mattermost.com/docs-channel-moderation/?utm_medium=product&utm_source=mattermost-advisor-bot&utm_content=channel-moderation)を参照してください\n\n問い合わせ をクリックすると、あなたの情報を grommunio-chat, Inc. へ共有します。詳しくは[説明文書](https://mattermost.com/pl/default-admin-advisory)を参照してください"
   },
   {
     "id": "api.server.warn_metric.number_of_active_users_300.contact_us.email_body",
-    "translation": "Mattermostへ問い合わせる。閲覧専用の連絡チャンネル機能に興味があります。\n"
+    "translation": "grommunio-chatへ問い合わせる。閲覧専用の連絡チャンネル機能に興味があります。\n"
   },
   {
     "id": "api.server.warn_metric.number_of_active_users_200.start_trial.notification_success.message",
@@ -7221,11 +7221,11 @@
   },
   {
     "id": "api.server.warn_metric.number_of_active_users_200.start_trial.notification_body",
-    "translation": "あなたのMattermostには200ユーザーが登録しています。Mattermostをあなたの組織のシングルサインオンプロバイダーに接続することで、ユーザーは再度認証情報を入力することなくMattermostへアクセスできるようになります。MattermostサーバーをSAML 2.0プロバイダーと連携することをおすすめします。詳しくは[SAML2.0連携に関する説明](https://www.mattermost.com/docs-saml/?utm_medium=product&utm_source=mattermost-advisor-bot&utm_content=saml)を参照してください。\n\nトライアル開始 をクリックすると、[Mattermost Software Evaluation Agreement](https://mattermost.com/software-evaluation-agreement/) と [プライバシーポリシー](https://mattermost.com/pl/privacy-policy/)に同意したことになり、製品に関する電子メールを受信するようになります。"
+    "translation": "あなたのgrommunio-chatには200ユーザーが登録しています。grommunio-chatをあなたの組織のシングルサインオンプロバイダーに接続することで、ユーザーは再度認証情報を入力することなくgrommunio-chatへアクセスできるようになります。grommunio-chatサーバーをSAML 2.0プロバイダーと連携することをおすすめします。詳しくは[SAML2.0連携に関する説明](https://www.mattermost.com/docs-saml/?utm_medium=product&utm_source=mattermost-advisor-bot&utm_content=saml)を参照してください。\n\nトライアル開始 をクリックすると、[grommunio-chat Software Evaluation Agreement](https://mattermost.com/software-evaluation-agreement/) と [プライバシーポリシー](https://mattermost.com/pl/privacy-policy/)に同意したことになり、製品に関する電子メールを受信するようになります。"
   },
   {
     "id": "api.server.warn_metric.number_of_active_users_200.contact_us.email_body",
-    "translation": "Mattermostへ問い合わせる。我々のチームには200名以上のユーザーがおり、Mattermost Enterprise Editionを検討しています。\n"
+    "translation": "grommunio-chatへ問い合わせる。我々のチームには200名以上のユーザーがおり、grommunio-chat Enterprise Editionを検討しています。\n"
   },
   {
     "id": "api.server.warn_metric.number_of_active_users_100.start_trial.notification_success.message",
@@ -7233,19 +7233,19 @@
   },
   {
     "id": "api.server.warn_metric.number_of_active_users_100.start_trial.notification_body",
-    "translation": "あなたのMattermostには100名以上のユーザーがいます。ユーザー数が増加するにつれ、新しいアカウントの準備などは時間のかかる作業となっていく可能性があります。組織のActive Directory/LDAPと連携し、誰でも組織のアカウントでMattermostにアクセス可能となるよう設定することをおすすめします。\n\n詳しくは[AD/LDAP連携に関する説明](https://www.mattermost.com/docs-adldap/?utm_medium=product&utm_source=mattermost-advisor-bot&utm_content=adldap)を参照してください\n\nトライアル開始 をクリックすると、[Mattermost Software Evaluation Agreement](https://mattermost.com/software-evaluation-agreement/) と [プライバシーポリシー](https://mattermost.com/pl/privacy-policy/) に同意したことになり、製品に関する電子メールを受信するようになります。"
+    "translation": "あなたのgrommunio-chatには100名以上のユーザーがいます。ユーザー数が増加するにつれ、新しいアカウントの準備などは時間のかかる作業となっていく可能性があります。組織のActive Directory/LDAPと連携し、誰でも組織のアカウントでgrommunio-chatにアクセス可能となるよう設定することをおすすめします。\n\n詳しくは[AD/LDAP連携に関する説明](https://www.mattermost.com/docs-adldap/?utm_medium=product&utm_source=mattermost-advisor-bot&utm_content=adldap)を参照してください\n\nトライアル開始 をクリックすると、[grommunio-chat Software Evaluation Agreement](https://mattermost.com/software-evaluation-agreement/) と [プライバシーポリシー](https://mattermost.com/pl/privacy-policy/) に同意したことになり、製品に関する電子メールを受信するようになります。"
   },
   {
     "id": "api.server.warn_metric.number_of_active_users_100.notification_title",
-    "translation": "Mattermostをスケールする"
+    "translation": "grommunio-chatをスケールする"
   },
   {
     "id": "api.server.warn_metric.number_of_active_users_100.notification_body",
-    "translation": "あなたのMattermostには100名以上のユーザーがいます。ユーザー数が増加するにつれ、新しいアカウントの準備などは時間のかかる作業となっていく可能性があります。組織のActive Directory/LDAPと連携し、誰でも組織のアカウントでMattermostにアクセス可能となるよう設定することをおすすめします。\n\n詳しくは[AD/LDAP連携に関する説明](https://www.mattermost.com/docs-adldap/?utm_medium=product&utm_source=mattermost-advisor-bot&utm_content=adldap)を参照してください\n\n問い合わせ をクリックすると、あなたの情報を Mattermost, Inc. へ共有します。詳しくは[説明文書](https://mattermost.com/pl/default-admin-advisory)を参照してください"
+    "translation": "あなたのgrommunio-chatには100名以上のユーザーがいます。ユーザー数が増加するにつれ、新しいアカウントの準備などは時間のかかる作業となっていく可能性があります。組織のActive Directory/LDAPと連携し、誰でも組織のアカウントでgrommunio-chatにアクセス可能となるよう設定することをおすすめします。\n\n詳しくは[AD/LDAP連携に関する説明](https://www.mattermost.com/docs-adldap/?utm_medium=product&utm_source=mattermost-advisor-bot&utm_content=adldap)を参照してください\n\n問い合わせ をクリックすると、あなたの情報を grommunio-chat, Inc. へ共有します。詳しくは[説明文書](https://mattermost.com/pl/default-admin-advisory)を参照してください"
   },
   {
     "id": "api.server.warn_metric.number_of_active_users_100.contact_us.email_body",
-    "translation": "Mattermostへ問い合わせる。我々のチームには100名以上のユーザーがおり、Mattermost Enterprise Editionを検討しています。\n"
+    "translation": "grommunio-chatへ問い合わせる。我々のチームには100名以上のユーザーがおり、grommunio-chat Enterprise Editionを検討しています。\n"
   },
   {
     "id": "api.server.warn_metric.mfa.start_trial_notification_success.message",
@@ -7253,7 +7253,7 @@
   },
   {
     "id": "api.server.warn_metric.mfa.start_trial.notification_body",
-    "translation": "このMattermostでは多要素認証が有効になっており、ユーザーはパスワードとは別の認証を追加することで、アカウントをより安全にすることを選択できます。システム全体のセキュリティを改善するために、すべてのアカウントに対して多要素認証の利用を要求することもできます。\n\n詳しくは[多要素認証の強制についての説明](https://www.mattermost.com/docs-multi-factor-authentication/?utm_medium=product&utm_source=mattermost-advisor-bot&utm_content=multi-factor-authentication)を参照してください。\n\nトライアル開始 をクリックすると、[Mattermost Software Evaluation Agreement](https://mattermost.com/software-evaluation-agreement/) と [プライバシーポリシー](https://mattermost.com/pl/privacy-policy/)に同意したことになり、製品に関する電子メールを受信するようになります。"
+    "translation": "このgrommunio-chatでは多要素認証が有効になっており、ユーザーはパスワードとは別の認証を追加することで、アカウントをより安全にすることを選択できます。システム全体のセキュリティを改善するために、すべてのアカウントに対して多要素認証の利用を要求することもできます。\n\n詳しくは[多要素認証の強制についての説明](https://www.mattermost.com/docs-multi-factor-authentication/?utm_medium=product&utm_source=mattermost-advisor-bot&utm_content=multi-factor-authentication)を参照してください。\n\nトライアル開始 をクリックすると、[grommunio-chat Software Evaluation Agreement](https://mattermost.com/software-evaluation-agreement/) と [プライバシーポリシー](https://mattermost.com/pl/privacy-policy/)に同意したことになり、製品に関する電子メールを受信するようになります。"
   },
   {
     "id": "api.server.warn_metric.mfa.notification_title",
@@ -7261,11 +7261,11 @@
   },
   {
     "id": "api.server.warn_metric.mfa.notification_body",
-    "translation": "このMattermostでは多要素認証が有効になっており、ユーザーはパスワードとは別の認証を追加することで、アカウントをより安全にすることを選択できます。システム全体のセキュリティを改善するために、すべてのアカウントに対して多要素認証の利用を要求することもできます。\n\n詳しくは[多要素認証の強制についての説明](https://www.mattermost.com/docs-multi-factor-authentication/?utm_medium=product&utm_source=mattermost-advisor-bot&utm_content=multi-factor-authentication)を参照してください。\n\n問い合わせ をクリックすると、あなたの情報が Mattermost, Inc. へ共有されます。詳しくは[説明文書](https://mattermost.com/pl/default-admin-advisory)を参照してください"
+    "translation": "このgrommunio-chatでは多要素認証が有効になっており、ユーザーはパスワードとは別の認証を追加することで、アカウントをより安全にすることを選択できます。システム全体のセキュリティを改善するために、すべてのアカウントに対して多要素認証の利用を要求することもできます。\n\n詳しくは[多要素認証の強制についての説明](https://www.mattermost.com/docs-multi-factor-authentication/?utm_medium=product&utm_source=mattermost-advisor-bot&utm_content=multi-factor-authentication)を参照してください。\n\n問い合わせ をクリックすると、あなたの情報が grommunio-chat, Inc. へ共有されます。詳しくは[説明文書](https://mattermost.com/pl/default-admin-advisory)を参照してください"
   },
   {
     "id": "api.server.warn_metric.mfa.contact_us.email_body",
-    "translation": "Mattermostへ問い合わせる。多要素認証の強制機能について興味があります。\n"
+    "translation": "grommunio-chatへ問い合わせる。多要素認証の強制機能について興味があります。\n"
   },
   {
     "id": "api.server.warn_metric.email_domain.start_trial_notification_success.message",
@@ -7273,7 +7273,7 @@
   },
   {
     "id": "api.server.warn_metric.email_domain.start_trial.notification_body",
-    "translation": "プロジェクトには組織内、組織外の両方の人が参画することがあります。ゲストアカウント機能により、外部のパートナーをMattermostに参加させることができ、ゲストが閲覧可能な情報などの設定を行うことができます。\n\n詳しくは[ゲストアカウントに関する説明](https://www.mattermost.com/docs-guest-accounts/?utm_medium=product&utm_source=mattermost-advisor-bot&utm_content=guest-accounts)を参照してください。\n\nトライアル開始 をクリックすると、[Mattermost Software Evaluation Agreement](https://mattermost.com/software-evaluation-agreement/) と [プライバシーポリシー](https://mattermost.com/pl/privacy-policy/) に同意したことになり、製品に関する電子メールを受信するようになります。"
+    "translation": "プロジェクトには組織内、組織外の両方の人が参画することがあります。ゲストアカウント機能により、外部のパートナーをgrommunio-chatに参加させることができ、ゲストが閲覧可能な情報などの設定を行うことができます。\n\n詳しくは[ゲストアカウントに関する説明](https://www.mattermost.com/docs-guest-accounts/?utm_medium=product&utm_source=mattermost-advisor-bot&utm_content=guest-accounts)を参照してください。\n\nトライアル開始 をクリックすると、[grommunio-chat Software Evaluation Agreement](https://mattermost.com/software-evaluation-agreement/) と [プライバシーポリシー](https://mattermost.com/pl/privacy-policy/) に同意したことになり、製品に関する電子メールを受信するようになります。"
   },
   {
     "id": "api.server.warn_metric.email_domain.notification_title",
@@ -7281,11 +7281,11 @@
   },
   {
     "id": "api.server.warn_metric.email_domain.notification_body",
-    "translation": "プロジェクトには組織内、組織外の両方の人が参画することがあります。ゲストアカウント機能により、外部のパートナーをMattermostに参加させることができ、ゲストが閲覧可能な情報などの設定を行うことができます。\n\n詳しくは[ゲストアカウントに関する説明](https://www.mattermost.com/docs-guest-accounts/?utm_medium=product&utm_source=mattermost-advisor-bot&utm_content=guest-accounts)を参照してください。\n\n問い合わせ をクリックすると、あなたの情報が Mattermost Inc. へ送信されます。詳しくは[説明文書](https://mattermost.com/pl/default-admin-advisory)を参照してください"
+    "translation": "プロジェクトには組織内、組織外の両方の人が参画することがあります。ゲストアカウント機能により、外部のパートナーをgrommunio-chatに参加させることができ、ゲストが閲覧可能な情報などの設定を行うことができます。\n\n詳しくは[ゲストアカウントに関する説明](https://www.mattermost.com/docs-guest-accounts/?utm_medium=product&utm_source=mattermost-advisor-bot&utm_content=guest-accounts)を参照してください。\n\n問い合わせ をクリックすると、あなたの情報が grommunio-chat Inc. へ送信されます。詳しくは[説明文書](https://mattermost.com/pl/default-admin-advisory)を参照してください"
   },
   {
     "id": "api.server.warn_metric.email_domain.contact_us.email_body",
-    "translation": "Mattermostへ問い合わせる。ゲストアカウント機能について興味があります。\n"
+    "translation": "grommunio-chatへ問い合わせる。ゲストアカウント機能について興味があります。\n"
   },
   {
     "id": "api.server.warn_metric.bot_response.start_trial_failure.message",
@@ -7437,7 +7437,7 @@
   },
   {
     "id": "api.templates.copyright",
-    "translation": "© 2021 Mattermost, Inc. 530 Lytton Avenue, Second floor, Palo Alto, CA, 94301"
+    "translation": "© 2021 grommunio-chat, Inc. 530 Lytton Avenue, Second floor, Palo Alto, CA, 94301"
   },
   {
     "id": "app.user.permanent_delete.app_error",
@@ -7661,11 +7661,11 @@
   },
   {
     "id": "api.templates.payment_failed_no_card.subject",
-    "translation": "Mattermost Cloudサブスクリプションへの支払い予定"
+    "translation": "grommunio-chat Cloudサブスクリプションへの支払い予定"
   },
   {
     "id": "api.templates.payment_failed_no_card.title",
-    "translation": "Mattermost Cloud請求期限"
+    "translation": "grommunio-chat Cloud請求期限"
   },
   {
     "id": "api.templates.payment_failed_no_card.info3",
@@ -7673,7 +7673,7 @@
   },
   {
     "id": "api.templates.payment_failed_no_card.info1",
-    "translation": "直近支払い期限に対するMattermost Cloudの請求書が処理されましたが、有効な支払い情報がありません。"
+    "translation": "直近支払い期限に対するgrommunio-chat Cloudの請求書が処理されましたが、有効な支払い情報がありません。"
   },
   {
     "id": "api.templates.payment_failed_no_card.button",
@@ -7685,11 +7685,11 @@
   },
   {
     "id": "api.templates.payment_failed.subject",
-    "translation": "注意: Mattermost {{.Plan}}の支払いができませんでした"
+    "translation": "注意: grommunio-chat {{.Plan}}の支払いができませんでした"
   },
   {
     "id": "api.templates.payment_failed.info3",
-    "translation": "Mattermost {{.Plan}}へアクセスし続けるために、支払いの問題についてあなたの金融機関に問い合わせるか、支払い情報を更新してください。支払い情報が更新されると、Mattermostは未払いの支払いを解決しようとします。"
+    "translation": "grommunio-chat {{.Plan}}へアクセスし続けるために、支払いの問題についてあなたの金融機関に問い合わせるか、支払い情報を更新してください。支払い情報が更新されると、grommunio-chatは未払いの支払いを解決しようとします。"
   },
   {
     "id": "api.templates.payment_failed.info2",
@@ -7697,7 +7697,7 @@
   },
   {
     "id": "api.templates.payment_failed.info1",
-    "translation": "Mattermost Cloudワークスペースに関連付けられたあなたの {{.CardBrand}} ****{{.LastFour}} からの支払いを金融機関が拒否しました。"
+    "translation": "grommunio-chat Cloudワークスペースに関連付けられたあなたの {{.CardBrand}} ****{{.LastFour}} からの支払いを金融機関が拒否しました。"
   },
   {
     "id": "api.system.update_viewed_notices.failed",
@@ -8041,7 +8041,7 @@
   },
   {
     "id": "api.templates.email_footer_v2",
-    "translation": "© 2022 Mattermost, Inc. 530 Lytton Avenue, Second floor, Palo Alto, CA, 94301"
+    "translation": "© 2022 grommunio-chat, Inc. 530 Lytton Avenue, Second floor, Palo Alto, CA, 94301"
   },
   {
     "id": "store.sql_file_info.search.disabled",
@@ -8153,7 +8153,7 @@
   },
   {
     "id": "api.templates.invite_body_footer.title",
-    "translation": "Mattermostとは?"
+    "translation": "grommunio-chatとは?"
   },
   {
     "id": "api.templates.invite_body_footer.learn_more",
@@ -8161,11 +8161,11 @@
   },
   {
     "id": "api.templates.invite_body_footer.info",
-    "translation": "Mattermostは、セキュアなチームコラボレーションを可能にする、柔軟なオープンソースのメッセージングプラットフォームです。"
+    "translation": "grommunio-chatは、セキュアなチームコラボレーションを可能にする、柔軟なオープンソースのメッセージングプラットフォームです。"
   },
   {
     "id": "api.templates.invite_body.subTitle",
-    "translation": "Mattermostでチームとの共同作業を始める"
+    "translation": "grommunio-chatでチームとの共同作業を始める"
   },
   {
     "id": "api.templates.cloud_welcome_email.title",
@@ -8217,7 +8217,7 @@
   },
   {
     "id": "api.templates.cloud_welcome_email.download_mm_info",
-    "translation": "Mattermostアプリをダウンロードする"
+    "translation": "grommunio-chatアプリをダウンロードする"
   },
   {
     "id": "api.templates.cloud_welcome_email.app_market_place",
@@ -8229,7 +8229,7 @@
   },
   {
     "id": "api.templates.cloud_welcome_email.button",
-    "translation": "Mattermostを開く"
+    "translation": "grommunio-chatを開く"
   },
   {
     "id": "api.templates.cloud_welcome_email.add_apps_info",
@@ -8401,7 +8401,7 @@
   },
   {
     "id": "api.command_share.invite_remote.help",
-    "translation": "現在の共有チャネルに外部Mattermostインスタンスを招待する"
+    "translation": "現在の共有チャネルに外部grommunio-chatインスタンスを招待する"
   },
   {
     "id": "api.command_share.invitation_sent",
@@ -8425,7 +8425,7 @@
   },
   {
     "id": "api.command_share.desc",
-    "translation": "現在のチャンネルを外部Mattermostインスタンスへ共有します。"
+    "translation": "現在のチャンネルを外部grommunio-chatインスタンスへ共有します。"
   },
   {
     "id": "api.command_share.check_channel_exist.error",
@@ -8529,7 +8529,7 @@
   },
   {
     "id": "api.command_remote.invite_summary",
-    "translation": "以下の AES-256bit で暗号化されたデータを、パスワードと共に外部Mattermostのシステム管理者に送信します。彼らは `{{.Command}}` のスラッシュコマンドを使って招待を受け付けます。\n\n```\n{{.Invitation}}\n```\n\n**安全な接続により、あなたのMattermostインスタンスに次のURLでアクセスできるようにします** {{.SiteURL}}"
+    "translation": "以下の AES-256bit で暗号化されたデータを、パスワードと共に外部grommunio-chatのシステム管理者に送信します。彼らは `{{.Command}}` のスラッシュコマンドを使って招待を受け付けます。\n\n```\n{{.Invitation}}\n```\n\n**安全な接続により、あなたのgrommunio-chatインスタンスに次のURLでアクセスできるようにします** {{.SiteURL}}"
   },
   {
     "id": "api.command_remote.invite_password.hint",
@@ -8573,7 +8573,7 @@
   },
   {
     "id": "api.command_remote.desc",
-    "translation": "Mattermostインスタンス間のコミュニケーションのために、安全な接続を構築します。"
+    "translation": "grommunio-chatインスタンス間のコミュニケーションのために、安全な接続を構築します。"
   },
   {
     "id": "api.command_remote.decode_invitation.error",
@@ -8597,7 +8597,7 @@
   },
   {
     "id": "api.command_remote.accept.help",
-    "translation": "外部のMattermostインスタンスからの招待を受け付ける"
+    "translation": "外部のgrommunio-chatインスタンスからの招待を受け付ける"
   },
   {
     "id": "api.cloud.cws_webhook_event_missing_error",
@@ -8653,7 +8653,7 @@
   },
   {
     "id": "app.notification.footer.infoLogin",
-    "translation": "Mattermostへログインし"
+    "translation": "grommunio-chatへログインし"
   },
   {
     "id": "app.notification.footer.info",
@@ -8709,7 +8709,7 @@
   },
   {
     "id": "api.email_batching.send_batched_email_notification.button",
-    "translation": "Mattermostを開く"
+    "translation": "grommunio-chatを開く"
   },
   {
     "id": "api.channel.create_channel.direct_channel.team_restricted_error",
@@ -8765,7 +8765,7 @@
   },
   {
     "id": "api.license.request-trial.can-start-trial.not-allowed",
-    "translation": "新しいトライアルライセンスを適用できませんでした。あなたは、以前このMattermostインスタンスにトライアルライセンスを適用したことがあります。トライアル期間の延長をご希望の場合は[営業までご連絡ください](https://mattermost.com/contact-us/)。"
+    "translation": "新しいトライアルライセンスを適用できませんでした。あなたは、以前このgrommunio-chatインスタンスにトライアルライセンスを適用したことがあります。トライアル期間の延長をご希望の場合は[営業までご連絡ください](https://mattermost.com/contact-us/)。"
   },
   {
     "id": "api.license.request-trial.can-start-trial.error",
@@ -8777,7 +8777,7 @@
   },
   {
     "id": "api.templates.license_up_for_renewal_subtitle",
-    "translation": "{{.UserName}}さん、あなたのサブスクリプションは{{.Days}}日で期限切れになるように設定されています。Mattermostが可能にする柔軟で安全なチームコラボレーションを体験していただければ幸いです。チームがこれらのメリットを引き続き享受できるように、今すぐ更新してください。"
+    "translation": "{{.UserName}}さん、あなたのサブスクリプションは{{.Days}}日で期限切れになるように設定されています。grommunio-chatが可能にする柔軟で安全なチームコラボレーションを体験していただければ幸いです。チームがこれらのメリットを引き続き享受できるように、今すぐ更新してください。"
   },
   {
     "id": "api.templates.license_up_for_renewal_subject",
@@ -8805,7 +8805,7 @@
   },
   {
     "id": "api.templates.license_up_for_renewal_title",
-    "translation": "あなたのMattermostのサブスクリプションは更新が必要です"
+    "translation": "あなたのgrommunio-chatのサブスクリプションは更新が必要です"
   },
   {
     "id": "api.user.invalidate_verify_email_tokens.error",
@@ -9029,7 +9029,7 @@
   },
   {
     "id": "model.oauth.is_valid.mattermost_app_id.app_error",
-    "translation": "MattermostAppIDの最大文字数は32文字です。"
+    "translation": "grommunio-chatAppIDの最大文字数は32文字です。"
   },
   {
     "id": "model.config.is_valid.elastic_search.bulk_indexing_batch_size.app_error",
@@ -9085,7 +9085,7 @@
   },
   {
     "id": "api.license.request_trial_license.embargoed",
-    "translation": "禁輸国に対する制限のため、リクエストを処理することができませんでした。輸出制限に関するご質問は、[説明文書を参照するか](https://mattermost.com/pl/limitations-for-embargoed-countries)、legal@mattermost.com までお問い合わせください。"
+    "translation": "禁輸国に対する制限のため、リクエストを処理することができませんでした。輸出制限に関するご質問は、[説明文書を参照するか](https://mattermost.com/pl/limitations-for-embargoed-countries)、support@grommunio.com までお問い合わせください。"
   },
   {
     "id": "api.insights.feature_disabled",
@@ -9109,7 +9109,7 @@
   },
   {
     "id": "api.templates.cloud_upgrade_confirmation.subject",
-    "translation": "Mattermostアップグレードの確認"
+    "translation": "grommunio-chatアップグレードの確認"
   },
   {
     "id": "api.elasticsearch.test_elasticsearch_settings_nil.app_error",
@@ -9209,7 +9209,7 @@
   },
   {
     "id": "api.templates.delinquency_90.title",
-    "translation": "あなたのMattermost Cloudワークスペースがダウングレードされました"
+    "translation": "あなたのgrommunio-chat Cloudワークスペースがダウングレードされました"
   },
   {
     "id": "api.templates.delinquency_90.subtitle3",
@@ -9225,7 +9225,7 @@
   },
   {
     "id": "api.templates.delinquency_90.subject",
-    "translation": "あなたのMattermost Cloudワークスペースがダウングレードされました"
+    "translation": "あなたのgrommunio-chat Cloudワークスペースがダウングレードされました"
   },
   {
     "id": "api.templates.delinquency_90.secondary_action_button",
@@ -9245,11 +9245,11 @@
   },
   {
     "id": "api.templates.delinquency_75.subtitle1",
-    "translation": "これは、{{.DelinquencyDate}}以降、Mattermost Cloudワークスペースの支払いを受け取っていないことを知らせる最後のリマンダーです。"
+    "translation": "これは、{{.DelinquencyDate}}以降、grommunio-chat Cloudワークスペースの支払いを受け取っていないことを知らせる最後のリマンダーです。"
   },
   {
     "id": "api.templates.delinquency_75.subject",
-    "translation": "あなたのMattermostワークスペースは15日後にダウングレードされます"
+    "translation": "あなたのgrommunio-chatワークスペースは15日後にダウングレードされます"
   },
   {
     "id": "api.templates.delinquency_75.downgrade_to_free",
@@ -9269,7 +9269,7 @@
   },
   {
     "id": "api.templates.delinquency_60.title",
-    "translation": "あなたのMattermostワークスペースは30日後にダウングレードされます"
+    "translation": "あなたのgrommunio-chatワークスペースは30日後にダウングレードされます"
   },
   {
     "id": "api.templates.delinquency_60.subtitle3",
@@ -9305,7 +9305,7 @@
   },
   {
     "id": "api.templates.delinquency_45.subject",
-    "translation": "お知らせ: あなたのMattermost {{.Plan}} はまもなくダウングレードされます"
+    "translation": "お知らせ: あなたのgrommunio-chat {{.Plan}} はまもなくダウングレードされます"
   },
   {
     "id": "api.templates.delinquency_30.title",
@@ -9317,11 +9317,11 @@
   },
   {
     "id": "api.templates.delinquency_30.subtitle1",
-    "translation": "まだMattermost {{.Plan}} はアクティブになっていますが、支払い方法に関する問題を解決する必要があります。"
+    "translation": "まだgrommunio-chat {{.Plan}} はアクティブになっていますが、支払い方法に関する問題を解決する必要があります。"
   },
   {
     "id": "api.templates.delinquency_30.subject",
-    "translation": "Mattermost {{.Plan}} の機能を利用し続けるには"
+    "translation": "grommunio-chat {{.Plan}} の機能を利用し続けるには"
   },
   {
     "id": "api.templates.delinquency_30.limits_documentation",
@@ -9349,7 +9349,7 @@
   },
   {
     "id": "api.templates.delinquency_14.subject",
-    "translation": "Mattermost {{.Plan}} の支払いが遅れています"
+    "translation": "grommunio-chat {{.Plan}} の支払いが遅れています"
   },
   {
     "id": "api.command_marketplace.unsupported.app_error",
@@ -9365,7 +9365,7 @@
   },
   {
     "id": "api.command_help.success",
-    "translation": "Mattermost は、ツールやチームをまたがるセキュアなコミュニケーション、コラボレーション、オーケストレーションのためのオープンソースプラットフォームです。\nMattermostには、3つの主要なツールが含まれています:\n\n**Channels** - 1対1もしくはグループとのメッセージングによりチームを常に繋がった状態にします\n**[Playbooks](/playbooks)** - 繰り返し行われる作業をプロセス化し、予測可能な結果を残せるようにします\n**[Boards](/boards)** - Kanban形式のボードでプロジェクトとタスクを管理し、チームが重要なマイルストーンを達成できるよう支援します\n\n[ドキュメントとガイドを見る]({{.HelpLink}})"
+    "translation": "grommunio-chat は、ツールやチームをまたがるセキュアなコミュニケーション、コラボレーション、オーケストレーションのためのオープンソースプラットフォームです。\ngrommunio-chatには、3つの主要なツールが含まれています:\n\n**Channels** - 1対1もしくはグループとのメッセージングによりチームを常に繋がった状態にします\n**[Playbooks](/playbooks)** - 繰り返し行われる作業をプロセス化し、予測可能な結果を残せるようにします\n**[Boards](/boards)** - Kanban形式のボードでプロジェクトとタスクを管理し、チームが重要なマイルストーンを達成できるよう支援します\n\n[ドキュメントとガイドを見る]({{.HelpLink}})"
   },
   {
     "id": "api.templates.delinquency_90.button",
@@ -9809,7 +9809,7 @@
   },
   {
     "id": "api.server.cws.needs_enterprise_edition",
-    "translation": "Mattermost Enterprise Editionでのみ利用可能なサービスです"
+    "translation": "grommunio-chat Enterprise Editionでのみ利用可能なサービスです"
   },
   {
     "id": "api.command_templates.unsupported.app_error",
@@ -10157,7 +10157,7 @@
   },
   {
     "id": "app.plugin.blocked.app_error",
-    "translation": "プラグイン {{.Id}} はブロックリストに登録されています。いくつかのプラグインは、このバージョンの Mattermost に組み込まれているためブロックされています。"
+    "translation": "プラグイン {{.Id}} はブロックリストに登録されています。いくつかのプラグインは、このバージョンの grommunio-chat に組み込まれているためブロックされています。"
   },
   {
     "id": "api.server.cws.subscribe_to_newsletter.app_error",

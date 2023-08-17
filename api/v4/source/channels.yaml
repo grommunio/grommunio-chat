@@ -129,7 +129,7 @@
           source: >
             import "github.com/mattermost/mattermost-server/v5/model"
 
-            Client := model.NewAPIv4Client("https://your-mattermost-url.com")
+            Client := model.NewAPIv4Client("https://your-grommunio-chat-url.com")
 
             Client.Login("email@domain.com", "Password1")
 
@@ -180,7 +180,7 @@
         - lang: Go
           source: |
             import "github.com/mattermost/mattermost-server/v5/model"
-            Client := model.NewAPIv4Client("https://your-mattermost-url.com")
+            Client := model.NewAPIv4Client("https://your-grommunio-chat-url.com")
             Client.Login("email@domain.com", "Password1")
 
             // CreateDirectChannel
@@ -224,7 +224,7 @@
         - lang: Go
           source: |
             import "github.com/mattermost/mattermost-server/v5/model"
-            Client := model.NewAPIv4Client("https://your-mattermost-url.com")
+            Client := model.NewAPIv4Client("https://your-grommunio-chat-url.com")
             Client.Login("email@domain.com", "Password1")
 
             userIds := []string{<ID OF User1>, <ID OF User2>, <ID OF User3> ...}
@@ -424,7 +424,7 @@
         - lang: Go
           source: |
             import "github.com/mattermost/mattermost-server/v5/model"
-            Client := model.NewAPIv4Client("https://your-mattermost-url.com")
+            Client := model.NewAPIv4Client("https://your-grommunio-chat-url.com")
             Client.Login("email@domain.com", "Password1")
 
             search := &model.ChannelSearch{Term: <MEMBER USERNAME>}
@@ -477,7 +477,7 @@
           source: >
             import "github.com/mattermost/mattermost-server/v5/model"
 
-            Client := model.NewAPIv4Client("https://your-mattermost-url.com")
+            Client := model.NewAPIv4Client("https://your-grommunio-chat-url.com")
 
             Client.Login("email@domain.com", "Password1")
 
@@ -527,7 +527,7 @@
         - lang: Go
           source: |
             import "github.com/mattermost/mattermost-server/v5/model"
-            Client := model.NewAPIv4Client("https://your-mattermost-url.com")
+            Client := model.NewAPIv4Client("https://your-grommunio-chat-url.com")
             Client.Login("email@domain.com", "Password1")
 
             // GetChannelStats
@@ -566,7 +566,7 @@
         - lang: Go
           source: |
             import "github.com/mattermost/mattermost-server/v5/model"
-            Client := model.NewAPIv4Client("https://your-mattermost-url.com")
+            Client := model.NewAPIv4Client("https://your-grommunio-chat-url.com")
             Client.Login("email@domain.com", "Password1")
 
             // GetChannel
@@ -637,7 +637,7 @@
           source: >
             import "github.com/mattermost/mattermost-server/v5/model"
 
-            Client := model.NewAPIv4Client("https://your-mattermost-url.com")
+            Client := model.NewAPIv4Client("https://your-grommunio-chat-url.com")
 
             Client.Login("email@domain.com", "Password1")
 
@@ -693,7 +693,7 @@
         - lang: Go
           source: |
             import "github.com/mattermost/mattermost-server/v5/model"
-            Client := model.NewAPIv4Client("https://your-mattermost-url.com")
+            Client := model.NewAPIv4Client("https://your-grommunio-chat-url.com")
             Client.Login("email@domain.com", "Password1")
 
             // DeleteChannel
@@ -761,7 +761,7 @@
         - lang: Go
           source: |
             import "github.com/mattermost/mattermost-server/v5/model"
-            Client := model.NewAPIv4Client("https://your-mattermost-url.com")
+            Client := model.NewAPIv4Client("https://your-grommunio-chat-url.com")
             Client.Login("email@domain.com", "Password1")
 
             patch := &model.ChannelPatch{
@@ -836,7 +836,7 @@
           source: >
             import "github.com/mattermost/mattermost-server/v5/model"
 
-            Client := model.NewAPIv4Client("https://your-mattermost-url.com")
+            Client := model.NewAPIv4Client("https://your-grommunio-chat-url.com")
 
             Client.Login("email@domain.com", "Password1")
 
@@ -966,7 +966,7 @@
         - lang: Go
           source: |
             import "github.com/mattermost/mattermost-server/v5/model"
-            Client := model.NewAPIv4Client("https://your-mattermost-url.com")
+            Client := model.NewAPIv4Client("https://your-grommunio-chat-url.com")
             Client.Login("email@domain.com", "Password1")
 
             // GetChannelStats
@@ -1002,7 +1002,7 @@
         - lang: Go
           source: |
             import "github.com/mattermost/mattermost-server/v5/model"
-            Client := model.NewAPIv4Client("https://your-mattermost-url.com")
+            Client := model.NewAPIv4Client("https://your-grommunio-chat-url.com")
             Client.Login("email@domain.com", "Password1")
 
             // GetPinnedPosts
@@ -1061,7 +1061,7 @@
           source: >
             import "github.com/mattermost/mattermost-server/v5/model"
 
-            Client := model.NewAPIv4Client("https://your-mattermost-url.com")
+            Client := model.NewAPIv4Client("https://your-grommunio-chat-url.com")
 
             Client.Login("email@domain.com", "Password1")
 
@@ -1123,7 +1123,7 @@
           source: >
             import "github.com/mattermost/mattermost-server/v5/model"
 
-            Client := model.NewAPIv4Client("https://your-mattermost-url.com")
+            Client := model.NewAPIv4Client("https://your-grommunio-chat-url.com")
 
             Client.Login("email@domain.com", "Password1")
 
@@ -1330,7 +1330,7 @@
         - lang: Go
           source: |
             import "github.com/mattermost/mattermost-server/v5/model"
-            Client := model.NewAPIv4Client("https://your-mattermost-url.com")
+            Client := model.NewAPIv4Client("https://your-grommunio-chat-url.com")
             Client.Login("email@domain.com", "Password1")
 
             search := &model.ChannelSearch{Term: <CHANNEL DISPLAYNAME>}
@@ -1399,7 +1399,7 @@
         - lang: Go
           source: |
             import "github.com/mattermost/mattermost-server/v5/model"
-            Client := model.NewAPIv4Client("https://your-mattermost-url.com")
+            Client := model.NewAPIv4Client("https://your-grommunio-chat-url.com")
             Client.Login("email@domain.com", "Password1")
 
             search := &model.ChannelSearch{Term: <CHANNEL DISPLAYNAME>}
@@ -1453,7 +1453,7 @@
           source: >
             import "github.com/mattermost/mattermost-server/v5/model"
 
-            Client := model.NewAPIv4Client("https://your-mattermost-url.com")
+            Client := model.NewAPIv4Client("https://your-grommunio-chat-url.com")
 
             Client.Login("email@domain.com", "Password1")
 
@@ -1508,7 +1508,7 @@
           source: >
             import "github.com/mattermost/mattermost-server/v5/model"
 
-            Client := model.NewAPIv4Client("https://your-mattermost-url.com")
+            Client := model.NewAPIv4Client("https://your-grommunio-chat-url.com")
 
             Client.Login("email@domain.com", "Password1")
 
@@ -1565,7 +1565,7 @@
           source: >
             import "github.com/mattermost/mattermost-server/v5/model"
 
-            Client := model.NewAPIv4Client("https://your-mattermost-url.com")
+            Client := model.NewAPIv4Client("https://your-grommunio-chat-url.com")
 
             Client.Login("email@domain.com", "Password1")
 
@@ -1620,7 +1620,7 @@
           source: >
             import "github.com/mattermost/mattermost-server/v5/model"
 
-            Client := model.NewAPIv4Client("https://your-mattermost-url.com")
+            Client := model.NewAPIv4Client("https://your-grommunio-chat-url.com")
 
             Client.Login("email@domain.com", "Password1")
 
@@ -1680,7 +1680,7 @@
         - lang: Go
           source: |
             import "github.com/mattermost/mattermost-server/v5/model"
-            Client := model.NewAPIv4Client("https://your-mattermost-url.com")
+            Client := model.NewAPIv4Client("https://your-grommunio-chat-url.com")
             Client.Login("email@domain.com", "Password1")
 
             usersIds := []string{<Id of User1>, <Id of User2>, ...}
@@ -1727,7 +1727,7 @@
         - lang: Go
           source: |
             import "github.com/mattermost/mattermost-server/v5/model"
-            Client := model.NewAPIv4Client("https://your-mattermost-url.com")
+            Client := model.NewAPIv4Client("https://your-grommunio-chat-url.com")
             Client.Login("email@domain.com", "Password1")
 
             // GetChannelMember
@@ -1778,7 +1778,7 @@
         - lang: Go
           source: |
             import "github.com/mattermost/mattermost-server/v5/model"
-            Client := model.NewAPIv4Client("https://your-mattermost-url.com")
+            Client := model.NewAPIv4Client("https://your-grommunio-chat-url.com")
             Client.Login("email@domain.com", "Password1")
 
             // RemoveUserFromChannel
@@ -1836,7 +1836,7 @@
           source: >
             import "github.com/mattermost/mattermost-server/v5/model"
 
-            Client := model.NewAPIv4Client("https://your-mattermost-url.com")
+            Client := model.NewAPIv4Client("https://your-grommunio-chat-url.com")
 
             Client.Login("email@domain.com", "Password1")
 
@@ -1956,7 +1956,7 @@
           source: >
             import "github.com/mattermost/mattermost-server/v5/model"
 
-            Client := model.NewAPIv4Client("https://your-mattermost-url.com")
+            Client := model.NewAPIv4Client("https://your-grommunio-chat-url.com")
 
             Client.Login("email@domain.com", "Password1")
 
@@ -2038,7 +2038,7 @@
         - lang: Go
           source: |
             import "github.com/mattermost/mattermost-server/v5/model"
-            Client := model.NewAPIv4Client("https://your-mattermost-url.com")
+            Client := model.NewAPIv4Client("https://your-grommunio-chat-url.com")
             Client.Login("email@domain.com", "Password1")
 
             view := &model.ChannelView{
@@ -2092,7 +2092,7 @@
           source: >
             import "github.com/mattermost/mattermost-server/v5/model"
 
-            Client := model.NewAPIv4Client("https://your-mattermost-url.com")
+            Client := model.NewAPIv4Client("https://your-grommunio-chat-url.com")
 
             Client.Login("email@domain.com", "Password1")
 
@@ -2159,7 +2159,7 @@
           source: >
             import "github.com/mattermost/mattermost-server/v5/model"
 
-            Client := model.NewAPIv4Client("https://your-mattermost-url.com")
+            Client := model.NewAPIv4Client("https://your-grommunio-chat-url.com")
 
             Client.Login("email@domain.com", "Password1")
 
@@ -2223,7 +2223,7 @@
             import "github.com/mattermost/mattermost-server/v6/model"
 
 
-            Client := model.NewAPIv4Client("https://your-mattermost-url.com")
+            Client := model.NewAPIv4Client("https://your-grommunio-chat-url.com")
 
             Client.Login("email@domain.com", "Password1")
 
@@ -2277,7 +2277,7 @@
           source: >
             import "github.com/mattermost/mattermost-server/v5/model"
 
-            Client := model.NewAPIv4Client("https://your-mattermost-url.com")
+            Client := model.NewAPIv4Client("https://your-grommunio-chat-url.com")
 
             Client.Login("email@domain.com", "Password1")
 
@@ -2341,7 +2341,7 @@
         - lang: Go
           source: |
             import "github.com/mattermost/mattermost-server/v5/model"
-            Client := model.NewAPIv4Client("https://your-mattermost-url.com")
+            Client := model.NewAPIv4Client("https://your-grommunio-chat-url.com")
             Client.Login("email@domain.com", "Password1")
 
             channelID := "4xp9fdt77pncbef59f4k1qe83o"
@@ -2350,7 +2350,7 @@
         - lang: curl
           source: >
             curl -X PUT \
-              https://your-mattermost-url.com/api/v4/channels/4xp9fdt77pncbef59f4k1qe83o/scheme \
+              https://your-grommunio-chat-url.com/api/v4/channels/4xp9fdt77pncbef59f4k1qe83o/scheme \
               -H 'Authorization: Bearer frn8fu5rtpyc5m4xy6q3oj4yur' \
               -H 'Content-Type: application/json' \
               -d '{"scheme_id": "qjda3stwafbgpqjaxej3k76sga"}'
@@ -2415,7 +2415,7 @@
         - lang: curl
           source: >
             curl -X GET \
-              'http://your-mattermost-url.com/api/v4/channels/3wyp678obid8pggjmhmhwpah1r/members_minus_group_members?group_ids=eoezijg8zffgjmch8icy5bjd1e,ugaw6wjc3tfxpcr1eq5u5k8dhe&page=0&per_page=100' \
+              'http://your-grommunio-chat-url.com/api/v4/channels/3wyp678obid8pggjmhmhwpah1r/members_minus_group_members?group_ids=eoezijg8zffgjmch8icy5bjd1e,ugaw6wjc3tfxpcr1eq5u5k8dhe&page=0&per_page=100' \
               -H 'Authorization: Bearer kno8tcdotpbx3dj1gzcbx9jrqy' \
               -H 'Content-Type: application/json' \
               -H 'X-Requested-With: XMLHttpRequest'
@@ -2459,7 +2459,7 @@
         - lang: curl
           source: >
             curl -X GET \
-              'http://your-mattermost-url.com/api/v4/channels/3wyp678obid8pggjmhmhwpah1r/member_counts_by_group?include_timezones=true' \
+              'http://your-grommunio-chat-url.com/api/v4/channels/3wyp678obid8pggjmhmhwpah1r/member_counts_by_group?include_timezones=true' \
               -H 'Authorization: Bearer kno8tcdotpbx3dj1gzcbx9jrqy' \
               -H 'Content-Type: application/json' \
               -H 'X-Requested-With: XMLHttpRequest'

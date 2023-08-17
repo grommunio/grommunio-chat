@@ -176,7 +176,7 @@
           source: |
             import "github.com/mattermost/mattermost-server/v5/model"
 
-            Client := model.NewAPIv4Client("https://your-mattermost-url.com")
+            Client := model.NewAPIv4Client("https://your-grommunio-chat-url.com")
 
             user := &model.User{
                 Username: "username",
@@ -193,7 +193,7 @@
 
             $container = new \Pimple\Container([
                 "driver" => [
-                    "url" => "https://your-mattermost-url.com",
+                    "url" => "https://your-grommunio-chat-url.com",
                     "login_id" => "email@domain.com",
                     "password" => "Password1",
                 ]
@@ -387,7 +387,7 @@
             import "github.com/mattermost/mattermost-server/v5/model"
 
 
-            Client := model.NewAPIv4Client("https://your-mattermost-url.com")
+            Client := model.NewAPIv4Client("https://your-grommunio-chat-url.com")
 
             Client.Login("email@domain.com", "Password1")
 
@@ -414,7 +414,7 @@
 
             $container = new \Pimple\Container([
                 "driver" => [
-                    "url" => "https://your-mattermost-url.com",
+                    "url" => "https://your-grommunio-chat-url.com",
                     "login_id" => "email@domain.com",
                     "password" => "Password1",
                 ]
@@ -627,7 +627,7 @@
             import "github.com/mattermost/mattermost-server/v5/model"
 
 
-            Client := model.NewAPIv4Client("https://your-mattermost-url.com")
+            Client := model.NewAPIv4Client("https://your-grommunio-chat-url.com")
 
             Client.Login("email@domain.com", "Password1")
 
@@ -641,7 +641,7 @@
 
             $container = new \Pimple\Container([
                 "driver" => [
-                    "url" => "https://your-mattermost-url.com",
+                    "url" => "https://your-grommunio-chat-url.com",
                     "login_id" => "email@domain.com",
                     "password" => "Password1",
                 ]
@@ -744,7 +744,7 @@
           source: |
             import "github.com/mattermost/mattermost-server/v5/model"
 
-            Client := model.NewAPIv4Client("https://your-mattermost-url.com")
+            Client := model.NewAPIv4Client("https://your-grommunio-chat-url.com")
             Client.Login("email@domain.com", "Password1")
 
             teamID := "4xp9fdt77pncbef59f4k1qe83o"
@@ -771,7 +771,7 @@
 
             $container = new \Pimple\Container([
                 "driver" => [
-                    "url" => "https://your-mattermost-url.com",
+                    "url" => "https://your-grommunio-chat-url.com",
                     "login_id" => "email@domain.com",
                     "password" => "Password1",
                 ]
@@ -859,7 +859,7 @@
             import "github.com/mattermost/mattermost-server/v5/model"
 
 
-            Client := model.NewAPIv4Client("https://your-mattermost-url.com")
+            Client := model.NewAPIv4Client("https://your-grommunio-chat-url.com")
 
             Client.Login("email@domain.com", "Password1")
 
@@ -880,7 +880,7 @@
 
             $container = new \Pimple\Container([
                 "driver" => [
-                    "url" => "https://your-mattermost-url.com",
+                    "url" => "https://your-grommunio-chat-url.com",
                     "login_id" => "email@domain.com",
                     "password" => "Password1",
                  ]
@@ -932,7 +932,7 @@
           source: |
             import "github.com/mattermost/mattermost-server/v5/model"
 
-            Client := model.NewAPIv4Client("https://your-mattermost-url.com")
+            Client := model.NewAPIv4Client("https://your-grommunio-chat-url.com")
             Client.Login("email@domain.com", "Password1")
 
             userIds, resp := Client.GetKnownUsers()
@@ -967,7 +967,7 @@
           source: |
             import "github.com/mattermost/mattermost-server/v5/model"
 
-            Client := model.NewAPIv4Client("https://your-mattermost-url.com")
+            Client := model.NewAPIv4Client("https://your-grommunio-chat-url.com")
             Client.Login("email@domain.com", "Password1")
 
             stats, resp := Client.GetTotalUsersStats("")
@@ -979,7 +979,7 @@
 
             $container = new \Pimple\Container([
                 "driver" => [
-                    "url" => "https://your-mattermost-url.com",
+                    "url" => "https://your-grommunio-chat-url.com",
                     "login_id" => "email@domain.com",
                     "password" => "Password1",
                  ]
@@ -1104,7 +1104,7 @@
           source: |
             import "github.com/mattermost/mattermost-server/v5/model"
 
-            Client := model.NewAPIv4Client("https://your-mattermost-url.com")
+            Client := model.NewAPIv4Client("https://your-grommunio-chat-url.com")
             Client.Login("email@domain.com", "Password1")
 
             userID := "4xp9fdt77pncbef59f4k1qe83o"
@@ -1118,7 +1118,7 @@
 
             $container = new \Pimple\Container([
                 "driver" => [
-                    "url" => "https://your-mattermost-url.com",
+                    "url" => "https://your-grommunio-chat-url.com",
                     "login_id" => "email@domain.com",
                     "password" => "Password1",
                   ]
@@ -1207,7 +1207,7 @@
           source: |
             import "github.com/mattermost/mattermost-server/v5/model"
 
-            Client := model.NewAPIv4Client("https://your-mattermost-url.com")
+            Client := model.NewAPIv4Client("https://your-grommunio-chat-url.com")
             Client.Login("email@domain.com", "Password1")
 
             userID := "4xp9fdt77pncbef59f4k1qe83o"
@@ -1243,7 +1243,7 @@
 
             $container = new \Pimple\Container([
                 "driver" => [
-                    "url" => "https://your-mattermost-url.com",
+                    "url" => "https://your-grommunio-chat-url.com",
                     "login_id" => "email@domain.com",
                     "password" => "Password1",
                   ]
@@ -1322,7 +1322,7 @@
           source: |
             import "github.com/mattermost/mattermost-server/v5/model"
 
-            Client := model.NewAPIv4Client("https://your-mattermost-url.com")
+            Client := model.NewAPIv4Client("https://your-grommunio-chat-url.com")
             Client.Login("email@domain.com", "Password1")
 
             userID := "4xp9fdt77pncbef59f4k1qe83o"
@@ -1336,7 +1336,7 @@
 
             $container = new \Pimple\Container([
                 "driver" => [
-                    "url" => "https://your-mattermost-url.com",
+                    "url" => "https://your-grommunio-chat-url.com",
                     "login_id" => "email@domain.com",
                     "password" => "Password1",
                   ]
@@ -1417,7 +1417,7 @@
           source: |
             import "github.com/mattermost/mattermost-server/v5/model"
 
-            Client := model.NewAPIv4Client("https://your-mattermost-url.com")
+            Client := model.NewAPIv4Client("https://your-grommunio-chat-url.com")
             Client.Login("email@domain.com", "Password1")
 
             userID := "4xp9fdt77pncbef59f4k1qe83o"
@@ -1444,7 +1444,7 @@
 
             $container = new \Pimple\Container([
                 "driver" => [
-                    "url" => "https://your-mattermost-url.com",
+                    "url" => "https://your-grommunio-chat-url.com",
                     "login_id" => "email@domain.com",
                     "password" => "Password1",
                   ]
@@ -1532,7 +1532,7 @@
           source: |
             import "github.com/mattermost/mattermost-server/v5/model"
 
-            Client := model.NewAPIv4Client("https://your-mattermost-url.com")
+            Client := model.NewAPIv4Client("https://your-grommunio-chat-url.com")
             Client.Login("email@domain.com", "Password1")
 
             userID := "4xp9fdt77pncbef59f4k1qe83o"
@@ -1547,7 +1547,7 @@
 
             $container = new \Pimple\Container([
                 "driver" => [
-                    "url" => "https://your-mattermost-url.com",
+                    "url" => "https://your-grommunio-chat-url.com",
                     "login_id" => "email@domain.com",
                     "password" => "Password1",
                   ]
@@ -1620,7 +1620,7 @@
           source: |
             import "github.com/mattermost/mattermost-server/v5/model"
 
-            Client := model.NewAPIv4Client("https://your-mattermost-url.com")
+            Client := model.NewAPIv4Client("https://your-grommunio-chat-url.com")
             Client.Login("email@domain.com", "Password1")
 
             userID := "4xp9fdt77pncbef59f4k1qe83o"
@@ -1634,7 +1634,7 @@
 
             $container = new \Pimple\Container([
                 "driver" => [
-                    "url" => "https://your-mattermost-url.com",
+                    "url" => "https://your-grommunio-chat-url.com",
                     "login_id" => "email@domain.com",
                     "password" => "Password1",
                   ]
@@ -1693,7 +1693,7 @@
           source: |
             import "github.com/mattermost/mattermost-server/v5/model"
 
-            Client := model.NewAPIv4Client("https://your-mattermost-url.com")
+            Client := model.NewAPIv4Client("https://your-grommunio-chat-url.com")
             Client.Login("email@domain.com", "Password1")
 
             userID := "4xp9fdt77pncbef59f4k1qe83o"
@@ -1707,7 +1707,7 @@
 
             $container = new \Pimple\Container([
                 "driver" => [
-                    "url" => "https://your-mattermost-url.com",
+                    "url" => "https://your-grommunio-chat-url.com",
                     "login_id" => "email@domain.com",
                     "password" => "Password1",
                   ]
@@ -1780,7 +1780,7 @@
               "github.com/mattermost/mattermost-server/v5/model"
             )
 
-            Client := model.NewAPIv4Client("https://your-mattermost-url.com")
+            Client := model.NewAPIv4Client("https://your-grommunio-chat-url.com")
             Client.Login("email@domain.com", "Password1")
 
             data, err := ioutil.ReadFile("profile_pic.png")
@@ -1799,7 +1799,7 @@
 
             $container = new \Pimple\Container([
                 "driver" => [
-                    "url" => "https://your-mattermost-url.com",
+                    "url" => "https://your-grommunio-chat-url.com",
                     "login_id" => "email@domain.com",
                     "password" => "Password1",
                   ]
@@ -1870,7 +1870,7 @@
             import "github.com/mattermost/mattermost-server/v5/model"
 
 
-            Client := model.NewAPIv4Client("https://your-mattermost-url.com")
+            Client := model.NewAPIv4Client("https://your-grommunio-chat-url.com")
 
             Client.Login("email@domain.com", "Password1")
 
@@ -1889,7 +1889,7 @@
 
             $container = new \Pimple\Container([
                 "driver" => [
-                    "url" => "https://your-mattermost-url.com",
+                    "url" => "https://your-grommunio-chat-url.com",
                     "login_id" => "email@domain.com",
                     "password" => "Password1",
                   ]
@@ -1945,7 +1945,7 @@
           source: |
             import "github.com/mattermost/mattermost-server/v5/model"
 
-            Client := model.NewAPIv4Client("https://your-mattermost-url.com")
+            Client := model.NewAPIv4Client("https://your-grommunio-chat-url.com")
             Client.Login("email@domain.com", "Password1")
 
             userID := "4xp9fdt77pncbef59f4k1qe83o"
@@ -1959,7 +1959,7 @@
 
             $container = new \Pimple\Container([
                 "driver" => [
-                    "url" => "https://your-mattermost-url.com",
+                    "url" => "https://your-grommunio-chat-url.com",
                     "login_id" => "email@domain.com",
                     "password" => "Password1",
                   ]
@@ -2013,7 +2013,7 @@
           source: |
             import "github.com/mattermost/mattermost-server/v5/model"
 
-            Client := model.NewAPIv4Client("https://your-mattermost-url.com")
+            Client := model.NewAPIv4Client("https://your-grommunio-chat-url.com")
             Client.Login("email@domain.com", "Password1")
 
             userID := "4xp9fdt77pncbef59f4k1qe83o"
@@ -2027,7 +2027,7 @@
 
             $container = new \Pimple\Container([
                 "driver" => [
-                    "url" => "https://your-mattermost-url.com",
+                    "url" => "https://your-grommunio-chat-url.com",
                     "login_id" => "email@domain.com",
                     "password" => "Password1",
                   ]
@@ -2090,7 +2090,7 @@
           source: |
             import "github.com/mattermost/mattermost-server/v5/model"
 
-            Client := model.NewAPIv4Client("https://your-mattermost-url.com")
+            Client := model.NewAPIv4Client("https://your-grommunio-chat-url.com")
             Client.Login("email@domain.com", "Password1")
 
             code := "4xp9fdt77pncbef59f4k1qe83o"
@@ -2105,7 +2105,7 @@
 
             $container = new \Pimple\Container([
                 "driver" => [
-                    "url" => "https://your-mattermost-url.com",
+                    "url" => "https://your-grommunio-chat-url.com",
                     "login_id" => "email@domain.com",
                     "password" => "Password1",
                   ]
@@ -2182,7 +2182,7 @@
           source: |
             import "github.com/mattermost/mattermost-server/v5/model"
 
-            Client := model.NewAPIv4Client("https://your-mattermost-url.com")
+            Client := model.NewAPIv4Client("https://your-grommunio-chat-url.com")
             Client.Login("email@domain.com", "Password1")
 
             userID := "BbaYBYDV5IDOZFiJGBSzkw1k5u"
@@ -2197,7 +2197,7 @@
 
             $container = new \Pimple\Container([
                 "driver" => [
-                    "url" => "https://your-mattermost-url.com",
+                    "url" => "https://your-grommunio-chat-url.com",
                     "login_id" => "email@domain.com",
                     "password" => "Password1",
                   ]
@@ -2266,7 +2266,7 @@
           source: |
             import "github.com/mattermost/mattermost-server/v5/model"
 
-            Client := model.NewAPIv4Client("https://your-mattermost-url.com")
+            Client := model.NewAPIv4Client("https://your-grommunio-chat-url.com")
             Client.Login("email@domain.com", "Password1")
 
             userID := "BbaYBYDV5IDOZFiJGBSzkw1k5u"
@@ -2280,7 +2280,7 @@
 
             $container = new \Pimple\Container([
                 "driver" => [
-                    "url" => "https://your-mattermost-url.com",
+                    "url" => "https://your-grommunio-chat-url.com",
                     "login_id" => "email@domain.com",
                     "password" => "Password1",
                   ]
@@ -2340,7 +2340,7 @@
           source: |
             import "github.com/mattermost/mattermost-server/v5/model"
 
-            Client := model.NewAPIv4Client("https://your-mattermost-url.com")
+            Client := model.NewAPIv4Client("https://your-grommunio-chat-url.com")
             Client.Login("email@domain.com", "Password1")
 
             userID := "BbaYBYDV5IDOZFiJGBSzkw1k5u"
@@ -2354,7 +2354,7 @@
 
             $container = new \Pimple\Container([
                 "driver" => [
-                    "url" => "https://your-mattermost-url.com",
+                    "url" => "https://your-grommunio-chat-url.com",
                     "login_id" => "email@domain.com",
                     "password" => "Password1",
                   ]
@@ -2414,7 +2414,7 @@
           source: |
             import "github.com/mattermost/mattermost-server/v5/model"
 
-            Client := model.NewAPIv4Client("https://your-mattermost-url.com")
+            Client := model.NewAPIv4Client("https://your-grommunio-chat-url.com")
             Client.Login("email@domain.com", "Password1")
 
             userID := "BbaYBYDV5IDOZFiJGBSzkw1k5u"
@@ -2428,7 +2428,7 @@
 
             $container = new \Pimple\Container([
                 "driver" => [
-                    "url" => "https://your-mattermost-url.com",
+                    "url" => "https://your-grommunio-chat-url.com",
                     "login_id" => "email@domain.com",
                     "password" => "Password1",
                   ]
@@ -2485,7 +2485,7 @@
           source: |
             import "github.com/mattermost/mattermost-server/v5/model"
 
-            Client := model.NewAPIv4Client("https://your-mattermost-url.com")
+            Client := model.NewAPIv4Client("https://your-grommunio-chat-url.com")
 
             userId := "BbaYBYDV5IDOZFiJGBSzkw1k5u"
 
@@ -2534,7 +2534,7 @@
           source: |
             import "github.com/mattermost/mattermost-server/v5/model"
 
-            Client := model.NewAPIv4Client("https://your-mattermost-url.com")
+            Client := model.NewAPIv4Client("https://your-grommunio-chat-url.com")
 
             loginID := "test@domain.com"
 
@@ -2547,7 +2547,7 @@
 
             $container = new \Pimple\Container([
                 "driver" => [
-                    "url" => "https://your-mattermost-url.com",
+                    "url" => "https://your-grommunio-chat-url.com",
                     "login_id" => "email@domain.com",
                     "password" => "Password1",
                 ]
@@ -2620,7 +2620,7 @@
             import "github.com/mattermost/mattermost-server/v5/model"
 
 
-            Client := model.NewAPIv4Client("https://your-mattermost-url.com")
+            Client := model.NewAPIv4Client("https://your-grommunio-chat-url.com")
 
             Client.Login("email@domain.com", "Password1")
 
@@ -2641,7 +2641,7 @@
 
             $container = new \Pimple\Container([
                 "driver" => [
-                    "url" => "https://your-mattermost-url.com",
+                    "url" => "https://your-grommunio-chat-url.com",
                     "login_id" => "email@domain.com",
                     "password" => "Password1",
                   ]
@@ -2706,7 +2706,7 @@
           source: |
             import "github.com/mattermost/mattermost-server/v5/model"
 
-            Client := model.NewAPIv4Client("https://your-mattermost-url.com")
+            Client := model.NewAPIv4Client("https://your-grommunio-chat-url.com")
 
             email := "test@domain.com"
 
@@ -2719,7 +2719,7 @@
 
             $container = new \Pimple\Container([
                 "driver" => [
-                    "url" => "https://your-mattermost-url.com",
+                    "url" => "https://your-grommunio-chat-url.com",
                     "login_id" => "email@domain.com",
                     "password" => "Password1",
                   ]
@@ -2777,7 +2777,7 @@
           source: |
             import "github.com/mattermost/mattermost-server/v5/model"
 
-            Client := model.NewAPIv4Client("https://your-mattermost-url.com")
+            Client := model.NewAPIv4Client("https://your-grommunio-chat-url.com")
             Client.Login("email@domain.com", "Password1")
 
             email := "test@domain.com"
@@ -2791,7 +2791,7 @@
 
             $container = new \Pimple\Container([
                 "driver" => [
-                    "url" => "https://your-mattermost-url.com",
+                    "url" => "https://your-grommunio-chat-url.com",
                     "login_id" => "email@domain.com",
                     "password" => "Password1",
                   ]
@@ -2847,7 +2847,7 @@
           source: |
             import "github.com/mattermost/mattermost-server/v5/model"
 
-            Client := model.NewAPIv4Client("https://your-mattermost-url.com")
+            Client := model.NewAPIv4Client("https://your-grommunio-chat-url.com")
             Client.Login("email@domain.com", "Password1")
 
             userID := "zWEyrTZ7GZ22aBSfoX60iWryTY"
@@ -2861,7 +2861,7 @@
 
             $container = new \Pimple\Container([
                 "driver" => [
-                    "url" => "https://your-mattermost-url.com",
+                    "url" => "https://your-grommunio-chat-url.com",
                     "login_id" => "email@domain.com",
                     "password" => "Password1",
                   ]
@@ -2926,7 +2926,7 @@
           source: |
             import "github.com/mattermost/mattermost-server/v5/model"
 
-            Client := model.NewAPIv4Client("https://your-mattermost-url.com")
+            Client := model.NewAPIv4Client("https://your-grommunio-chat-url.com")
             Client.Login("email@domain.com", "Password1")
 
             userID := "zWEyrTZ7GZ22aBSfoX60iWryTY"
@@ -2941,7 +2941,7 @@
 
             $container = new \Pimple\Container([
                 "driver" => [
-                    "url" => "https://your-mattermost-url.com",
+                    "url" => "https://your-grommunio-chat-url.com",
                     "login_id" => "email@domain.com",
                     "password" => "Password1",
                   ]
@@ -3000,7 +3000,7 @@
           source: |
             import "github.com/mattermost/mattermost-server/v5/model"
 
-            Client := model.NewAPIv4Client("https://your-mattermost-url.com")
+            Client := model.NewAPIv4Client("https://your-grommunio-chat-url.com")
             Client.Login("email@domain.com", "Password1")
 
             userID := "zWEyrTZ7GZ22aBSfoX60iWryTY"
@@ -3014,7 +3014,7 @@
 
             $container = new \Pimple\Container([
                 "driver" => [
-                    "url" => "https://your-mattermost-url.com",
+                    "url" => "https://your-grommunio-chat-url.com",
                     "login_id" => "email@domain.com",
                     "password" => "Password1",
                   ]
@@ -3072,7 +3072,7 @@
           source: |
             import "github.com/mattermost/mattermost-server/v5/model"
 
-            Client := model.NewAPIv4Client("https://your-mattermost-url.com")
+            Client := model.NewAPIv4Client("https://your-grommunio-chat-url.com")
             Client.Login("email@domain.com", "Password1")
 
             deviceID := "zWEyrTZ7GZ22aBSfoX60iWryTY"
@@ -3086,7 +3086,7 @@
 
             $container = new \Pimple\Container([
                 "driver" => [
-                    "url" => "https://your-mattermost-url.com",
+                    "url" => "https://your-grommunio-chat-url.com",
                     "login_id" => "email@domain.com",
                     "password" => "Password1",
                   ]
@@ -3141,7 +3141,7 @@
           source: |
             import "github.com/mattermost/mattermost-server/v5/model"
 
-            Client := model.NewAPIv4Client("https://your-mattermost-url.com")
+            Client := model.NewAPIv4Client("https://your-grommunio-chat-url.com")
             Client.Login("email@domain.com", "Password1")
 
             userID := "zWEyrTZ7GZ22aBSfoX60iWryTY"
@@ -3155,7 +3155,7 @@
 
             $container = new \Pimple\Container([
                 "driver" => [
-                    "url" => "https://your-mattermost-url.com",
+                    "url" => "https://your-grommunio-chat-url.com",
                     "login_id" => "email@domain.com",
                     "password" => "Password1",
                   ]
@@ -3210,7 +3210,7 @@
           source: |
             import "github.com/mattermost/mattermost-server/v5/model"
 
-            Client := model.NewAPIv4Client("https://your-mattermost-url.com")
+            Client := model.NewAPIv4Client("https://your-grommunio-chat-url.com")
             Client.Login("email@domain.com", "Password1")
 
             userID := "BbaYBYDV5IDOZFiJGBSzkw1k5u
@@ -3252,7 +3252,7 @@
           source: |
             import "github.com/mattermost/mattermost-server/v5/model"
 
-            Client := model.NewAPIv4Client("https://your-mattermost-url.com")
+            Client := model.NewAPIv4Client("https://your-grommunio-chat-url.com")
 
             token := "zWEyrTZ7GZ22aBSfoX60iWryTY"
 
@@ -3265,7 +3265,7 @@
 
             $container = new \Pimple\Container([
                 "driver" => [
-                    "url" => "https://your-mattermost-url.com",
+                    "url" => "https://your-grommunio-chat-url.com",
                     "login_id" => "email@domain.com",
                     "password" => "Password1",
                   ]
@@ -3323,7 +3323,7 @@
           source: |
             import "github.com/mattermost/mattermost-server/v5/model"
 
-            Client := model.NewAPIv4Client("https://your-mattermost-url.com")
+            Client := model.NewAPIv4Client("https://your-grommunio-chat-url.com")
 
             email := "test@domain.com"
 
@@ -3336,7 +3336,7 @@
 
             $container = new \Pimple\Container([
                 "driver" => [
-                    "url" => "https://your-mattermost-url.com",
+                    "url" => "https://your-grommunio-chat-url.com",
                     "login_id" => "email@domain.com",
                     "password" => "Password1",
                   ]
@@ -3441,7 +3441,7 @@
           source: |
             import "github.com/mattermost/mattermost-server/v5/model"
 
-            Client := model.NewAPIv4Client("https://your-mattermost-url.com")
+            Client := model.NewAPIv4Client("https://your-grommunio-chat-url.com")
 
             currentService := "email"
             newService := "gitlab"
@@ -3467,7 +3467,7 @@
 
             $container = new \Pimple\Container([
                 "driver" => [
-                    "url" => "https://your-mattermost-url.com",
+                    "url" => "https://your-grommunio-chat-url.com",
                     "login_id" => "email@domain.com",
                     "password" => "Password1",
                   ]
@@ -3550,7 +3550,7 @@
             import "github.com/mattermost/mattermost-server/v5/model"
 
 
-            Client := model.NewAPIv4Client("https://your-mattermost-url.com")
+            Client := model.NewAPIv4Client("https://your-grommunio-chat-url.com")
 
             Client.Login("email@domain.com", "Password1")
 
@@ -3567,7 +3567,7 @@
 
             $container = new \Pimple\Container([
                 "driver" => [
-                    "url" => "https://your-mattermost-url.com",
+                    "url" => "https://your-grommunio-chat-url.com",
                     "login_id" => "email@domain.com",
                     "password" => "Password1",
                   ]
@@ -3640,7 +3640,7 @@
           source: |
             import "github.com/mattermost/mattermost-server/v5/model"
 
-            Client := model.NewAPIv4Client("https://your-mattermost-url.com")
+            Client := model.NewAPIv4Client("https://your-grommunio-chat-url.com")
             Client.Login("email@domain.com", "Password1")
 
             userID := "adWv1qPZmHdtxk7Lmqh6RtxWxS"
@@ -3654,7 +3654,7 @@
 
             $container = new \Pimple\Container([
                 "driver" => [
-                    "url" => "https://your-mattermost-url.com",
+                    "url" => "https://your-grommunio-chat-url.com",
                     "login_id" => "email@domain.com",
                     "password" => "Password1",
                   ]
@@ -3724,7 +3724,7 @@
           source: |
             import "github.com/mattermost/mattermost-server/v5/model"
 
-            Client := model.NewAPIv4Client("https://your-mattermost-url.com")
+            Client := model.NewAPIv4Client("https://your-grommunio-chat-url.com")
             Client.Login("email@domain.com", "Password1")
 
             tokens, resp := Client.GetUserAccessTokens(0, 100)
@@ -3774,7 +3774,7 @@
           source: |
             import "github.com/mattermost/mattermost-server/v5/model"
 
-            Client := model.NewAPIv4Client("https://your-mattermost-url.com")
+            Client := model.NewAPIv4Client("https://your-grommunio-chat-url.com")
             Client.Login("email@domain.com", "Password1")
 
             tokenID := "adWv1qPZmHdtxk7Lmqh6RtxWxS"
@@ -3788,7 +3788,7 @@
 
             $container = new \Pimple\Container([
                 "driver" => [
-                    "url" => "https://your-mattermost-url.com",
+                    "url" => "https://your-grommunio-chat-url.com",
                     "login_id" => "email@domain.com",
                     "password" => "Password1",
                   ]
@@ -3850,7 +3850,7 @@
           source: |
             import "github.com/mattermost/mattermost-server/v5/model"
 
-            Client := model.NewAPIv4Client("https://your-mattermost-url.com")
+            Client := model.NewAPIv4Client("https://your-grommunio-chat-url.com")
             Client.Login("email@domain.com", "Password1")
 
             tokenID := "adWv1qPZmHdtxk7Lmqh6RtxWxS"
@@ -3864,7 +3864,7 @@
 
             $container = new \Pimple\Container([
                 "driver" => [
-                    "url" => "https://your-mattermost-url.com",
+                    "url" => "https://your-grommunio-chat-url.com",
                     "login_id" => "email@domain.com",
                     "password" => "Password1",
                   ]
@@ -3927,7 +3927,7 @@
           source: |
             import "github.com/mattermost/mattermost-server/v5/model"
 
-            Client := model.NewAPIv4Client("https://your-mattermost-url.com")
+            Client := model.NewAPIv4Client("https://your-grommunio-chat-url.com")
             Client.Login("email@domain.com", "Password1")
 
             tokenID := "adWv1qPZmHdtxk7Lmqh6RtxWxS"
@@ -3941,7 +3941,7 @@
 
             $container = new \Pimple\Container([
                 "driver" => [
-                    "url" => "https://your-mattermost-url.com",
+                    "url" => "https://your-grommunio-chat-url.com",
                     "login_id" => "email@domain.com",
                     "password" => "Password1",
                   ]
@@ -4005,7 +4005,7 @@
           source: |
             import "github.com/mattermost/mattermost-server/v5/model"
 
-            Client := model.NewAPIv4Client("https://your-mattermost-url.com")
+            Client := model.NewAPIv4Client("https://your-grommunio-chat-url.com")
             Client.Login("email@domain.com", "Password1")
 
             tokenID := "adWv1qPZmHdtxk7Lmqh6RtxWxS"
@@ -4019,7 +4019,7 @@
 
             $container = new \Pimple\Container([
                 "driver" => [
-                    "url" => "https://your-mattermost-url.com",
+                    "url" => "https://your-grommunio-chat-url.com",
                     "login_id" => "email@domain.com",
                     "password" => "Password1",
                   ]
@@ -4083,7 +4083,7 @@
             import "github.com/mattermost/mattermost-server/v5/model"
 
 
-            Client := model.NewAPIv4Client("https://your-mattermost-url.com")
+            Client := model.NewAPIv4Client("https://your-grommunio-chat-url.com")
 
             Client.Login("email@domain.com", "Password1")
 
@@ -4100,7 +4100,7 @@
 
             $container = new \Pimple\Container([
                 "driver" => [
-                    "url" => "https://your-mattermost-url.com",
+                    "url" => "https://your-grommunio-chat-url.com",
                     "login_id" => "email@domain.com",
                     "password" => "Password1",
                   ]
@@ -4167,7 +4167,7 @@
           source: |
             import "github.com/mattermost/mattermost-server/v5/model"
 
-            Client := model.NewAPIv4Client("https://your-mattermost-url.com")
+            Client := model.NewAPIv4Client("https://your-grommunio-chat-url.com")
             Client.Login("email@domain.com", "Password1")
 
             userID := "adWv1qPZmHdtxk7Lmqh6RtxWxS"
@@ -4185,7 +4185,7 @@
 
             $container = new \Pimple\Container([
                 "driver" => [
-                    "url" => "https://your-mattermost-url.com",
+                    "url" => "https://your-grommunio-chat-url.com",
                     "login_id" => "email@domain.com",
                     "password" => "Password1",
                   ]
@@ -4275,7 +4275,7 @@
             import "github.com/mattermost/mattermost-server/v5/model"
 
 
-            Client := model.NewAPIv4Client("https://your-mattermost-url.com")
+            Client := model.NewAPIv4Client("https://your-grommunio-chat-url.com")
 
             Client.Login("email@domain.com", "Password1")
 
@@ -4333,7 +4333,7 @@
           source: |
             import "github.com/mattermost/mattermost-server/v5/model"
 
-            Client := model.NewAPIv4Client("https://your-mattermost-url.com")
+            Client := model.NewAPIv4Client("https://your-grommunio-chat-url.com")
             Client.Login("email@domain.com", "Password1")
 
             userID := "adWv1qPZmHdtxk7Lmqh6RtxWxS"
@@ -4370,7 +4370,7 @@
           source: |
             import "github.com/mattermost/mattermost-server/v5/model"
 
-            Client := model.NewAPIv4Client("https://your-mattermost-url.com")
+            Client := model.NewAPIv4Client("https://your-grommunio-chat-url.com")
             Client.Login("email@domain.com", "Password1")
 
             response, err := Client.RevokeSessionsFromAllUsers()
@@ -4425,7 +4425,7 @@
           source: |
             import "github.com/mattermost/mattermost-server/v5/model"
 
-            Client := model.NewAPIv4Client("https://your-mattermost-url.com")
+            Client := model.NewAPIv4Client("https://your-grommunio-chat-url.com")
             Client.Login("email@domain.com", "Password1")
 
             ok, response := Client.PublishUserTyping(userID, TypingRequest{
@@ -4474,7 +4474,7 @@
             import "github.com/mattermost/mattermost-server/v5/model"
 
 
-            Client := model.NewAPIv4Client("https://your-mattermost-url.com")
+            Client := model.NewAPIv4Client("https://your-grommunio-chat-url.com")
 
             Client.Login("email@domain.com", "Password1")
 
@@ -4537,7 +4537,7 @@
             import "github.com/mattermost/mattermost-server/v5/model"
 
 
-            Client := model.NewAPIv4Client("https://your-mattermost-url.com")
+            Client := model.NewAPIv4Client("https://your-grommunio-chat-url.com")
 
             Client.Login("email@domain.com", "Password1")
 
@@ -4600,7 +4600,7 @@
           source: |
             import "github.com/mattermost/mattermost-server/v5/model"
 
-            Client := model.NewAPIv4Client("https://your-mattermost-url.com")
+            Client := model.NewAPIv4Client("https://your-grommunio-chat-url.com")
             Client.Login("sysadmin@domain.com", "Password1")
 
             ok, response := Client.MigrateAuthToLdap(fromAuthService, matchField, force)
@@ -4658,7 +4658,7 @@
             source: |
               import "github.com/mattermost/mattermost-server/v5/model"
 
-              Client := model.NewAPIv4Client("https://your-mattermost-url.com")
+              Client := model.NewAPIv4Client("https://your-grommunio-chat-url.com")
               Client.Login("sysadmin@domain.com", "Password1")
 
               ok, response := Client.MigrateAuthToSaml(fromAuthService, usersMap, auto)
@@ -4756,7 +4756,7 @@
         source: >
           import "github.com/mattermost/mattermost-server/v5/model"
 
-          Client := model.NewAPIv4Client("https://your-mattermost-url.com")
+          Client := model.NewAPIv4Client("https://your-grommunio-chat-url.com")
           Client.Login("email@domain.com", "Password1")
 
           uss, response := Client.GetUserThreads("fc6suoon9pbbpmhrb9c967paxe", "fc6su111111pmhrb9c967paxe", model.GetUserThreadsOpts{
@@ -4811,7 +4811,7 @@
           import "github.com/mattermost/mattermost-server/v5/model"
 
 
-          Client := model.NewAPIv4Client("https://your-mattermost-url.com")
+          Client := model.NewAPIv4Client("https://your-grommunio-chat-url.com")
 
           Client.Login("email@domain.com", "Password1")
 
@@ -4861,7 +4861,7 @@
           import "github.com/mattermost/mattermost-server/v5/model"
 
 
-          Client := model.NewAPIv4Client("https://your-mattermost-url.com")
+          Client := model.NewAPIv4Client("https://your-grommunio-chat-url.com")
 
           Client.Login("email@domain.com", "Password1")
 
@@ -4923,7 +4923,7 @@
             import "github.com/mattermost/mattermost-server/v5/model"
 
 
-            Client := model.NewAPIv4Client("https://your-mattermost-url.com")
+            Client := model.NewAPIv4Client("https://your-grommunio-chat-url.com")
 
             Client.Login("email@domain.com", "Password1")
 
@@ -4987,7 +4987,7 @@
             import "github.com/mattermost/mattermost-server/v5/model"
 
 
-            Client := model.NewAPIv4Client("https://your-mattermost-url.com")
+            Client := model.NewAPIv4Client("https://your-grommunio-chat-url.com")
 
             Client.Login("email@domain.com", "Password1")
 
@@ -5043,7 +5043,7 @@
             import "github.com/mattermost/mattermost-server/v5/model"
 
 
-            Client := model.NewAPIv4Client("https://your-mattermost-url.com")
+            Client := model.NewAPIv4Client("https://your-grommunio-chat-url.com")
 
             Client.Login("email@domain.com", "Password1")
 
@@ -5098,7 +5098,7 @@
             import "github.com/mattermost/mattermost-server/v5/model"
 
 
-            Client := model.NewAPIv4Client("https://your-mattermost-url.com")
+            Client := model.NewAPIv4Client("https://your-grommunio-chat-url.com")
 
             Client.Login("email@domain.com", "Password1")
 
@@ -5154,7 +5154,7 @@
             import "github.com/mattermost/mattermost-server/v5/model"
 
 
-            Client := model.NewAPIv4Client("https://your-mattermost-url.com")
+            Client := model.NewAPIv4Client("https://your-grommunio-chat-url.com")
 
             Client.Login("email@domain.com", "Password1")
 

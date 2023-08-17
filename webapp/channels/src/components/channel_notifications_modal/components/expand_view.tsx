@@ -369,7 +369,7 @@ export default function ExpandView({
                     <div className='mt-5'>
                         <FormattedMessage
                             id='channel_notifications.sound_info'
-                            defaultMessage='Notification sounds are available on Firefox, Edge, Safari, Chrome and Mattermost Desktop Apps.'
+                            defaultMessage='Notification sounds are available on Firefox, Edge, Safari, Chrome and grommunio-chat Desktop Apps.'
                         />
                     </div>
                 </fieldset>

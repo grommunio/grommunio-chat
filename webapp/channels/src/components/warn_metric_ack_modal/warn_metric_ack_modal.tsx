@@ -107,12 +107,12 @@ export default class WarnMetricAckModal extends React.PureComponent<Props, State
         }
 
         const mailRecipient = 'support-advisor@mattermost.com';
-        const mailSubject = 'Mattermost Contact Us request';
-        let mailBody = 'Mattermost Contact Us request.';
+        const mailSubject = 'grommunio-chat Contact Us request';
+        let mailBody = 'grommunio-chat Contact Us request.';
         if (this.props.warnMetricStatus.id === WarnMetricTypes.SYSTEM_WARN_METRIC_NUMBER_OF_ACTIVE_USERS_500) {
-            mailBody = 'Mattermost Contact Us request.\r\nMy team now has 500 users, and I am considering Mattermost Enterprise Edition.';
+            mailBody = 'grommunio-chat Contact Us request.\r\nMy team now has 500 users, and I am considering grommunio-chat Enterprise Edition.';
         } else if (this.props.warnMetricStatus.id === WarnMetricTypes.SYSTEM_WARN_METRIC_NUMBER_OF_POSTS_2M) {
-            mailBody = 'Mattermost Contact Us request.\r\nI am interested in learning more about improving performance with Elasticsearch.';
+            mailBody = 'grommunio-chat Contact Us request.\r\nI am interested in learning more about improving performance with Elasticsearch.';
         }
 
         mailBody += '\r\n';
@@ -131,7 +131,7 @@ export default class WarnMetricAckModal extends React.PureComponent<Props, State
         mailBody += 'Telemetry Id ' + this.props.telemetryId;
         mailBody += '\r\n';
 
-        mailBody += 'If you have any additional inquiries, please contact support@mattermost.com';
+        mailBody += 'If you have any additional inquiries, please contact support@grommunio.com';
 
         const mailToLinkText = 'mailto:' + mailRecipient + '?cc=' + this.props.user.email + '&subject=' + encodeURIComponent(mailSubject) + '&body=' + encodeURIComponent(mailBody);
 
@@ -184,7 +184,7 @@ export default class WarnMetricAckModal extends React.PureComponent<Props, State
             descriptionText = (
                 <FormattedMessage
                     id='warn_metric_ack_modal.number_of_active_users.description'
-                    defaultMessage='Mattermost strongly recommends that deployments of over {limit}} users take advantage of features such as user management, server clustering, and performance monitoring. Contact us to learn more and let us know how we can help.'
+                    defaultMessage='grommunio-chat strongly recommends that deployments of over {limit}} users take advantage of features such as user management, server clustering, and performance monitoring. Contact us to learn more and let us know how we can help.'
                     values={{
                         limit: this.props.warnMetricStatus.limit,
                     }}
@@ -194,7 +194,7 @@ export default class WarnMetricAckModal extends React.PureComponent<Props, State
             descriptionText = (
                 <FormattedMessage
                     id='warn_metric_ack_modal.number_of_posts.description'
-                    defaultMessage='Your Mattermost system has a large number of messages. The default Mattermost database search starts to show performance degradation at around 2.5 million posts. With over 5 million posts, Elasticsearch can help avoid significant performance issues, such as timeouts, with search and at-mentions. Contact us to learn more and let us know how we can help.'
+                    defaultMessage='Your grommunio-chat system has a large number of messages. The default grommunio-chat database search starts to show performance degradation at around 2.5 million posts. With over 5 million posts, Elasticsearch can help avoid significant performance issues, such as timeouts, with search and at-mentions. Contact us to learn more and let us know how we can help.'
                     values={{
                         limit: this.props.warnMetricStatus.limit,
                     }}
@@ -209,7 +209,7 @@ export default class WarnMetricAckModal extends React.PureComponent<Props, State
             >
                 <FormattedMessage
                     id='warn_metric_ack_modal.subtext'
-                    defaultMessage='By clicking Acknowledge, you will be sharing your information with Mattermost Inc. {link}'
+                    defaultMessage='By clicking Acknowledge, you will be sharing your information with grommunio-chat Inc. {link}'
                     values={{
                         link: (
                             <ErrorLink

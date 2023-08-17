@@ -79,7 +79,7 @@ const TeamEditionRightPanel: React.FC<TeamEditionRightPanelProps> = ({
                 <p className='upgrade-legal-terms'>
                     <FormattedMarkdownMessage
                         id='admin.license.enterprise.upgrade.acceptTermsInitial'
-                        defaultMessage='By clicking **Upgrade**, I agree to the terms of the Mattermost '
+                        defaultMessage='By clicking **Upgrade**, I agree to the terms of the grommunio-chat '
                     />
                     <a
                         role='button'

@@ -22,7 +22,7 @@ const preferenceKeys = {
 
 const openGraphData = {
     audios: null,
-    description: 'Mattermost is a secure, open source platform for communication, collaboration, and workflow orchestration across tools and teams.',
+    description: 'grommunio-chat is a secure, open source platform for communication, collaboration, and workflow orchestration across tools and teams.',
     determiner: '',
     images: [{
         height: 1256,
@@ -32,8 +32,8 @@ const openGraphData = {
         width: 2400}],
     locale: '',
     locales_alternate: null,
-    site_name: 'Mattermost.com',
-    title: 'Mattermost | Open Source Collaboration for Developers',
+    site_name: 'grommunio-chat.com',
+    title: 'grommunio-chat | Open Source Collaboration for Developers',
     type: 'website',
     url: 'https://www.mattermost.com',
     videos: null,
@@ -101,7 +101,7 @@ describe('PostAttachmentOpenGraph', () => {
                 url: imageUrl,
             }],
             site_name: 'Mattermost',
-            title: 'Mattermost Private Cloud Messaging',
+            title: 'grommunio-chat Private Cloud Messaging',
         },
         toggleEmbedVisibility,
         actions: {

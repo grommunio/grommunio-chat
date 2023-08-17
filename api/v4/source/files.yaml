@@ -89,7 +89,7 @@
             import "github.com/mattermost/mattermost-server/v5/model"
 
 
-            Client := model.NewAPIv4Client("https://your-mattermost-url.com")
+            Client := model.NewAPIv4Client("https://your-grommunio-chat-url.com")
 
             Client.Login("email@domain.com", "Password1")
 
@@ -121,7 +121,7 @@
             curl -F 'files=@PATH/TO/LOCAL/FILE' \
             -F 'channel_id=CHANNEL_ID' \
             --header 'authorization: Bearer c49adc55z3f53ck7xtp8ebq1ir'
-            https://your-mattermost-url.com/api/v4/files
+            https://your-grommunio-chat-url.com/api/v4/files
   "/api/v4/files/{file_id}":
     get:
       tags:
@@ -164,7 +164,7 @@
           source: |
             import "github.com/mattermost/mattermost-server/v5/model"
 
-            Client := model.NewAPIv4Client("https://your-mattermost-url.com")
+            Client := model.NewAPIv4Client("https://your-grommunio-chat-url.com")
             Client.Login("email@domain.com", "Password1")
 
             fileID := "4xp9fdt77pncbef59f4k1qe83o"
@@ -212,7 +212,7 @@
           source: |
             import "github.com/mattermost/mattermost-server/v5/model"
 
-            Client := model.NewAPIv4Client("https://your-mattermost-url.com")
+            Client := model.NewAPIv4Client("https://your-grommunio-chat-url.com")
             Client.Login("email@domain.com", "Password1")
 
             fileID := "4xp9fdt77pncbef59f4k1qe83o"
@@ -260,7 +260,7 @@
           source: |
             import "github.com/mattermost/mattermost-server/v5/model"
 
-            Client := model.NewAPIv4Client("https://your-mattermost-url.com")
+            Client := model.NewAPIv4Client("https://your-grommunio-chat-url.com")
             Client.Login("email@domain.com", "Password1")
 
             fileID := "4xp9fdt77pncbef59f4k1qe83o"
@@ -320,7 +320,7 @@
           source: |
             import "github.com/mattermost/mattermost-server/v5/model"
 
-            Client := model.NewAPIv4Client("https://your-mattermost-url.com")
+            Client := model.NewAPIv4Client("https://your-grommunio-chat-url.com")
             Client.Login("email@domain.com", "Password1")
 
             fileID := "4xp9fdt77pncbef59f4k1qe83o"
@@ -374,7 +374,7 @@
           source: |
             import "github.com/mattermost/mattermost-server/v5/model"
 
-            Client := model.NewAPIv4Client("https://your-mattermost-url.com")
+            Client := model.NewAPIv4Client("https://your-grommunio-chat-url.com")
             Client.Login("email@domain.com", "Password1")
 
             fileID := "4xp9fdt77pncbef59f4k1qe83o"
@@ -504,7 +504,7 @@
           source: >
             import "github.com/mattermost/mattermost-server/v5/model"
 
-            Client := model.NewAPIv4Client("https://your-mattermost-url.com")
+            Client := model.NewAPIv4Client("https://your-grommunio-chat-url.com")
 
             Client.Login("email@domain.com", "Password1")
 
@@ -514,7 +514,7 @@
         - lang: curl
           source: >
             curl -X POST \
-              https://your-mattermost-url.com/api/v4/teams/zWEyrTZ7GZ22aBSfoX60iWryTY/files/search \
+              https://your-grommunio-chat-url.com/api/v4/teams/zWEyrTZ7GZ22aBSfoX60iWryTY/files/search \
               -H 'Authorization: Bearer frn8fu5rtpyc5m4xy6q3oj4yur' \
               -H 'Content-Type: application/json' \
               -d '{"terms": "filename", "is_or_search": false}'

@@ -60,7 +60,7 @@ describe('components/feature_discovery', () => {
 
             expect(screen.getByRole('button', {name: 'Start trial'})).toBeInTheDocument();
             await userEvent.click(screen.getByRole('button', {name: 'Start trial'}));
-            await userEvent.click(screen.getByText('Mattermost Software and Services License Agreement'));
+            await userEvent.click(screen.getByText('grommunio-chat Software and Services License Agreement'));
 
             //cloud option
             expect(screen.queryByRole('button', {name: 'Try free for 30 days'})).not.toBeInTheDocument();
@@ -70,7 +70,7 @@ describe('components/feature_discovery', () => {
             expect(featureLink).toBeInTheDocument();
             expect(featureLink).toHaveAttribute('href', 'https://test.mattermost.com/secondary/?utm_source=mattermost&utm_medium=in-product&utm_content=feature_discovery&uid=&sid=');
             expect(featureLink).toHaveTextContent('Learn more');
-            expect(screen.getByText('Mattermost Software and Services License Agreement')).toHaveAttribute('href', 'https://mattermost.com/pl/software-and-services-license-agreement?utm_source=mattermost&utm_medium=in-product&utm_content=feature_discovery&uid=&sid=');
+            expect(screen.getByText('grommunio-chat Software and Services License Agreement')).toHaveAttribute('href', 'https://mattermost.com/pl/software-and-services-license-agreement?utm_source=mattermost&utm_medium=in-product&utm_content=feature_discovery&uid=&sid=');
             expect(screen.getByText('Privacy Policy')).toHaveAttribute('href', AboutLinks.PRIVACY_POLICY + '?utm_source=mattermost&utm_medium=in-product&utm_content=feature_discovery&uid=&sid=');
 
             expect(getPrevTrialLicense).toHaveBeenCalled();

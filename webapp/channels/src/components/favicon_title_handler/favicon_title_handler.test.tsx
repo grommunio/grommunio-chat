@@ -82,7 +82,7 @@ describe('components/FaviconTitleHandler', () => {
             currentChannel: {} as Props['currentChannel'],
             currentTeammate: {} as Props['currentTeammate']});
         instance.updateTitle();
-        expect(document.title).toBe('Mattermost - Join a team');
+        expect(document.title).toBe('grommunio-chat - Join a team');
     });
 
     test('should set correct title on mentions on safari', () => {

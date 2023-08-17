@@ -53,9 +53,9 @@ const DeleteFeedbackModal = (props: Props) => {
         {
             translatedMessage: props.intl.formatMessage({
                 id: 'feedback.deleteWorkspace.feedbackHosting',
-                defaultMessage: 'Moving to hosting my own Mattermost instance (self-hosted)',
+                defaultMessage: 'Moving to hosting my own grommunio-chat instance (self-hosted)',
             }),
-            submissionValue: 'Moving to hosting my own Mattermost instance (self-hosted)',
+            submissionValue: 'Moving to hosting my own grommunio-chat instance (self-hosted)',
         },
     ];
 

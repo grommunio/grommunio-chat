@@ -179,7 +179,7 @@ const TrueUpReview: React.FC = () => {
             {dueDate}
             <FormattedMessage
                 id='admin.billing.trueUpReview.share_data_for_review'
-                defaultMessage='Share your system statistics with Mattermost for your quarterly true-up Review. {link}'
+                defaultMessage='Share your system statistics with grommunio-chat for your quarterly true-up Review. {link}'
                 values={{
                     link: trueUpDocsLink,
                 }}

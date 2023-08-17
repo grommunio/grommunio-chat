@@ -50,7 +50,7 @@ describe('components/admin_console/license_settings/enterprise_edition/enterpris
         ExpiresAt: '1620335443650',
         SkuShortName: LicenseSkus.Starter,
         Name: 'LicenseName',
-        Company: 'Mattermost Inc.',
+        Company: 'grommunio-chat Inc.',
         Users: '1000000',
         IsGovSku: 'false',
     };

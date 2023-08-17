@@ -119,7 +119,7 @@ const ConfigurationAnnouncementBar = (props: Props) => {
                     />
                     <FormattedMessage
                         id='announcement_bar.warn_metric_status_ack.text'
-                        defaultMessage='Thank you for contacting Mattermost. We will follow up with you soon.'
+                        defaultMessage='Thank you for contacting grommunio-chat. We will follow up with you soon.'
                     />
                 </>
             );
@@ -258,7 +258,7 @@ const ConfigurationAnnouncementBar = (props: Props) => {
                     defaultMessage: 'This is the last day of your free trial.'},
                 ) : formatMessage({
                     id: 'announcement_bar.error.trial_license_expiring_last_day',
-                    defaultMessage: 'This is the last day of your free trial. Purchase a license now to continue using Mattermost Professional and Enterprise features.',
+                    defaultMessage: 'This is the last day of your free trial. Purchase a license now to continue using grommunio-chat Professional and Enterprise features.',
                 });
                 message = (
                     <>

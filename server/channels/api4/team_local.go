@@ -239,7 +239,7 @@ func isEmailAddressAllowed(email string, allowedDomains []string) bool {
 
 func normalizeDomains(domains string) []string {
 	// commas and @ signs are optional
-	// can be in the form of "@corp.mattermost.com, mattermost.com mattermost.org" -> corp.mattermost.com mattermost.com mattermost.org
+	// can be in the form of "@corp.grommunio.com, mattermost.com mattermost.org" -> corp.grommunio.com mattermost.com mattermost.org
 	return strings.Fields(strings.TrimSpace(strings.ToLower(strings.Replace(strings.Replace(domains, "@", " ", -1), ",", " ", -1))))
 }
 

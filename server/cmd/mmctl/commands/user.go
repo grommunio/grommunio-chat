@@ -904,7 +904,7 @@ func migrateAuthToSamlCmdF(c client.Client, cmd *cobra.Command, userArgs []strin
 	auto, _ := cmd.Flags().GetBool("auto")
 	confirm, _ := cmd.Flags().GetBool("confirm")
 	if auto && !confirm {
-		if err := getConfirmation("You are about to perform an automatic \""+fromAuth+" to saml\" migration. This must only be done if your current Mattermost users with "+fromAuth+" auth have the same username and email in your SAML service. Otherwise, provide the usernames and emails from your SAML Service using the \"users file\" without the \"--auto\" option.\n\nDo you want to proceed with automatic migration anyway?", false); err != nil {
+		if err := getConfirmation("You are about to perform an automatic \""+fromAuth+" to saml\" migration. This must only be done if your current grommunio-chat users with "+fromAuth+" auth have the same username and email in your SAML service. Otherwise, provide the usernames and emails from your SAML Service using the \"users file\" without the \"--auto\" option.\n\nDo you want to proceed with automatic migration anyway?", false); err != nil {
 			return err
 		}
 	}
