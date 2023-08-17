@@ -179,7 +179,7 @@ const defaultServerConfig: AdminConfig = {
         AllowPersistentNotificationsForGuests: false,
     },
     TeamSettings: {
-        SiteName: 'Mattermost',
+        SiteName: 'grommunio-chat',
         MaxUsersPerTeam: 50,
         EnableUserCreation: true,
         EnableOpenServer: false,
