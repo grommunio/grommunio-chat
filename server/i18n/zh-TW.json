@@ -7033,15 +7033,15 @@
   },
   {
     "id": "api.upgrade_to_enterprise.invalid-user.app_error",
-    "translation": "無法升級至企業版。grommunio-chat 系統使用者 {{.grommunio-chatUsername}} 沒有必要執行檔的寫入權限。系統管理員可以在 grommunio-chat 伺服器上執行下列命令以更新檔案權限：\n\n```\nchown {{.grommunio-chatUsername}} \"{{.Path}}\"\n```\n\n變更檔案權限後，請重新嘗試升級。當完成升級並重新啟動後，記得還原執行檔權限：\n\n```\nchown {{.FileUsername}} \"{{.Path}}\"\n```"
+    "translation": "無法升級至企業版。grommunio-chat 系統使用者 {{.MattermostUsername}} 沒有必要執行檔的寫入權限。系統管理員可以在 grommunio-chat 伺服器上執行下列命令以更新檔案權限：\n\n```\nchown {{.MattermostUsername}} \"{{.Path}}\"\n```\n\n變更檔案權限後，請重新嘗試升級。當完成升級並重新啟動後，記得還原執行檔權限：\n\n```\nchown {{.FileUsername}} \"{{.Path}}\"\n```"
   },
   {
     "id": "api.upgrade_to_enterprise.invalid-user-and-permission.app_error",
-    "translation": "無法升級至企業版。grommunio-chat 系統使用者 {{.grommunio-chatUsername}} 沒有必要執行檔的寫入權限。系統管理員可以在 grommunio-chat 伺服器上執行下列命令以更新檔案權限：\n\n```\nchown {{.grommunio-chatUsername}} \"{{.Path}}\"\nchmod +w \"{{.Path}}\"\n```\n\n變更檔案權限後，請重新嘗試升級。當完成升級並重新啟動後，記得還原執行檔權限：\n\n```\nchown {{.FileUsername}} \"{{.Path}}\"\nchmod -w \"{{.Path}}\"\n```"
+    "translation": "無法升級至企業版。grommunio-chat 系統使用者 {{.MattermostUsername}} 沒有必要執行檔的寫入權限。系統管理員可以在 grommunio-chat 伺服器上執行下列命令以更新檔案權限：\n\n```\nchown {{.MattermostUsername}} \"{{.Path}}\"\nchmod +w \"{{.Path}}\"\n```\n\n變更檔案權限後，請重新嘗試升級。當完成升級並重新啟動後，記得還原執行檔權限：\n\n```\nchown {{.FileUsername}} \"{{.Path}}\"\nchmod -w \"{{.Path}}\"\n```"
   },
   {
     "id": "api.upgrade_to_enterprise.invalid-permission.app_error",
-    "translation": "無法升級至企業版。grommunio-chat 系統使用者 {{.grommunio-chatUsername}} 沒有必要執行檔的寫入權限。系統管理員可以在 grommunio-chat 伺服器上執行下列命令以更新檔案權限：\n\n```\nchmod +w \"{{.Path}}\"\n```\n\n變更檔案權限後，請重新嘗試升級。當完成升級並重新啟動後，記得還原執行檔權限：\n\n```\nchmod -w \"{{.Path}}\"\n```"
+    "translation": "無法升級至企業版。grommunio-chat 系統使用者 {{.MattermostUsername}} 沒有必要執行檔的寫入權限。系統管理員可以在 grommunio-chat 伺服器上執行下列命令以更新檔案權限：\n\n```\nchmod +w \"{{.Path}}\"\n```\n\n變更檔案權限後，請重新嘗試升級。當完成升級並重新啟動後，記得還原執行檔權限：\n\n```\nchmod -w \"{{.Path}}\"\n```"
   },
   {
     "id": "api.upgrade_to_enterprise.generic_error.app_error",

@@ -6685,7 +6685,7 @@
   },
   {
     "id": "api.upgrade_to_enterprise.invalid-permission.app_error",
-    "translation": "grommunio-chat não conseguiu atualizar para a Enterprise Edition. O usuário do sistema grommunio-chat {{.grommunio-chatUsername}} não tem acesso de gravação ao arquivo binário necessário. Um administrador de sistema pode atualizar as permissões do arquivo executando o seguinte comando no servidor onde o grommunio-chat está instalado:\n\n```\nchmod +w \"{{.Path}}\"\n```\n\nDepois de alterar as permissões do arquivo, tente atualizar o grommunio-chat novamente. Quando você tiver atualizado e reiniciado, lembre-se de restaurar as permissões do arquivo binário original: \n\n```\nchmod -w \"{{.Path}}\"\n```"
+    "translation": "grommunio-chat não conseguiu atualizar para a Enterprise Edition. O usuário do sistema grommunio-chat {{.MattermostUsername}} não tem acesso de gravação ao arquivo binário necessário. Um administrador de sistema pode atualizar as permissões do arquivo executando o seguinte comando no servidor onde o grommunio-chat está instalado:\n\n```\nchmod +w \"{{.Path}}\"\n```\n\nDepois de alterar as permissões do arquivo, tente atualizar o grommunio-chat novamente. Quando você tiver atualizado e reiniciado, lembre-se de restaurar as permissões do arquivo binário original: \n\n```\nchmod -w \"{{.Path}}\"\n```"
   },
   {
     "id": "api.upgrade_to_enterprise.generic_error.app_error",
@@ -7089,11 +7089,11 @@
   },
   {
     "id": "api.upgrade_to_enterprise.invalid-user.app_error",
-    "translation": "grommunio-chat não conseguiu atualizar para a Enterprise Edition. O usuário do sistema grommunio-chat {{.grommunio-chatUsername}} não tem acesso de gravação ao arquivo binário necessário. Um administrador de sistema pode atualizar as permissões do arquivo executando o seguinte comando no servidor onde o grommunio-chat está instalado:\n\n```\nchmod +w \"{{.Path}}\"\n```\n\nDepois de alterar as permissões do arquivo, tente atualizar o grommunio-chat novamente. Quando você tiver atualizado e reiniciado, lembre-se de restaurar as permissões do arquivo binário original: \n\n```\nchmod -w \"{{.Path}}\"\n```"
+    "translation": "grommunio-chat não conseguiu atualizar para a Enterprise Edition. O usuário do sistema grommunio-chat {{.MattermostUsername}} não tem acesso de gravação ao arquivo binário necessário. Um administrador de sistema pode atualizar as permissões do arquivo executando o seguinte comando no servidor onde o grommunio-chat está instalado:\n\n```\nchmod +w \"{{.Path}}\"\n```\n\nDepois de alterar as permissões do arquivo, tente atualizar o grommunio-chat novamente. Quando você tiver atualizado e reiniciado, lembre-se de restaurar as permissões do arquivo binário original: \n\n```\nchmod -w \"{{.Path}}\"\n```"
   },
   {
     "id": "api.upgrade_to_enterprise.invalid-user-and-permission.app_error",
-    "translation": "grommunio-chat não conseguiu atualizar para a Enterprise Edition. O usuário do sistema grommunio-chat {{.grommunio-chatUsername}} não tem acesso de gravação ao arquivo binário necessário. Um administrador de sistema pode atualizar as permissões do arquivo executando o seguinte comando no servidor onde o grommunio-chat está instalado:\n\n```\nchown {{.grommunio-chatUsername}} \"{{.Path}}\"\nchmod +w \"{{.Path}}\"\n```\n\nDepois de alterar as permissões do arquivo, tente atualizar o grommunio-chat novamente. Quando você tiver atualizado e reiniciado, lembre-se de restaurar as permissões do arquivo binário original: \n\n```\nchown {{.FileUsername}} \"{{.Path}}\"\nchmod -w \"{{.Path}}\"\n```"
+    "translation": "grommunio-chat não conseguiu atualizar para a Enterprise Edition. O usuário do sistema grommunio-chat {{.MattermostUsername}} não tem acesso de gravação ao arquivo binário necessário. Um administrador de sistema pode atualizar as permissões do arquivo executando o seguinte comando no servidor onde o grommunio-chat está instalado:\n\n```\nchown {{.MattermostUsername}} \"{{.Path}}\"\nchmod +w \"{{.Path}}\"\n```\n\nDepois de alterar as permissões do arquivo, tente atualizar o grommunio-chat novamente. Quando você tiver atualizado e reiniciado, lembre-se de restaurar as permissões do arquivo binário original: \n\n```\nchown {{.FileUsername}} \"{{.Path}}\"\nchmod -w \"{{.Path}}\"\n```"
   },
   {
     "id": "api.server.warn_metric.number_of_teams_5.start_trial_notification_success.message",

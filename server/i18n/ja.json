@@ -6773,15 +6773,15 @@
   },
   {
     "id": "api.upgrade_to_enterprise.invalid-user.app_error",
-    "translation": "grommunio-chatをEnterprise Editionにアップグレードできませんでした。grommunio-chatシステムユーザー {{.grommunio-chatUsername}} がバイナリファイルへの書き込み権限を持っていません。システム管理者がgrommunio-chatがインストールされたサーバーで下記のコマンドを実行することにより、ファイルに対する権限を更新することができます。\n\n```\nchown {{.grommunio-chatUsername}} \"{{.Path}}\"\n```\n\nファイルの権限を変更した後、grommunio-chatのアップグレードを再度試してみてください。アップグレードが完了し再起動を行うことができた場合、バイナリファイルの権限を元に戻すことを忘れないでください。\n\n```\nchown {{.FileUsername}} \"{{.Path}}\"\n```"
+    "translation": "grommunio-chatをEnterprise Editionにアップグレードできませんでした。grommunio-chatシステムユーザー {{.MattermostUsername}} がバイナリファイルへの書き込み権限を持っていません。システム管理者がgrommunio-chatがインストールされたサーバーで下記のコマンドを実行することにより、ファイルに対する権限を更新することができます。\n\n```\nchown {{.MattermostUsername}} \"{{.Path}}\"\n```\n\nファイルの権限を変更した後、grommunio-chatのアップグレードを再度試してみてください。アップグレードが完了し再起動を行うことができた場合、バイナリファイルの権限を元に戻すことを忘れないでください。\n\n```\nchown {{.FileUsername}} \"{{.Path}}\"\n```"
   },
   {
     "id": "api.upgrade_to_enterprise.invalid-user-and-permission.app_error",
-    "translation": "grommunio-chatをEnterprise Editionにアップグレードできませんでした。grommunio-chatシステムユーザー {{.grommunio-chatUsername}} がバイナリファイルへの書き込み権限を持っていません。システム管理者がgrommunio-chatがインストールされたサーバーで下記のコマンドを実行することにより、ファイルに対する権限を更新することができます。\n\n```\nchown {{.grommunio-chatUsername}} \"{{.Path}}\"\nchmod +w \"{{.Path}}\"\n```\n\nファイルの権限を変更した後、grommunio-chatのアップグレードを再度試してみてください。アップグレードが完了し再起動を行うことができた場合、バイナリファイルの権限を元に戻すことを忘れないでください。\n\n```\nchown {{.FileUsername}} \"{{.Path}}\"\nchmod -w \"{{.Path}}\"\n```"
+    "translation": "grommunio-chatをEnterprise Editionにアップグレードできませんでした。grommunio-chatシステムユーザー {{.MattermostUsername}} がバイナリファイルへの書き込み権限を持っていません。システム管理者がgrommunio-chatがインストールされたサーバーで下記のコマンドを実行することにより、ファイルに対する権限を更新することができます。\n\n```\nchown {{.MattermostUsername}} \"{{.Path}}\"\nchmod +w \"{{.Path}}\"\n```\n\nファイルの権限を変更した後、grommunio-chatのアップグレードを再度試してみてください。アップグレードが完了し再起動を行うことができた場合、バイナリファイルの権限を元に戻すことを忘れないでください。\n\n```\nchown {{.FileUsername}} \"{{.Path}}\"\nchmod -w \"{{.Path}}\"\n```"
   },
   {
     "id": "api.upgrade_to_enterprise.invalid-permission.app_error",
-    "translation": "grommunio-chatをEnterprise Editionにアップグレードできませんでした。grommunio-chatシステムユーザー {{.grommunio-chatUsername}} がバイナリファイルへの書き込み権限を持っていません。システム管理者がgrommunio-chatがインストールされたサーバーで下記のコマンドを実行することにより、ファイルに対する権限を更新することができます。\n\n```\nchmod +w \"{{.Path}}\"\n```\n\nファイルの権限を変更した後、grommunio-chatのアップグレードを再度試してみてください。アップグレードが完了し再起動を行うことができた場合、バイナリファイルの権限を元に戻すことを忘れないでください。\n\n```\nchmod -w \"{{.Path}}\"\n```"
+    "translation": "grommunio-chatをEnterprise Editionにアップグレードできませんでした。grommunio-chatシステムユーザー {{.MattermostUsername}} がバイナリファイルへの書き込み権限を持っていません。システム管理者がgrommunio-chatがインストールされたサーバーで下記のコマンドを実行することにより、ファイルに対する権限を更新することができます。\n\n```\nchmod +w \"{{.Path}}\"\n```\n\nファイルの権限を変更した後、grommunio-chatのアップグレードを再度試してみてください。アップグレードが完了し再起動を行うことができた場合、バイナリファイルの権限を元に戻すことを忘れないでください。\n\n```\nchmod -w \"{{.Path}}\"\n```"
   },
   {
     "id": "api.upgrade_to_enterprise.generic_error.app_error",

@@ -6773,11 +6773,11 @@
   },
   {
     "id": "api.upgrade_to_enterprise.invalid-user.app_error",
-    "translation": "grommunio-chat kon niet upgraden naar de Enterprise Editie. De grommunio-chat systeemgebruiker {{.grommunio-chatUsername}} heeft geen schrijfrechten op het nodige programmabestand. Een systeembeheerder kan de toegangsrechten wijzigen door volgende opdracht uit te voeren op de server waarop grommunio-chat geïnstalleerd is:\n\n```\nchown {{.grommunio-chatUsername}} \"{{.Path}}\"\n```\n\nNa het wijzigen van de toegangsrechten, kan je opnieuw proberen grommunio-chat te upgraden. Na de upgrade en het herstarten, vergeet niet om opnieuw de originele toegangsrechten opnieuw in te stellen:\n\n```\nchown {{.FileUsername}} \"{{.Path}}\"\n```"
+    "translation": "grommunio-chat kon niet upgraden naar de Enterprise Editie. De grommunio-chat systeemgebruiker {{.MattermostUsername}} heeft geen schrijfrechten op het nodige programmabestand. Een systeembeheerder kan de toegangsrechten wijzigen door volgende opdracht uit te voeren op de server waarop grommunio-chat geïnstalleerd is:\n\n```\nchown {{.MattermostUsername}} \"{{.Path}}\"\n```\n\nNa het wijzigen van de toegangsrechten, kan je opnieuw proberen grommunio-chat te upgraden. Na de upgrade en het herstarten, vergeet niet om opnieuw de originele toegangsrechten opnieuw in te stellen:\n\n```\nchown {{.FileUsername}} \"{{.Path}}\"\n```"
   },
   {
     "id": "api.upgrade_to_enterprise.invalid-permission.app_error",
-    "translation": "grommunio-chat kon niet upgraden naar de Enterprise Editie. De grommunio-chat systeemgebruiker {{.grommunio-chatUsername}} heeft geen schrijfrechten op het noodzakelijke binaire bestand. Een systeembeheerder kan de bestandsrechten wijzigen door de volgende opdracht uit te voeren op de server waarop grommunio-chat is geïnstalleerd:\n\n```\nchmod +w \"{{.Path}}\"\n```\n\nNa het wijzigen van de bestandsrechten, probeer opnieuw grommunio-chat te upgraden. Na de upgrade en herstart, denk er aan om dan de bestandsrechten opnieuw te herstellen naar de originele bestandsrechten: \n\n```\nchmod -w \"{{.Path}}\"\n```"
+    "translation": "grommunio-chat kon niet upgraden naar de Enterprise Editie. De grommunio-chat systeemgebruiker {{.MattermostUsername}} heeft geen schrijfrechten op het noodzakelijke binaire bestand. Een systeembeheerder kan de bestandsrechten wijzigen door de volgende opdracht uit te voeren op de server waarop grommunio-chat is geïnstalleerd:\n\n```\nchmod +w \"{{.Path}}\"\n```\n\nNa het wijzigen van de bestandsrechten, probeer opnieuw grommunio-chat te upgraden. Na de upgrade en herstart, denk er aan om dan de bestandsrechten opnieuw te herstellen naar de originele bestandsrechten: \n\n```\nchmod -w \"{{.Path}}\"\n```"
   },
   {
     "id": "api.upgrade_to_enterprise.app_error",
@@ -6821,7 +6821,7 @@
   },
   {
     "id": "api.upgrade_to_enterprise.invalid-user-and-permission.app_error",
-    "translation": "grommunio-chat kon niet upgraden naar de Enterprise Editie. De grommunio-chat systeemgebruiker {{.grommunio-chatUsername}} heeft geen schrijfrechten op het nodige programmabestand. Een systeembeheerder kan de toegangsrechten wijzigen door volgende opdracht uit te voeren op de server waarop grommunio-chat geïnstalleerd is:\n\n```\nchown {{.grommunio-chatUsername}} \"{{.Path}}\"\nchmod +w \"{{.Path}}\"\n```\n\nNa het wijzigen van de toegangsrechten, kan je opnieuw proberen grommunio-chat te upgraden. Na de upgrade en het herstarten, vergeet niet om opnieuw de originele toegangsrechten opnieuw in te stellen:\n\n```\nchown {{.FileUsername}} \"{{.Path}}\"\nchmod -w \"{{.Path}}\"\n```"
+    "translation": "grommunio-chat kon niet upgraden naar de Enterprise Editie. De grommunio-chat systeemgebruiker {{.MattermostUsername}} heeft geen schrijfrechten op het nodige programmabestand. Een systeembeheerder kan de toegangsrechten wijzigen door volgende opdracht uit te voeren op de server waarop grommunio-chat geïnstalleerd is:\n\n```\nchown {{.MattermostUsername}} \"{{.Path}}\"\nchmod +w \"{{.Path}}\"\n```\n\nNa het wijzigen van de toegangsrechten, kan je opnieuw proberen grommunio-chat te upgraden. Na de upgrade en het herstarten, vergeet niet om opnieuw de originele toegangsrechten opnieuw in te stellen:\n\n```\nchown {{.FileUsername}} \"{{.Path}}\"\nchmod -w \"{{.Path}}\"\n```"
   },
   {
     "id": "api.upgrade_to_enterprise.generic_error.app_error",

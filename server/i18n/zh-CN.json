@@ -6953,15 +6953,15 @@
   },
   {
     "id": "api.upgrade_to_enterprise.invalid-user.app_error",
-    "translation": "grommunio-chat 无法升级至企业版。grommunio-chat 系统用户 {{.grommunio-chatUsername}} 没有写入二进制文件权限。系统管理员可在服务器上运行以下指令更新文件权限：\n\n```\nchown {{.grommunio-chatUsername}} \"{{.Path}}\"\n```\n\n更新文件权限后，请重新尝试升级 grommunio-chat。当您升级并重启后，请务必恢复二进制文件权限：\n\n```\nchown {{.FileUsername}} \"{{.Path}}\"\n```"
+    "translation": "grommunio-chat 无法升级至企业版。grommunio-chat 系统用户 {{.MattermostUsername}} 没有写入二进制文件权限。系统管理员可在服务器上运行以下指令更新文件权限：\n\n```\nchown {{.MattermostUsername}} \"{{.Path}}\"\n```\n\n更新文件权限后，请重新尝试升级 grommunio-chat。当您升级并重启后，请务必恢复二进制文件权限：\n\n```\nchown {{.FileUsername}} \"{{.Path}}\"\n```"
   },
   {
     "id": "api.upgrade_to_enterprise.invalid-user-and-permission.app_error",
-    "translation": "grommunio-chat 无法升级至企业版。grommunio-chat 系统用户 {{.grommunio-chatUsername}} 没有写入二进制文件权限。系统管理员可在服务器上运行以下指令更新文件权限：\n\n```\nchown {{.grommunio-chatUsername}} \"{{.Path}}\"\nchmod +w \"{{.Path}}\"\n```\n\n更新文件权限后，请重新尝试升级 grommunio-chat。当您升级并重启后，请务必恢复二进制文件权限：\n\n```\nchown {{.FileUsername}} \"{{.Path}}\"\nchmod -w \"{{.Path}}\"\n```"
+    "translation": "grommunio-chat 无法升级至企业版。grommunio-chat 系统用户 {{.MattermostUsername}} 没有写入二进制文件权限。系统管理员可在服务器上运行以下指令更新文件权限：\n\n```\nchown {{.MattermostUsername}} \"{{.Path}}\"\nchmod +w \"{{.Path}}\"\n```\n\n更新文件权限后，请重新尝试升级 grommunio-chat。当您升级并重启后，请务必恢复二进制文件权限：\n\n```\nchown {{.FileUsername}} \"{{.Path}}\"\nchmod -w \"{{.Path}}\"\n```"
   },
   {
     "id": "api.upgrade_to_enterprise.invalid-permission.app_error",
-    "translation": "grommunio-chat 无法升级至企业版。grommunio-chat 系统用户 {{.grommunio-chatUsername}} 没有写入二进制文件权限。系统管理员可在服务器上运行以下指令更新文件权限：\n\n```\nchmod +w \"{{.Path}}\"\n```\n\n更新文件权限后，请重新尝试升级 grommunio-chat。当您升级并重启后，请务必恢复二进制文件权限：\n\n```\nchmod -w \"{{.Path}}\"\n```"
+    "translation": "grommunio-chat 无法升级至企业版。grommunio-chat 系统用户 {{.MattermostUsername}} 没有写入二进制文件权限。系统管理员可在服务器上运行以下指令更新文件权限：\n\n```\nchmod +w \"{{.Path}}\"\n```\n\n更新文件权限后，请重新尝试升级 grommunio-chat。当您升级并重启后，请务必恢复二进制文件权限：\n\n```\nchmod -w \"{{.Path}}\"\n```"
   },
   {
     "id": "api.upgrade_to_enterprise.generic_error.app_error",
