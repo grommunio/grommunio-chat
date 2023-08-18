@@ -9,6 +9,7 @@ import {getConfig} from 'mattermost-redux/selectors/entities/general';
 
 import BackButton from 'components/common/back_button';
 import Logo from 'components/common/svg_images_components/logo_dark_blue_svg';
+import logo from 'images/logo.svg';
 
 import './header.scss';
 
@@ -31,7 +32,11 @@ const Header = ({alternateLink, backButtonURL, onBackButtonClick}: HeaderProps) 
                     to='/'
                     aria-label={ariaLabel}
                 >
-                    {EnableCustomBrand === 'true' || SiteName !== 'Mattermost' ? SiteName : <Logo/>}
+                    {EnableCustomBrand === 'true' || SiteName !== 'grommunio-chat' ? SiteName : <img
+                        src={logo}
+                        width={169}
+                        className='get-app__logo'
+                    />}
                 </Link>
                 {alternateLink}
             </div>
