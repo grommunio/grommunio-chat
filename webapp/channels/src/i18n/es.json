@@ -1,7 +1,7 @@
 {
   "about.buildnumber": "Número de compilación:",
   "about.cloudEdition": "Nube",
-  "about.copyright": "Derechos de autor 2015 - {currentYear} grommunio-chat, Inc. Todos los derechos reservados",
+  "about.copyright": "Derechos de autor 2015 - {currentYear} Mattermost, Inc. Todos los derechos reservados",
   "about.database": "Base de datos:",
   "about.date": "Fecha de compilación:",
   "about.dbversion": "Versión de la base de datos:",

@@ -1,7 +1,7 @@
 {
   "about.buildnumber": "Номер на компилация:",
   "about.cloudEdition": "Облак",
-  "about.copyright": "Copyright 2015 - {currentYear} grommunio-chat, Inc. Всички права запазени",
+  "about.copyright": "Copyright 2015 - {currentYear} Mattermost, Inc. Всички права запазени",
   "about.database": "База данни:",
   "about.date": "Дата на компилация:",
   "about.dbversion": "Версия на схемата на базата данни:",

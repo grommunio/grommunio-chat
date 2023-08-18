@@ -1,7 +1,7 @@
 {
   "about.buildnumber": "Numero di compilazione:",
   "about.cloudEdition": "Cloud",
-  "about.copyright": "Copyright 2015 - {currentYear} grommunio-chat, Inc. Tutti i diritti riservati",
+  "about.copyright": "Copyright 2015 - {currentYear} Mattermost, Inc. Tutti i diritti riservati",
   "about.database": "Database:",
   "about.date": "Data della build:",
   "about.dbversion": "Versione Schema Database:",

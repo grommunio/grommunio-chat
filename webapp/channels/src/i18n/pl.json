@@ -7,7 +7,7 @@
   "TWO_THOUSAND_FIVE_HUNDRED_AND_UP": "2501-5000",
   "about.buildnumber": "Numer Kompilacji:",
   "about.cloudEdition": "Chmura",
-  "about.copyright": "Copyright 2015 - {currentYear} grommunio-chat, Inc. Wszystkie prawa zastrzeżone",
+  "about.copyright": "Copyright 2015 - {currentYear} Mattermost, Inc. Wszystkie prawa zastrzeżone",
   "about.database": "Baza danych:",
   "about.date": "Data Kompilacji:",
   "about.dbversion": "Wersja Schematu Bazy Danych:",

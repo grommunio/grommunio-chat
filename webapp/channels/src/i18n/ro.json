@@ -1,7 +1,7 @@
 {
   "about.buildnumber": "Versiunea:",
   "about.cloudEdition": "Cloud",
-  "about.copyright": "Drepturi de autor 2015 - {currentYear} grommunio-chat, Inc. Toate drepturile rezervate",
+  "about.copyright": "Drepturi de autor 2015 - {currentYear} Mattermost, Inc. Toate drepturile rezervate",
   "about.database": "Baza de date:",
   "about.date": "Data construcției:",
   "about.dbversion": "Versiune schemă de bază de date:",
