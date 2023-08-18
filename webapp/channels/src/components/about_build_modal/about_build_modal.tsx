@@ -221,7 +221,7 @@ export default class AboutBuildModal extends React.PureComponent<Props, State> {
                         <div>
                             <h3 className='about-modal__title'>
                                 <strong>
-                                    {'grommunio-chat'} {title}
+                                    {'grommunio-chat'}
                                 </strong>
                             </h3>
                             <p className='about-modal__subtitle pb-2'>
@@ -259,12 +259,19 @@ export default class AboutBuildModal extends React.PureComponent<Props, State> {
                         </div>
                     </div>
                     <div className='about-modal__footer'>
-                        {learnMore}
                         <div className='form-group'>
                             <div className='about-modal__copyright'>
                                 <FormattedMessage
                                     id='about.copyright'
                                     defaultMessage='Copyright 2015 - {currentYear} Mattermost, Inc. All rights reserved'
+                                    values={{
+                                        currentYear: new Date().getFullYear(),
+                                    }}
+                                />
+                                <br/>
+                                <FormattedMessage
+                                    id='hehexd'
+                                    defaultMessage='Copyright 2020 - {currentYear} grommunio GmbH. All rights reserved'
                                     values={{
                                         currentYear: new Date().getFullYear(),
                                     }}
@@ -276,40 +283,6 @@ export default class AboutBuildModal extends React.PureComponent<Props, State> {
                                 {privacyPolicy}
                             </div>
                         </div>
-                    </div>
-                    <div className='about-modal__notice form-group pt-3'>
-                        <p>
-                            <FormattedMessage
-                                id='about.notice'
-                                defaultMessage='grommunio-chat is made possible by the open source software used in our <linkServer>server</linkServer>, <linkDesktop>desktop</linkDesktop> and <linkMobile>mobile</linkMobile> apps.'
-                                values={{
-                                    linkServer: (msg: React.ReactNode) => (
-                                        <ExternalLink
-                                            location='about_build_modal'
-                                            href='https://github.com/mattermost/mattermost-server/blob/master/NOTICE.txt'
-                                        >
-                                            {msg}
-                                        </ExternalLink>
-                                    ),
-                                    linkDesktop: (msg: React.ReactNode) => (
-                                        <ExternalLink
-                                            location='about_build_modal'
-                                            href='https://github.com/mattermost/desktop/blob/master/NOTICE.txt'
-                                        >
-                                            {msg}
-                                        </ExternalLink>
-                                    ),
-                                    linkMobile: (msg: React.ReactNode) => (
-                                        <ExternalLink
-                                            location='about_build_modal'
-                                            href='https://github.com/mattermost/mattermost-mobile/blob/master/NOTICE.txt'
-                                        >
-                                            {msg}
-                                        </ExternalLink>
-                                    ),
-                                }}
-                            />
-                        </p>
                     </div>
                     <div className='about-modal__hash'>
                         <p>
