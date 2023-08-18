@@ -581,7 +581,7 @@
   "admin.email.mtpnsHelp": "Scarica <linkIOS>grommunio-chat iOS app</linkIOS> per iTunes. Scarica <linkAndroid>grommunio-chat Android app</linkAndroid> da Google Play. Scopri di più su <linkHPNS>TPNS</linkHPNS>.",
   "admin.email.pushOff": "Non inviare notifiche push",
   "admin.email.pushOffHelp": "Vedere la <link>documentazione sulle notifiche push</link> per ulteriori informazioni sulle opzioni di configurazione.",
-  "admin.email.pushServerEx": "E.s.: \"https://push-test.mattermost.com\"",
+  "admin.email.pushServerEx": "E.s.: \"https://push-test.grommunio.com\"",
   "admin.email.pushServerTitle": "Server notifiche push:",
   "admin.email.pushTitle": "Abilita notifiche push: ",
   "admin.email.requireVerificationDescription": "Normalmente abilitato in produzione. Quando abilitato, grommunio-chat dopo la creazione dell'utente richiede una verifica tramite email prima di concedere l'accesso. Per rapidità, gli sviluppatori possono disabilitare questo campo per saltare la verifica tramite email.",

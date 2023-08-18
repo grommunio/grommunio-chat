@@ -810,7 +810,7 @@
   "admin.email.mtpnsHelp": "Lade die <linkIOS>Matttermost iOS App</linkIOS> von iTunes. Lade die <linkAndroid>grommunio-chat Android App</linkAndroid> von Google Play. Erfahre mehr über <linkHPNS>TPNS</linkHPNS>.",
   "admin.email.pushOff": "Keine Benachrichtigungen senden",
   "admin.email.pushOffHelp": "Erfahre mehr in der <link>Dokumentation zu Push Nachrichten</link> über die Optionen.",
-  "admin.email.pushServerEx": "Z.B.: \"https://push-test.mattermost.com\"",
+  "admin.email.pushServerEx": "Z.B.: \"https://push-test.grommunio.com\"",
   "admin.email.pushServerTitle": "Push-Benachrichtigungs-Server:",
   "admin.email.pushTitle": "Aktiviere Push-Benachrichtigungen: ",
   "admin.email.requireVerificationDescription": "Typischerweise wahr in Produktionsumgebungen. Wenn wahr, erfordert grommunio-chat E-Mail-Adressen nach Kontoerstellung zu bestätigen, bevor die Anmeldung erlaubt wird. Entwickler sollten dies auf falsch setzen um für eine schnellere Entwicklung die E-Mail-Bestätigung zu überspringen.",

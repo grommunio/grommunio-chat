@@ -804,7 +804,7 @@
   "admin.email.mtpnsHelp": "<linkIOS>grommunio-chat iOS uygulamasını</linkIOS> İTunes üzerinden indirin. <linkAndroid>grommunio-chat Android uygulamasını</linkAndroid> Google Play üzerinden indirin. <linkHPNS>TPNS</linkHPNS> hakkında ayrıntılı bilgi alın.",
   "admin.email.pushOff": "Anında bildirimler gönderilmesin",
   "admin.email.pushOffHelp": "Kurulum seçenekleri hakkında ayrıntılı bilgi almak için <link>anında bildirim belgelerine</link> bakabilirsiniz.",
-  "admin.email.pushServerEx": "Örnek: \"https://push-test.mattermost.com\"",
+  "admin.email.pushServerEx": "Örnek: \"https://push-test.grommunio.com\"",
   "admin.email.pushServerTitle": "Anında bildirim sunucusu:",
   "admin.email.pushTitle": "Anında bildirimler kullanılsın: ",
   "admin.email.requireVerificationDescription": "Bu seçenek genel olarak üretim ortamında etkinleştirilir. Etkinleştirildiğinde, grommunio-chat hesap açılmasından sonra oturum açılması için e-posta adresinin doğrulanmasını ister. Geliştiriciler daha hızlı geliştirme yapabilmek için e-posta doğrulamasını devre dışı bırakabilir.",

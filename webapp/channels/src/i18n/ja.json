@@ -806,7 +806,7 @@
   "admin.email.mtpnsHelp": "iTunesから <linkIOS>grommunio-chat iOS app</linkIOS> をダウンロードする。 Google Playから <linkAndroid>grommunio-chat Android app</linkAndroid> をダウンロードする。 <linkHPNS>TPNS</linkHPNS>について詳しく知る。",
   "admin.email.pushOff": "プッシュ通知を送らない",
   "admin.email.pushOffHelp": "セットアップオプションについて詳しくは <link>プッシュ通知の説明文書</link> を参照してください。",
-  "admin.email.pushServerEx": "例: \"https://push-test.mattermost.com\"",
+  "admin.email.pushServerEx": "例: \"https://push-test.grommunio.com\"",
   "admin.email.pushServerTitle": "プッシュ通知サーバー:",
   "admin.email.pushTitle": "プッシュ通知を有効にする: ",
   "admin.email.requireVerificationDescription": "本番環境では有効に設定してください。有効な場合、grommunio-chatは利用登録をして最初にログインする前に電子メールアドレスの確認を必須にします。開発者はこれを無効に設定することで、電子メールアドレスの確認メールの送信を省略し、開発をより早く進められるようにできます。",

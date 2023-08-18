@@ -789,7 +789,7 @@
   "admin.email.mtpnsHelp": "Ladda ner <linkIOS>grommunio-chat iOS app</linkIOS> från iTunes. Ladda ner <linkAndroid>grommunio-chat Android app</linkAndroid> från Google Play. Läs mer om <linkHPNS>TPNS</linkHPNS>.",
   "admin.email.pushOff": "Skicka inte push-notifieringar",
   "admin.email.pushOffHelp": "Läs <link>dokumentationen om push-meddelanden</link> för att lära dig mer om inställningsalternativen.",
-  "admin.email.pushServerEx": "T.ex.: \"https://push-test.mattermost.com\"",
+  "admin.email.pushServerEx": "T.ex.: \"https://push-test.grommunio.com\"",
   "admin.email.pushServerTitle": "Server för push-meddelanden:",
   "admin.email.pushTitle": "Aktivera push-notifiering: ",
   "admin.email.requireVerificationDescription": "Vanligtvis aktiverat i produktion. När aktiverat kräver grommunio-chat verifiering via e-post innan inloggning tillåts. Utvecklare kan avaktivera för att hoppa över verifiering via e-post.",

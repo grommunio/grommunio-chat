@@ -3252,7 +3252,7 @@ const AdminDefinition = {
                         help_text: t('admin.team.restrictDescription'),
                         help_text_default: 'New user accounts are restricted to the above specified email domain (e.g. "grommunio.com") or list of comma-separated domains (e.g. "corp.grommunio.com, mattermost.com"). New teams can only be created by users from the above domain(s). This setting only affects email login for users.',
                         placeholder: t('admin.team.restrictExample'),
-                        placeholder_default: 'E.g.: "corp.grommunio.com, mattermost.com"',
+                        placeholder_default: 'E.g.: "corp.grommunio.com, grommunio.com"',
                         isHidden: it.all(
                             it.licensed,
                             it.not(it.licensedForSku('starter')),
@@ -3267,7 +3267,7 @@ const AdminDefinition = {
                         help_text: t('admin.team.restrictGuestDescription'),
                         help_text_default: 'New user accounts are restricted to the above specified email domain (e.g. "grommunio.com") or list of comma-separated domains (e.g. "corp.grommunio.com, mattermost.com"). New teams can only be created by users from the above domain(s). This setting affects email login for users. For Guest users, please add domains under Signup > Guest Access.',
                         placeholder: t('admin.team.restrictExample'),
-                        placeholder_default: 'E.g.: "corp.grommunio.com, mattermost.com"',
+                        placeholder_default: 'E.g.: "corp.grommunio.com, grommunio.com"',
                         isHidden: it.any(
                             it.not(it.licensed),
                             it.licensedForSku('starter'),

@@ -1977,7 +1977,7 @@ export const Constants = {
     DEFAULT_WEBHOOK_LOGO: logoWebhook,
     MHPNS_US: 'https://push.mattermost.com',
     MHPNS_DE: 'https://hpns-de.mattermost.com',
-    MTPNS: 'https://push-test.mattermost.com',
+    MTPNS: 'https://push-test.grommunio.com',
     MAX_PREV_MSGS: 100,
     POST_COLLAPSE_TIMEOUT: 1000 * 60 * 5, // five minutes
     SAVE_DRAFT_TIMEOUT: 500,
