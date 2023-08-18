@@ -173,9 +173,9 @@ const (
 	SamlSettingsCanonicalAlgorithmC14n11  = "Canonical1.1"
 	SamlSettingsDefaultCanonicalAlgorithm = SamlSettingsCanonicalAlgorithmC14n
 
-	NativeappSettingsDefaultAppDownloadLink        = "https://mattermost.com/pl/download-apps"
-	NativeappSettingsDefaultAndroidAppDownloadLink = "https://mattermost.com/pl/android-app/"
-	NativeappSettingsDefaultIosAppDownloadLink     = "https://mattermost.com/pl/ios-app/"
+	NativeappSettingsDefaultAppDownloadLink        = "https://grommunio.com/download/"
+	NativeappSettingsDefaultAndroidAppDownloadLink = "https://play.google.com/store/apps/details?id=com.grommunio.chat&hl=de&gl=US"
+	NativeappSettingsDefaultIosAppDownloadLink     = "https://apps.apple.com/at/app/grommunio-chat/id1582191990?l=en"
 
 	ExperimentalSettingsDefaultLinkMetadataTimeoutMilliseconds = 5000
 
