@@ -792,7 +792,7 @@ const AdminDefinition = {
                         placeholder: t('admin.service.listenExample'),
                         placeholder_default: 'E.g.: ":8065"',
                         help_text: t('admin.service.listenDescription'),
-                        help_text_default: 'The address and port to which to bind and listen. Specifying ":8065" will bind to all network interfaces. Specifying "127.0.0.1:8065" will only bind to the network interface having that IP address. If you choose a port of a lower level (called "system ports" or "well-known ports", in the range of 0-1023), you must have permissions to bind to that port. On Linux you can use: "sudo setcap cap_net_bind_service=+ep ./bin/mattermost" to allow grommunio-chat to bind to well-known ports.',
+                        help_text_default: 'The address and port to which to bind and listen. Specifying ":8065" will bind to all network interfaces. Specifying "127.0.0.1:8065" will only bind to the network interface having that IP address. If you choose a port of a lower level (called "system ports" or "well-known ports", in the range of 0-1023), you must have permissions to bind to that port. On Linux you can use: "sudo setcap cap_net_bind_service=+ep ./bin/grommunio-chat" to allow grommunio-chat to bind to well-known ports.',
                         isDisabled: it.not(it.userHasWritePermissionOnResource(RESOURCE_KEYS.ENVIRONMENT.WEB_SERVER)),
                     },
                     {
@@ -1185,7 +1185,7 @@ const AdminDefinition = {
                         help_text: t('admin.image.amazonS3BucketDescription'),
                         help_text_default: 'Name you selected for your S3 bucket in AWS.',
                         placeholder: t('admin.image.amazonS3BucketExample'),
-                        placeholder_default: 'E.g.: "mattermost-media"',
+                        placeholder_default: 'E.g.: "grommunio-chat-media"',
                         isDisabled: it.any(
                             it.not(it.userHasWritePermissionOnResource(RESOURCE_KEYS.ENVIRONMENT.FILE_STORAGE)),
                             it.not(it.stateEquals('FileSettings.DriverName', FILE_STORAGE_DRIVER_S3)),
@@ -2500,7 +2500,7 @@ const AdminDefinition = {
                         label: t('admin.environment.notifications.feedbackEmail.label'),
                         label_default: 'Notification From Address:',
                         placeholder: t('admin.environment.notifications.feedbackEmail.placeholder'),
-                        placeholder_default: 'Ex: "mattermost@yourcompany.com", "admin@yourcompany.com"',
+                        placeholder_default: 'Ex: "grommunio-chat@yourcompany.com", "admin@yourcompany.com"',
                         help_text: t('admin.environment.notifications.feedbackEmail.help'),
                         help_text_default: 'Email address displayed on email account used when sending notification emails from grommunio-chat.',
                         isHidden: it.configIsTrue('ExperimentalSettings', 'RestrictSystemAdmin'),
@@ -2528,7 +2528,7 @@ const AdminDefinition = {
                         label: t('admin.environment.notifications.replyToAddress.label'),
                         label_default: 'Notification Reply-To Address:',
                         placeholder: t('admin.environment.notifications.replyToAddress.placeholder'),
-                        placeholder_default: 'Ex: "mattermost@yourcompany.com", "admin@yourcompany.com"',
+                        placeholder_default: 'Ex: "grommunio-chat@yourcompany.com", "admin@yourcompany.com"',
                         help_text: t('admin.environment.notifications.replyToAddress.help'),
                         help_text_default: 'Email address used in the Reply-To header when sending notification emails from grommunio-chat.',
                         isDisabled: it.any(

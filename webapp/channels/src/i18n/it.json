@@ -858,7 +858,7 @@
   "admin.guest_access.whitelistedDomainsExample": "E.s.: \"compagnia.com, altracompagnia.com\"",
   "admin.guest_access.whitelistedDomainsTitle": "Domini ospite consentiti:",
   "admin.image.amazonS3BucketDescription": "Nome selezionato per il bucket S3 in AWS.",
-  "admin.image.amazonS3BucketExample": "Es.: \"mattermost-media\"",
+  "admin.image.amazonS3BucketExample": "Es.: \"grommunio-chat-media\"",
   "admin.image.amazonS3BucketTitle": "Bucket Amazon S3:",
   "admin.image.amazonS3EndpointDescription": "L'hostnamet del tuo fornitore di spazio compatibile S3. Impostazione Predefinita \"s3.amazonaws.com\".",
   "admin.image.amazonS3EndpointExample": "Es.: \"s3.amazonaws.com\"",

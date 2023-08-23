@@ -1128,7 +1128,7 @@
   "admin.guest_access_feature_discovery.copy": "Kuruluşunuzun dışındaki kullanıcılar ile iş birliği yapın ve erişim kanalları ile takım üyelerini sıkıca denetleyin.",
   "admin.guest_access_feature_discovery.title": "grommunio-chat Professional ile konuk hesaplarını kullanın",
   "admin.image.amazonS3BucketDescription": "AWS üzerindeki S3 klasörünün adını seçin.",
-  "admin.image.amazonS3BucketExample": "Örnek: \"mattermost-media\"",
+  "admin.image.amazonS3BucketExample": "Örnek: \"grommunio-chat-media\"",
   "admin.image.amazonS3BucketTitle": "Amazon S3 klasörü:",
   "admin.image.amazonS3EndpointDescription": "S3 uyumlu depolama hizmeti sağlayıcı sunucusunun adı. Varsayılan değer: `s3.amazonaws.com`.",
   "admin.image.amazonS3EndpointExample": "Örnek: \"s3.amazonaws.com\"",
