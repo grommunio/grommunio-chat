@@ -184,7 +184,7 @@ const defaultServerConfig: AdminConfig = {
         RefreshPostStatsRunTime: '00:00',
     },
     TeamSettings: {
-        SiteName: 'Mattermost',
+        SiteName: 'grommunio-chat',
         MaxUsersPerTeam: 50,
         EnableJoinLeaveMessageByDefault: true,
         EnableUserCreation: true,

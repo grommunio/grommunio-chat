@@ -205,7 +205,7 @@ func TestIsLegacyTrialRequest(t *testing.T) {
 		Email:         "test@mattermost.com",
 		TermsAccepted: true,
 		SiteURL:       "https://mattermost.com",
-		SiteName:      "Mattermost",
+		SiteName:      "grommunio-chat",
 		Users:         100,
 	}
 	t.Run("legacy trial request", func(t *testing.T) {
