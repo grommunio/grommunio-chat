@@ -348,7 +348,7 @@
   "admin.group_settings.introBanner": "Skupine so način za organiziranje uporabnikov in izvajanje dejanj za vse uporabnike v tej skupini.\nZa več informacij o skupinah si oglejte [documentation](!Https://about.mattermost.com).",
   "admin.group_settings.ldapGroupsTitle": "Skupine AD/LDAP",
   "admin.guest_access.mfaTitle": "Več-faktorska avtentikacija",
-  "admin.image.amazonS3BucketExample": "Npr.: \"mattermost-media\"",
+  "admin.image.amazonS3BucketExample": "Npr.: \"grommunio-chat-media\"",
   "admin.image.amazonS3EndpointExample": "Npr.: \"s3.amazonaws.com\"",
   "admin.image.amazonS3IdDescription": "(Izbirno) Potrebno je samo, če ne želite preveriti pristnosti na S3 z uporabo [IAM role](!https://about.mattermost.com/default-iam-role). Vnesite ID dostopnega ključa, ki ga posreduje skrbnik sistema Amazon EC2.",
   "admin.image.amazonS3IdExample": "Npr.: \"AKIADTOVBGERKLCBV\"",

@@ -1114,7 +1114,7 @@
   "admin.guest_access.whitelistedDomainsExample": "Ex.: \"company.com, othercorp.org\"",
   "admin.guest_access.whitelistedDomainsTitle": "Lista Permitida Domínios Convidados:",
   "admin.image.amazonS3BucketDescription": "Nome selecionado para o seu S3 bucket in AWS.",
-  "admin.image.amazonS3BucketExample": "Ex.: \"mattermost-media\"",
+  "admin.image.amazonS3BucketExample": "Ex.: \"grommunio-chat-media\"",
   "admin.image.amazonS3BucketTitle": "Amazon S3 Bucket:",
   "admin.image.amazonS3EndpointDescription": "Nome do host provedor de Armazenamento Compatível com S3. O padrão é \"s3.amazonaws.com\".",
   "admin.image.amazonS3EndpointExample": "Ex.: \"s3.amazonaws.com\"",

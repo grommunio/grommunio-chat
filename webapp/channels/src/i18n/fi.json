@@ -450,7 +450,7 @@
   "admin.group_settings.ldapGroupsTitle": "AD/LDAP ryhmät",
   "admin.guest_access.mfaTitle": "Pakota monivaiheinen tunnistautuminen:",
   "admin.image.amazonS3BucketDescription": "Nimi jonka valitsit S3-ämpärillesi AWS:ssä.",
-  "admin.image.amazonS3BucketExample": "Esim.: \"mattermost-media\"",
+  "admin.image.amazonS3BucketExample": "Esim.: \"grommunio-chat-media\"",
   "admin.image.amazonS3BucketTitle": "Amazon S3 ämpäri:",
   "admin.image.amazonS3EndpointDescription": "S3-yhteensopivan varastopalvelusi verkkonimi. Oletuksena \"s3.amazonaws.com\".",
   "admin.image.amazonS3EndpointExample": "Esim.: \"s3.amazonaws.com\"",

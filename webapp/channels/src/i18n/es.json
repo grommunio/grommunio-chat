@@ -1039,7 +1039,7 @@
   "admin.guest_access_feature_discovery.copy": "Colabore con usuarios de fuera de su organización mientras controla estrictamente sus canales de acceso y los miembros del equipo.",
   "admin.guest_access_feature_discovery.title": "Habilitar cuentas de invitados con grommunio-chat Professional",
   "admin.image.amazonS3BucketDescription": "Nombre que ha seleccionado para el bucket S3 en AWS.",
-  "admin.image.amazonS3BucketExample": "Ej.: \"mattermost-media\"",
+  "admin.image.amazonS3BucketExample": "Ej.: \"grommunio-chat-media\"",
   "admin.image.amazonS3BucketTitle": "Amazon S3 Bucket:",
   "admin.image.amazonS3EndpointDescription": "Nombre de host del proveedor de Almacenamiento compatible con S3. Por defecto \"s3.amazonaws.com\".",
   "admin.image.amazonS3EndpointExample": "Ej: \"s3.amazonaws.com\"",

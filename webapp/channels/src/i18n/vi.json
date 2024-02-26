@@ -1088,7 +1088,7 @@
   "admin.guest_access_feature_discovery.copy": "Cộng tác với người dùng bên ngoài tổ chức của bạn trong khi kiểm soát chặt chẽ các kênh truy cập và thành viên nhóm của họ.",
   "admin.guest_access_feature_discovery.title": "Kích hoạt tài khoản khách với grommunio-chat Professional",
   "admin.image.amazonS3BucketDescription": "Tên bạn đã chọn cho nhóm S3 của mình trong AWS.",
-  "admin.image.amazonS3BucketExample": "Ví dụ: \"mattermost-media\"",
+  "admin.image.amazonS3BucketExample": "Ví dụ: \"grommunio-chat-media\"",
   "admin.image.amazonS3BucketTitle": "Nhóm Amazon S3:",
   "admin.image.amazonS3EndpointDescription": "Tên máy chủ của nhà cung cấp Bộ nhớ Tương thích S3 của bạn. Mặc định là \"s3.amazonaws.com \".",
   "admin.image.amazonS3EndpointExample": "Ví dụ: \"s3.amazonaws.com\"",

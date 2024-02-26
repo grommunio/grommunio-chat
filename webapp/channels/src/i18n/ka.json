@@ -430,7 +430,7 @@
   "admin.guest_access.whitelistedDomainsExample": "მაგ.: \"company.com, othercorp.org\"",
   "admin.guest_access.whitelistedDomainsTitle": "დაშვებული დომენები სტუმრებისთვის:",
   "admin.image.amazonS3BucketDescription": "დაარქვით სახელი შერჩეულ S3 bucket-ს AWS-ზე.",
-  "admin.image.amazonS3BucketExample": "მაგ.: \"mattermost-media\"",
+  "admin.image.amazonS3BucketExample": "მაგ.: \"grommunio-chat-media\"",
   "admin.image.amazonS3BucketTitle": "Amazon S3 Bucket:",
   "admin.image.amazonS3EndpointDescription": "სახელი თქვენი S3 თავსებადი საცავის მომწოდებლისთვის . ნაგულისხმევია \"s3.amazonaws.com\".",
   "admin.image.amazonS3EndpointExample": "მაგ.: \"s3.amazonaws.com\"",

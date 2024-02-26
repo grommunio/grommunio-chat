@@ -1027,7 +1027,7 @@
   "admin.guest_access_feature_discovery.copy": "Működjön együtt a szervezeten kívüli felhasználókkal, miközben szigorúan ellenőrzik a hozzáférési csatornáikat és a csapattagokat.",
   "admin.guest_access_feature_discovery.title": "Vendég fiókok engedélyezése a grommunio-chat Professional segítségével",
   "admin.image.amazonS3BucketDescription": "S3 buckethez kiválasztott név az AWS-ben.",
-  "admin.image.amazonS3BucketExample": "Pl.: \"mattermost-media\"",
+  "admin.image.amazonS3BucketExample": "Pl.: \"grommunio-chat-media\"",
   "admin.image.amazonS3BucketTitle": "Amazon S3 Bucket:",
   "admin.image.amazonS3EndpointDescription": "Az S3 kompatibilis tároló szolgáltató hosztneve. Alapértelmezés szerint \"s3.amazonaws.com\".",
   "admin.image.amazonS3EndpointExample": "Pl.: \"s3.amazonaws.com\"",

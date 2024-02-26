@@ -383,7 +383,7 @@
   "admin.group_teams_and_channels_row.member": "Član",
   "admin.group_teams_and_channels_row.teamAdmin": "Administrator tima",
   "admin.guest_access.whitelistedDomainsExample": "Npr.: „company.com, othercorp.org”",
-  "admin.image.amazonS3BucketExample": "Npr.: „mattermost-media”",
+  "admin.image.amazonS3BucketExample": "Npr.: „grommunio-chat-media”",
   "admin.image.amazonS3EndpointExample": "Npr.: „s3.amazonaws.com”",
   "admin.image.amazonS3IdExample": "Npr.: „AKIADTOVBGERKLCBV”",
   "admin.image.amazonS3PathPrefixExample": "Npr.: „subdir1” ili ostavi prazno.",

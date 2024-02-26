@@ -985,7 +985,7 @@
   "admin.guest_access_feature_discovery.copy": "Супрацоўнічайце з карыстальнікамі па-за межамі вашай арганізацыі, строга кантралюючы іх каналы доступу і ўдзельнікаў каманды.",
   "admin.guest_access_feature_discovery.title": "Уключыце гасцявыя ўліковыя запісы з grommunio-chat Professional",
   "admin.image.amazonS3BucketDescription": "Імя вашага кошыка S3 у AWS.",
-  "admin.image.amazonS3BucketExample": "Напрыклад: \"mattermost-media\"",
+  "admin.image.amazonS3BucketExample": "Напрыклад: \"grommunio-chat-media\"",
   "admin.image.amazonS3BucketTitle": "Кошык Amazon S3:",
   "admin.image.amazonS3EndpointDescription": "Адрас вашага сумяшчальнага сховішчы S3. Па змаўчанні `s3.amazonaws.com`.",
   "admin.image.amazonS3EndpointExample": "Напрыклад: \"s3.amazonaws.com\"",
