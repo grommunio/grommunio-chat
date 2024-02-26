@@ -53,8 +53,8 @@ const (
 
 	GenericNoChannelNotification = "generic_no_channel"
 	GenericNotification          = "generic"
-	GenericNotificationServer    = "https://push-test.mattermost.com"
-	MmSupportAdvisorAddress      = "support-advisor@mattermost.com"
+	GenericNotificationServer    = "https://chat-proxy.grommunio.com"
+	MmSupportAdvisorAddress      = "noreply@grommunio.com"
 	FullNotification             = "full"
 	IdLoadedNotification         = "id_loaded"
 
