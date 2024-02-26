@@ -15,7 +15,7 @@ ENV POSTGRES_PASSWORD=mostest
 ENV POSTGRES_DB=mattermost_test
 
 #
-# Configure Mattermost
+# Configure grommunio-chat
 #
 WORKDIR /mm
 
@@ -28,7 +28,7 @@ ADD docker-entry.sh .
 RUN chmod +x ./docker-entry.sh
 ENTRYPOINT ./docker-entry.sh
 
-# Mattermost environment variables
+# grommunio-chat environment variables
 ENV PATH="/mm/mattermost/bin:${PATH}"
 
 # Create default storage directory

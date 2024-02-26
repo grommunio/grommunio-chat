@@ -224,7 +224,7 @@ exports[`components/integrations/AbstractCommand should match snapshot 1`] = `
             className="form__help"
           >
             <MemoizedFormattedMessage
-              defaultMessage="Specify the type of request, either POST or GET, sent to the endpoint that Mattermost hits to reach your application."
+              defaultMessage="Specify the type of request, either POST or GET, sent to the endpoint that grommunio-chat hits to reach your application."
               id="add_command.method.help"
             />
           </div>
@@ -258,7 +258,7 @@ exports[`components/integrations/AbstractCommand should match snapshot 1`] = `
             className="form__help"
           >
             <MemoizedFormattedMessage
-              defaultMessage="(Optional) Specify the name to use when posting responses for this slash command. Usernames can be up to 22 characters, and contain lowercase letters, numbers, and the symbols \\\\\\"-\\\\\\", \\\\\\"_\\\\\\", and \\\\\\".\\\\\\". If left blank, your Mattermost username is used."
+              defaultMessage="(Optional) Specify the name to use when posting responses for this slash command. Usernames can be up to 22 characters, and contain lowercase letters, numbers, and the symbols \\\\\\"-\\\\\\", \\\\\\"_\\\\\\", and \\\\\\".\\\\\\". If left blank, your grommunio-chat username is used."
               id="add_command.username.help"
             />
           </div>
@@ -664,7 +664,7 @@ exports[`components/integrations/AbstractCommand should match snapshot when head
             className="form__help"
           >
             <MemoizedFormattedMessage
-              defaultMessage="Specify the type of request, either POST or GET, sent to the endpoint that Mattermost hits to reach your application."
+              defaultMessage="Specify the type of request, either POST or GET, sent to the endpoint that grommunio-chat hits to reach your application."
               id="add_command.method.help"
             />
           </div>
@@ -698,7 +698,7 @@ exports[`components/integrations/AbstractCommand should match snapshot when head
             className="form__help"
           >
             <MemoizedFormattedMessage
-              defaultMessage="(Optional) Specify the name to use when posting responses for this slash command. Usernames can be up to 22 characters, and contain lowercase letters, numbers, and the symbols \\\\\\"-\\\\\\", \\\\\\"_\\\\\\", and \\\\\\".\\\\\\". If left blank, your Mattermost username is used."
+              defaultMessage="(Optional) Specify the name to use when posting responses for this slash command. Usernames can be up to 22 characters, and contain lowercase letters, numbers, and the symbols \\\\\\"-\\\\\\", \\\\\\"_\\\\\\", and \\\\\\".\\\\\\". If left blank, your grommunio-chat username is used."
               id="add_command.username.help"
             />
           </div>
@@ -1104,7 +1104,7 @@ exports[`components/integrations/AbstractCommand should match snapshot, displays
             className="form__help"
           >
             <MemoizedFormattedMessage
-              defaultMessage="Specify the type of request, either POST or GET, sent to the endpoint that Mattermost hits to reach your application."
+              defaultMessage="Specify the type of request, either POST or GET, sent to the endpoint that grommunio-chat hits to reach your application."
               id="add_command.method.help"
             />
           </div>
@@ -1138,7 +1138,7 @@ exports[`components/integrations/AbstractCommand should match snapshot, displays
             className="form__help"
           >
             <MemoizedFormattedMessage
-              defaultMessage="(Optional) Specify the name to use when posting responses for this slash command. Usernames can be up to 22 characters, and contain lowercase letters, numbers, and the symbols \\\\\\"-\\\\\\", \\\\\\"_\\\\\\", and \\\\\\".\\\\\\". If left blank, your Mattermost username is used."
+              defaultMessage="(Optional) Specify the name to use when posting responses for this slash command. Usernames can be up to 22 characters, and contain lowercase letters, numbers, and the symbols \\\\\\"-\\\\\\", \\\\\\"_\\\\\\", and \\\\\\".\\\\\\". If left blank, your grommunio-chat username is used."
               id="add_command.username.help"
             />
           </div>

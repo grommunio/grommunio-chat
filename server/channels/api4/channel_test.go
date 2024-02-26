@@ -161,7 +161,7 @@ func TestUpdateChannel(t *testing.T) {
 	//Update a open channel
 	channel.DisplayName = "My new display name"
 	channel.Header = "My fancy header"
-	channel.Purpose = "Mattermost ftw!"
+	channel.Purpose = "grommunio-chat ftw!"
 
 	newChannel, _, err := client.UpdateChannel(context.Background(), channel)
 	require.NoError(t, err)
@@ -181,7 +181,7 @@ func TestUpdateChannel(t *testing.T) {
 	//Update a private channel
 	private.DisplayName = "My new display name for private channel"
 	private.Header = "My fancy private header"
-	private.Purpose = "Mattermost ftw! in private mode"
+	private.Purpose = "grommunio-chat ftw! in private mode"
 
 	newPrivateChannel, _, err := client.UpdateChannel(context.Background(), private)
 	require.NoError(t, err)

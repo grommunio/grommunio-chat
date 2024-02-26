@@ -147,7 +147,7 @@ func (ch *Channels) servePluginRequest(w http.ResponseWriter, r *http.Request, h
 		token = r.URL.Query().Get("access_token")
 	}
 
-	// Mattermost-Plugin-ID can only be set by inter-plugin requests
+	// grommunio-chat-Plugin-ID can only be set by inter-plugin requests
 	r.Header.Del("Mattermost-Plugin-ID")
 
 	r.Header.Del("Mattermost-User-Id")

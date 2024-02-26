@@ -223,7 +223,7 @@ describe('Self hosted Purchase', () => {
         // * Verify information on the new purchased license
 
         cy.contains('Edition and License');
-        cy.contains('Mattermost Professional');
+        cy.contains('grommunio-chat Professional');
 
         // need to wait for all data to load in, so you don't get flaky
         // asserts over still not filled in items
@@ -240,7 +240,7 @@ describe('Self hosted Purchase', () => {
                     assertLine(lines, 'USERS', (userCount + additionalSeatsToPurchase).toString());
                     assertLine(lines, 'ACTIVE USERS', userCount.toString());
                 });
-                assertLine(lines, 'EDITION', 'Mattermost Professional');
+                assertLine(lines, 'EDITION', 'grommunio-chat Professional');
                 assertLine(lines, 'ISSUED', today);
 
                 assertLine(lines, 'NAME', adminUser.first_name + ' ' + adminUser.last_name);

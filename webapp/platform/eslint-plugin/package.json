@@ -1,7 +1,7 @@
 {
   "name": "@mattermost/eslint-plugin",
   "version": "1.0.0",
-  "description": "ESLint configuration and custom rules used by Mattermost",
+  "description": "ESLint configuration and custom rules used by grommunio-chat",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/mattermost/mattermost.git",

@@ -100,7 +100,7 @@ export function measure(name1, name2) {
         return {duration: -1, requestCount: -1, measurementName: ''};
     }
 
-    const displayPrefix = '🐐 Mattermost: ';
+    const displayPrefix = '🐐 grommunio-chat: ';
     const measurementName = `${displayPrefix}${name1} - ${name2}`;
     performance.measure(measurementName, name1, name2);
     const duration = mostRecentDurationByEntryName(measurementName);

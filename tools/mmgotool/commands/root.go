@@ -16,6 +16,6 @@ func Run(args []string) error {
 
 var RootCmd = &cobra.Command{
 	Use:   "mmgotool",
-	Short: "Mattermost dev utils cli",
-	Long:  `Mattermost cli to help in the development process`,
+	Short: "grommunio-chat dev utils cli",
+	Long:  `grommunio-chat cli to help in the development process`,
 }

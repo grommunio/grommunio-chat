@@ -193,7 +193,7 @@
   },
   {
     "id": "api.server.warn_metric.mfa.contact_us.email_body",
-    "translation": "Solicitude de contacto con Mattermost. Estou interesado en saber máis sobre como aplicar a autenticación de múltiples factores.\n"
+    "translation": "Solicitude de contacto con grommunio-chat. Estou interesado en saber máis sobre como aplicar a autenticación de múltiples factores.\n"
   },
   {
     "id": "api.context.mfa_required.app_error",
@@ -253,7 +253,7 @@
   },
   {
     "id": "api.templates.payment_failed_no_card.title",
-    "translation": "A súa factura de Mattermost Cloud está pendente de pago"
+    "translation": "A súa factura de grommunio-chat Cloud está pendente de pago"
   },
   {
     "id": "api.templates.payment_failed_no_card.button",
@@ -265,7 +265,7 @@
   },
   {
     "id": "api.templates.copyright",
-    "translation": "© 2017 Mattermost, Inc. 855 El Camino Real, 13A-168, Palo Alto, CA, 94301"
+    "translation": "© 2017 grommunio-chat, Inc. 855 El Camino Real, 13A-168, Palo Alto, CA, 94301"
   },
   {
     "id": "api.roles.patch_roles.not_allowed_permission.error",

@@ -265,7 +265,7 @@ exports[`components/admin_console/group_settings/GroupsList.tsx should match sna
         className="group-description"
       >
         <MemoizedFormattedMessage
-          defaultMessage="Mattermost Linking"
+          defaultMessage="grommunio-chat Linking"
           id="admin.group_settings.groups_list.mappingHeader"
         />
       </div>
@@ -390,7 +390,7 @@ exports[`components/admin_console/group_settings/GroupsList.tsx should match sna
         className="group-description"
       >
         <MemoizedFormattedMessage
-          defaultMessage="Mattermost Linking"
+          defaultMessage="grommunio-chat Linking"
           id="admin.group_settings.groups_list.mappingHeader"
         />
       </div>
@@ -515,7 +515,7 @@ exports[`components/admin_console/group_settings/GroupsList.tsx should match sna
         className="group-description"
       >
         <MemoizedFormattedMessage
-          defaultMessage="Mattermost Linking"
+          defaultMessage="grommunio-chat Linking"
           id="admin.group_settings.groups_list.mappingHeader"
         />
       </div>
@@ -639,7 +639,7 @@ exports[`components/admin_console/group_settings/GroupsList.tsx should match sna
         className="group-description"
       >
         <MemoizedFormattedMessage
-          defaultMessage="Mattermost Linking"
+          defaultMessage="grommunio-chat Linking"
           id="admin.group_settings.groups_list.mappingHeader"
         />
       </div>
@@ -799,7 +799,7 @@ exports[`components/admin_console/group_settings/GroupsList.tsx should match sna
         className="group-description"
       >
         <MemoizedFormattedMessage
-          defaultMessage="Mattermost Linking"
+          defaultMessage="grommunio-chat Linking"
           id="admin.group_settings.groups_list.mappingHeader"
         />
       </div>
@@ -1050,7 +1050,7 @@ exports[`components/admin_console/group_settings/GroupsList.tsx should match sna
         className="group-description"
       >
         <MemoizedFormattedMessage
-          defaultMessage="Mattermost Linking"
+          defaultMessage="grommunio-chat Linking"
           id="admin.group_settings.groups_list.mappingHeader"
         />
       </div>
@@ -1301,7 +1301,7 @@ exports[`components/admin_console/group_settings/GroupsList.tsx should match sna
         className="group-description"
       >
         <MemoizedFormattedMessage
-          defaultMessage="Mattermost Linking"
+          defaultMessage="grommunio-chat Linking"
           id="admin.group_settings.groups_list.mappingHeader"
         />
       </div>
@@ -1524,7 +1524,7 @@ exports[`components/admin_console/group_settings/GroupsList.tsx should match sna
         className="group-description"
       >
         <MemoizedFormattedMessage
-          defaultMessage="Mattermost Linking"
+          defaultMessage="grommunio-chat Linking"
           id="admin.group_settings.groups_list.mappingHeader"
         />
       </div>

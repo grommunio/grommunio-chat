@@ -521,7 +521,7 @@ inject-test-data: # add test data to the local instance.
 	bin/mmctl config set TeamSettings.MaxUsersPerTeam 100 --local
 	bin/mmctl sampledata -u 60 --local
 
-	@echo You may need to restart the Mattermost server before using the following
+	@echo You may need to restart the grommunio-chat server before using the following
 	@echo ========================================================================
 	@echo Login with a system admin account username=sysadmin password=Sys@dmin-sample1
 	@echo Login with a regular account username=user-1 password=SampleUs@r-1
@@ -560,7 +560,7 @@ test-mmctl-coverage: gotestsum start-docker
 	$(GOBIN)/gotestsum --packages="$(MMCTL_PACKAGES)" -- -tags 'unit e2e $(MMCTL_BUILD_TAGS)' -coverprofile=mmctlcover.out $(MMCTL_TESTFLAGS)
 	$(GO) tool cover -html=mmctlcover.out
 
-validate-go-version: ## Validates the installed version of go against Mattermost's minimum requirement.
+validate-go-version: ## Validates the installed version of go against grommunio-chat's minimum requirement.
 	@if [ $(GO_MAJOR_VERSION) -gt $(MINIMUM_SUPPORTED_GO_MAJOR_VERSION) ]; then \
 		exit 0 ;\
 	elif [ $(GO_MAJOR_VERSION) -lt $(MINIMUM_SUPPORTED_GO_MAJOR_VERSION) ]; then \

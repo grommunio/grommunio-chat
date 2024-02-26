@@ -261,7 +261,7 @@
   },
   {
     "id": "api.email_batching.send_batched_email_notification.button",
-    "translation": "Адкрыць Mattermost"
+    "translation": "Адкрыць grommunio-chat"
   },
   {
     "id": "api.command_remote.invite_password.help",
@@ -465,7 +465,7 @@
   },
   {
     "id": "api.templates.cloud_welcome_email.button",
-    "translation": "Адкрыць Mattermost"
+    "translation": "Адкрыць grommunio-chat"
   },
   {
     "id": "api.templates.cloud_welcome_email.app_market_place",
@@ -561,7 +561,7 @@
   },
   {
     "id": "app.system.warn_metric.bot_displayname",
-    "translation": "Mattermost Дарадца"
+    "translation": "grommunio-chat Дарадца"
   },
   {
     "id": "app.select_error",
@@ -649,7 +649,7 @@
   },
   {
     "id": "api.command_logout.desc",
-    "translation": "Выйсці з Mattermost"
+    "translation": "Выйсці з grommunio-chat"
   },
   {
     "id": "api.command_channel_rename.desc",
@@ -897,7 +897,7 @@
   },
   {
     "id": "api.templates.invite_body_footer.title",
-    "translation": "Што такое Mattermost?"
+    "translation": "Што такое grommunio-chat?"
   },
   {
     "id": "api.templates.cloud_welcome_email.info",
@@ -1001,7 +1001,7 @@
   },
   {
     "id": "mattermost.bulletin.subject",
-    "translation": "Бюлетэнь бяспекі Mattermost"
+    "translation": "Бюлетэнь бяспекі grommunio-chat"
   },
   {
     "id": "ent.ldap_id_migrate.app_error",
@@ -1133,15 +1133,15 @@
   },
   {
     "id": "api.server.warn_metric.number_of_active_users_100.notification_title",
-    "translation": "Маштабаванне з Mattermost"
+    "translation": "Маштабаванне з grommunio-chat"
   },
   {
     "id": "api.server.warn_metric.number_of_active_users_200.notification_title",
-    "translation": "Маштабаванне з Mattermost"
+    "translation": "Маштабаванне з grommunio-chat"
   },
   {
     "id": "api.server.warn_metric.number_of_active_users_500.notification_title",
-    "translation": "Маштабаванне з Mattermost"
+    "translation": "Маштабаванне з grommunio-chat"
   },
   {
     "id": "api.server.warn_metric.number_of_active_users_300.start_trial.notification_title",
@@ -1257,7 +1257,7 @@
   },
   {
     "id": "app.notification.footer.infoLogin",
-    "translation": "Вайсці у Mattermost"
+    "translation": "Вайсці у grommunio-chat"
   },
   {
     "id": "app.license.generate_renewal_token.no_license",
@@ -1505,11 +1505,11 @@
   },
   {
     "id": "web.error.unsupported_browser.no_longer_support_version",
-    "translation": "Гэтая вэрсія вашага браўзэра больш не падтрымліваецца Mattermost"
+    "translation": "Гэтая вэрсія вашага браўзэра больш не падтрымліваецца grommunio-chat"
   },
   {
     "id": "web.error.unsupported_browser.no_longer_support",
-    "translation": "Гэты браўзэр больш не падтрымліваецца Mattermost"
+    "translation": "Гэты браўзэр больш не падтрымліваецца grommunio-chat"
   },
   {
     "id": "web.error.unsupported_browser.learn_more",
@@ -1521,7 +1521,7 @@
   },
   {
     "id": "web.error.unsupported_browser.download_app_or_upgrade_browser",
-    "translation": "Загрузіце дадатак Mattermost або выкарыстоўвайце падтрымліваемы браўзэр для лепшай працы."
+    "translation": "Загрузіце дадатак grommunio-chat або выкарыстоўвайце падтрымліваемы браўзэр для лепшай працы."
   },
   {
     "id": "web.error.unsupported_browser.download",
@@ -1653,7 +1653,7 @@
   },
   {
     "id": "oauth.gitlab.tos.error",
-    "translation": "Умовы прадастаўлення паслуг GitLab абноўлены. Калі ласка, зайдзіце на gitlab.com, каб прыняць іх, а затым паспрабуйце зноў увайсці ў Mattermost."
+    "translation": "Умовы прадастаўлення паслуг GitLab абноўлены. Калі ласка, зайдзіце на gitlab.com, каб прыняць іх, а затым паспрабуйце зноў увайсці ў grommunio-chat."
   },
   {
     "id": "model.user_access_token.is_valid.token.app_error",
@@ -2797,7 +2797,7 @@
   },
   {
     "id": "ent.migration.migratetosaml.username_already_used_by_other_user",
-    "translation": "Імя карыстальніка ўжо выкарыстоўваецца іншым карыстальнікам Mattermost."
+    "translation": "Імя карыстальніка ўжо выкарыстоўваецца іншым карыстальнікам grommunio-chat."
   },
   {
     "id": "ent.migration.migratetosaml.user_not_found_in_users_mapping_file",
@@ -2921,7 +2921,7 @@
   },
   {
     "id": "ent.ldap.syncronize.search_failure.app_error",
-    "translation": "Не ўдалося знайсці карыстальнікаў у AD/LDAP. Праверце, ці можа сервер Mattermost падключыцца да вашага сервера AD/LDAP, і паспрабуйце зноў."
+    "translation": "Не ўдалося знайсці карыстальнікаў у AD/LDAP. Праверце, ці можа сервер grommunio-chat падключыцца да вашага сервера AD/LDAP, і паспрабуйце зноў."
   },
   {
     "id": "app.webhooks.update_incoming.app_error",
@@ -4445,7 +4445,7 @@
   },
   {
     "id": "ent.ldap.do_login.user_filtered.app_error",
-    "translation": "Ваш уліковы запіс AD/LDAP не мае дазволу на выкарыстанне гэтага сервера Mattermost. Калі ласка, звярніцеся да сістэмнага адміністратара, каб праверыць фільтр карыстальнікаў AD/LDAP."
+    "translation": "Ваш уліковы запіс AD/LDAP не мае дазволу на выкарыстанне гэтага сервера grommunio-chat. Калі ласка, звярніцеся да сістэмнага адміністратара, каб праверыць фільтр карыстальнікаў AD/LDAP."
   },
   {
     "id": "ent.ldap.do_login.unable_to_connect.app_error",
@@ -4505,7 +4505,7 @@
   },
   {
     "id": "ent.elasticsearch.test_config.license.error",
-    "translation": "Ваша версія сервера Mattermost не падтрымлівае Elasticsearch."
+    "translation": "Ваша версія сервера grommunio-chat не падтрымлівае Elasticsearch."
   },
   {
     "id": "ent.elasticsearch.stop.already_stopped.app_error",
@@ -5793,43 +5793,43 @@
   },
   {
     "id": "api.upgrade_to_enterprise_status.signature.app_error",
-    "translation": "Mattermost не ўдалося абнавіць да Карпаратыўнай рэдакцыі. Не атрымалася праверыць лічбавы подпіс загружанага двайковага файла."
+    "translation": "grommunio-chat не ўдалося абнавіць да Карпаратыўнай рэдакцыі. Не атрымалася праверыць лічбавы подпіс загружанага двайковага файла."
   },
   {
     "id": "api.upgrade_to_enterprise_status.app_error",
-    "translation": "Mattermost не ўдалося абнавіць да Карпаратыўнай рэдакцыі."
+    "translation": "grommunio-chat не ўдалося абнавіць да Карпаратыўнай рэдакцыі."
   },
   {
     "id": "api.upgrade_to_enterprise.system_not_supported.app_error",
-    "translation": "Mattermost не ўдалося абнавіць да Карпаратыўнай рэдакцыі. Гэта функцыя будзе працаваць толькі ў сістэмах Linux з архітэктурай x86-64."
+    "translation": "grommunio-chat не ўдалося абнавіць да Карпаратыўнай рэдакцыі. Гэта функцыя будзе працаваць толькі ў сістэмах Linux з архітэктурай x86-64."
   },
   {
     "id": "api.upgrade_to_enterprise.invalid-user.app_error",
-    "translation": "Mattermost не ўдалося абнавіць да Карпаратыўнай рэдакцыі. Сістэмны карыстач Mattermost {{.MattermostUsername}} не мае правоў на запіс у неабходны двайковы файл. Сістэмны адміністратар можа абнавіць правы доступу да файлаў, выканаўшы наступную каманду на серверы, дзе ўсталяваны Mattermost:\n\n```\nchown {{.MattermostUsername}} \"{{.Path}}\"\n```\n\nПасля змены правоў доступу да файла паспрабуйце зноў абнавіць Mattermost. Пасля абнаўлення і перазапуску не забудзьцеся аднавіць зыходныя дазволы для двайковага файла:\n\n```\nchown {{.FileUsername}} \"{{.Path}}\"\n```"
+    "translation": "grommunio-chat не ўдалося абнавіць да Карпаратыўнай рэдакцыі. Сістэмны карыстач grommunio-chat {{.MattermostUsername}} не мае правоў на запіс у неабходны двайковы файл. Сістэмны адміністратар можа абнавіць правы доступу да файлаў, выканаўшы наступную каманду на серверы, дзе ўсталяваны grommunio-chat:\n\n```\nchown {{.MattermostUsername}} \"{{.Path}}\"\n```\n\nПасля змены правоў доступу да файла паспрабуйце зноў абнавіць grommunio-chat. Пасля абнаўлення і перазапуску не забудзьцеся аднавіць зыходныя дазволы для двайковага файла:\n\n```\nchown {{.FileUsername}} \"{{.Path}}\"\n```"
   },
   {
     "id": "api.upgrade_to_enterprise.invalid-user-and-permission.app_error",
-    "translation": "Mattermost не ўдалося абнавіць да Карпаратыўнай рэдакцыі. Сістэмны карыстач Mattermost {{.MattermostUsername}} не мае правоў на запіс у неабходны двайковы файл. Сістэмны адміністратар можа абнавіць правы доступу да файлаў, выканаўшы наступную каманду на серверы, дзе ўсталяваны Mattermost:\n\n```\nchown {{.MattermostUsername}} \"{{.Path}}\"\nchmod +w \"{{.Path}}\"\n```\n\nПасля змены правоў доступу да файла паспрабуйце зноў абнавіць Mattermost. Пасля абнаўлення і перазапуску не забудзьцеся аднавіць зыходныя дазволы для двайковага файла:\n\n```\nchown {{.FileUsername}} \"{{.Path}}\"\nchmod -w \"{{.Path}}\"\n```"
+    "translation": "grommunio-chat не ўдалося абнавіць да Карпаратыўнай рэдакцыі. Сістэмны карыстач grommunio-chat {{.MattermostUsername}} не мае правоў на запіс у неабходны двайковы файл. Сістэмны адміністратар можа абнавіць правы доступу да файлаў, выканаўшы наступную каманду на серверы, дзе ўсталяваны grommunio-chat:\n\n```\nchown {{.MattermostUsername}} \"{{.Path}}\"\nchmod +w \"{{.Path}}\"\n```\n\nПасля змены правоў доступу да файла паспрабуйце зноў абнавіць grommunio-chat. Пасля абнаўлення і перазапуску не забудзьцеся аднавіць зыходныя дазволы для двайковага файла:\n\n```\nchown {{.FileUsername}} \"{{.Path}}\"\nchmod -w \"{{.Path}}\"\n```"
   },
   {
     "id": "api.upgrade_to_enterprise.invalid-permission.app_error",
-    "translation": "Mattermost не ўдалося абнавіць да Карпаратыўнай рэдакцыі. Сістэмны карыстач Mattermost {{.MattermostUsername}} не мае правоў на запіс у неабходны двайковы файл. Сістэмны адміністратар можа абнавіць правы доступу да файлаў, выканаўшы наступную каманду на серверы, дзе ўсталяваны Mattermost:\n\n```\nchmod +w \"{{.Path}}\"\n```\n\nПасля змены правоў доступу да файла паспрабуйце зноў абнавіць Mattermost. Пасля абнаўлення і перазапуску не забудзьцеся аднавіць зыходныя дазволы для двайковага файла:\n\n```\nchmod -w \"{{.Path}}\"\n```"
+    "translation": "grommunio-chat не ўдалося абнавіць да Карпаратыўнай рэдакцыі. Сістэмны карыстач grommunio-chat {{.MattermostUsername}} не мае правоў на запіс у неабходны двайковы файл. Сістэмны адміністратар можа абнавіць правы доступу да файлаў, выканаўшы наступную каманду на серверы, дзе ўсталяваны grommunio-chat:\n\n```\nchmod +w \"{{.Path}}\"\n```\n\nПасля змены правоў доступу да файла паспрабуйце зноў абнавіць grommunio-chat. Пасля абнаўлення і перазапуску не забудзьцеся аднавіць зыходныя дазволы для двайковага файла:\n\n```\nchmod -w \"{{.Path}}\"\n```"
   },
   {
     "id": "api.upgrade_to_enterprise.generic_error.app_error",
-    "translation": "Mattermost не ўдалося абнавіць да Карпаратыўнай рэдакцыі."
+    "translation": "grommunio-chat не ўдалося абнавіць да Карпаратыўнай рэдакцыі."
   },
   {
     "id": "api.upgrade_to_enterprise.app_error",
-    "translation": "Абнаўленне да Mattermost Карпаратыўная рэдакцыя ўжо выконваецца."
+    "translation": "Абнаўленне да grommunio-chat Карпаратыўная рэдакцыя ўжо выконваецца."
   },
   {
     "id": "api.upgrade_to_enterprise.already-enterprise.app_error",
-    "translation": "Вы не можаце выканаць абнаўленне, таму што вы ўжо карыстаецеся Mattermost Карпаратыўная рэдакцыя."
+    "translation": "Вы не можаце выканаць абнаўленне, таму што вы ўжо карыстаецеся grommunio-chat Карпаратыўная рэдакцыя."
   },
   {
     "id": "api.upgrade_to_enterprise.already-done.app_error",
-    "translation": "Вы ўжо перайшлі на Mattermost Карпаратыўная рэдакцыя. Калі ласка, перазапусціце сервер, каб завяршыць абнаўленне."
+    "translation": "Вы ўжо перайшлі на grommunio-chat Карпаратыўная рэдакцыя. Калі ласка, перазапусціце сервер, каб завяршыць абнаўленне."
   },
   {
     "id": "api.unable_to_read_file_from_backend",
@@ -5857,7 +5857,7 @@
   },
   {
     "id": "api.templates.welcome_body.info",
-    "translation": "Гэты email-адрас быў выкарыстаны для стварэння ўліковага запісу Mattermost."
+    "translation": "Гэты email-адрас быў выкарыстаны для стварэння ўліковага запісу grommunio-chat."
   },
   {
     "id": "api.templates.welcome_body.app_download_title",
@@ -5869,7 +5869,7 @@
   },
   {
     "id": "api.templates.warn_metric_ack.subject",
-    "translation": "Запыт Mattermost Звяжыцеся з намі"
+    "translation": "Запыт grommunio-chat Звяжыцеся з намі"
   },
   {
     "id": "api.templates.warn_metric_ack.footer",
@@ -6093,7 +6093,7 @@
   },
   {
     "id": "api.templates.verify_body.info",
-    "translation": "Гэты адрас электроннай пошты быў выкарыстаны для стварэння ўліковага запісу Mattermost."
+    "translation": "Гэты адрас электроннай пошты быў выкарыстаны для стварэння ўліковага запісу grommunio-chat."
   },
   {
     "id": "api.templates.username_change_subject",
@@ -6145,7 +6145,7 @@
   },
   {
     "id": "api.templates.remove_expired_license.subject",
-    "translation": "Карпаратыўная ліцэнзія Mattermost была адключаная."
+    "translation": "Карпаратыўная ліцэнзія grommunio-chat была адключаная."
   },
   {
     "id": "api.templates.remove_expired_license.body.title",
@@ -6157,11 +6157,11 @@
   },
   {
     "id": "api.templates.payment_failed_no_card.title",
-    "translation": "Ваш рахунак за Mattermost Cloud да аплаты"
+    "translation": "Ваш рахунак за grommunio-chat Cloud да аплаты"
   },
   {
     "id": "api.templates.payment_failed_no_card.subject",
-    "translation": "Аплата робіцца за падпіску на Mattermost Cloud"
+    "translation": "Аплата робіцца за падпіску на grommunio-chat Cloud"
   },
   {
     "id": "api.templates.payment_failed_no_card.info3",
@@ -6169,15 +6169,15 @@
   },
   {
     "id": "api.templates.payment_failed_no_card.info1",
-    "translation": "Ваш рахунак Mattermost Cloud за апошні разліковы перыяд быў апрацаваны. Аднак у нас няма вашых плацёжных рэквізітаў."
+    "translation": "Ваш рахунак grommunio-chat Cloud за апошні разліковы перыяд быў апрацаваны. Аднак у нас няма вашых плацёжных рэквізітаў."
   },
   {
     "id": "api.templates.payment_failed.subject",
-    "translation": "Патрабуецца дзеянне: Аплата за Mattermost Cloud не праведзена"
+    "translation": "Патрабуецца дзеянне: Аплата за grommunio-chat Cloud не праведзена"
   },
   {
     "id": "api.templates.payment_failed.info3",
-    "translation": "Каб забяспечыць бесперабойную падпіску на Mattermost Cloud, звяжыцеся з вашай фінансавай установай для ўхілення асноўнай праблемы або абновіце аплатную інфармацыю. Пасля абнаўлення плацежных дадзеных Mattermost распачне спробу пагасіць рэшту запазычанасці."
+    "translation": "Каб забяспечыць бесперабойную падпіску на grommunio-chat Cloud, звяжыцеся з вашай фінансавай установай для ўхілення асноўнай праблемы або абновіце аплатную інфармацыю. Пасля абнаўлення плацежных дадзеных grommunio-chat распачне спробу пагасіць рэшту запазычанасці."
   },
   {
     "id": "api.templates.payment_failed.info2",
@@ -6185,7 +6185,7 @@
   },
   {
     "id": "api.templates.payment_failed.info1",
-    "translation": "Ваша фінансавая ўстанова адхіліла аплату вашай карты {{.CardBrand}}. ****{{.LastFour}}, звязаны з вашым працоўным прасторай Mattermost Cloud."
+    "translation": "Ваша фінансавая ўстанова адхіліла аплату вашай карты {{.CardBrand}}. ****{{.LastFour}}, звязаны з вашым працоўным прасторай grommunio-chat Cloud."
   },
   {
     "id": "api.templates.password_change_subject",
@@ -6221,7 +6221,7 @@
   },
   {
     "id": "api.templates.license_up_for_renewal_title",
-    "translation": "Ваша падпіска Mattermost падлягае падаўжэнню"
+    "translation": "Ваша падпіска grommunio-chat падлягае падаўжэнню"
   },
   {
     "id": "api.templates.license_up_for_renewal_subtitle_two",
@@ -6229,7 +6229,7 @@
   },
   {
     "id": "api.templates.license_up_for_renewal_subtitle",
-    "translation": "{{.UserName}}, тэрмін дзеяння Вашай падпіскі заканчваецца праз {{.Days}} дзён. Мы спадзяемся, што вам падабаецца гнуткае і бяспечнае каманднае супрацоўніцтва, якое забяспечвае Mattermost. Падоўжыце падпіску хуткім часам, каб Ваша каманда магла працягваць карыстацца гэтымі перавагамі."
+    "translation": "{{.UserName}}, тэрмін дзеяння Вашай падпіскі заканчваецца праз {{.Days}} дзён. Мы спадзяемся, што вам падабаецца гнуткае і бяспечнае каманднае супрацоўніцтва, якое забяспечвае grommunio-chat. Падоўжыце падпіску хуткім часам, каб Ваша каманда магла працягваць карыстацца гэтымі перавагамі."
   },
   {
     "id": "api.templates.license_up_for_renewal_subject",
@@ -6249,7 +6249,7 @@
   },
   {
     "id": "api.templates.invite_body_footer.info",
-    "translation": "Mattermost – гэта гнуткая платформа абмену паведамленнямі з адкрытым зыходным кодам, якая забяспечвае бяспечную сумесную працу ў камандзе."
+    "translation": "grommunio-chat – гэта гнуткая платформа абмену паведамленнямі з адкрытым зыходным кодам, якая забяспечвае бяспечную сумесную працу ў камандзе."
   },
   {
     "id": "api.templates.invite_body.title",
@@ -6257,7 +6257,7 @@
   },
   {
     "id": "api.templates.invite_body.subTitle",
-    "translation": "Пачніце працу з вашай камандай на Mattermost"
+    "translation": "Пачніце працу з вашай камандай на grommunio-chat"
   },
   {
     "id": "api.templates.email_warning",
@@ -6273,7 +6273,7 @@
   },
   {
     "id": "api.templates.email_footer_v2",
-    "translation": "© 2022 Mattermost, Inc. 530 Lytton Avenue, Second floor, Palo Alto, CA, 94301"
+    "translation": "© 2022 grommunio-chat, Inc. 530 Lytton Avenue, Second floor, Palo Alto, CA, 94301"
   },
   {
     "id": "api.templates.email_footer",
@@ -6313,15 +6313,15 @@
   },
   {
     "id": "api.server.warn_metric.number_of_channels_50.start_trial.notification_body",
-    "translation": "Каналы дапамагаюць палепшыць камунікацыю, але па меры далучэння да Mattermost новых карыстальнікаў і стварэння імі каналаў, задача падтрымання арганізаванасці сістэмы ўскладняецца. Пашыраныя правы дазваляюць устанавіць, якія карыстальнікі або ролі могуць выконваць пэўныя дзеянні, у тым ліку кіраванне настройкамі каналаў і падпісчыкаў, выкарыстоўваючы тэгі @channel або @here для шырокіх груп карыстальнікаў, а таксама для стварэння новых падзей webhook.\n\n[Больш падрабязна аб выкарыстанні пашыраных правоў] (https://www.mattermost.com/docs-advanced-permissions/?utm_medium=product&utm_source=mattermost-advisor-bot&utm_content=advanced-permissions).\n\nНаціснуўшы кнопку \"Пачаць выкарыстоўваць пробную версію\", я згаджаюся з [Пагадненнем аб ацэнцы праграмнага забеспячэння Mattermost](https://mattermost.com/software-evaluation-agreement/), [Палітыкай прыватнасці](https://mattermost.com/ privacy-policy/) і атрымліваю паведамленні аб прадукце па email."
+    "translation": "Каналы дапамагаюць палепшыць камунікацыю, але па меры далучэння да grommunio-chat новых карыстальнікаў і стварэння імі каналаў, задача падтрымання арганізаванасці сістэмы ўскладняецца. Пашыраныя правы дазваляюць устанавіць, якія карыстальнікі або ролі могуць выконваць пэўныя дзеянні, у тым ліку кіраванне настройкамі каналаў і падпісчыкаў, выкарыстоўваючы тэгі @channel або @here для шырокіх груп карыстальнікаў, а таксама для стварэння новых падзей webhook.\n\n[Больш падрабязна аб выкарыстанні пашыраных правоў] (https://www.mattermost.com/docs-advanced-permissions/?utm_medium=product&utm_source=mattermost-advisor-bot&utm_content=advanced-permissions).\n\nНаціснуўшы кнопку \"Пачаць выкарыстоўваць пробную версію\", я згаджаюся з [Пагадненнем аб ацэнцы праграмнага забеспячэння grommunio-chat](https://mattermost.com/software-evaluation-agreement/), [Палітыкай прыватнасці](https://mattermost.com/ privacy-policy/) і атрымліваю паведамленні аб прадукце па email."
   },
   {
     "id": "api.server.warn_metric.number_of_channels_50.notification_body",
-    "translation": "Каналы дапамагаюць палепшыць камунікацыю, але па меры далучэння да Mattermost новых карыстальнікаў і стварэння імі каналаў, задача падтрымання арганізаванасці сістэмы ўскладняецца. Пашыраныя правы дазваляюць устанавіць, якія карыстальнікі або ролі могуць выконваць пэўныя дзеянні, у тым ліку кіраванне настройкамі каналаў і падпісчыкаў, выкарыстоўваючы тэгі @channel або @here для шырокіх груп карыстальнікаў, а таксама для стварэння новых падзей webhook.\n\n[Больш падрабязна аб выкарыстанні пашыраных правоў] (https://www.mattermost.com/docs-advanced-permissions/?utm_medium=product&utm_source=mattermost-advisor-bot&utm_content=advanced-permissions).\n\nНаціснуўшы кнопку \"Звязацца з намі\", вы падзяліцеся сваёй інфармацыяй з кампаніяй Mattermost, Inc. [Больш падрабязна] (https://mattermost.com/pl/default-admin-advisory)"
+    "translation": "Каналы дапамагаюць палепшыць камунікацыю, але па меры далучэння да grommunio-chat новых карыстальнікаў і стварэння імі каналаў, задача падтрымання арганізаванасці сістэмы ўскладняецца. Пашыраныя правы дазваляюць устанавіць, якія карыстальнікі або ролі могуць выконваць пэўныя дзеянні, у тым ліку кіраванне настройкамі каналаў і падпісчыкаў, выкарыстоўваючы тэгі @channel або @here для шырокіх груп карыстальнікаў, а таксама для стварэння новых падзей webhook.\n\n[Больш падрабязна аб выкарыстанні пашыраных правоў] (https://www.mattermost.com/docs-advanced-permissions/?utm_medium=product&utm_source=mattermost-advisor-bot&utm_content=advanced-permissions).\n\nНаціснуўшы кнопку \"Звязацца з намі\", вы падзяліцеся сваёй інфармацыяй з кампаніяй grommunio-chat, Inc. [Больш падрабязна] (https://mattermost.com/pl/default-admin-advisory)"
   },
   {
     "id": "api.server.warn_metric.number_of_channels_50.contact_us.email_body",
-    "translation": "Запыт кантакту з Mattermost. Мне цікава даведацца больш аб выкарыстанні пашыраных дазволаў з сістэмнымі схемамі.\n"
+    "translation": "Запыт кантакту з grommunio-chat. Мне цікава даведацца больш аб выкарыстанні пашыраных дазволаў з сістэмнымі схемамі.\n"
   },
   {
     "id": "api.server.warn_metric.number_of_active_users_500.start_trial.notification_success.message",
@@ -6329,15 +6329,15 @@
   },
   {
     "id": "api.server.warn_metric.number_of_active_users_500.start_trial.notification_body",
-    "translation": "Пры разгортванні Mattermost больш, чым на 500 карыстальнікаў, мы настойліва раім выкарыстоўваць такія функцыі, як кіраванне карыстальнікамі, кластарызацыя сервераў і маніторынг прадукцыйнасці. Звяжыцеся з намі, каб пазнаць больш і дайце ведаць, чым мы можам дапамагчы.\n\nНаціснуўшы кнопку \"Пачаць выкарыстоўваць пробную версію\", я згаджаюся з [Пагадненнем аб ацэнцы праграмнага забеспячэння Mattermost](https://mattermost.com/software-evaluation-agreement/), [Палітыкай прыватнасці](https://mattermost.com/ privacy-policy/) і атрымліваю паведамленні аб прадукце па email."
+    "translation": "Пры разгортванні grommunio-chat больш, чым на 500 карыстальнікаў, мы настойліва раім выкарыстоўваць такія функцыі, як кіраванне карыстальнікамі, кластарызацыя сервераў і маніторынг прадукцыйнасці. Звяжыцеся з намі, каб пазнаць больш і дайце ведаць, чым мы можам дапамагчы.\n\nНаціснуўшы кнопку \"Пачаць выкарыстоўваць пробную версію\", я згаджаюся з [Пагадненнем аб ацэнцы праграмнага забеспячэння grommunio-chat](https://mattermost.com/software-evaluation-agreement/), [Палітыкай прыватнасці](https://mattermost.com/ privacy-policy/) і атрымліваю паведамленні аб прадукце па email."
   },
   {
     "id": "api.server.warn_metric.number_of_active_users_500.notification_body",
-    "translation": "Mattermost настойліва рэкамендуе, каб пры разгортванні больш, чым на 500 карыстальнікаў было зроблена абнаўленне да Карпаратыўнай рэдакцыі Mattermost, якая прапануе такія функцыі, як кіраванне карыстальнікамі, кластарызацыя сервераў і маніторынг прадукцыйнасці. Звяжыцеся з намі, каб пазнаць больш і дайце ведаць, чым мы можам дапамагчы.\n\nНаціснуўшы кнопку Звязацца з намі, вы падзяліцеся сваёй інфармацыяй з Mattermost, Inc. [Больш падрабязна] (https://mattermost.com/pl/default-admin-advisory)"
+    "translation": "grommunio-chat настойліва рэкамендуе, каб пры разгортванні больш, чым на 500 карыстальнікаў было зроблена абнаўленне да Карпаратыўнай рэдакцыі grommunio-chat, якая прапануе такія функцыі, як кіраванне карыстальнікамі, кластарызацыя сервераў і маніторынг прадукцыйнасці. Звяжыцеся з намі, каб пазнаць больш і дайце ведаць, чым мы можам дапамагчы.\n\nНаціснуўшы кнопку Звязацца з намі, вы падзяліцеся сваёй інфармацыяй з grommunio-chat, Inc. [Больш падрабязна] (https://mattermost.com/pl/default-admin-advisory)"
   },
   {
     "id": "api.server.warn_metric.number_of_active_users_500.contact_us.email_body",
-    "translation": "запыт Mattermost Звяжыцеся з намі. У маёй каманды зараз {{.Limit}} карыстальнікаў, і я разглядаю Mattermost Карпаратыўная рэдакцыя.\n"
+    "translation": "запыт grommunio-chat Звяжыцеся з намі. У маёй каманды зараз {{.Limit}} карыстальнікаў, і я разглядаю grommunio-chat Карпаратыўная рэдакцыя.\n"
   },
   {
     "id": "api.server.warn_metric.number_of_active_users_300.start_trial.notification_success.message",
@@ -6345,15 +6345,15 @@
   },
   {
     "id": "api.server.warn_metric.number_of_active_users_300.start_trial.notification_body",
-    "translation": "У Mattermost шмат перамоваў, таму можа быць складана зразумець, дзе шукаць важную інфармацыю. Калі вы жадаеце трансляваць паведамленне для вялікай аўдыторыі, вы можаце наладзіць каналы аб'яваў для чытання, да якіх можа далучыцца любы ахвочы, але толькі адміністратары каналаў могуць размяшчаць паведамленні.\n\n[Больш падрабязна аб стварэнні каналаў аб'яваў толькі для чытання] (https://www.mattermost.com/docs-channel-moderation/?utm_medium=product&utm_source=mattermost-advisor-bot&utm_content=channel-moderation).\n\nНаціснуўшы кнопку \"Пачаць выкарыстоўваць пробную версію\", я згаджаюся з [Пагадненнем аб ацэнцы праграмнага забеспячэння Mattermost](https://mattermost.com/software-evaluation-agreement/), [Палітыкай прыватнасці](https://mattermost.com/ privacy-policy/) і атрымліваю паведамленні аб прадукце па email."
+    "translation": "У grommunio-chat шмат перамоваў, таму можа быць складана зразумець, дзе шукаць важную інфармацыю. Калі вы жадаеце трансляваць паведамленне для вялікай аўдыторыі, вы можаце наладзіць каналы аб'яваў для чытання, да якіх можа далучыцца любы ахвочы, але толькі адміністратары каналаў могуць размяшчаць паведамленні.\n\n[Больш падрабязна аб стварэнні каналаў аб'яваў толькі для чытання] (https://www.mattermost.com/docs-channel-moderation/?utm_medium=product&utm_source=mattermost-advisor-bot&utm_content=channel-moderation).\n\nНаціснуўшы кнопку \"Пачаць выкарыстоўваць пробную версію\", я згаджаюся з [Пагадненнем аб ацэнцы праграмнага забеспячэння grommunio-chat](https://mattermost.com/software-evaluation-agreement/), [Палітыкай прыватнасці](https://mattermost.com/ privacy-policy/) і атрымліваю паведамленні аб прадукце па email."
   },
   {
     "id": "api.server.warn_metric.number_of_active_users_300.notification_body",
-    "translation": "У Mattermost шмат перамоваў, таму можа быць складана зразумець, дзе шукаць важную інфармацыю. Калі вы жадаеце трансляваць паведамленне для вялікай аўдыторыі, вы можаце наладзіць каналы аб'яваў для чытання, да якіх можа далучыцца любы ахвочы, але толькі адміністратары каналаў могуць размяшчаць паведамленні.\n\n[Больш падрабязна аб стварэнні каналаў аб'яваў толькі для чытання] (https://www.mattermost.com/docs-channel-moderation/?utm_medium=product&utm_source=mattermost-advisor-bot&utm_content=channel-moderation).\n\nНаціснуўшы кнопку \"Звязацца з намі\", вы падзяліцеся сваёй інфармацыяй з кампаніяй Mattermost, Inc. [Даведацца больш] (https://mattermost.com/pl/default-admin-advisory)"
+    "translation": "У grommunio-chat шмат перамоваў, таму можа быць складана зразумець, дзе шукаць важную інфармацыю. Калі вы жадаеце трансляваць паведамленне для вялікай аўдыторыі, вы можаце наладзіць каналы аб'яваў для чытання, да якіх можа далучыцца любы ахвочы, але толькі адміністратары каналаў могуць размяшчаць паведамленні.\n\n[Больш падрабязна аб стварэнні каналаў аб'яваў толькі для чытання] (https://www.mattermost.com/docs-channel-moderation/?utm_medium=product&utm_source=mattermost-advisor-bot&utm_content=channel-moderation).\n\nНаціснуўшы кнопку \"Звязацца з намі\", вы падзяліцеся сваёй інфармацыяй з кампаніяй grommunio-chat, Inc. [Даведацца больш] (https://mattermost.com/pl/default-admin-advisory)"
   },
   {
     "id": "api.server.warn_metric.number_of_active_users_300.contact_us.email_body",
-    "translation": "Запыт кантакту з Mattermost. Мне цікава даведацца больш аб стварэнні каналаў аб'яваў толькі для.\n"
+    "translation": "Запыт кантакту з grommunio-chat. Мне цікава даведацца больш аб стварэнні каналаў аб'яваў толькі для.\n"
   },
   {
     "id": "api.server.warn_metric.number_of_active_users_200.start_trial.notification_success.message",
@@ -6361,15 +6361,15 @@
   },
   {
     "id": "api.server.warn_metric.number_of_active_users_200.start_trial.notification_body",
-    "translation": "У вашай сістэме Mattermost зараз 200 карыстальнікаў. Калі вы падключаеце Mattermost да пастаўшчыка сістэмы адзінага ўваходу ў вашай арганізацыі, карыстачы могуць атрымаць доступ да Mattermost без неабходнасці паўторна ўводзіць свае ўліковыя дадзеныя. Мы раім вам інтэграваць свайго правайдэра SAML 2.0 з серверам Mattermost. [Больш падрабязна аб інтэграцыі з SAML 2.0] (https://www.mattermost.com/docs-saml/?utm_medium=product&utm_source=mattermost-advisor-bot&utm_content=saml)\n\nНаціскаючы \"Паспрабаваць\", я прымаю [Пагадненне аб ацэнцы праграмнага забеспячэння Mattermost](https://mattermost.com/software-evaluation-agreement/), [Палітыку прыватнасці](https://mattermost.com/privacy-policy/) і гатовы атрымліваць электронныя лісты аб прадуктах."
+    "translation": "У вашай сістэме grommunio-chat зараз 200 карыстальнікаў. Калі вы падключаеце grommunio-chat да пастаўшчыка сістэмы адзінага ўваходу ў вашай арганізацыі, карыстачы могуць атрымаць доступ да grommunio-chat без неабходнасці паўторна ўводзіць свае ўліковыя дадзеныя. Мы раім вам інтэграваць свайго правайдэра SAML 2.0 з серверам grommunio-chat. [Больш падрабязна аб інтэграцыі з SAML 2.0] (https://www.mattermost.com/docs-saml/?utm_medium=product&utm_source=mattermost-advisor-bot&utm_content=saml)\n\nНаціскаючы \"Паспрабаваць\", я прымаю [Пагадненне аб ацэнцы праграмнага забеспячэння grommunio-chat](https://mattermost.com/software-evaluation-agreement/), [Палітыку прыватнасці](https://mattermost.com/privacy-policy/) і гатовы атрымліваць электронныя лісты аб прадуктах."
   },
   {
     "id": "api.server.warn_metric.number_of_active_users_200.notification_body",
-    "translation": "У вашай сістэме Mattermost зараз 200 карыстальнікаў. Калі вы падключаеце Mattermost да пастаўшчыка сістэмы адзінага ўваходу ў вашай арганізацыі, карыстачы могуць атрымаць доступ да Mattermost без неабходнасці паўторна ўводзіць свае ўліковыя дадзеныя. Мы раім вам інтэграваць свайго пастаўшчыка SAML 2.0 з вашым серверам Mattermost. [Больш падрабязна аб інтэграцыі з SAML 2.0](https://www.mattermost.com/docs-saml/?utm_medium=product&utm_source=mattermost-advisor-bot&utm_content=saml) .\n\nНаціснуўшы «Звязацца з намі», вы падзяліцеся сваёй інфармацыяй з Mattermost, Inc. [Больш падрабязна](https://mattermost.com/pl/default-admin-advisory)"
+    "translation": "У вашай сістэме grommunio-chat зараз 200 карыстальнікаў. Калі вы падключаеце grommunio-chat да пастаўшчыка сістэмы адзінага ўваходу ў вашай арганізацыі, карыстачы могуць атрымаць доступ да grommunio-chat без неабходнасці паўторна ўводзіць свае ўліковыя дадзеныя. Мы раім вам інтэграваць свайго пастаўшчыка SAML 2.0 з вашым серверам grommunio-chat. [Больш падрабязна аб інтэграцыі з SAML 2.0](https://www.mattermost.com/docs-saml/?utm_medium=product&utm_source=mattermost-advisor-bot&utm_content=saml) .\n\nНаціснуўшы «Звязацца з намі», вы падзяліцеся сваёй інфармацыяй з grommunio-chat, Inc. [Больш падрабязна](https://mattermost.com/pl/default-admin-advisory)"
   },
   {
     "id": "api.server.warn_metric.number_of_active_users_200.contact_us.email_body",
-    "translation": "запыт Mattermost Звяжыцеся з намі. У маёй каманды зараз {{.Limit}} карыстальнікаў, і я разглядаю Mattermost Карпаратыўная рэдакцыя.\n"
+    "translation": "запыт grommunio-chat Звяжыцеся з намі. У маёй каманды зараз {{.Limit}} карыстальнікаў, і я разглядаю grommunio-chat Карпаратыўная рэдакцыя.\n"
   },
   {
     "id": "api.server.warn_metric.number_of_active_users_100.start_trial.notification_success.message",
@@ -6377,15 +6377,15 @@
   },
   {
     "id": "api.server.warn_metric.number_of_active_users_100.start_trial.notification_body",
-    "translation": "У вашай сістэмы Mattermost больш за 100 карыстальнікаў. Па меры росту вашай базы карыстальнікаў, стварэнне новых уліковых запісаў можа забіраць шмат часу. Мы рэкамендуем інтэграваць Active Directory/LDAP вашай арганізацыі, што дазволіць любому, у каго ёсць уліковы запіс, атрымаць доступ да Mattermost.\n\n[Больш падрабязна аб інтэграцыі з AD/LDAP](https://www.mattermost.com/docs-adldap/?utm_medium=product&utm_source=mattermost-advisor-bot&utm_content=adldap)\n\nНаціснуўшы кнопку \"Пачаць выкарыстоўваць пробную версію\", я згаджаюся з [Пагадненнем аб ацэнцы праграмнага забеспячэння Mattermost](https://mattermost.com/software-evaluation-agreement/), [Палітыкай прыватнасці](https://mattermost.com/ privacy-policy/) і атрымліваю паведамленні аб прадукце па email."
+    "translation": "У вашай сістэмы grommunio-chat больш за 100 карыстальнікаў. Па меры росту вашай базы карыстальнікаў, стварэнне новых уліковых запісаў можа забіраць шмат часу. Мы рэкамендуем інтэграваць Active Directory/LDAP вашай арганізацыі, што дазволіць любому, у каго ёсць уліковы запіс, атрымаць доступ да grommunio-chat.\n\n[Больш падрабязна аб інтэграцыі з AD/LDAP](https://www.mattermost.com/docs-adldap/?utm_medium=product&utm_source=mattermost-advisor-bot&utm_content=adldap)\n\nНаціснуўшы кнопку \"Пачаць выкарыстоўваць пробную версію\", я згаджаюся з [Пагадненнем аб ацэнцы праграмнага забеспячэння grommunio-chat](https://mattermost.com/software-evaluation-agreement/), [Палітыкай прыватнасці](https://mattermost.com/ privacy-policy/) і атрымліваю паведамленні аб прадукце па email."
   },
   {
     "id": "api.server.warn_metric.number_of_active_users_100.notification_body",
-    "translation": "У вашай сістэме Mattermost зараз 200 карыстальнікаў. Па меры росту вашай карыстацкай базы стварэнне новых уліковых запісаў можа заняць шмат часу. Мы рэкамендуем вам інтэграваць Active Directory/LDAP вашай арганізацыі, што дазволіць любому, у каго ёсць уліковы запіс, атрымаць доступ да Mattermost.\n\n[Больш падрабязна аб інтэграцыі з AD/LDAP](https://docs.mattermost.com/deployment/sso-ldap.html?utm_medium=product&utm_source=mattermost-advisor-bot&utm_content=adldap)\n\nНаціснуўшы «Пацвердзіць», вы падзяліцеся сваёй інфармацыяй з Mattermost Inc., каб даведацца больш аб абнаўленні. [Больш падрабязна…](https://mattermost.com/pl/default-admin-advisory)"
+    "translation": "У вашай сістэме grommunio-chat зараз 200 карыстальнікаў. Па меры росту вашай карыстацкай базы стварэнне новых уліковых запісаў можа заняць шмат часу. Мы рэкамендуем вам інтэграваць Active Directory/LDAP вашай арганізацыі, што дазволіць любому, у каго ёсць уліковы запіс, атрымаць доступ да grommunio-chat.\n\n[Больш падрабязна аб інтэграцыі з AD/LDAP](https://docs.mattermost.com/deployment/sso-ldap.html?utm_medium=product&utm_source=mattermost-advisor-bot&utm_content=adldap)\n\nНаціснуўшы «Пацвердзіць», вы падзяліцеся сваёй інфармацыяй з grommunio-chat Inc., каб даведацца больш аб абнаўленні. [Больш падрабязна…](https://mattermost.com/pl/default-admin-advisory)"
   },
   {
     "id": "api.server.warn_metric.number_of_active_users_100.contact_us.email_body",
-    "translation": "Запыт кантакту з Mattermost. У маёй каманды зараз 100 карыстальнікаў, і я разглядаю Карпаратыўную рэдакцыю Mattermost.\n"
+    "translation": "Запыт кантакту з grommunio-chat. У маёй каманды зараз 100 карыстальнікаў, і я разглядаю Карпаратыўную рэдакцыю grommunio-chat.\n"
   },
   {
     "id": "api.server.warn_metric.mfa.start_trial_notification_success.message",
@@ -6393,15 +6393,15 @@
   },
   {
     "id": "api.server.warn_metric.mfa.start_trial.notification_body",
-    "translation": "У вашай сістэме Mattermost уключана шматфактарная аўтэнтыфікацыя, што дае карыстальнікам магчымасць абараніць свае ўліковыя запісы з дапамогай дадатковых сродкаў аўтэнтыфікацыі акрамя пароля. Для павышэння бяспекі ўсёй сістэмы вы можаце запатрабаваць, каб усе ўліковыя запісы Mattermost выкарыстоўвалі шматфактарную аўтэнтыфікацыю.\n\n[Больш падрабязна аб прымяненні Шматфактарнай аўтэнтыфікацыі](https://www.mattermost.com/docs-multi-factor-authentication/?utm_medium=product&utm_source=mattermost-advisor-bot&utm_content=multi-factor-authentication)\n\nНаціскаючы Пачаць пробную версію, я прымаю [Пагадненне аб ацэнцы праграмнага забеспячэння Mattermost](https://mattermost.com/software-evaluation-agreement/), [Палітыку прыватнасці](https://mattermost.com/privacy-policy/) і гатовы атрымліваць электронныя лісты аб прадуктах."
+    "translation": "У вашай сістэме grommunio-chat уключана шматфактарная аўтэнтыфікацыя, што дае карыстальнікам магчымасць абараніць свае ўліковыя запісы з дапамогай дадатковых сродкаў аўтэнтыфікацыі акрамя пароля. Для павышэння бяспекі ўсёй сістэмы вы можаце запатрабаваць, каб усе ўліковыя запісы grommunio-chat выкарыстоўвалі шматфактарную аўтэнтыфікацыю.\n\n[Больш падрабязна аб прымяненні Шматфактарнай аўтэнтыфікацыі](https://www.mattermost.com/docs-multi-factor-authentication/?utm_medium=product&utm_source=mattermost-advisor-bot&utm_content=multi-factor-authentication)\n\nНаціскаючы Пачаць пробную версію, я прымаю [Пагадненне аб ацэнцы праграмнага забеспячэння grommunio-chat](https://mattermost.com/software-evaluation-agreement/), [Палітыку прыватнасці](https://mattermost.com/privacy-policy/) і гатовы атрымліваць электронныя лісты аб прадуктах."
   },
   {
     "id": "api.server.warn_metric.mfa.notification_body",
-    "translation": "У вашай сістэме Mattermost уключана шматфактарная аўтэнтыфікацыя, што дае карыстальнікам магчымасць абараніць свае ўліковыя запісы з дапамогай дадатковых сродкаў аўтэнтыфікацыі акрамя пароля. Для павышэння бяспекі ўсёй сістэмы вы можаце запатрабаваць, каб усе ўліковыя запісы Mattermost выкарыстоўвалі шматфактарную аўтэнтыфікацыю.\n\n[Больш падрабязна аб прымусовай шматфактарнай аўтэнтыфікацыі](https://www.mattermost.com/docs-multi-factor-authentication/?utm_medium=product&utm_source=mattermost-advisor-bot&utm_content=multi-factor-authentication).\n\nНаціснуўшы «Звязацца з намі», вы падзяліцеся сваёй інфармацыяй з Mattermost, Inc. [Больш падрабязна](https://mattermost.com/pl/default-admin-advisory)"
+    "translation": "У вашай сістэме grommunio-chat уключана шматфактарная аўтэнтыфікацыя, што дае карыстальнікам магчымасць абараніць свае ўліковыя запісы з дапамогай дадатковых сродкаў аўтэнтыфікацыі акрамя пароля. Для павышэння бяспекі ўсёй сістэмы вы можаце запатрабаваць, каб усе ўліковыя запісы grommunio-chat выкарыстоўвалі шматфактарную аўтэнтыфікацыю.\n\n[Больш падрабязна аб прымусовай шматфактарнай аўтэнтыфікацыі](https://www.mattermost.com/docs-multi-factor-authentication/?utm_medium=product&utm_source=mattermost-advisor-bot&utm_content=multi-factor-authentication).\n\nНаціснуўшы «Звязацца з намі», вы падзяліцеся сваёй інфармацыяй з grommunio-chat, Inc. [Больш падрабязна](https://mattermost.com/pl/default-admin-advisory)"
   },
   {
     "id": "api.server.warn_metric.mfa.contact_us.email_body",
-    "translation": "Просьба да Mattermost звязацца з намі. Мне цікава даведацца больш аб уключэнні шматфактарнай аўтэнтыфікацыі.\n"
+    "translation": "Просьба да grommunio-chat звязацца з намі. Мне цікава даведацца больш аб уключэнні шматфактарнай аўтэнтыфікацыі.\n"
   },
   {
     "id": "api.server.warn_metric.email_domain.start_trial_notification_success.message",
@@ -6409,15 +6409,15 @@
   },
   {
     "id": "api.server.warn_metric.email_domain.start_trial.notification_body",
-    "translation": "У праектах часта ўдзельнічаюць людзі як унутры, так і за межамі арганізацыі. З дапамогай гасцявых уліковых запісаў вы можаце прыцягваць вонкавых партнёраў да сваёй сістэмы Mattermost і паказваць, з кім яны могуць працаваць і што яны могуць бачыць.\n\n[Больш падрабязна аб уключэнні гасцявых уліковых запісаў](https://www.mattermost.com/docs-guest-accounts/?utm_medium=product&utm_source=mattermost-advisor-bot&utm_content=guest-accounts)\n\nНаціскаючы \"Паспрабаваць\", я прымаю [Пагадненне аб ацэнцы праграмнага забеспячэння Mattermost](https://mattermost.com/software-evaluation-agreement/), [Палітыку прыватнасці](https://mattermost.com/privacy-policy/) і буду атрымліваць электронныя лісты аб прадуктах."
+    "translation": "У праектах часта ўдзельнічаюць людзі як унутры, так і за межамі арганізацыі. З дапамогай гасцявых уліковых запісаў вы можаце прыцягваць вонкавых партнёраў да сваёй сістэмы grommunio-chat і паказваць, з кім яны могуць працаваць і што яны могуць бачыць.\n\n[Больш падрабязна аб уключэнні гасцявых уліковых запісаў](https://www.mattermost.com/docs-guest-accounts/?utm_medium=product&utm_source=mattermost-advisor-bot&utm_content=guest-accounts)\n\nНаціскаючы \"Паспрабаваць\", я прымаю [Пагадненне аб ацэнцы праграмнага забеспячэння grommunio-chat](https://mattermost.com/software-evaluation-agreement/), [Палітыку прыватнасці](https://mattermost.com/privacy-policy/) і буду атрымліваць электронныя лісты аб прадуктах."
   },
   {
     "id": "api.server.warn_metric.email_domain.notification_body",
-    "translation": "У праектах часта ўдзельнічаюць людзі як унутры, так і за межамі арганізацыі. З дапамогай гасцявых уліковых запісаў вы можаце прыцягваць вонкавых партнёраў да сваёй сістэмы Mattermost і паказваць, з кім яны могуць працаваць і што яны могуць бачыць.\n\n[Больш падрабязна аб уключэнні гасцявых уліковых запісаў](https://www.mattermost.com/docs-guest-accounts/?utm_medium=product&utm_source=mattermost-advisor-bot&utm_content=guest-accounts).\n\nНаціснуўшы «Звязацца з намі», вы падзяліцеся сваёй інфармацыяй з Mattermost, Inc. [Больш падрабязна](https://mattermost.com/pl/default-admin-advisory)"
+    "translation": "У праектах часта ўдзельнічаюць людзі як унутры, так і за межамі арганізацыі. З дапамогай гасцявых уліковых запісаў вы можаце прыцягваць вонкавых партнёраў да сваёй сістэмы grommunio-chat і паказваць, з кім яны могуць працаваць і што яны могуць бачыць.\n\n[Больш падрабязна аб уключэнні гасцявых уліковых запісаў](https://www.mattermost.com/docs-guest-accounts/?utm_medium=product&utm_source=mattermost-advisor-bot&utm_content=guest-accounts).\n\nНаціснуўшы «Звязацца з намі», вы падзяліцеся сваёй інфармацыяй з grommunio-chat, Inc. [Больш падрабязна](https://mattermost.com/pl/default-admin-advisory)"
   },
   {
     "id": "api.server.warn_metric.email_domain.contact_us.email_body",
-    "translation": "Просьба да Mattermost звязацца з намі. Мне цікава даведацца больш аб выкарыстанні гасцявых уліковых запісаў.\n"
+    "translation": "Просьба да grommunio-chat звязацца з намі. Мне цікава даведацца больш аб выкарыстанні гасцявых уліковых запісаў.\n"
   },
   {
     "id": "api.server.warn_metric.bot_response.start_trial_failure.message",
@@ -6425,7 +6425,7 @@
   },
   {
     "id": "api.server.warn_metric.bot_response.notification_success.message",
-    "translation": "Дзякуй, што звязаліся з Mattermost. Мы звяжамся з вамі ў бліжэйшы час."
+    "translation": "Дзякуй, што звязаліся з grommunio-chat. Мы звяжамся з вамі ў бліжэйшы час."
   },
   {
     "id": "api.server.warn_metric.bot_response.notification_failure.message",
@@ -6433,7 +6433,7 @@
   },
   {
     "id": "api.server.warn_metric.bot_response.mailto_subject",
-    "translation": "Запыт Mattermost Звяжыцеся з намі"
+    "translation": "Запыт grommunio-chat Звяжыцеся з намі"
   },
   {
     "id": "api.server.warn_metric.bot_response.mailto_registered_users_header",
@@ -6853,7 +6853,7 @@
   },
   {
     "id": "api.license.request-trial.can-start-trial.not-allowed",
-    "translation": "Тэрмін дзеяння гэтага выпрабавальнага ліцэнзійнага ключа для Mattermost Enterprise Edition скончыўся і больш не дзейнічае. Калі вы хочаце падоўжыць пробны перыяд, калі ласка, [звяжыцеся з нашым аддзелам продажаў] (https://mattermost.com/contact-us/)."
+    "translation": "Тэрмін дзеяння гэтага выпрабавальнага ліцэнзійнага ключа для grommunio-chat Enterprise Edition скончыўся і больш не дзейнічае. Калі вы хочаце падоўжыць пробны перыяд, калі ласка, [звяжыцеся з нашым аддзелам продажаў] (https://mattermost.com/contact-us/)."
   },
   {
     "id": "api.license.request-trial.can-start-trial.error",
@@ -6861,7 +6861,7 @@
   },
   {
     "id": "api.license.request-trial.bad-request.terms-not-accepted",
-    "translation": "Вы павінны прыняць Пагадненне аб ацэнцы праграмнага забеспячэння Mattermost і Палітыку прыватнасці, каб запытаць ліцэнзію."
+    "translation": "Вы павінны прыняць Пагадненне аб ацэнцы праграмнага забеспячэння grommunio-chat і Палітыку прыватнасці, каб запытаць ліцэнзію."
   },
   {
     "id": "api.license.request-trial.bad-request",
@@ -7441,7 +7441,7 @@
   },
   {
     "id": "api.command_help.desc",
-    "translation": "Адкрыць старонку дапамогі Mattermost"
+    "translation": "Адкрыць старонку дапамогі grommunio-chat"
   },
   {
     "id": "api.command_groupmsg.permission.app_error",
@@ -7673,7 +7673,7 @@
   },
   {
     "id": "api.command.invite_people.desc",
-    "translation": "Адправіць ліст з запрашэннем у вашу каманду Mattermost"
+    "translation": "Адправіць ліст з запрашэннем у вашу каманду grommunio-chat"
   },
   {
     "id": "api.command.execute_command.start.app_error",
@@ -7985,7 +7985,7 @@
   },
   {
     "id": "api.bot.teams_channels.add_message_mobile",
-    "translation": "Калі ласка, дадайце мяне ў каманды і каналы, з якімі мне трэба ўзаемадзейнічаць. Гэта можна зрабіць у браўзэры або ў дадатку Mattermost для ПК."
+    "translation": "Калі ласка, дадайце мяне ў каманды і каналы, з якімі мне трэба ўзаемадзейнічаць. Гэта можна зрабіць у браўзэры або ў дадатку grommunio-chat для ПК."
   },
   {
     "id": "api.bot.create_disabled",
@@ -8017,7 +8017,7 @@
   },
   {
     "id": "api.admin.test_email.subject",
-    "translation": "Mattermost - Тэставанне настроек электроннай пошты"
+    "translation": "grommunio-chat - Тэставанне настроек электроннай пошты"
   },
   {
     "id": "api.templates.deactivate_body.title",
@@ -8029,7 +8029,7 @@
   },
   {
     "id": "api.templates.copyright",
-    "translation": "© 2021 Mattermost, Inc. 530 Lytton Avenue, Second floor, Palo Alto, CA, 94301"
+    "translation": "© 2021 grommunio-chat, Inc. 530 Lytton Avenue, Second floor, Palo Alto, CA, 94301"
   },
   {
     "id": "api.templates.cloud_welcome_email.title",
@@ -8073,7 +8073,7 @@
   },
   {
     "id": "api.templates.cloud_welcome_email.download_mm_info",
-    "translation": "Спампаваць Mattermost App"
+    "translation": "Спампаваць grommunio-chat App"
   },
   {
     "id": "api.templates.cloud_welcome_email.add_apps_sub_info",
@@ -8357,7 +8357,7 @@
   },
   {
     "id": "api.slackimport.slack_import.log",
-    "translation": "Лог імпарту Mattermost Slack\n"
+    "translation": "Лог імпарту grommunio-chat Slack\n"
   },
   {
     "id": "api.slackimport.slack_add_users.unable_import",
@@ -8369,11 +8369,11 @@
   },
   {
     "id": "api.slackimport.slack_add_users.merge_existing_failed",
-    "translation": "Карыстальнік Slack аб'яднаны з існуючым карыстальнікам Mattermost па супадзенні email {{.Email}} і імя карыстальніка {{.Username}}, але было немагчыма дадаць карыстальніка ў яго каманду.\n"
+    "translation": "Карыстальнік Slack аб'яднаны з існуючым карыстальнікам grommunio-chat па супадзенні email {{.Email}} і імя карыстальніка {{.Username}}, але было немагчыма дадаць карыстальніка ў яго каманду.\n"
   },
   {
     "id": "api.slackimport.slack_add_users.merge_existing",
-    "translation": "Slack карыстальнік зліўся з існуючым карыстальнікам Mattermost з адпаведным адрасам электроннай пошты {{.Email}} і імем карыстальніка {{.Username}}.\n"
+    "translation": "Slack карыстальнік зліўся з існуючым карыстальнікам grommunio-chat з адпаведным адрасам электроннай пошты {{.Email}} і імем карыстальніка {{.Username}}.\n"
   },
   {
     "id": "api.slackimport.slack_add_users.email_pwd",
@@ -8381,7 +8381,7 @@
   },
   {
     "id": "api.slackimport.slack_add_channels.merge",
-    "translation": "Slack канал {{.DisplayName}} ужо існуе ў выглядзе канала Mattermost. Выраблена зліццё.\n"
+    "translation": "Slack канал {{.DisplayName}} ужо існуе ў выглядзе канала grommunio-chat. Выраблена зліццё.\n"
   },
   {
     "id": "api.slackimport.slack_add_channels.import_failed",
@@ -8405,15 +8405,15 @@
   },
   {
     "id": "api.server.warn_metric.number_of_teams_5.start_trial.notification_body",
-    "translation": "У вашай сістэме Mattermost зараз ёсць некалькі каманд. У многіх каманд ёсць свой упадабаны спосаб каардынацыі і супрацоўніцтва, у тым ліку тое, як ствараюцца каналы, хто можа запрашаць новых удзельнікаў каманды і як ажыццяўляецца інтэграцыя. Схемы групавога кіравання дазваляюць вам настройваць правы карыстальнікаў у кожнай камандзе ў адпаведнасці з іх канкрэтнымі патрэбамі.\n\n[Больш падрабязна аб выкарыстанні пашыраных правоў] (https://www.mattermost.com/docs-advanced-permissions-team-override/?utm_medium=product&utm_source=mattermost-advisor-bot&utm_content=advanced-permissions-team-override).\n\nНаціснуўшы кнопку \"Пачаць выкарыстоўваць пробную версію\", я згаджаюся з [Пагадненнем аб ацэнцы праграмнага забеспячэння Mattermost](https://mattermost.com/software-evaluation-agreement/), [Палітыкай прыватнасці](https://mattermost.com/ privacy-policy/) і атрымліваю паведамленні аб прадукце па email."
+    "translation": "У вашай сістэме grommunio-chat зараз ёсць некалькі каманд. У многіх каманд ёсць свой упадабаны спосаб каардынацыі і супрацоўніцтва, у тым ліку тое, як ствараюцца каналы, хто можа запрашаць новых удзельнікаў каманды і як ажыццяўляецца інтэграцыя. Схемы групавога кіравання дазваляюць вам настройваць правы карыстальнікаў у кожнай камандзе ў адпаведнасці з іх канкрэтнымі патрэбамі.\n\n[Больш падрабязна аб выкарыстанні пашыраных правоў] (https://www.mattermost.com/docs-advanced-permissions-team-override/?utm_medium=product&utm_source=mattermost-advisor-bot&utm_content=advanced-permissions-team-override).\n\nНаціснуўшы кнопку \"Пачаць выкарыстоўваць пробную версію\", я згаджаюся з [Пагадненнем аб ацэнцы праграмнага забеспячэння grommunio-chat](https://mattermost.com/software-evaluation-agreement/), [Палітыкай прыватнасці](https://mattermost.com/ privacy-policy/) і атрымліваю паведамленні аб прадукце па email."
   },
   {
     "id": "api.server.warn_metric.number_of_teams_5.notification_body",
-    "translation": "У вашай сістэме Mattermost зараз ёсць некалькі каманд. У шматлікіх каманд ёсць свой упадабаны спосаб каардынацыі і супрацоўніцтва, у тым ліку тое, як ствараюцца каналы, хто можа запрашаць новых удзельнікаў каманды і як ажыццяўляецца інтэграцыя. Схемы групавога кіравання дазваляюць вам настройваць правы карыстальнікаў у кожнай камандзе ў адпаведнасці з іх канкрэтнымі патрэбамі.\n\n[Больш падрабязна аб выкарыстанні пашыраных правоў] (https://www.mattermost.com/docs-advanced-permissions-team-override/?utm_medium=product&utm_source=mattermost-advisor-bot&utm_content=advanced-permissions-team-override).\n\nНаціснуўшы кнопку \"Звязацца з намі\", вы падзяліцеся сваёй інфармацыяй з кампаніяй Mattermost, Inc. [Больш падрабязна](https://mattermost.com/pl/default-admin-advisory)"
+    "translation": "У вашай сістэме grommunio-chat зараз ёсць некалькі каманд. У шматлікіх каманд ёсць свой упадабаны спосаб каардынацыі і супрацоўніцтва, у тым ліку тое, як ствараюцца каналы, хто можа запрашаць новых удзельнікаў каманды і як ажыццяўляецца інтэграцыя. Схемы групавога кіравання дазваляюць вам настройваць правы карыстальнікаў у кожнай камандзе ў адпаведнасці з іх канкрэтнымі патрэбамі.\n\n[Больш падрабязна аб выкарыстанні пашыраных правоў] (https://www.mattermost.com/docs-advanced-permissions-team-override/?utm_medium=product&utm_source=mattermost-advisor-bot&utm_content=advanced-permissions-team-override).\n\nНаціснуўшы кнопку \"Звязацца з намі\", вы падзяліцеся сваёй інфармацыяй з кампаніяй grommunio-chat, Inc. [Больш падрабязна](https://mattermost.com/pl/default-admin-advisory)"
   },
   {
     "id": "api.server.warn_metric.number_of_teams_5.contact_us.email_body",
-    "translation": "Запыт кантакту з Mattermost. Мне цікава даведацца больш аб пашыраных правах са схемамі для каманд.\n"
+    "translation": "Запыт кантакту з grommunio-chat. Мне цікава даведацца больш аб пашыраных правах са схемамі для каманд.\n"
   },
   {
     "id": "api.server.warn_metric.number_of_posts_2M.start_trial.notification_success.message",
@@ -8421,15 +8421,15 @@
   },
   {
     "id": "api.server.warn_metric.number_of_posts_2M.start_trial.notification_body",
-    "translation": "У вашай сістэме Mattermost ёсць вялікая колькасць паведамленняў. Пошук у базе дадзеных Mattermost па змаўчанні пачынае паказваць зніжэнне прадукцыйнасці прыкладна пры 2,5 мільёнах паведамленняў. Калі паведамленняў больш за 5 мільёнаў, Elasticsearch можа дапамагчы пазбегнуць значных праблем з прадукцыйнасцю, такіх як таймаўты пры пошуку і апрацоўцы згадак. Звяжыцеся з намі, каб пазнаць больш і дайце ведаць, чым мы можам дапамагчы.\n\n[Больш падрабязна аб паляпшэнні прадукцыйнасці] (https://www.mattermost.com/docs-elasticsearch/?utm_medium=product&utm_source=mattermost-advisor-bot&utm_content=elasticsearch).\n\nНаціснуўшы кнопку \"Пачаць выкарыстоўваць пробную версію\", я згаджаюся з [Пагадненнем аб ацэнцы праграмнага забеспячэння Mattermost](https://mattermost.com/software-evaluation-agreement/), [Палітыкай прыватнасці](https://mattermost.com/ privacy-policy/) і атрымліваю паведамленні аб прадукце па email."
+    "translation": "У вашай сістэме grommunio-chat ёсць вялікая колькасць паведамленняў. Пошук у базе дадзеных grommunio-chat па змаўчанні пачынае паказваць зніжэнне прадукцыйнасці прыкладна пры 2,5 мільёнах паведамленняў. Калі паведамленняў больш за 5 мільёнаў, Elasticsearch можа дапамагчы пазбегнуць значных праблем з прадукцыйнасцю, такіх як таймаўты пры пошуку і апрацоўцы згадак. Звяжыцеся з намі, каб пазнаць больш і дайце ведаць, чым мы можам дапамагчы.\n\n[Больш падрабязна аб паляпшэнні прадукцыйнасці] (https://www.mattermost.com/docs-elasticsearch/?utm_medium=product&utm_source=mattermost-advisor-bot&utm_content=elasticsearch).\n\nНаціснуўшы кнопку \"Пачаць выкарыстоўваць пробную версію\", я згаджаюся з [Пагадненнем аб ацэнцы праграмнага забеспячэння grommunio-chat](https://mattermost.com/software-evaluation-agreement/), [Палітыкай прыватнасці](https://mattermost.com/ privacy-policy/) і атрымліваю паведамленні аб прадукце па email."
   },
   {
     "id": "api.server.warn_metric.number_of_posts_2M.notification_body",
-    "translation": "У вашай сістэме Mattermost ёсць вялікая колькасць паведамленняў. Пошук у базе дадзеных Mattermost па змаўчанні пачынае паказваць зніжэнне прадукцыйнасці прыкладна пры 2,5 мільёнах паведамленняў. Калі паведамленняў больш за 5 мільёнаў, Elasticsearch можа дапамагчы пазбегнуць значных праблем з прадукцыйнасцю, такіх як таймаўты пры пошуку і апрацоўцы згадак. Звяжыцеся з намі, каб пазнаць больш і дайце ведаць, чым мы можам дапамагчы.\n\n[Больш падрабязна аб паляпшэнні прадукцыйнасці] (https://www.mattermost.com/docs-elasticsearch/?utm_medium=product&utm_source=mattermost-advisor-bot&utm_content=elasticsearch).\n\nНаціснуўшы кнопку \"Звязацца з намі\", вы падзяліцеся сваёй інфармацыяй з кампаніяй Mattermost, Inc. [Больш падрабязна] (https://mattermost.com/pl/default-admin-advisory)"
+    "translation": "У вашай сістэме grommunio-chat ёсць вялікая колькасць паведамленняў. Пошук у базе дадзеных grommunio-chat па змаўчанні пачынае паказваць зніжэнне прадукцыйнасці прыкладна пры 2,5 мільёнах паведамленняў. Калі паведамленняў больш за 5 мільёнаў, Elasticsearch можа дапамагчы пазбегнуць значных праблем з прадукцыйнасцю, такіх як таймаўты пры пошуку і апрацоўцы згадак. Звяжыцеся з намі, каб пазнаць больш і дайце ведаць, чым мы можам дапамагчы.\n\n[Больш падрабязна аб паляпшэнні прадукцыйнасці] (https://www.mattermost.com/docs-elasticsearch/?utm_medium=product&utm_source=mattermost-advisor-bot&utm_content=elasticsearch).\n\nНаціснуўшы кнопку \"Звязацца з намі\", вы падзяліцеся сваёй інфармацыяй з кампаніяй grommunio-chat, Inc. [Больш падрабязна] (https://mattermost.com/pl/default-admin-advisory)"
   },
   {
     "id": "api.server.warn_metric.number_of_posts_2M.contact_us.email_body",
-    "translation": "Запыт кантакту з Mattermost. Мне цікава даведацца больш аб паляпшэнні прадукцыйнасці з дапамогай Elasticsearch.\n"
+    "translation": "Запыт кантакту з grommunio-chat. Мне цікава даведацца больш аб паляпшэнні прадукцыйнасці з дапамогай Elasticsearch.\n"
   },
   {
     "id": "api.server.warn_metric.number_of_channels_50.start_trial.notification_success.message",
@@ -8445,7 +8445,7 @@
   },
   {
     "id": "api.admin.test_email.body",
-    "translation": "Здаецца, ваша электронная пошта Mattermost наладжаная правільна!"
+    "translation": "Здаецца, ваша электронная пошта grommunio-chat наладжаная правільна!"
   },
   {
     "id": "api.admin.saml.not_available.app_error",
@@ -8733,7 +8733,7 @@
   },
   {
     "id": "api.command_share.invite_remote.help",
-    "translation": "Запрашае вонкавы асобнік Mattermost ў бягучы сумесны канал"
+    "translation": "Запрашае вонкавы асобнік grommunio-chat ў бягучы сумесны канал"
   },
   {
     "id": "api.command_share.invitation_sent",
@@ -8753,7 +8753,7 @@
   },
   {
     "id": "api.command_share.desc",
-    "translation": "Абагульвае бягучы канал з вонкавым серверам Mattermost."
+    "translation": "Абагульвае бягучы канал з вонкавым серверам grommunio-chat."
   },
   {
     "id": "api.command_share.could_not_uninvite.error",
@@ -8889,7 +8889,7 @@
   },
   {
     "id": "api.command_remote.invite_summary",
-    "translation": "Адпраўце наступнае зашыфраванае AES256-bit запрашэнне адміністратару знешняга сервера Mattermost разам з паролем. Для прыняцця запрашэння яны будуць выкарыстоўваць слэш-каманду `{{.Command}}`.\n\n```\n{{.Invitation}}\n```\n\n**Прадастаўце знешняму сайту шыфраванае злучэнне да вашага кластара праз** {{.SiteURL}}"
+    "translation": "Адпраўце наступнае зашыфраванае AES256-bit запрашэнне адміністратару знешняга сервера grommunio-chat разам з паролем. Для прыняцця запрашэння яны будуць выкарыстоўваць слэш-каманду `{{.Command}}`.\n\n```\n{{.Invitation}}\n```\n\n**Прадастаўце знешняму сайту шыфраванае злучэнне да вашага кластара праз** {{.SiteURL}}"
   },
   {
     "id": "api.command_remote.invite_password.hint",
@@ -8929,7 +8929,7 @@
   },
   {
     "id": "api.command_remote.desc",
-    "translation": "Запрасіць бяспечныя злучэнні для сувязі паміж асобнікамі Mattermost."
+    "translation": "Запрасіць бяспечныя злучэнні для сувязі паміж асобнікамі grommunio-chat."
   },
   {
     "id": "api.command_remote.decode_invitation.error",
@@ -8953,7 +8953,7 @@
   },
   {
     "id": "api.command_remote.accept.help",
-    "translation": "Прыняць запрашэнне ад знешняга сервера Mattermost"
+    "translation": "Прыняць запрашэнне ад знешняга сервера grommunio-chat"
   },
   {
     "id": "api.command_online.success",
@@ -9101,7 +9101,7 @@
   },
   {
     "id": "api.templates.cloud_upgrade_confirmation.subject",
-    "translation": "Пацвярджэнне абнаўлення Mattermost"
+    "translation": "Пацвярджэнне абнаўлення grommunio-chat"
   },
   {
     "id": "app.user.update_thread_read_for_user_by_post.app_error",

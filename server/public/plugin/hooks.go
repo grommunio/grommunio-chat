@@ -102,7 +102,7 @@ type Hooks interface {
 	// ServeHTTP allows the plugin to implement the http.Handler interface. Requests destined for
 	// the /plugins/{id} path will be routed to the plugin.
 	//
-	// The Mattermost-User-Id header will be present if (and only if) the request is by an
+	// The grommunio-chat-User-Id header will be present if (and only if) the request is by an
 	// authenticated user.
 	//
 	// Minimum server version: 5.2
@@ -260,7 +260,7 @@ type Hooks interface {
 
 	// OnWebSocketConnect is invoked when a new websocket connection is opened.
 	//
-	// This is used to track which users have connections opened with the Mattermost
+	// This is used to track which users have connections opened with the grommunio-chat
 	// websocket.
 	//
 	// Minimum server version: 6.0
@@ -268,7 +268,7 @@ type Hooks interface {
 
 	// OnWebSocketDisconnect is invoked when a websocket connection is closed.
 	//
-	// This is used to track which users have connections opened with the Mattermost
+	// This is used to track which users have connections opened with the grommunio-chat
 	// websocket.
 	//
 	// Minimum server version: 6.0

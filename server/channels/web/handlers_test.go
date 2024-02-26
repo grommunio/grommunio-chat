@@ -923,7 +923,7 @@ func TestOriginClient(t *testing.T) {
 		},
 		{
 			name:           "Desktop user agent",
-			userAgent:      "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.5481.177 Electron/23.1.2 Safari/537.36 Mattermost/5.3.1",
+			userAgent:      "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.5481.177 Electron/23.1.2 Safari/537.36 grommunio-chat/5.3.1",
 			expectedClient: OriginClientDesktop,
 		},
 	}

@@ -12,7 +12,7 @@ const (
 	BotUserKey        = InternalKeyPrefix + "botid"
 )
 
-// Starts the serving of a Mattermost plugin over net/rpc. gRPC is not yet supported.
+// Starts the serving of a grommunio-chat plugin over net/rpc. gRPC is not yet supported.
 //
 // Call this when your plugin is ready to start.
 func ClientMain(pluginImplementation any) {

@@ -32,7 +32,7 @@ describe('Customization', () => {
 
         // # Update both Site Name and Description to store test values
         const siteName = 'Mattermost_Text';
-        const siteDescription = 'This is a testing Mattermost site';
+        const siteDescription = 'This is a testing grommunio-chat site';
         cy.findByTestId('TeamSettings.SiteNameinput').clear().type(siteName);
         cy.findByTestId('TeamSettings.CustomDescriptionTextinput').clear().type(siteDescription);
 
@@ -64,7 +64,7 @@ describe('Customization', () => {
         // # Exit settings
         cy.visit('/');
 
-        // # Open About Mattermost menu option
+        // # Open About grommunio-chat menu option
         cy.uiOpenProductMenu(`About ${siteName}`);
 
         // * Verify in the about modal that the new site name is being shown
@@ -75,7 +75,7 @@ describe('Customization', () => {
         // * Verify that setting is visible and matches text content
         cy.findByTestId('TeamSettings.SiteNamelabel').scrollIntoView().should('be.visible').and('have.text', 'Site Name:');
 
-        // Character limit is 30, and Mattermost is exactly 10 characters long
+        // Character limit is 30, and grommunio-chat is exactly 10 characters long
         const siteName = 'Mattermost'.repeat(3);
 
         // # Type the maximum amount of characters and then some more

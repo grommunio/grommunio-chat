@@ -1,11 +1,11 @@
 {
   "about.buildnumber": "เบอร์รุ่น",
-  "about.copyright": "ลิขสิทธิ์ 2015 - {currentYear} Mattermost, Inc. สงวนลิขสิทธิ์",
+  "about.copyright": "ลิขสิทธิ์ 2015 - {currentYear} grommunio-chat, Inc. สงวนลิขสิทธิ์",
   "about.database": "ฐานข้อมูล:",
   "about.date": "วันที่สร้าง:",
   "about.dbversion": "เวอร์ชันแผนภาพเค้าร่างของฐานข้อมูล",
   "about.enterpriseEditionLearn": "เรียนรู้เกี่ยวกับ Enterprise Edition ที่ : ",
-  "about.teamEditionLearn": "เข้าร่วมกับ Mattermost Community ที่ ",
+  "about.teamEditionLearn": "เข้าร่วมกับ grommunio-chat Community ที่ ",
   "joinChannel.JoinButton": "เข้าร่วม",
   "joinChannel.joiningButton": "กำลังเข้าร่วม...",
   "join_team_group_constrained_denied_admin": "เพื่อเข้าร่วมทีมนี้ คุณต้องเป็นสมาชิกของกลุ่มที่เชื่อมโยง คุณสามารถเพิ่มกลุ่มให้กับทีมนี้ได้ [ที่นี่]({siteURL}/admin_console/user_management/groups).",

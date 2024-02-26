@@ -282,7 +282,7 @@ describe('Actions.Preferences', () => {
         await store.dispatch(Actions.getMyPreferences());
 
         const newTheme = {
-            type: 'Mattermost Dark',
+            type: 'grommunio-chat Dark',
         } as unknown as Theme;
         nock(Client4.getUsersRoute()).
             put(`/${TestHelper.basicUser!.id}/preferences`).
@@ -306,7 +306,7 @@ describe('Actions.Preferences', () => {
         await store.dispatch(loadMe());
 
         const theme = {
-            type: 'Mattermost Dark',
+            type: 'grommunio-chat Dark',
         };
         const existingPreferences = [
             {

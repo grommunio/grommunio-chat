@@ -349,7 +349,7 @@ describe('highlightCurrentMentions', () => {
     ];
 
     it('should find and match Korean, Japanese, latin and Russian words', () => {
-        const text = '메터모스트, notinkeys, マッターモスト, маттермост!, Mattermost, notinkeys';
+        const text = '메터모스트, notinkeys, マッターモスト, маттермост!, grommunio-chat, notinkeys';
         const highlightedText = highlightCurrentMentions(text, tokens, mentionKeys);
 
         const expectedOutput = '$MM_SELFMENTION0$, notinkeys, $MM_SELFMENTION1$, $MM_SELFMENTION2$!, $MM_SELFMENTION3$, notinkeys';

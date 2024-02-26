@@ -59,7 +59,7 @@ describe('TrueUpReview', () => {
         jest.spyOn(useCWSAvailabilityCheckAll, 'default').mockImplementation(() => useCWSAvailabilityCheckAll.CSWAvailabilityCheckTypes.Available);
 
         renderWithContext(<TrueUpReview/>, showsTrueUpReviewState);
-        screen.getByText('Share to Mattermost');
+        screen.getByText('Share to grommunio-chat');
     });
 
     it('gov sku self-hosted license does not see true up content', () => {
@@ -68,6 +68,6 @@ describe('TrueUpReview', () => {
         jest.spyOn(useCWSAvailabilityCheckAll, 'default').mockImplementation(() => useCWSAvailabilityCheckAll.CSWAvailabilityCheckTypes.Available);
 
         renderWithContext(<TrueUpReview/>, store);
-        expect(screen.queryByText('Share to Mattermost')).not.toBeInTheDocument();
+        expect(screen.queryByText('Share to grommunio-chat')).not.toBeInTheDocument();
     });
 });

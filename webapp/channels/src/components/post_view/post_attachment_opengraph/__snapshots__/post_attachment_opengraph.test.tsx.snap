@@ -31,7 +31,7 @@ exports[`PostAttachmentOpenGraph should match snapshot 1`] = `
           },
         ],
         "site_name": "Mattermost",
-        "title": "Mattermost Private Cloud Messaging",
+        "title": "grommunio-chat Private Cloud Messaging",
       }
     }
     post={

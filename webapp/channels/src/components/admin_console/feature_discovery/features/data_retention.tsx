@@ -16,7 +16,7 @@ const DataRetentionFeatureDiscovery: React.FC = () => {
             featureName='data_retention'
             minimumSKURequiredForFeature={LicenseSkus.Enterprise}
             titleID='admin.data_retention_feature_discovery.title'
-            titleDefault='Create data retention schedules with Mattermost Enterprise'
+            titleDefault='Create data retention schedules with grommunio-chat Enterprise'
             copyID='admin.data_retention_feature_discovery.copy'
             copyDefault={'Hold on to your data only as long as you need to. Create data retention jobs for select channels and teams to automatically delete disposable data.'}
             learnMoreURL='https://docs.mattermost.com/administration/data-retention.html'

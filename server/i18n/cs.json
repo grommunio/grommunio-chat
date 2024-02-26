@@ -2505,7 +2505,7 @@
   },
   {
     "id": "ent.migration.migratetosaml.username_already_used_by_other_user",
-    "translation": "Uživatelské jméno již použivá jiný uživatel Mattermost."
+    "translation": "Uživatelské jméno již použivá jiný uživatel grommunio-chat."
   },
   {
     "id": "ent.migration.migratetosaml.user_not_found_in_users_mapping_file",
@@ -2613,7 +2613,7 @@
   },
   {
     "id": "ent.ldap.syncronize.search_failure.app_error",
-    "translation": "Nepodařilo se vyhletat uživatele na AD/LDAP serveru. Otestujte zda se Mattermost dokáže připojit k AD/LDAP serveru a zkuste to znova."
+    "translation": "Nepodařilo se vyhletat uživatele na AD/LDAP serveru. Otestujte zda se grommunio-chat dokáže připojit k AD/LDAP serveru a zkuste to znova."
   },
   {
     "id": "ent.ldap.syncronize.populate_syncables",
@@ -2637,7 +2637,7 @@
   },
   {
     "id": "ent.ldap.do_login.user_filtered.app_error",
-    "translation": "Váš účet AD / LDAP nemá oprávnění používat tento Mattermost server. Požádejte správce systému, aby zkontroloval uživatelský filtr AD/LDAP."
+    "translation": "Váš účet AD / LDAP nemá oprávnění používat tento grommunio-chat server. Požádejte správce systému, aby zkontroloval uživatelský filtr AD/LDAP."
   },
   {
     "id": "ent.ldap.do_login.unable_to_connect.app_error",
@@ -3225,11 +3225,11 @@
   },
   {
     "id": "api.slackimport.slack_add_users.merge_existing_failed",
-    "translation": "Slack uživatel byl propojen s existujícím Mattermost uživatelem se shodným emailem {{.Email}} a uživatelským jménem {{.Username}}, avšak nemohl být přidán do týmu.\r\n"
+    "translation": "Slack uživatel byl propojen s existujícím grommunio-chat uživatelem se shodným emailem {{.Email}} a uživatelským jménem {{.Username}}, avšak nemohl být přidán do týmu.\r\n"
   },
   {
     "id": "api.slackimport.slack_add_users.merge_existing",
-    "translation": "Slack uživatel byl propojen s existujícím Mattermost uživatelem se shodným emailem {{.Email}} a uživatelským jménem {{.Username}}.\r\n"
+    "translation": "Slack uživatel byl propojen s existujícím grommunio-chat uživatelem se shodným emailem {{.Email}} a uživatelským jménem {{.Username}}.\r\n"
   },
   {
     "id": "api.slackimport.slack_add_users.email_pwd",
@@ -4289,7 +4289,7 @@
   },
   {
     "id": "api.command_logout.desc",
-    "translation": "Odhlásit se z Mattermost"
+    "translation": "Odhlásit se z grommunio-chat"
   },
   {
     "id": "api.command_leave.name",
@@ -4397,7 +4397,7 @@
   },
   {
     "id": "api.command_help.desc",
-    "translation": "Otevřít stránku s nápovědou Mattermost"
+    "translation": "Otevřít stránku s nápovědou grommunio-chat"
   },
   {
     "id": "api.command_groupmsg.permission.app_error",
@@ -4821,7 +4821,7 @@
   },
   {
     "id": "api.command.invite_people.desc",
-    "translation": "Poslat email s pozvánkou do Mattermost teamu"
+    "translation": "Poslat email s pozvánkou do grommunio-chat teamu"
   },
   {
     "id": "api.command.execute_command.start.app_error",
@@ -5113,7 +5113,7 @@
   },
   {
     "id": "api.bot.teams_channels.add_message_mobile",
-    "translation": "Přidejte mě prosím do týmů a kanálů, ve kterých chcete abych pracoval. Pro tuto akci využijte prohlížeč nebo aplikaci Mattermost Desktop."
+    "translation": "Přidejte mě prosím do týmů a kanálů, ve kterých chcete abych pracoval. Pro tuto akci využijte prohlížeč nebo aplikaci grommunio-chat Desktop."
   },
   {
     "id": "api.bot.create_disabled",
@@ -5145,7 +5145,7 @@
   },
   {
     "id": "api.admin.test_email.subject",
-    "translation": "Mattermost - Testování Nastavení E-Mailu"
+    "translation": "grommunio-chat - Testování Nastavení E-Mailu"
   },
   {
     "id": "api.admin.test_email.reenter_password",
@@ -5157,7 +5157,7 @@
   },
   {
     "id": "api.admin.test_email.body",
-    "translation": "Zdá se, že váš e-mail pro Mattermost je nastaven správně!"
+    "translation": "Zdá se, že váš e-mail pro grommunio-chat je nastaven správně!"
   },
   {
     "id": "api.admin.saml.set_certificate_from_metadata.missing_content_type.app_error",
@@ -5321,7 +5321,7 @@
   },
   {
     "id": "api.templates.remove_expired_license.subject",
-    "translation": "Licence Mattermost Enterprise byla zastavena."
+    "translation": "Licence grommunio-chat Enterprise byla zastavena."
   },
   {
     "id": "api.templates.remove_expired_license.body.title",
@@ -5353,7 +5353,7 @@
   },
   {
     "id": "api.server.warn_metric.bot_response.notification_success.message",
-    "translation": "Děkujeme, že jste se obrátili na Mattermost. Brzy se vám ozveme."
+    "translation": "Děkujeme, že jste se obrátili na grommunio-chat. Brzy se vám ozveme."
   },
   {
     "id": "api.server.warn_metric.bot_response.notification_failure.message",
@@ -5393,7 +5393,7 @@
   },
   {
     "id": "api.license.request-trial.bad-request.terms-not-accepted",
-    "translation": "Chcete-li požádat o licenci, musíte odsouhlasit Dohodu o vyhodnocování softwaru Mattermost a Zásady ochrany osobních údajů."
+    "translation": "Chcete-li požádat o licenci, musíte odsouhlasit Dohodu o vyhodnocování softwaru grommunio-chat a Zásady ochrany osobních údajů."
   },
   {
     "id": "api.license.request-trial.bad-request",
@@ -5449,7 +5449,7 @@
   },
   {
     "id": "api.server.warn_metric.bot_response.mailto_subject",
-    "translation": "Mattermost Kontaktujte nás požadavek"
+    "translation": "grommunio-chat Kontaktujte nás požadavek"
   },
   {
     "id": "api.server.warn_metric.bot_response.mailto_diagnostic_id_header",
@@ -5505,7 +5505,7 @@
   },
   {
     "id": "app.system.warn_metric.bot_displayname",
-    "translation": "Rádce Mattermost"
+    "translation": "Rádce grommunio-chat"
   },
   {
     "id": "web.error.unsupported_browser.system_browser_make_default",
@@ -6089,7 +6089,7 @@
   },
   {
     "id": "api.server.warn_metric.number_of_channels_50.contact_us.email_body",
-    "translation": "Dotaz na Mattermost. Mám zájem zjistit více o Pokročilých oprávněních a Systémových schématech.\n"
+    "translation": "Dotaz na grommunio-chat. Mám zájem zjistit více o Pokročilých oprávněních a Systémových schématech.\n"
   },
   {
     "id": "api.server.warn_metric.number_of_active_users_500.start_trial.notification_success.message",
@@ -6097,15 +6097,15 @@
   },
   {
     "id": "api.server.warn_metric.number_of_active_users_500.start_trial.notification_body",
-    "translation": "Mattermost silně doporučuje, aby nasazení serveru s více jak 500 uživateli využilo vlastností jako správa uživatelů, server clustering a monitorování výkonu. Kontaktujte nás a zjistěte více o tom, jak můžeme pomoci.\n\nKliknutím na Zahájit test souhlasíte s [Mattermost Software Evaluation Agreement](https://mattermost.com/software-evaluation-agreement/), [Privacy Policy](https://mattermost.com/privacy-policy/) a příjmem produktových emailů."
+    "translation": "grommunio-chat silně doporučuje, aby nasazení serveru s více jak 500 uživateli využilo vlastností jako správa uživatelů, server clustering a monitorování výkonu. Kontaktujte nás a zjistěte více o tom, jak můžeme pomoci.\n\nKliknutím na Zahájit test souhlasíte s [grommunio-chat Software Evaluation Agreement](https://mattermost.com/software-evaluation-agreement/), [Privacy Policy](https://mattermost.com/privacy-policy/) a příjmem produktových emailů."
   },
   {
     "id": "api.server.warn_metric.number_of_active_users_500.notification_body",
-    "translation": "Mattermost silně doporučuje, aby nasazení serveru s více jak 500 uživateli využilo vlastností jako správa uživatelů, server clustering a monitorování výkonu. Kontaktujte nás a zjistěte více o tom, jak můžeme pomoci.\n\nKliknutím na Kontaktujte nás budete sdílet své informace s Mattermost, Inc. [Zjistit více](https://mattermost.com/pl/default-admin-advisory)"
+    "translation": "grommunio-chat silně doporučuje, aby nasazení serveru s více jak 500 uživateli využilo vlastností jako správa uživatelů, server clustering a monitorování výkonu. Kontaktujte nás a zjistěte více o tom, jak můžeme pomoci.\n\nKliknutím na Kontaktujte nás budete sdílet své informace s grommunio-chat, Inc. [Zjistit více](https://mattermost.com/pl/default-admin-advisory)"
   },
   {
     "id": "api.server.warn_metric.number_of_active_users_500.contact_us.email_body",
-    "translation": "Dotaz na Mattermost. Můj tým má nyní 500 uživatelů a zvažuji využít Mattermost Enterprise Edition.\n"
+    "translation": "Dotaz na grommunio-chat. Můj tým má nyní 500 uživatelů a zvažuji využít grommunio-chat Enterprise Edition.\n"
   },
   {
     "id": "api.server.warn_metric.number_of_active_users_300.start_trial.notification_title",
@@ -6117,15 +6117,15 @@
   },
   {
     "id": "api.server.warn_metric.number_of_active_users_300.start_trial.notification_body",
-    "translation": "Při veškeré konverzaci, která se děje napříč Mattermostem, může být obtížné pátrat po důležitých informacích. Pokud chcete rozesílat informace širokému publiku, můžete vytvořit Oznamovací kanály. Ty jsou pouze pro čtení - vyjma adminů, kteří mohou zprávy vytvářet.\n\n[Zjistit více o Oznamovacích kanálech](https://www.mattermost.com/docs-channel-moderation/?utm_medium=product&utm_source=mattermost-advisor-bot&utm_content=channel-moderation)\n\nKliknutím na Zahájit test souhlasíte s [Mattermost Software Evaluation Agreement](https://mattermost.com/software-evaluation-agreement/), [Privacy Policy](https://mattermost.com/privacy-policy/) a příjmem produktových emailů."
+    "translation": "Při veškeré konverzaci, která se děje napříč Mattermostem, může být obtížné pátrat po důležitých informacích. Pokud chcete rozesílat informace širokému publiku, můžete vytvořit Oznamovací kanály. Ty jsou pouze pro čtení - vyjma adminů, kteří mohou zprávy vytvářet.\n\n[Zjistit více o Oznamovacích kanálech](https://www.mattermost.com/docs-channel-moderation/?utm_medium=product&utm_source=mattermost-advisor-bot&utm_content=channel-moderation)\n\nKliknutím na Zahájit test souhlasíte s [grommunio-chat Software Evaluation Agreement](https://mattermost.com/software-evaluation-agreement/), [Privacy Policy](https://mattermost.com/privacy-policy/) a příjmem produktových emailů."
   },
   {
     "id": "api.server.warn_metric.number_of_active_users_300.notification_body",
-    "translation": "Při veškeré konverzaci, která se děje napříč Mattermostem, může být obtížné pátrat po důležitých informacích. Pokud chcete rozesílat informace širokému publiku, můžete vytvořit Oznamovací kanály. Ty jsou pouze pro čtení - vyjma adminů, kteří mohou zprávy vytvářet.\n\n[Zjistit více o Oznamovacích kanálech](https://www.mattermost.com/docs-channel-moderation/?utm_medium=product&utm_source=mattermost-advisor-bot&utm_content=channel-moderation)\n\nKliknutím na Kontaktujte nás budete sdílet své informace s Mattermost, Inc. [Zjistit více](https://mattermost.com/pl/default-admin-advisory)"
+    "translation": "Při veškeré konverzaci, která se děje napříč Mattermostem, může být obtížné pátrat po důležitých informacích. Pokud chcete rozesílat informace širokému publiku, můžete vytvořit Oznamovací kanály. Ty jsou pouze pro čtení - vyjma adminů, kteří mohou zprávy vytvářet.\n\n[Zjistit více o Oznamovacích kanálech](https://www.mattermost.com/docs-channel-moderation/?utm_medium=product&utm_source=mattermost-advisor-bot&utm_content=channel-moderation)\n\nKliknutím na Kontaktujte nás budete sdílet své informace s grommunio-chat, Inc. [Zjistit více](https://mattermost.com/pl/default-admin-advisory)"
   },
   {
     "id": "api.server.warn_metric.number_of_active_users_300.contact_us.email_body",
-    "translation": "Dotaz na Mattermost. Zajímalo by mě více o tvorbě oznamovacích kanálů.\n"
+    "translation": "Dotaz na grommunio-chat. Zajímalo by mě více o tvorbě oznamovacích kanálů.\n"
   },
   {
     "id": "api.server.warn_metric.number_of_active_users_200.start_trial.notification_success.message",
@@ -6133,7 +6133,7 @@
   },
   {
     "id": "api.server.warn_metric.number_of_active_users_200.start_trial.notification_body",
-    "translation": "Váš Mattermost má nyní 200 uživatelů. Pokud jej propojíte s vaším řešením SSO (single sign on), uživatelé budou moci využívat Mattermost bez nutnosti znovu zadávat své přihlašovací údaje. Doporučujeme integraci vašeho SAML 2.0 poskytovatele s Mattermost serverem [Zjistit více o integraci se SAML 2.0](https://www.mattermost.com/docs-saml/?utm_medium=product&utm_source=mattermost-advisor-bot&utm_content=saml).\n\nKliknutím na Zahájit test souhlasíte s [Mattermost Software Evaluation Agreement](https://mattermost.com/software-evaluation-agreement/), [Privacy Policy](https://mattermost.com/privacy-policy/) a příjmem produktových emailů."
+    "translation": "Váš grommunio-chat má nyní 200 uživatelů. Pokud jej propojíte s vaším řešením SSO (single sign on), uživatelé budou moci využívat grommunio-chat bez nutnosti znovu zadávat své přihlašovací údaje. Doporučujeme integraci vašeho SAML 2.0 poskytovatele s grommunio-chat serverem [Zjistit více o integraci se SAML 2.0](https://www.mattermost.com/docs-saml/?utm_medium=product&utm_source=mattermost-advisor-bot&utm_content=saml).\n\nKliknutím na Zahájit test souhlasíte s [grommunio-chat Software Evaluation Agreement](https://mattermost.com/software-evaluation-agreement/), [Privacy Policy](https://mattermost.com/privacy-policy/) a příjmem produktových emailů."
   },
   {
     "id": "api.server.warn_metric.number_of_active_users_200.notification_title",
@@ -6141,11 +6141,11 @@
   },
   {
     "id": "api.server.warn_metric.number_of_active_users_200.notification_body",
-    "translation": "Váš Mattermost má nyní 200 uživatelů. Pokud jej propojíte s vaším řešením SSO (single sign on), uživatelé budou moci využívat Mattermost bez nutnosti znovu zadávat své přihlašovací údaje. Doporučujeme integraci vašeho SAML 2.0 poskytovatele s Mattermost serverem [Zjistit více o integraci se SAML 2.0](https://www.mattermost.com/docs-saml/?utm_medium=product&utm_source=mattermost-advisor-bot&utm_content=saml).\n\nKliknutím na Kontaktujte nás budete sdílet své informace s Mattermost, Inc. [Zjistit více](https://mattermost.com/pl/default-admin-advisory)"
+    "translation": "Váš grommunio-chat má nyní 200 uživatelů. Pokud jej propojíte s vaším řešením SSO (single sign on), uživatelé budou moci využívat grommunio-chat bez nutnosti znovu zadávat své přihlašovací údaje. Doporučujeme integraci vašeho SAML 2.0 poskytovatele s grommunio-chat serverem [Zjistit více o integraci se SAML 2.0](https://www.mattermost.com/docs-saml/?utm_medium=product&utm_source=mattermost-advisor-bot&utm_content=saml).\n\nKliknutím na Kontaktujte nás budete sdílet své informace s grommunio-chat, Inc. [Zjistit více](https://mattermost.com/pl/default-admin-advisory)"
   },
   {
     "id": "api.server.warn_metric.number_of_active_users_200.contact_us.email_body",
-    "translation": "Dotaz na Mattermost. Můj tým má nyní 200 uživatelů a zvažuji přejít na Mattermost Enterprise Edition.\n"
+    "translation": "Dotaz na grommunio-chat. Můj tým má nyní 200 uživatelů a zvažuji přejít na grommunio-chat Enterprise Edition.\n"
   },
   {
     "id": "api.server.warn_metric.number_of_active_users_100.start_trial.notification_success.message",
@@ -6153,7 +6153,7 @@
   },
   {
     "id": "api.server.warn_metric.number_of_active_users_100.start_trial.notification_body",
-    "translation": "Váš Mattermost má přes 100 uživatelů. S tím, jak roste uživatelská základna, správa nových účtů se stává časově nákladnou. Doporučujeme integrovat vaši podnikovou databázi AD/LDAP, která umožní každému účtu přístup k Mattermostu.\n\n[Zjistit více o integraci ADL/LDAP](https://www.mattermost.com/docs-adldap/?utm_medium=product&utm_source=mattermost-advisor-bot&utm_content=adldap)\n\nKliknutím na Zahájit test souhlasíte s [Mattermost Software Evaluation Agreement](https://mattermost.com/software-evaluation-agreement/), [Privacy Policy](https://mattermost.com/privacy-policy/) a příjmem produktových emailů."
+    "translation": "Váš grommunio-chat má přes 100 uživatelů. S tím, jak roste uživatelská základna, správa nových účtů se stává časově nákladnou. Doporučujeme integrovat vaši podnikovou databázi AD/LDAP, která umožní každému účtu přístup k Mattermostu.\n\n[Zjistit více o integraci ADL/LDAP](https://www.mattermost.com/docs-adldap/?utm_medium=product&utm_source=mattermost-advisor-bot&utm_content=adldap)\n\nKliknutím na Zahájit test souhlasíte s [grommunio-chat Software Evaluation Agreement](https://mattermost.com/software-evaluation-agreement/), [Privacy Policy](https://mattermost.com/privacy-policy/) a příjmem produktových emailů."
   },
   {
     "id": "api.server.warn_metric.number_of_active_users_100.notification_title",
@@ -6161,7 +6161,7 @@
   },
   {
     "id": "api.server.warn_metric.email_domain.notification_body",
-    "translation": "Projekty často zahrnují lidi jak z vnitřku, tak vnějšku organizace. S pomocí návštěvnických účtů můžete zapojit externí partnery do vašeho Mattermostu a určit, s kým mohou pracovat a co mohou vidět.\n\n[Zjistit více o návštěvnických účtech]((https://www.mattermost.com/docs-guest-accounts/?utm_medium=product&utm_source=mattermost-advisor-bot&utm_content=guest-accounts).\n\nKliknutím na Kontaktujte nás budete sdílet své informace s Mattermost, Inc. [Zjistit více](https://mattermost.com/pl/default-admin-advisory)"
+    "translation": "Projekty často zahrnují lidi jak z vnitřku, tak vnějšku organizace. S pomocí návštěvnických účtů můžete zapojit externí partnery do vašeho Mattermostu a určit, s kým mohou pracovat a co mohou vidět.\n\n[Zjistit více o návštěvnických účtech]((https://www.mattermost.com/docs-guest-accounts/?utm_medium=product&utm_source=mattermost-advisor-bot&utm_content=guest-accounts).\n\nKliknutím na Kontaktujte nás budete sdílet své informace s grommunio-chat, Inc. [Zjistit více](https://mattermost.com/pl/default-admin-advisory)"
   },
   {
     "id": "store.sql_bot.get.missing.app_error",
@@ -6265,43 +6265,43 @@
   },
   {
     "id": "api.upgrade_to_enterprise_status.signature.app_error",
-    "translation": "Mattermost nemohl bý aktualizován na Enterprise edici. Digitální podpis staženého binárního souboru nemohl být ověřen."
+    "translation": "grommunio-chat nemohl bý aktualizován na Enterprise edici. Digitální podpis staženého binárního souboru nemohl být ověřen."
   },
   {
     "id": "api.upgrade_to_enterprise_status.app_error",
-    "translation": "Mattermost nemohl bý aktualizován na Enterprise edici."
+    "translation": "grommunio-chat nemohl bý aktualizován na Enterprise edici."
   },
   {
     "id": "api.upgrade_to_enterprise.system_not_supported.app_error",
-    "translation": "Nepodařilo se aktualizovat Mattermost na Enterprise edici. Toto vylepšení funguje pouze na Linuxových systémech s architekturou x86-64."
+    "translation": "Nepodařilo se aktualizovat grommunio-chat na Enterprise edici. Toto vylepšení funguje pouze na Linuxových systémech s architekturou x86-64."
   },
   {
     "id": "api.upgrade_to_enterprise.invalid-user.app_error",
-    "translation": "Nepodařilo se aktualizovat Mattermost na Enterprise edici. Systémový uživatel {{.MattermostUsername}} nemá oprávnění zápisu do patřičného binárního souboru. Systémový administrátor může upravit oprávnění k souboru spuštěním následujícícho příkazu na serveru, kde je Mattermost instalován:\n\n```\nchown {{.MattermostUsername}} \"{{.Path}}\"\n```\n\nPo změně oprávnění se pokuste provést aktualizaci Mattermostu ještě jednou. Poté, co bude aktualizace dokončena a server restartován, nezapomeňte vrátit oprávnění k souboru na původní hodnotu:\n\n```\nchown {{.FileUsername}} \"{{.Path}}\"\n```"
+    "translation": "Nepodařilo se aktualizovat grommunio-chat na Enterprise edici. Systémový uživatel {{.MattermostUsername}} nemá oprávnění zápisu do patřičného binárního souboru. Systémový administrátor může upravit oprávnění k souboru spuštěním následujícícho příkazu na serveru, kde je grommunio-chat instalován:\n\n```\nchown {{.MattermostUsername}} \"{{.Path}}\"\n```\n\nPo změně oprávnění se pokuste provést aktualizaci Mattermostu ještě jednou. Poté, co bude aktualizace dokončena a server restartován, nezapomeňte vrátit oprávnění k souboru na původní hodnotu:\n\n```\nchown {{.FileUsername}} \"{{.Path}}\"\n```"
   },
   {
     "id": "api.upgrade_to_enterprise.invalid-user-and-permission.app_error",
-    "translation": "Nepodařilo se aktualizovat Mattermost na Enterprise edici. Systémový uživatel {{.MattermostUsername}} nemá oprávnění zápisu do patřičného binárního souboru. Systémový administrátor může upravit oprávnění k souboru spuštěním následujícícho příkazu na serveru, kde je Mattermost instalován:\n\n```\nchown {{.MattermostUsername}} \"{{.Path}}\"\nchmod +w \"{{.Path}}\"\n```\n\nPo změně oprávnění se pokuste provést aktualizaci Mattermostu ještě jednou. Poté, co bude aktualizace dokončena a server restartován, nezapomeňte vrátit oprávnění k souboru na původní hodnotu:\n\n```\nchown {{.FileUsername}} \"{{.Path}}\"\nchmod -w \"{{.Path}}\"\n```"
+    "translation": "Nepodařilo se aktualizovat grommunio-chat na Enterprise edici. Systémový uživatel {{.MattermostUsername}} nemá oprávnění zápisu do patřičného binárního souboru. Systémový administrátor může upravit oprávnění k souboru spuštěním následujícícho příkazu na serveru, kde je grommunio-chat instalován:\n\n```\nchown {{.MattermostUsername}} \"{{.Path}}\"\nchmod +w \"{{.Path}}\"\n```\n\nPo změně oprávnění se pokuste provést aktualizaci Mattermostu ještě jednou. Poté, co bude aktualizace dokončena a server restartován, nezapomeňte vrátit oprávnění k souboru na původní hodnotu:\n\n```\nchown {{.FileUsername}} \"{{.Path}}\"\nchmod -w \"{{.Path}}\"\n```"
   },
   {
     "id": "api.upgrade_to_enterprise.invalid-permission.app_error",
-    "translation": "Nepodařilo se aktualizovat Mattermost na Enterprise edici. Systémový uživatel {{.MattermostUsername}} nemá oprávnění zápisu do patřičného binárního souboru. Systémový administrátor může upravit oprávnění k souboru spuštěním následujícícho příkazu na serveru, kde je Mattermost instalován:\n\n```\nchmod +w \"{{.Path}}\"\n```\n\nPo změně oprávnění se pokuste provést aktualizaci Mattermostu ještě jednou. Poté, co bude aktualizace dokončena a server restartován, nezapomeňte vrátit oprávnění k souboru na původní hodnotu:\n\n```\nchmod -w \"{{.Path}}\"\n```"
+    "translation": "Nepodařilo se aktualizovat grommunio-chat na Enterprise edici. Systémový uživatel {{.MattermostUsername}} nemá oprávnění zápisu do patřičného binárního souboru. Systémový administrátor může upravit oprávnění k souboru spuštěním následujícícho příkazu na serveru, kde je grommunio-chat instalován:\n\n```\nchmod +w \"{{.Path}}\"\n```\n\nPo změně oprávnění se pokuste provést aktualizaci Mattermostu ještě jednou. Poté, co bude aktualizace dokončena a server restartován, nezapomeňte vrátit oprávnění k souboru na původní hodnotu:\n\n```\nchmod -w \"{{.Path}}\"\n```"
   },
   {
     "id": "api.upgrade_to_enterprise.generic_error.app_error",
-    "translation": "Mattermost nemohl bý aktualizován na Enterprise edici."
+    "translation": "grommunio-chat nemohl bý aktualizován na Enterprise edici."
   },
   {
     "id": "api.upgrade_to_enterprise.app_error",
-    "translation": "Aktualizace na Mattermost Enterprise edici je již v běhu."
+    "translation": "Aktualizace na grommunio-chat Enterprise edici je již v běhu."
   },
   {
     "id": "api.upgrade_to_enterprise.already-enterprise.app_error",
-    "translation": "Nelze provést aktualizaci, protože již využíváte Mattermost Enterprise edici."
+    "translation": "Nelze provést aktualizaci, protože již využíváte grommunio-chat Enterprise edici."
   },
   {
     "id": "api.upgrade_to_enterprise.already-done.app_error",
-    "translation": "Již jste aktualizovali na Mattermost Enterprise edici. Prosím restartujte server k dokončení aktualizace."
+    "translation": "Již jste aktualizovali na grommunio-chat Enterprise edici. Prosím restartujte server k dokončení aktualizace."
   },
   {
     "id": "api.templates.warn_metric_ack.subject",
@@ -6341,7 +6341,7 @@
   },
   {
     "id": "api.server.warn_metric.number_of_teams_5.start_trial.notification_body",
-    "translation": "Váš Mattermost má nyní více týmů. Mnoho týmů má své vlastní preference pokud jde o koordinaci a spolupráci, včetně toho, jak jsou zakládány kanály, kdo může pozvat nové členy nebo jak se spravují integrace. Týmová přetížená schémata (Override Schemes) umožňují přizpůsobit oprávnění uživateů pro každý tým zvlášť.\n\n[Zjistit více o Advanced Permissions](https://www.mattermost.com/docs-advanced-permissions-team-override/?utm_medium=product&utm_source=mattermost-advisor-bot&utm_content=advanced-permissions-team-override).\n\nKliknutím na Zahájit test souhlasíte se [Smlouvou o používání programu Mattermost ](https://mattermost.com/software-evaluation-agreement/), [Nastavením soukromí](https://mattermost.com/privacy-policy/) a zasíláním obchodních sdělení."
+    "translation": "Váš grommunio-chat má nyní více týmů. Mnoho týmů má své vlastní preference pokud jde o koordinaci a spolupráci, včetně toho, jak jsou zakládány kanály, kdo může pozvat nové členy nebo jak se spravují integrace. Týmová přetížená schémata (Override Schemes) umožňují přizpůsobit oprávnění uživateů pro každý tým zvlášť.\n\n[Zjistit více o Advanced Permissions](https://www.mattermost.com/docs-advanced-permissions-team-override/?utm_medium=product&utm_source=mattermost-advisor-bot&utm_content=advanced-permissions-team-override).\n\nKliknutím na Zahájit test souhlasíte se [Smlouvou o používání programu grommunio-chat ](https://mattermost.com/software-evaluation-agreement/), [Nastavením soukromí](https://mattermost.com/privacy-policy/) a zasíláním obchodních sdělení."
   },
   {
     "id": "api.server.warn_metric.number_of_teams_5.notification_title",
@@ -6349,19 +6349,19 @@
   },
   {
     "id": "api.server.warn_metric.number_of_teams_5.notification_body",
-    "translation": "Váš Mattermost má nyní více týmů. Mnoho týmů má své vlastní preference pokud jde o koordinaci a spolupráci, včetně toho, jak jsou zakládány kanály, kdo může pozvat nové členy nebo jak se spravují integrace. Týmová přetížená schémata (Override Schemes) umožňují přizpůsobit oprávnění uživateů pro každý tým zvlášť.\n\n[Zjistit více o Advanced Permissions](https://www.mattermost.com/docs-advanced-permissions-team-override/?utm_medium=product&utm_source=mattermost-advisor-bot&utm_content=advanced-permissions-team-override).\n\nKliknutím na Kontaktujte nás budete sdílet své informace s Mattermost, Inc. [Zjistit více](https://mattermost.com/pl/default-admin-advisory)"
+    "translation": "Váš grommunio-chat má nyní více týmů. Mnoho týmů má své vlastní preference pokud jde o koordinaci a spolupráci, včetně toho, jak jsou zakládány kanály, kdo může pozvat nové členy nebo jak se spravují integrace. Týmová přetížená schémata (Override Schemes) umožňují přizpůsobit oprávnění uživateů pro každý tým zvlášť.\n\n[Zjistit více o Advanced Permissions](https://www.mattermost.com/docs-advanced-permissions-team-override/?utm_medium=product&utm_source=mattermost-advisor-bot&utm_content=advanced-permissions-team-override).\n\nKliknutím na Kontaktujte nás budete sdílet své informace s grommunio-chat, Inc. [Zjistit více](https://mattermost.com/pl/default-admin-advisory)"
   },
   {
     "id": "api.server.warn_metric.number_of_posts_2M.start_trial.notification_body",
-    "translation": "Váš Mattermost má velký počet zpráv. Výchozí databázové hledání začíná mít výkonostní problémy kolem 2.5 mil příspěvků. Pří více jak 5 mil příspěvcích může Elasticsearch výrazně pomoci s výkonem. Kontaktujte nás, chcete-li se dozvědět více jak můžeme pomoci.\n\n[Zjistit více o zvýšení výkonu](https://www.mattermost.com/docs-elasticsearch/?utm_medium=product&utm_source=mattermost-advisor-bot&utm_content=elasticsearch)\n\nKliknutím na Zahájit test souhlasíte s [Mattermost Software Evaluation Agreement](https://mattermost.com/software-evaluation-agreement/), [Privacy Policy](https://mattermost.com/privacy-policy/) a příjmem produktových emailů."
+    "translation": "Váš grommunio-chat má velký počet zpráv. Výchozí databázové hledání začíná mít výkonostní problémy kolem 2.5 mil příspěvků. Pří více jak 5 mil příspěvcích může Elasticsearch výrazně pomoci s výkonem. Kontaktujte nás, chcete-li se dozvědět více jak můžeme pomoci.\n\n[Zjistit více o zvýšení výkonu](https://www.mattermost.com/docs-elasticsearch/?utm_medium=product&utm_source=mattermost-advisor-bot&utm_content=elasticsearch)\n\nKliknutím na Zahájit test souhlasíte s [grommunio-chat Software Evaluation Agreement](https://mattermost.com/software-evaluation-agreement/), [Privacy Policy](https://mattermost.com/privacy-policy/) a příjmem produktových emailů."
   },
   {
     "id": "api.server.warn_metric.number_of_posts_2M.notification_body",
-    "translation": "Váš Mattermost má velký počet zpráv. Výchozí databázové hledání začíná mít výkonostní problémy kolem 2.5 mil příspěvků. Pří více jak 5 mil příspěvcích může Elasticsearch výrazně pomoci s výkonem. Kontaktujte nás, chcete-li se dozvědět více jak můžeme pomoci.\n\n[Zjistit více o zvýšení výkonu](https://www.mattermost.com/docs-elasticsearch/?utm_medium=product&utm_source=mattermost-advisor-bot&utm_content=elasticsearch)\n\nKliknutím na Kontaktujte nás budete sdílet své informace s Mattermost, Inc. [Zjistit více](https://mattermost.com/pl/default-admin-advisory)"
+    "translation": "Váš grommunio-chat má velký počet zpráv. Výchozí databázové hledání začíná mít výkonostní problémy kolem 2.5 mil příspěvků. Pří více jak 5 mil příspěvcích může Elasticsearch výrazně pomoci s výkonem. Kontaktujte nás, chcete-li se dozvědět více jak můžeme pomoci.\n\n[Zjistit více o zvýšení výkonu](https://www.mattermost.com/docs-elasticsearch/?utm_medium=product&utm_source=mattermost-advisor-bot&utm_content=elasticsearch)\n\nKliknutím na Kontaktujte nás budete sdílet své informace s grommunio-chat, Inc. [Zjistit více](https://mattermost.com/pl/default-admin-advisory)"
   },
   {
     "id": "api.server.warn_metric.number_of_channels_50.notification_body",
-    "translation": "Kanály umožňují zlepšit komunikaci, ale s tím, jak je uživatelé napříč Mattermostem zakládají a vstupují do nich, rostou nároky na to udržovat systém organizovaný. Advanced Permissions umožní nastavit, kteří uživatelé nebo role mohou provádět určité akce, jako spravovat nastavení kanálů a jejich členů, využívat @channel nebo @here zmínek, či vytváření nových webhooků.\n\n[Zjistit více o Advanced Permissions](https://www.mattermost.com/docs-advanced-permissions/?utm_medium=product&utm_source=mattermost-advisor-bot&utm_content=advanced-permissions)\n\nKliknutím na Kontaktujte nás budete sdílet své informace s Mattermost, Inc. [Zjistit více](https://mattermost.com/pl/default-admin-advisory)"
+    "translation": "Kanály umožňují zlepšit komunikaci, ale s tím, jak je uživatelé napříč Mattermostem zakládají a vstupují do nich, rostou nároky na to udržovat systém organizovaný. Advanced Permissions umožní nastavit, kteří uživatelé nebo role mohou provádět určité akce, jako spravovat nastavení kanálů a jejich členů, využívat @channel nebo @here zmínek, či vytváření nových webhooků.\n\n[Zjistit více o Advanced Permissions](https://www.mattermost.com/docs-advanced-permissions/?utm_medium=product&utm_source=mattermost-advisor-bot&utm_content=advanced-permissions)\n\nKliknutím na Kontaktujte nás budete sdílet své informace s grommunio-chat, Inc. [Zjistit více](https://mattermost.com/pl/default-admin-advisory)"
   },
   {
     "id": "model.config.is_valid.import.retention_days_too_low.app_error",
@@ -6573,11 +6573,11 @@
   },
   {
     "id": "api.templates.payment_failed_no_card.title",
-    "translation": "Faktura za Mattermost Cloud je v prodlení"
+    "translation": "Faktura za grommunio-chat Cloud je v prodlení"
   },
   {
     "id": "api.templates.payment_failed_no_card.subject",
-    "translation": "Platba předplatného Mattermost Cloud je ve zpoždění"
+    "translation": "Platba předplatného grommunio-chat Cloud je ve zpoždění"
   },
   {
     "id": "api.templates.payment_failed_no_card.info3",
@@ -6585,7 +6585,7 @@
   },
   {
     "id": "api.templates.payment_failed_no_card.info1",
-    "translation": "Faktura za Mattermost Cloud byla zpracována. Nicméně nám chybí Vaše platební údaje."
+    "translation": "Faktura za grommunio-chat Cloud byla zpracována. Nicméně nám chybí Vaše platební údaje."
   },
   {
     "id": "api.templates.payment_failed_no_card.button",
@@ -6597,11 +6597,11 @@
   },
   {
     "id": "api.templates.payment_failed.subject",
-    "translation": "Vyžadována akce: selhala platba za Mattermost Cloud"
+    "translation": "Vyžadována akce: selhala platba za grommunio-chat Cloud"
   },
   {
     "id": "api.templates.payment_failed.info3",
-    "translation": "Chcete-li nadále nepřerušeně využívat Mattermost Cloud, prosím kontaktujte buď svoji bankovní instituci nebo aktualizujte své platební údaje. Poté, co budou údaje o platbě opraveny, Mattermost se pokusí opětovně provést stržení zbývajících částek."
+    "translation": "Chcete-li nadále nepřerušeně využívat grommunio-chat Cloud, prosím kontaktujte buď svoji bankovní instituci nebo aktualizujte své platební údaje. Poté, co budou údaje o platbě opraveny, grommunio-chat se pokusí opětovně provést stržení zbývajících částek."
   },
   {
     "id": "api.templates.payment_failed.info2",
@@ -6609,7 +6609,7 @@
   },
   {
     "id": "api.templates.payment_failed.info1",
-    "translation": "Vaše bankovní instituce zamítla platbu přes {{.CardBrand}} ****{{.LastFour}} připojené k Vašemu Mattermost Cloud workspace."
+    "translation": "Vaše bankovní instituce zamítla platbu přes {{.CardBrand}} ****{{.LastFour}} připojené k Vašemu grommunio-chat Cloud workspace."
   },
   {
     "id": "api.templates.email_us_anytime_at",
@@ -6617,7 +6617,7 @@
   },
   {
     "id": "api.templates.copyright",
-    "translation": "© 2020 Mattermost, Inc. 855 El Camino Real, 13A-168, Palo Alto, CA, 94301"
+    "translation": "© 2020 grommunio-chat, Inc. 855 El Camino Real, 13A-168, Palo Alto, CA, 94301"
   },
   {
     "id": "app.command_webhook.handle_command_webhook.parse",
@@ -6641,11 +6641,11 @@
   },
   {
     "id": "api.server.warn_metric.number_of_active_users_100.notification_body",
-    "translation": "Váš Mattermost má přes 100 uživatelů. S tím, jak roste uživatelská základna, správa nových účtů se stává časově nákladnou. Doporučujeme integrovat vaši podnikovou databázi AD/LDAP, která umožní každému účtu přístup k Mattermostu.\n\n[Zjistit více o integraci ADL/LDAP](https://www.mattermost.com/docs-adldap/?utm_medium=product&utm_source=mattermost-advisor-bot&utm_content=adldap)\n\nKliknutím na Kontaktujte nás budete sdílet své informace s Mattermost, Inc. [Zjistit více](https://mattermost.com/pl/default-admin-advisory)"
+    "translation": "Váš grommunio-chat má přes 100 uživatelů. S tím, jak roste uživatelská základna, správa nových účtů se stává časově nákladnou. Doporučujeme integrovat vaši podnikovou databázi AD/LDAP, která umožní každému účtu přístup k Mattermostu.\n\n[Zjistit více o integraci ADL/LDAP](https://www.mattermost.com/docs-adldap/?utm_medium=product&utm_source=mattermost-advisor-bot&utm_content=adldap)\n\nKliknutím na Kontaktujte nás budete sdílet své informace s grommunio-chat, Inc. [Zjistit více](https://mattermost.com/pl/default-admin-advisory)"
   },
   {
     "id": "api.server.warn_metric.number_of_active_users_100.contact_us.email_body",
-    "translation": "Dotaz na Mattermost. Můj tým má nyní 100 uživatelů a zvažuji využití Mattermost Enterprise Edice.\n"
+    "translation": "Dotaz na grommunio-chat. Můj tým má nyní 100 uživatelů a zvažuji využití grommunio-chat Enterprise Edice.\n"
   },
   {
     "id": "api.server.warn_metric.mfa.start_trial_notification_success.message",
@@ -6653,7 +6653,7 @@
   },
   {
     "id": "api.server.warn_metric.mfa.start_trial.notification_body",
-    "translation": "Váš Mattermost má povolenu vícefaktorovou autentizaci, což umožňuje uživatelům zabezpečit jejich účty dalším způsobem, nejen heslem. Ke zvýšení zabezpečení napříč systémem můžete vynutit použivání vícefaktorové autentizace u všech účtů.\n\n[Zjistit více o vynucení vícefaktorové autentizace](https://www.mattermost.com/docs-multi-factor-authentication/?utm_medium=product&utm_source=mattermost-advisor-bot&utm_content=multi-factor-authentication). \n\nKliknutím na Zahájit test souhlasíte s [Mattermost Software Evaluation Agreement](https://mattermost.com/software-evaluation-agreement/), [Privacy Policy](https://mattermost.com/privacy-policy/) a příjmem produktových emailů."
+    "translation": "Váš grommunio-chat má povolenu vícefaktorovou autentizaci, což umožňuje uživatelům zabezpečit jejich účty dalším způsobem, nejen heslem. Ke zvýšení zabezpečení napříč systémem můžete vynutit použivání vícefaktorové autentizace u všech účtů.\n\n[Zjistit více o vynucení vícefaktorové autentizace](https://www.mattermost.com/docs-multi-factor-authentication/?utm_medium=product&utm_source=mattermost-advisor-bot&utm_content=multi-factor-authentication). \n\nKliknutím na Zahájit test souhlasíte s [grommunio-chat Software Evaluation Agreement](https://mattermost.com/software-evaluation-agreement/), [Privacy Policy](https://mattermost.com/privacy-policy/) a příjmem produktových emailů."
   },
   {
     "id": "api.server.warn_metric.mfa.notification_title",
@@ -6661,15 +6661,15 @@
   },
   {
     "id": "api.server.warn_metric.mfa.notification_body",
-    "translation": "Váš Mattermost má povolenu vícefaktorovou autentizaci, což umožňuje uživatelům zabezpečit jejich účty dalším způsobem, nejen heslem. Ke zvýšení zabezpečení napříč systémem můžete vynutit použivání vícefaktorové autentizace u všech účtů.\n\n[Zjistit více o vynucení vícefaktorové autentizace](https://www.mattermost.com/docs-multi-factor-authentication/?utm_medium=product&utm_source=mattermost-advisor-bot&utm_content=multi-factor-authentication). \n\nKliknutím na Kontaktujte nás budete sdílete své informace s Mattermost, Inc. [Zjistit více](https://mattermost.com/pl/default-admin-advisory)"
+    "translation": "Váš grommunio-chat má povolenu vícefaktorovou autentizaci, což umožňuje uživatelům zabezpečit jejich účty dalším způsobem, nejen heslem. Ke zvýšení zabezpečení napříč systémem můžete vynutit použivání vícefaktorové autentizace u všech účtů.\n\n[Zjistit více o vynucení vícefaktorové autentizace](https://www.mattermost.com/docs-multi-factor-authentication/?utm_medium=product&utm_source=mattermost-advisor-bot&utm_content=multi-factor-authentication). \n\nKliknutím na Kontaktujte nás budete sdílete své informace s grommunio-chat, Inc. [Zjistit více](https://mattermost.com/pl/default-admin-advisory)"
   },
   {
     "id": "api.server.warn_metric.mfa.contact_us.email_body",
-    "translation": "Dotaz na Mattermost. Zajímá mě více o vynucení vícefaktorové autentizace.\n"
+    "translation": "Dotaz na grommunio-chat. Zajímá mě více o vynucení vícefaktorové autentizace.\n"
   },
   {
     "id": "api.server.warn_metric.email_domain.start_trial.notification_body",
-    "translation": "Projekty často zahrnují lidi jak z vnitřku, tak vnějšku organizace. S pomocí návštěvnických účtů můžete zapojit externí partnery do vašeho Mattermostu a určit, s kým mohou pracovat a co mohou vidět.\n\n[Zjistit více o návštěvnických účtech]((https://www.mattermost.com/docs-guest-accounts/?utm_medium=product&utm_source=mattermost-advisor-bot&utm_content=guest-accounts).\n\nKliknutím na Zahájit test souhlasíte s [Mattermost Software Evaluation Agreement](https://mattermost.com/software-evaluation-agreement/), [Privacy Policy](https://mattermost.com/privacy-policy/) a příjmem produktových emailů."
+    "translation": "Projekty často zahrnují lidi jak z vnitřku, tak vnějšku organizace. S pomocí návštěvnických účtů můžete zapojit externí partnery do vašeho Mattermostu a určit, s kým mohou pracovat a co mohou vidět.\n\n[Zjistit více o návštěvnických účtech]((https://www.mattermost.com/docs-guest-accounts/?utm_medium=product&utm_source=mattermost-advisor-bot&utm_content=guest-accounts).\n\nKliknutím na Zahájit test souhlasíte s [grommunio-chat Software Evaluation Agreement](https://mattermost.com/software-evaluation-agreement/), [Privacy Policy](https://mattermost.com/privacy-policy/) a příjmem produktových emailů."
   },
   {
     "id": "api.server.warn_metric.email_domain.notification_title",
@@ -6677,7 +6677,7 @@
   },
   {
     "id": "api.server.warn_metric.email_domain.contact_us.email_body",
-    "translation": "Dotaz na Mattermost. Mám zájem zjistit více o návštěvnických účtech.\n"
+    "translation": "Dotaz na grommunio-chat. Mám zájem zjistit více o návštěvnických účtech.\n"
   },
   {
     "id": "api.server.warn_metric.bot_response.start_trial_failure.message",
@@ -6701,7 +6701,7 @@
   },
   {
     "id": "api.server.warn_metric.number_of_teams_5.contact_us.email_body",
-    "translation": "Dotaz na Mattermost. Chci se dozvědět více o Pokročilých oprávněních s Týmovými schématy.\n"
+    "translation": "Dotaz na grommunio-chat. Chci se dozvědět více o Pokročilých oprávněních s Týmovými schématy.\n"
   },
   {
     "id": "api.server.warn_metric.number_of_posts_2M.start_trial.notification_success.message",
@@ -6713,7 +6713,7 @@
   },
   {
     "id": "api.server.warn_metric.number_of_posts_2M.contact_us.email_body",
-    "translation": "Dotaz na Mattermost. Zajímalo by mě více o zlepšení výkonnosti s Elasticsearch.\n"
+    "translation": "Dotaz na grommunio-chat. Zajímalo by mě více o zlepšení výkonnosti s Elasticsearch.\n"
   },
   {
     "id": "api.server.warn_metric.number_of_channels_50.start_trial.notification_success.message",
@@ -6721,7 +6721,7 @@
   },
   {
     "id": "api.server.warn_metric.number_of_channels_50.start_trial.notification_body",
-    "translation": "Kanály mohou zlepšit komunikaci, ale s množstvím uživatelů Mattermostu připojujících se a vytvářejících kanály rostou nároky na udržení přehlednosti systému. Pokročilá oprávnění vám umožní nastavit, kteří uživatelé mohou provádět vybrané akce, např. změnit nastavení, spravovat členy kanálu, používat @channel nebo @here pro označení většího počtu uživatelů či vytvářet nové webhooky.\n\n[Dozvědět se více o Pokročilých oprávněních](https://www.mattermost.com/docs-advanced-permissions/?utm_medium=product&utm_source=mattermost-advisor-bot&utm_content=advanced-permissions)\n\nKliknutím na Zahájit test souhlasíte se [Smlouvou o používání programu Mattermost ](https://mattermost.com/software-evaluation-agreement/), [Nastavením soukromí](https://mattermost.com/privacy-policy/) a zasíláním obchodních sdělení."
+    "translation": "Kanály mohou zlepšit komunikaci, ale s množstvím uživatelů Mattermostu připojujících se a vytvářejících kanály rostou nároky na udržení přehlednosti systému. Pokročilá oprávnění vám umožní nastavit, kteří uživatelé mohou provádět vybrané akce, např. změnit nastavení, spravovat členy kanálu, používat @channel nebo @here pro označení většího počtu uživatelů či vytvářet nové webhooky.\n\n[Dozvědět se více o Pokročilých oprávněních](https://www.mattermost.com/docs-advanced-permissions/?utm_medium=product&utm_source=mattermost-advisor-bot&utm_content=advanced-permissions)\n\nKliknutím na Zahájit test souhlasíte se [Smlouvou o používání programu grommunio-chat ](https://mattermost.com/software-evaluation-agreement/), [Nastavením soukromí](https://mattermost.com/privacy-policy/) a zasíláním obchodních sdělení."
   },
   {
     "id": "app.oauth.update_app.updating.app_error",
@@ -7269,7 +7269,7 @@
   },
   {
     "id": "api.command_remote.accept.help",
-    "translation": "Přijmout pozvánku z externí instance Mattermost"
+    "translation": "Přijmout pozvánku z externí instance grommunio-chat"
   },
   {
     "id": "api.command_remote.accept_invitation",
@@ -7325,7 +7325,7 @@
   },
   {
     "id": "api.command_remote.desc",
-    "translation": "Pozvat zabezpečené připojení pro komunikaci mezi instancemi Mattermost."
+    "translation": "Pozvat zabezpečené připojení pro komunikaci mezi instancemi grommunio-chat."
   },
   {
     "id": "api.command_marketplace.unsupported.app_error",
@@ -7353,7 +7353,7 @@
   },
   {
     "id": "web.error.unsupported_browser.no_longer_support",
-    "translation": "Tento prohlížeč již Mattermost nepodporuje"
+    "translation": "Tento prohlížeč již grommunio-chat nepodporuje"
   },
   {
     "id": "web.incoming_webhook.channel_locked.app_error",
@@ -7409,7 +7409,7 @@
   },
   {
     "id": "api.command_remote.invite_summary",
-    "translation": "Externímu správci systému Mattermost odešlete následující pozvánku zašifrovanou 256bitovým algoritmem AES spolu s heslem. K přijetí pozvánky použije příkaz `{{.Command}}` s lomítkem.\n\n```\n{{.Invitation}}\n```\n\n**Zajistěte, aby zabezpečené připojení mohlo přistupovat k vaší instanci Mattermostu prostřednictvím** {{.SiteURL}}"
+    "translation": "Externímu správci systému grommunio-chat odešlete následující pozvánku zašifrovanou 256bitovým algoritmem AES spolu s heslem. K přijetí pozvánky použije příkaz `{{.Command}}` s lomítkem.\n\n```\n{{.Invitation}}\n```\n\n**Zajistěte, aby zabezpečené připojení mohlo přistupovat k vaší instanci Mattermostu prostřednictvím** {{.SiteURL}}"
   },
   {
     "id": "api.command_remote.invite_password.hint",
@@ -7445,7 +7445,7 @@
   },
   {
     "id": "api.command_help.success",
-    "translation": "Mattermost je open source platforma pro bezpečnou komunikaci, spolupráci a orchestraci práce napříč nástroji a týmy.\nMattermost obsahuje dva klíčové nástroje:\n\n**Kanály** - Zůstaňte ve spojení se svým týmem prostřednictvím zpráv 1:1 a skupinových zpráv.\n**[Playbooks](/playbooks)** - Vytvářejte a konfigurujte opakovatelné procesy k dosažení konkrétních a předvídatelných výsledků.\n\n[Zobrazit dokumentaci a průvodce]({{.HelpLink}})"
+    "translation": "grommunio-chat je open source platforma pro bezpečnou komunikaci, spolupráci a orchestraci práce napříč nástroji a týmy.\nMattermost obsahuje dva klíčové nástroje:\n\n**Kanály** - Zůstaňte ve spojení se svým týmem prostřednictvím zpráv 1:1 a skupinových zpráv.\n**[Playbooks](/playbooks)** - Vytvářejte a konfigurujte opakovatelné procesy k dosažení konkrétních a předvídatelných výsledků.\n\n[Zobrazit dokumentaci a průvodce]({{.HelpLink}})"
   },
   {
     "id": "api.command_custom_status.clear.app_error",

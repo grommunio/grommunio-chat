@@ -1,7 +1,7 @@
 {
   "name": "@mattermost/client",
   "version": "9.5.0",
-  "description": "JavaScript/TypeScript client for Mattermost",
+  "description": "JavaScript/TypeScript client for grommunio-chat",
   "keywords": [
     "mattermost"
   ],

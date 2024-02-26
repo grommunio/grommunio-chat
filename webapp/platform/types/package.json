@@ -1,7 +1,7 @@
 {
   "name": "@mattermost/types",
   "version": "9.5.0",
-  "description": "Shared type definitions used by the Mattermost web app",
+  "description": "Shared type definitions used by the grommunio-chat web app",
   "keywords": [
     "mattermost"
   ],

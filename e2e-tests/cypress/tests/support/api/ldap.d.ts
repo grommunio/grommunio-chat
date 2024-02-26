@@ -19,7 +19,7 @@ declare namespace Cypress {
     interface Chainable {
 
         /**
-         * Synchronize any user attribute changes in the configured AD/LDAP server with Mattermost.
+         * Synchronize any user attribute changes in the configured AD/LDAP server with grommunio-chat.
          * See https://api.mattermost.com/#operation/SyncLdap
          *
          * @example

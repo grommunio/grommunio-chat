@@ -77,7 +77,7 @@ exports[`components/SystemNotice should match snapshot for admin, admin notice 1
       <MattermostLogo>
         <span>
           <svg
-            aria-label="Mattermost Logo"
+            aria-label="grommunio-chat Logo"
             enableBackground="new 0 0 500 500"
             role="img"
             version="1.1"
@@ -234,7 +234,7 @@ exports[`components/SystemNotice should match snapshot for admin, regular notice
       <MattermostLogo>
         <span>
           <svg
-            aria-label="Mattermost Logo"
+            aria-label="grommunio-chat Logo"
             enableBackground="new 0 0 500 500"
             role="img"
             version="1.1"
@@ -374,7 +374,7 @@ exports[`components/SystemNotice should match snapshot for regular user, admin a
       <MattermostLogo>
         <span>
           <svg
-            aria-label="Mattermost Logo"
+            aria-label="grommunio-chat Logo"
             enableBackground="new 0 0 500 500"
             role="img"
             version="1.1"
@@ -683,7 +683,7 @@ exports[`components/SystemNotice should match snapshot for regular user, regular
       <MattermostLogo>
         <span>
           <svg
-            aria-label="Mattermost Logo"
+            aria-label="grommunio-chat Logo"
             enableBackground="new 0 0 500 500"
             role="img"
             version="1.1"
@@ -860,7 +860,7 @@ exports[`components/SystemNotice should match snapshot for show function returni
       <MattermostLogo>
         <span>
           <svg
-            aria-label="Mattermost Logo"
+            aria-label="grommunio-chat Logo"
             enableBackground="new 0 0 500 500"
             role="img"
             version="1.1"
@@ -992,7 +992,7 @@ exports[`components/SystemNotice should match snapshot for with allowForget equa
       <MattermostLogo>
         <span>
           <svg
-            aria-label="Mattermost Logo"
+            aria-label="grommunio-chat Logo"
             enableBackground="new 0 0 500 500"
             role="img"
             version="1.1"

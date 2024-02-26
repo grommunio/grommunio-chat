@@ -779,7 +779,7 @@
   },
   {
     "id": "api.admin.test_email.body",
-    "translation": "Thông tin email tài khoản Mattermost của bạn đã được cấu hình chính xác!"
+    "translation": "Thông tin email tài khoản grommunio-chat của bạn đã được cấu hình chính xác!"
   },
   {
     "id": "api.channel.post_update_channel_displayname_message_and_forget.create_post.error",
@@ -897,7 +897,7 @@
   },
   {
     "id": "web.error.unsupported_browser.no_longer_support",
-    "translation": "Trình duyệt này không còn được Mattermost hỗ trợ"
+    "translation": "Trình duyệt này không còn được grommunio-chat hỗ trợ"
   },
   {
     "id": "api.user.update_active.not_enable.app_error",
@@ -1157,7 +1157,7 @@
   },
   {
     "id": "ent.ldap.do_login.user_filtered.app_error",
-    "translation": "Tài khoản AD / LDAP của bạn không có quyền sử dụng máy chủ Mattermost sever này. Vui lòng yêu cầu Quản trị viên hệ thống của bạn kiểm tra bộ lọc người dùng AD / LDAP."
+    "translation": "Tài khoản AD / LDAP của bạn không có quyền sử dụng máy chủ grommunio-chat sever này. Vui lòng yêu cầu Quản trị viên hệ thống của bạn kiểm tra bộ lọc người dùng AD / LDAP."
   },
   {
     "id": "api.status.user_not_found.app_error",
@@ -2847,7 +2847,7 @@
   },
   {
     "id": "api.admin.test_email.subject",
-    "translation": "Mattermost - Kiểm tra Cài đặt Email"
+    "translation": "grommunio-chat - Kiểm tra Cài đặt Email"
   },
   {
     "id": "api.channel.join_channel.post_and_forget",
@@ -3347,7 +3347,7 @@
   },
   {
     "id": "api.command_help.desc",
-    "translation": "Mở trang trợ giúp Mattermost"
+    "translation": "Mở trang trợ giúp grommunio-chat"
   },
   {
     "id": "api.team.set_team_icon.write_file.app_error",
@@ -3551,7 +3551,7 @@
   },
   {
     "id": "api.slackimport.slack_import.log",
-    "translation": "Nhật ký nhập Mattermost Slack\n"
+    "translation": "Nhật ký nhập grommunio-chat Slack\n"
   },
   {
     "id": "ent.account_migration.get_all_failed",
@@ -4103,7 +4103,7 @@
   },
   {
     "id": "web.error.unsupported_browser.download_app_or_upgrade_browser",
-    "translation": "Tải xuống Mattermost app hoặc dùng trình duyệt được hỗ trợ để có trải nghiệm tốt nhất."
+    "translation": "Tải xuống grommunio-chat app hoặc dùng trình duyệt được hỗ trợ để có trải nghiệm tốt nhất."
   },
   {
     "id": "model.cluster.is_valid.last_ping_at.app_error",
@@ -4575,7 +4575,7 @@
   },
   {
     "id": "web.error.unsupported_browser.no_longer_support_version",
-    "translation": "Phiên bản hiện tại của trình duyệt không còn được Mattermost hỗ trợ"
+    "translation": "Phiên bản hiện tại của trình duyệt không còn được grommunio-chat hỗ trợ"
   },
   {
     "id": "api.command_join.desc",
@@ -4717,7 +4717,7 @@
   },
   {
     "id": "ent.ldap.syncronize.search_failure.app_error",
-    "translation": "Không thể tìm kiếm người dùng trong AD / LDAP. Kiểm tra xem máy chủ Mattermost có thể kết nối với máy chủ AD / LDAP của bạn không và thử lại."
+    "translation": "Không thể tìm kiếm người dùng trong AD / LDAP. Kiểm tra xem máy chủ grommunio-chat có thể kết nối với máy chủ AD / LDAP của bạn không và thử lại."
   },
   {
     "id": "model.authorize.is_valid.expires.app_error",
@@ -5275,7 +5275,7 @@
   },
   {
     "id": "api.command.invite_people.desc",
-    "translation": "Gửi một email mời nhóm Mattermost của bạn"
+    "translation": "Gửi một email mời nhóm grommunio-chat của bạn"
   },
   {
     "id": "api.admin.ldap.not_available.app_error",
@@ -5483,7 +5483,7 @@
   },
   {
     "id": "ent.migration.migratetosaml.username_already_used_by_other_user",
-    "translation": "Tên người dùng đã được sử dụng bởi một người dùng Mattermost khác."
+    "translation": "Tên người dùng đã được sử dụng bởi một người dùng grommunio-chat khác."
   },
   {
     "id": "app.channel.create_direct_channel.internal_error",
@@ -5527,7 +5527,7 @@
   },
   {
     "id": "api.server.warn_metric.number_of_active_users_100.notification_title",
-    "translation": "Mở rộng quy mô với Mattermost"
+    "translation": "Mở rộng quy mô với grommunio-chat"
   },
   {
     "id": "api.team.invite_members.unable_to_send_email_with_defaults.app_error",
@@ -5571,15 +5571,15 @@
   },
   {
     "id": "api.server.warn_metric.number_of_active_users_200.notification_title",
-    "translation": "Mở rộng quy mô với Mattermost"
+    "translation": "Mở rộng quy mô với grommunio-chat"
   },
   {
     "id": "api.server.warn_metric.bot_response.notification_success.message",
-    "translation": "Cảm ơn bạn đã liên hệ với Mattermost. Chúng tôi sẽ liên hệ với bạn sớm nhất có thể."
+    "translation": "Cảm ơn bạn đã liên hệ với grommunio-chat. Chúng tôi sẽ liên hệ với bạn sớm nhất có thể."
   },
   {
     "id": "api.server.warn_metric.number_of_active_users_500.notification_title",
-    "translation": "Mở rộng quy mô với Mattermost"
+    "translation": "Mở rộng quy mô với grommunio-chat"
   },
   {
     "id": "api.channel.group_message.converted.to_private_channel",
@@ -5931,7 +5931,7 @@
   },
   {
     "id": "api.command_remote.accept.help",
-    "translation": "Đông ý lời mời từ máy của Mattermost bên ngoài"
+    "translation": "Đông ý lời mời từ máy của grommunio-chat bên ngoài"
   },
   {
     "id": "api.command_remote.invitation.help",
@@ -6127,7 +6127,7 @@
   },
   {
     "id": "api.server.warn_metric.bot_response.mailto_subject",
-    "translation": "Mattermost Liên hệ với chúng tôi yêu cầu"
+    "translation": "grommunio-chat Liên hệ với chúng tôi yêu cầu"
   },
   {
     "id": "api.server.warn_metric.bot_response.notification_failure.body",
@@ -6167,7 +6167,7 @@
   },
   {
     "id": "api.server.warn_metric.number_of_active_users_100.contact_us.email_body",
-    "translation": "Quan trọng nhất hãy liên hệ với chúng tôi theo yêu cầu. Nhóm của tôi hiện có 100 người dùng và tôi đang xem xét Phiên bản Mattermost Enterprise.\n"
+    "translation": "Quan trọng nhất hãy liên hệ với chúng tôi theo yêu cầu. Nhóm của tôi hiện có 100 người dùng và tôi đang xem xét Phiên bản grommunio-chat Enterprise.\n"
   },
   {
     "id": "api.server.warn_metric.number_of_active_users_100.start_trial.notification_success.message",
@@ -6175,7 +6175,7 @@
   },
   {
     "id": "api.server.warn_metric.number_of_active_users_200.contact_us.email_body",
-    "translation": "Quan trọng nhất hãy liên hệ với chúng tôi theo yêu cầu. Nhóm của tôi hiện có 200 người dùng và tôi đang xem xét Phiên bản Mattermost Enterprise.\n"
+    "translation": "Quan trọng nhất hãy liên hệ với chúng tôi theo yêu cầu. Nhóm của tôi hiện có 200 người dùng và tôi đang xem xét Phiên bản grommunio-chat Enterprise.\n"
   },
   {
     "id": "api.server.warn_metric.number_of_active_users_200.start_trial.notification_success.message",
@@ -6199,7 +6199,7 @@
   },
   {
     "id": "api.server.warn_metric.number_of_active_users_500.contact_us.email_body",
-    "translation": "Quan trọng nhất hãy liên hệ với chúng tôi theo yêu cầu. Nhóm của tôi hiện có 500 người dùng và tôi đang xem xét Phiên bản Mattermost Enterprise.\n"
+    "translation": "Quan trọng nhất hãy liên hệ với chúng tôi theo yêu cầu. Nhóm của tôi hiện có 500 người dùng và tôi đang xem xét Phiên bản grommunio-chat Enterprise.\n"
   },
   {
     "id": "api.server.warn_metric.number_of_active_users_500.start_trial.notification_success.message",
@@ -6235,7 +6235,7 @@
   },
   {
     "id": "api.server.warn_metric.number_of_teams_5.notification_body",
-    "translation": "Hệ thống Matter Extreme của bạn hiện có nhiều nhóm. Nhiều nhóm có cách điều phối và cộng tác ưa thích của riêng họ, bao gồm cách tạo kênh, ai có thể mời đồng đội mới và cách quản lý tích hợp. Lược đồ ghi đè nhóm cho phép bạn tùy chỉnh quyền của người dùng trong mỗi nhóm để đáp ứng nhu cầu cụ thể của họ.\n\n[Tìm hiểu thêm về cách sử dụng Quyền nâng cao](https://www.mattermost.com/docs-advanced-permissions-team-override/?utm_medium=product&utm_source=mattermost-advisor-bot&utm_content=advanced-permissions-team-override).\n\nBằng cách nhấp vào Liên hệ với chúng tôi, bạn sẽ chia sẻ thông tin của mình với Mattermost, Inc. [Tìm hiểu thêm](https://mattermost.com/pl/default-admin-advisory)"
+    "translation": "Hệ thống Matter Extreme của bạn hiện có nhiều nhóm. Nhiều nhóm có cách điều phối và cộng tác ưa thích của riêng họ, bao gồm cách tạo kênh, ai có thể mời đồng đội mới và cách quản lý tích hợp. Lược đồ ghi đè nhóm cho phép bạn tùy chỉnh quyền của người dùng trong mỗi nhóm để đáp ứng nhu cầu cụ thể của họ.\n\n[Tìm hiểu thêm về cách sử dụng Quyền nâng cao](https://www.mattermost.com/docs-advanced-permissions-team-override/?utm_medium=product&utm_source=mattermost-advisor-bot&utm_content=advanced-permissions-team-override).\n\nBằng cách nhấp vào Liên hệ với chúng tôi, bạn sẽ chia sẻ thông tin của mình với grommunio-chat, Inc. [Tìm hiểu thêm](https://mattermost.com/pl/default-admin-advisory)"
   },
   {
     "id": "api.server.warn_metric.number_of_teams_5.notification_title",
@@ -6351,11 +6351,11 @@
   },
   {
     "id": "api.templates.cloud_welcome_email.button",
-    "translation": "Mở Mattermost"
+    "translation": "Mở grommunio-chat"
   },
   {
     "id": "api.templates.cloud_welcome_email.download_mm_info",
-    "translation": "Tải ứng dụng Mattermost"
+    "translation": "Tải ứng dụng grommunio-chat"
   },
   {
     "id": "api.templates.cloud_welcome_email.info",
@@ -6411,7 +6411,7 @@
   },
   {
     "id": "api.templates.copyright",
-    "translation": "© 2021 Mattermost, Inc. 530 Đại lộ Lytton, Tầng hai, Palo Alto, CA, 94301"
+    "translation": "© 2021 grommunio-chat, Inc. 530 Đại lộ Lytton, Tầng hai, Palo Alto, CA, 94301"
   },
   {
     "id": "api.templates.delinquency_14.button",
@@ -6419,7 +6419,7 @@
   },
   {
     "id": "api.templates.delinquency_14.subject",
-    "translation": "Đã quá hạn thanh toán cho Mattermost {{.Plan}} của bạn"
+    "translation": "Đã quá hạn thanh toán cho grommunio-chat {{.Plan}} của bạn"
   },
   {
     "id": "api.templates.delinquency_14.subtitle1",
@@ -6487,7 +6487,7 @@
   },
   {
     "id": "api.templates.delinquency_60.title",
-    "translation": "Không gian làm việc Mattermost của bạn sẽ bị hạ cấp sau 30 ngày"
+    "translation": "Không gian làm việc grommunio-chat của bạn sẽ bị hạ cấp sau 30 ngày"
   },
   {
     "id": "api.templates.delinquency_7.button",
@@ -6511,11 +6511,11 @@
   },
   {
     "id": "api.templates.delinquency_75.subject",
-    "translation": "Mattermost {{.Plan}} của bạn sẽ bị hạ cấp sau 15 ngày"
+    "translation": "grommunio-chat {{.Plan}} của bạn sẽ bị hạ cấp sau 15 ngày"
   },
   {
     "id": "api.templates.delinquency_75.subtitle1",
-    "translation": "Đây là lời nhắc cuối cùng rằng chúng tôi chưa nhận được khoản thanh toán cho không gian làm việc Mattermost Cloud của bạn kể từ {{.DelinquencyDate}}."
+    "translation": "Đây là lời nhắc cuối cùng rằng chúng tôi chưa nhận được khoản thanh toán cho không gian làm việc grommunio-chat Cloud của bạn kể từ {{.DelinquencyDate}}."
   },
   {
     "id": "api.templates.delinquency_75.subtitle2",
@@ -6551,7 +6551,7 @@
   },
   {
     "id": "api.templates.delinquency_90.title",
-    "translation": "Không gian làm việc Mattermost của bạn đã bị hạ cấp"
+    "translation": "Không gian làm việc grommunio-chat của bạn đã bị hạ cấp"
   },
   {
     "id": "api.templates.email_us_anytime_at",
@@ -6559,7 +6559,7 @@
   },
   {
     "id": "api.templates.invite_body.subTitle",
-    "translation": "Bắt đầu cộng tác với nhóm của bạn trên Mattermost"
+    "translation": "Bắt đầu cộng tác với nhóm của bạn trên grommunio-chat"
   },
   {
     "id": "api.templates.invite_body_guest.subTitle",
@@ -6571,11 +6571,11 @@
   },
   {
     "id": "api.templates.invite_body_footer.info",
-    "translation": "Mattermost là một nền tảng nhắn tin mã nguồn mở, linh hoạt cho phép cộng tác nhóm một cách an toàn."
+    "translation": "grommunio-chat là một nền tảng nhắn tin mã nguồn mở, linh hoạt cho phép cộng tác nhóm một cách an toàn."
   },
   {
     "id": "api.templates.invite_body_footer.title",
-    "translation": "Mattermost là gì?"
+    "translation": "grommunio-chat là gì?"
   },
   {
     "id": "api.templates.license_up_for_renewal_renew_now",
@@ -6603,11 +6603,11 @@
   },
   {
     "id": "api.templates.license_up_for_renewal_title",
-    "translation": "Đăng ký Mattermost của bạn sắp được gia hạn"
+    "translation": "Đăng ký grommunio-chat của bạn sắp được gia hạn"
   },
   {
     "id": "api.templates.payment_failed.info1",
-    "translation": "Tổ chức tài chính của bạn đã từ chối khoản thanh toán từ {{.CardBrand}} ****{{.LastFour}} được liên kết với không gian làm việc Mattermost Cloud của bạn."
+    "translation": "Tổ chức tài chính của bạn đã từ chối khoản thanh toán từ {{.CardBrand}} ****{{.LastFour}} được liên kết với không gian làm việc grommunio-chat Cloud của bạn."
   },
   {
     "id": "api.templates.payment_failed.info2",
@@ -6631,7 +6631,7 @@
   },
   {
     "id": "api.templates.payment_failed_no_card.subject",
-    "translation": "Khoản thanh toán đến hạn cho đăng ký Mattermost Cloud của bạn"
+    "translation": "Khoản thanh toán đến hạn cho đăng ký grommunio-chat Cloud của bạn"
   },
   {
     "id": "api.templates.payment_failed_no_card.title",
@@ -6651,7 +6651,7 @@
   },
   {
     "id": "api.templates.remove_expired_license.subject",
-    "translation": "Giấy phép Mattermost Enterprise đã bị vô hiệu hóa."
+    "translation": "Giấy phép grommunio-chat Enterprise đã bị vô hiệu hóa."
   },
   {
     "id": "api.templates.reset_body.info",
@@ -6703,7 +6703,7 @@
   },
   {
     "id": "api.templates.warn_metric_ack.subject",
-    "translation": "Yêu cầu Mattermost liên hệ lại"
+    "translation": "Yêu cầu grommunio-chat liên hệ lại"
   },
   {
     "id": "api.templates.welcome_body.info1",
@@ -6727,7 +6727,7 @@
   },
   {
     "id": "api.server.warn_metric.email_domain.notification_body",
-    "translation": "Các dự án thường có sự tham gia của mọi người cả bên trong và bên ngoài tổ chức. Với Tài khoản khách, bạn có thể đưa các đối tác bên ngoài vào hệ thống Matter Extreme của mình và chỉ định họ có thể làm việc cùng ai và họ có thể xem những gì.\n\n[Tìm hiểu thêm về cách bật Tài khoản khách](https://www.mattermost.com/docs-guest-accounts/?utm_medium=product&utm_source=mattermost-advisor-bot&utm_content=guest-accounts).\n\nBằng cách nhấp vào Liên hệ với chúng tôi, bạn sẽ chia sẻ thông tin của mình với Mattermost, Inc. [Tìm hiểu thêm](https://mattermost.com/pl/default-admin-advisory)"
+    "translation": "Các dự án thường có sự tham gia của mọi người cả bên trong và bên ngoài tổ chức. Với Tài khoản khách, bạn có thể đưa các đối tác bên ngoài vào hệ thống Matter Extreme của mình và chỉ định họ có thể làm việc cùng ai và họ có thể xem những gì.\n\n[Tìm hiểu thêm về cách bật Tài khoản khách](https://www.mattermost.com/docs-guest-accounts/?utm_medium=product&utm_source=mattermost-advisor-bot&utm_content=guest-accounts).\n\nBằng cách nhấp vào Liên hệ với chúng tôi, bạn sẽ chia sẻ thông tin của mình với grommunio-chat, Inc. [Tìm hiểu thêm](https://mattermost.com/pl/default-admin-advisory)"
   },
   {
     "id": "api.server.warn_metric.email_domain.start_trial.notification_body",
@@ -6735,11 +6735,11 @@
   },
   {
     "id": "api.server.warn_metric.number_of_active_users_100.notification_body",
-    "translation": "Hệ thống Matter Extreme của bạn có hơn 100 người dùng. Khi cơ sở người dùng của bạn tăng lên, việc cấp phép tài khoản mới có thể trở nên tốn thời gian. Chúng tôi khuyên bạn nên tích hợp Active Directory/LDAP của tổ chức mình để cho phép bất kỳ ai có tài khoản đều có thể truy cập Matter Extreme.\n\n[Tìm hiểu thêm về cách tích hợp với AD/LDAP](https://www.mattermost.com/docs-adldap/?utm_medium=product&utm_source=mattermost-advisor-bot&utm_content=adldap)\n\nBằng cách nhấp vào Liên hệ với chúng tôi, bạn sẽ chia sẻ thông tin của mình với Mattermost, Inc. [Tìm hiểu thêm](https://mattermost.com/pl/default-admin-advisory)"
+    "translation": "Hệ thống Matter Extreme của bạn có hơn 100 người dùng. Khi cơ sở người dùng của bạn tăng lên, việc cấp phép tài khoản mới có thể trở nên tốn thời gian. Chúng tôi khuyên bạn nên tích hợp Active Directory/LDAP của tổ chức mình để cho phép bất kỳ ai có tài khoản đều có thể truy cập Matter Extreme.\n\n[Tìm hiểu thêm về cách tích hợp với AD/LDAP](https://www.mattermost.com/docs-adldap/?utm_medium=product&utm_source=mattermost-advisor-bot&utm_content=adldap)\n\nBằng cách nhấp vào Liên hệ với chúng tôi, bạn sẽ chia sẻ thông tin của mình với grommunio-chat, Inc. [Tìm hiểu thêm](https://mattermost.com/pl/default-admin-advisory)"
   },
   {
     "id": "api.server.warn_metric.mfa.notification_body",
-    "translation": "Hệ thống Matter Extreme của bạn đã bật xác thực đa yếu tố, cho phép người dùng lựa chọn bảo mật tài khoản của họ bằng các phương tiện xác thực bổ sung ngoài mật khẩu. Để nâng cao tính bảo mật trên toàn hệ thống, bạn có thể yêu cầu tất cả tài khoản Matter Extreme sử dụng xác thực đa yếu tố.\n\n[Tìm hiểu thêm về cách thực thi Xác thực đa yếu tố](https://www.mattermost.com/docs-multi-factor-authentication/?utm_medium=product&utm_source=mattermost-advisor-bot&utm_content=multi-factor-authentication).\n\nBằng cách nhấp vào Liên hệ với chúng tôi, bạn sẽ chia sẻ thông tin của mình với Mattermost, Inc. [Tìm hiểu thêm](https://mattermost.com/pl/default-admin-advisory)"
+    "translation": "Hệ thống Matter Extreme của bạn đã bật xác thực đa yếu tố, cho phép người dùng lựa chọn bảo mật tài khoản của họ bằng các phương tiện xác thực bổ sung ngoài mật khẩu. Để nâng cao tính bảo mật trên toàn hệ thống, bạn có thể yêu cầu tất cả tài khoản Matter Extreme sử dụng xác thực đa yếu tố.\n\n[Tìm hiểu thêm về cách thực thi Xác thực đa yếu tố](https://www.mattermost.com/docs-multi-factor-authentication/?utm_medium=product&utm_source=mattermost-advisor-bot&utm_content=multi-factor-authentication).\n\nBằng cách nhấp vào Liên hệ với chúng tôi, bạn sẽ chia sẻ thông tin của mình với grommunio-chat, Inc. [Tìm hiểu thêm](https://mattermost.com/pl/default-admin-advisory)"
   },
   {
     "id": "api.server.warn_metric.mfa.start_trial.notification_body",
@@ -6751,19 +6751,19 @@
   },
   {
     "id": "api.server.warn_metric.number_of_active_users_200.notification_body",
-    "translation": "Hệ thống Matter Extreme của bạn hiện có 200 người dùng. Khi bạn kết nối Matter Extreme với nhà cung cấp dịch vụ đăng nhập một lần trong tổ chức của mình, người dùng có thể truy cập Matter Extreme mà không cần phải nhập lại thông tin đăng nhập của họ. Chúng tôi khuyên bạn nên tích hợp nhà cung cấp SAML 2.0 với máy chủ Mattermost của mình.[Tìm hiểu thêm về cách tích hợp với SAML 2.0](https://www.mattermost.com/docs-saml/?utm_medium=product&utm_source=mattermost-advisor-bot&utm_content=saml) .\n\nBằng cách nhấp vào Liên hệ với chúng tôi, bạn sẽ chia sẻ thông tin của mình với Mattermost, Inc. [Tìm hiểu thêm](https://mattermost.com/pl/default-admin-advisory)"
+    "translation": "Hệ thống Matter Extreme của bạn hiện có 200 người dùng. Khi bạn kết nối Matter Extreme với nhà cung cấp dịch vụ đăng nhập một lần trong tổ chức của mình, người dùng có thể truy cập Matter Extreme mà không cần phải nhập lại thông tin đăng nhập của họ. Chúng tôi khuyên bạn nên tích hợp nhà cung cấp SAML 2.0 với máy chủ grommunio-chat của mình.[Tìm hiểu thêm về cách tích hợp với SAML 2.0](https://www.mattermost.com/docs-saml/?utm_medium=product&utm_source=mattermost-advisor-bot&utm_content=saml) .\n\nBằng cách nhấp vào Liên hệ với chúng tôi, bạn sẽ chia sẻ thông tin của mình với grommunio-chat, Inc. [Tìm hiểu thêm](https://mattermost.com/pl/default-admin-advisory)"
   },
   {
     "id": "api.server.warn_metric.number_of_active_users_200.start_trial.notification_body",
-    "translation": "Hệ thống Matter Extreme của bạn hiện có 200 người dùng. Khi bạn kết nối Matter Extreme với nhà cung cấp dịch vụ đăng nhập một lần trong tổ chức của mình, người dùng có thể truy cập Matter Extreme mà không cần phải nhập lại thông tin đăng nhập của họ. Chúng tôi khuyên bạn nên tích hợp nhà cung cấp SAML 2.0 với máy chủ Mattermost của mình.[Tìm hiểu thêm về cách tích hợp với SAML 2.0](https://www.mattermost.com/docs-saml/?utm_medium=product&utm_source=mattermost-advisor-bot&utm_content=saml)\n\nBằng cách nhấp vào Bắt đầu dùng thử, tôi đồng ý với [Thỏa thuận đánh giá phần mềm quan trọng nhất](https://mattermost.com/software-evaluation-agreement/), [Chính sách quyền riêng tư](https://mattermost.com/pl/privacy-policy /) và nhận email sản phẩm."
+    "translation": "Hệ thống Matter Extreme của bạn hiện có 200 người dùng. Khi bạn kết nối Matter Extreme với nhà cung cấp dịch vụ đăng nhập một lần trong tổ chức của mình, người dùng có thể truy cập Matter Extreme mà không cần phải nhập lại thông tin đăng nhập của họ. Chúng tôi khuyên bạn nên tích hợp nhà cung cấp SAML 2.0 với máy chủ grommunio-chat của mình.[Tìm hiểu thêm về cách tích hợp với SAML 2.0](https://www.mattermost.com/docs-saml/?utm_medium=product&utm_source=mattermost-advisor-bot&utm_content=saml)\n\nBằng cách nhấp vào Bắt đầu dùng thử, tôi đồng ý với [Thỏa thuận đánh giá phần mềm quan trọng nhất](https://mattermost.com/software-evaluation-agreement/), [Chính sách quyền riêng tư](https://mattermost.com/pl/privacy-policy /) và nhận email sản phẩm."
   },
   {
     "id": "api.server.warn_metric.number_of_active_users_300.notification_body",
-    "translation": "Với rất nhiều cuộc trò chuyện diễn ra trên Matter Extreme, việc biết nơi tìm thông tin quan trọng có thể là một thách thức. Nếu bạn muốn phát thông báo tới nhiều khán giả, bạn có thể thiết lập Kênh thông báo chỉ đọc nơi bất kỳ ai cũng có thể tham gia nhưng chỉ quản trị viên kênh mới có thể đăng thông báo.\n\n[Tìm hiểu thêm về cách tạo Kênh thông báo chỉ đọc](https://www.mattermost.com/docs-channel-moderation/?utm_medium=product&utm_source=mattermost-advisor-bot&utm_content=channel-moderation)\n\nBằng cách nhấp vào Liên hệ với chúng tôi, bạn sẽ chia sẻ thông tin của mình với Mattermost, Inc. [Tìm hiểu thêm](https://mattermost.com/pl/default-admin-advisory)"
+    "translation": "Với rất nhiều cuộc trò chuyện diễn ra trên Matter Extreme, việc biết nơi tìm thông tin quan trọng có thể là một thách thức. Nếu bạn muốn phát thông báo tới nhiều khán giả, bạn có thể thiết lập Kênh thông báo chỉ đọc nơi bất kỳ ai cũng có thể tham gia nhưng chỉ quản trị viên kênh mới có thể đăng thông báo.\n\n[Tìm hiểu thêm về cách tạo Kênh thông báo chỉ đọc](https://www.mattermost.com/docs-channel-moderation/?utm_medium=product&utm_source=mattermost-advisor-bot&utm_content=channel-moderation)\n\nBằng cách nhấp vào Liên hệ với chúng tôi, bạn sẽ chia sẻ thông tin của mình với grommunio-chat, Inc. [Tìm hiểu thêm](https://mattermost.com/pl/default-admin-advisory)"
   },
   {
     "id": "api.templates.delinquency_30.subtitle1",
-    "translation": "Bạn có thời gian để duy trì hoạt động Mattermost {{.Plan}} của mình nhưng bạn sẽ cần giải quyết các vấn đề với phương thức thanh toán của mình."
+    "translation": "Bạn có thời gian để duy trì hoạt động grommunio-chat {{.Plan}} của mình nhưng bạn sẽ cần giải quyết các vấn đề với phương thức thanh toán của mình."
   },
   {
     "id": "api.templates.delinquency_7.subtitle2",
@@ -6771,11 +6771,11 @@
   },
   {
     "id": "api.server.warn_metric.number_of_active_users_500.notification_body",
-    "translation": "Mattermost đặc biệt khuyến nghị việc triển khai trên 500 người dùng nên tận dụng các tính năng như quản lý người dùng, phân cụm máy chủ và giám sát hiệu suất. Hãy liên hệ với chúng tôi để tìm hiểu thêm và cho chúng tôi biết cách chúng tôi có thể trợ giúp.\n\nBằng cách nhấp vào Liên hệ với chúng tôi, bạn sẽ chia sẻ thông tin của mình với Mattermost, Inc. [Tìm hiểu thêm](https://mattermost.com/pl/default-admin-advisory)"
+    "translation": "grommunio-chat đặc biệt khuyến nghị việc triển khai trên 500 người dùng nên tận dụng các tính năng như quản lý người dùng, phân cụm máy chủ và giám sát hiệu suất. Hãy liên hệ với chúng tôi để tìm hiểu thêm và cho chúng tôi biết cách chúng tôi có thể trợ giúp.\n\nBằng cách nhấp vào Liên hệ với chúng tôi, bạn sẽ chia sẻ thông tin của mình với grommunio-chat, Inc. [Tìm hiểu thêm](https://mattermost.com/pl/default-admin-advisory)"
   },
   {
     "id": "api.templates.delinquency_45.subject",
-    "translation": "Lưu ý: Mattermost {{.Plan}} của bạn sẽ sớm bị hạ cấp"
+    "translation": "Lưu ý: grommunio-chat {{.Plan}} của bạn sẽ sớm bị hạ cấp"
   },
   {
     "id": "api.templates.delinquency_90.subtitle1",
@@ -6783,7 +6783,7 @@
   },
   {
     "id": "api.server.warn_metric.number_of_active_users_500.start_trial.notification_body",
-    "translation": "Mattermost đặc biệt khuyến nghị việc triển khai trên 500 người dùng nên tận dụng các tính năng như quản lý người dùng, phân cụm máy chủ và giám sát hiệu suất. Hãy liên hệ với chúng tôi để tìm hiểu thêm và cho chúng tôi biết cách chúng tôi có thể trợ giúp.\n\nBằng cách nhấp vào Bắt đầu dùng thử, tôi đồng ý với [Thỏa thuận đánh giá phần mềm quan trọng nhất](https://mattermost.com/software-evaluation-agreement/), [Chính sách quyền riêng tư](https://mattermost.com/pl/privacy-policy /) và nhận email sản phẩm."
+    "translation": "grommunio-chat đặc biệt khuyến nghị việc triển khai trên 500 người dùng nên tận dụng các tính năng như quản lý người dùng, phân cụm máy chủ và giám sát hiệu suất. Hãy liên hệ với chúng tôi để tìm hiểu thêm và cho chúng tôi biết cách chúng tôi có thể trợ giúp.\n\nBằng cách nhấp vào Bắt đầu dùng thử, tôi đồng ý với [Thỏa thuận đánh giá phần mềm quan trọng nhất](https://mattermost.com/software-evaluation-agreement/), [Chính sách quyền riêng tư](https://mattermost.com/pl/privacy-policy /) và nhận email sản phẩm."
   },
   {
     "id": "api.templates.delinquency_45.subtitle2",
@@ -6791,11 +6791,11 @@
   },
   {
     "id": "api.templates.email_footer_v2",
-    "translation": "© 2022 Mattermost, Inc. 530 Đại lộ Lytton, Tầng hai, Palo Alto, CA, 94301"
+    "translation": "© 2022 grommunio-chat, Inc. 530 Đại lộ Lytton, Tầng hai, Palo Alto, CA, 94301"
   },
   {
     "id": "api.server.warn_metric.number_of_channels_50.notification_body",
-    "translation": "Các kênh giúp cải thiện khả năng giao tiếp nhưng với việc người dùng trên khắp các kênh tham gia và tạo các kênh Matter Extreme, thách thức trong việc giữ cho hệ thống luôn ngăn nắp sẽ tăng lên. Quyền nâng cao cho phép bạn đặt người dùng hoặc vai trò nào có thể thực hiện một số hành động nhất định, bao gồm quản lý cài đặt kênh và thành viên, sử dụng @channel hoặc @here để gắn thẻ các nhóm người dùng rộng rãi và tạo webhook mới.\n\n[Tìm hiểu thêm về cách sử dụng Quyền nâng cao](https://www.mattermost.com/docs-advanced-permissions/?utm_medium=product&utm_source=mattermost-advisor-bot&utm_content=advanced-permissions)\n\nBằng cách nhấp vào Liên hệ với chúng tôi, bạn sẽ chia sẻ thông tin của mình với Mattermost, Inc. [Tìm hiểu thêm](https://mattermost.com/pl/default-admin-advisory)"
+    "translation": "Các kênh giúp cải thiện khả năng giao tiếp nhưng với việc người dùng trên khắp các kênh tham gia và tạo các kênh Matter Extreme, thách thức trong việc giữ cho hệ thống luôn ngăn nắp sẽ tăng lên. Quyền nâng cao cho phép bạn đặt người dùng hoặc vai trò nào có thể thực hiện một số hành động nhất định, bao gồm quản lý cài đặt kênh và thành viên, sử dụng @channel hoặc @here để gắn thẻ các nhóm người dùng rộng rãi và tạo webhook mới.\n\n[Tìm hiểu thêm về cách sử dụng Quyền nâng cao](https://www.mattermost.com/docs-advanced-permissions/?utm_medium=product&utm_source=mattermost-advisor-bot&utm_content=advanced-permissions)\n\nBằng cách nhấp vào Liên hệ với chúng tôi, bạn sẽ chia sẻ thông tin của mình với grommunio-chat, Inc. [Tìm hiểu thêm](https://mattermost.com/pl/default-admin-advisory)"
   },
   {
     "id": "api.templates.delinquency_60.subtitle1",
@@ -6811,11 +6811,11 @@
   },
   {
     "id": "api.templates.license_up_for_renewal_subtitle",
-    "translation": "{{.UserName}}, đăng ký của bạn sẽ hết hạn sau {{.Days}} ngày. Chúng tôi hy vọng bạn đang trải nghiệm sự cộng tác nhóm linh hoạt và an toàn mà Mattermost mang lại. Hãy sớm gia hạn để đảm bảo nhóm của bạn có thể tiếp tục tận hưởng những lợi ích này."
+    "translation": "{{.UserName}}, đăng ký của bạn sẽ hết hạn sau {{.Days}} ngày. Chúng tôi hy vọng bạn đang trải nghiệm sự cộng tác nhóm linh hoạt và an toàn mà grommunio-chat mang lại. Hãy sớm gia hạn để đảm bảo nhóm của bạn có thể tiếp tục tận hưởng những lợi ích này."
   },
   {
     "id": "api.server.warn_metric.number_of_posts_2M.notification_body",
-    "translation": "Hệ thống Matter Extreme của bạn có số lượng tin nhắn lớn. Tìm kiếm cơ sở dữ liệu Matter Extreme mặc định bắt đầu hiển thị sự suy giảm hiệu suất ở khoảng 2,5 triệu bài đăng. Với hơn 5 triệu bài đăng, Elaticsearch có thể giúp tránh các vấn đề đáng kể về hiệu suất, chẳng hạn như thời gian chờ, với tìm kiếm và lượt đề cập. Hãy liên hệ với chúng tôi để tìm hiểu thêm và cho chúng tôi biết cách chúng tôi có thể trợ giúp.\n\n[Tìm hiểu thêm về cách cải thiện hiệu suất](https://www.mattermost.com/docs-elasticsearch/?utm_medium=product&utm_source=mattermost-advisor-bot&utm_content=elasticsearch)\n\nBằng cách nhấp vào Liên hệ với chúng tôi, bạn sẽ chia sẻ thông tin của mình với Mattermost, Inc. [Tìm hiểu thêm](https://mattermost.com/pl/default-admin-advisory)"
+    "translation": "Hệ thống Matter Extreme của bạn có số lượng tin nhắn lớn. Tìm kiếm cơ sở dữ liệu Matter Extreme mặc định bắt đầu hiển thị sự suy giảm hiệu suất ở khoảng 2,5 triệu bài đăng. Với hơn 5 triệu bài đăng, Elaticsearch có thể giúp tránh các vấn đề đáng kể về hiệu suất, chẳng hạn như thời gian chờ, với tìm kiếm và lượt đề cập. Hãy liên hệ với chúng tôi để tìm hiểu thêm và cho chúng tôi biết cách chúng tôi có thể trợ giúp.\n\n[Tìm hiểu thêm về cách cải thiện hiệu suất](https://www.mattermost.com/docs-elasticsearch/?utm_medium=product&utm_source=mattermost-advisor-bot&utm_content=elasticsearch)\n\nBằng cách nhấp vào Liên hệ với chúng tôi, bạn sẽ chia sẻ thông tin của mình với grommunio-chat, Inc. [Tìm hiểu thêm](https://mattermost.com/pl/default-admin-advisory)"
   },
   {
     "id": "api.server.warn_metric.number_of_posts_2M.start_trial.notification_body",
@@ -6823,7 +6823,7 @@
   },
   {
     "id": "api.templates.payment_failed.info3",
-    "translation": "Để đảm bảo quyền truy cập không bị gián đoạn vào Matter Extreme {{.Plan}}, vui lòng liên hệ với tổ chức tài chính của bạn để khắc phục sự cố cơ bản hoặc cập nhật thông tin thanh toán của bạn. Sau khi thông tin thanh toán được cập nhật, Mattermost sẽ cố gắng giải quyết mọi số dư chưa thanh toán."
+    "translation": "Để đảm bảo quyền truy cập không bị gián đoạn vào Matter Extreme {{.Plan}}, vui lòng liên hệ với tổ chức tài chính của bạn để khắc phục sự cố cơ bản hoặc cập nhật thông tin thanh toán của bạn. Sau khi thông tin thanh toán được cập nhật, grommunio-chat sẽ cố gắng giải quyết mọi số dư chưa thanh toán."
   },
   {
     "id": "api.server.warn_metric.number_of_teams_5.start_trial.notification_body",
@@ -6895,7 +6895,7 @@
   },
   {
     "id": "app.notification.footer.infoLogin",
-    "translation": "Đăng nhập vào Mattermost"
+    "translation": "Đăng nhập vào grommunio-chat"
   },
   {
     "id": "app.notification.footer.title",
@@ -7111,7 +7111,7 @@
   },
   {
     "id": "app.system.warn_metric.bot_displayname",
-    "translation": "Cố vấn của Mattermost"
+    "translation": "Cố vấn của grommunio-chat"
   },
   {
     "id": "app.system.get_onboarding_request.app_error",

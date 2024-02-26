@@ -664,7 +664,7 @@ class NotificationsTab extends React.PureComponent<Props, State> {
                             <div className='mt-5'>
                                 <FormattedMessage
                                     id='user.settings.push_notification.info'
-                                    defaultMessage='Notification alerts are pushed to your mobile device when there is activity in Mattermost.'
+                                    defaultMessage='Notification alerts are pushed to your mobile device when there is activity in grommunio-chat.'
                                 />
                             </div>
                         </fieldset>
@@ -1026,7 +1026,7 @@ class NotificationsTab extends React.PureComponent<Props, State> {
                 })}
                 titleAdminPreTrial={this.props.intl.formatMessage({
                     id: 'user.settings.notifications.keywordsWithHighlight.userModal.titleAdminPreTrial',
-                    defaultMessage: 'Highlight keywords without notifications with Mattermost Professional',
+                    defaultMessage: 'Highlight keywords without notifications with grommunio-chat Professional',
                 })}
                 messageAdminPreTrial={this.props.intl.formatMessage({
                     id: 'user.settings.notifications.keywordsWithHighlight.userModal.messageAdminPreTrial',
@@ -1034,7 +1034,7 @@ class NotificationsTab extends React.PureComponent<Props, State> {
                 })}
                 titleAdminPostTrial={this.props.intl.formatMessage({
                     id: 'user.settings.notifications.keywordsWithHighlight.userModal.titleAdminPostTrial',
-                    defaultMessage: 'Highlight keywords without notifications with Mattermost Professional',
+                    defaultMessage: 'Highlight keywords without notifications with grommunio-chat Professional',
                 })}
                 messageAdminPostTrial={this.props.intl.formatMessage({
                     id: 'user.settings.notifications.keywordsWithHighlight.userModal.messageAdminPostTrial',
@@ -1043,12 +1043,12 @@ class NotificationsTab extends React.PureComponent<Props, State> {
                 )}
                 titleEndUser={this.props.intl.formatMessage({
                     id: 'user.settings.notifications.keywordsWithHighlight.userModal.titleEndUser',
-                    defaultMessage: 'Highlight keywords without notifications with Mattermost Professional',
+                    defaultMessage: 'Highlight keywords without notifications with grommunio-chat Professional',
                 })}
                 messageEndUser={this.props.intl.formatMessage(
                     {
                         id: 'user.settings.notifications.keywordsWithHighlight.userModal.messageEndUser',
-                        defaultMessage: 'Get the ability to passively highlight keywords that you care about.{br}{br}Request your admin to upgrade to Mattermost Professional to access this feature.',
+                        defaultMessage: 'Get the ability to passively highlight keywords that you care about.{br}{br}Request your admin to upgrade to grommunio-chat Professional to access this feature.',
                     },
                     {
                         br: <br/>,

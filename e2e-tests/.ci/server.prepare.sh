@@ -29,4 +29,4 @@ for SERVICE in $ENABLED_DOCKER_SERVICES; do
   esac
 done
 
-mme2e_log "Mattermost is running and ready for E2E testing"
+mme2e_log "grommunio-chat is running and ready for E2E testing"

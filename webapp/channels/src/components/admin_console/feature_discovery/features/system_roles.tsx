@@ -16,7 +16,7 @@ const SystemRolesFeatureDiscovery: React.FC = () => {
             featureName='system_roles'
             minimumSKURequiredForFeature={LicenseSkus.Enterprise}
             titleID='admin.system_roles_feature_discovery.title'
-            titleDefault='Provide controlled access to the System Console with Mattermost Enterprise'
+            titleDefault='Provide controlled access to the System Console with grommunio-chat Enterprise'
             copyID='admin.system_roles_feature_discovery.copy'
             copyDefault={'Use System Roles to give designated users read and/or write access to select sections of System Console.'}
             learnMoreURL='https://docs.mattermost.com/deployment/admin-roles.html'

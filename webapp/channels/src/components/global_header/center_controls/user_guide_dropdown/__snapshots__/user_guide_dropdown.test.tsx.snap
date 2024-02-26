@@ -52,7 +52,7 @@ exports[`components/channel_header/components/UserGuideDropdown should match sna
         iconClassName="icon-file-text-outline"
         id="mattermostUserGuideLink"
         show={true}
-        text="Mattermost user guide"
+        text="grommunio-chat user guide"
         url="https://docs.mattermost.com/guides/use-mattermost.html"
       />
       <MenuItemExternalLink
@@ -141,7 +141,7 @@ exports[`components/channel_header/components/UserGuideDropdown should match sna
         iconClassName="icon-file-text-outline"
         id="mattermostUserGuideLink"
         show={true}
-        text="Mattermost user guide"
+        text="grommunio-chat user guide"
         url="https://docs.mattermost.com/guides/use-mattermost.html"
       />
       <MenuItemExternalLink
@@ -222,7 +222,7 @@ exports[`components/channel_header/components/UserGuideDropdown should match sna
         iconClassName="icon-file-text-outline"
         id="mattermostUserGuideLink"
         show={true}
-        text="Mattermost user guide"
+        text="grommunio-chat user guide"
         url="https://docs.mattermost.com/guides/use-mattermost.html"
       />
       <MenuItemExternalLink

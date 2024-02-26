@@ -141,7 +141,7 @@ describe('renderWithContext', () => {
             <TestComponent appTitle='Mattermost'/>,
         );
 
-        expect(screen.getByText('About Mattermost')).toBeInTheDocument();
+        expect(screen.getByText('About grommunio-chat')).toBeInTheDocument();
 
         rerender(
             <TestComponent appTitle='Mattermots'/>,

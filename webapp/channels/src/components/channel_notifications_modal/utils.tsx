@@ -35,7 +35,7 @@ const translations = defineMessages({
 
     DesktopNotificationsSectionDesc: {
         id: 'channel_notifications.desktopNotificationsDesc',
-        defaultMessage: 'Available on Chrome, Edge, Firefox, and the Mattermost Desktop App.',
+        defaultMessage: 'Available on Chrome, Edge, Firefox, and the grommunio-chat Desktop App.',
     },
 
     MobileNotificationsSectionTitle: {
@@ -45,7 +45,7 @@ const translations = defineMessages({
 
     MobileNotificationsSectionDesc: {
         id: 'channel_notifications.mobileNotificationsDesc',
-        defaultMessage: 'Notification alerts are pushed to your mobile device when there is activity in Mattermost.',
+        defaultMessage: 'Notification alerts are pushed to your mobile device when there is activity in grommunio-chat.',
     },
 
     MuteChannelDesc: {
