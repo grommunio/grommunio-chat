@@ -260,7 +260,6 @@ const useMetricsData = (
                 configuration: await getConfigurationData(config, formatMessage, options),
                 access: await getAccessData(config, formatMessage, options),
                 performance: await getPerformanceData(config, formatMessage, options),
-                dataPrivacy: await getDataPrivacyData(config, formatMessage, options),
                 easyManagement: await getEaseOfManagementData(config, formatMessage, options),
             };
 
