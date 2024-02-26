@@ -5300,7 +5300,7 @@
   "warn_metric_ack_modal.number_of_posts.description": "Hệ thống grommunio-chat của bạn có một số lượng lớn tin nhắn. Tìm kiếm cơ sở dữ liệu grommunio-chat mặc định bắt đầu cho thấy sự suy giảm hiệu suất ở khoảng 2,5 triệu bài đăng. Với hơn 5 triệu bài đăng, ElasticSearch có thể giúp tránh các vấn đề về hiệu suất đáng kể, chẳng hạn như thời gian chờ, với tính năng tìm kiếm và đề cập. Liên hệ với chúng tôi để tìm hiểu thêm và cho chúng tôi biết cách chúng tôi có thể trợ giúp.",
   "warn_metric_ack_modal.number_of_posts.header.title": "Cải Thiện Hiệu Năng",
   "warn_metric_ack_modal.number_of_users.header.title": "Mở rộng quy mô với grommunio-chat",
-  "warn_metric_ack_modal.subtext": "Bằng cách nhấn vào Bản Công Nhận, bạn sẽ chia sẻ thông tin của mình với grommunio-chat Inc. {link}",
+  "warn_metric_ack_modal.subtext": "Bằng cách nhấn vào Bản Công Nhận, bạn sẽ chia sẻ thông tin của mình với grommunio, Inc. {link}",
   "web.footer.about": "Giới thiệu",
   "web.footer.help": "Trợ giúp",
   "web.footer.privacy": "Quyền riêng tư",

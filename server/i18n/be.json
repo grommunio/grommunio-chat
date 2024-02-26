@@ -6381,7 +6381,7 @@
   },
   {
     "id": "api.server.warn_metric.number_of_active_users_100.notification_body",
-    "translation": "У вашай сістэме grommunio-chat зараз 200 карыстальнікаў. Па меры росту вашай карыстацкай базы стварэнне новых уліковых запісаў можа заняць шмат часу. Мы рэкамендуем вам інтэграваць Active Directory/LDAP вашай арганізацыі, што дазволіць любому, у каго ёсць уліковы запіс, атрымаць доступ да grommunio-chat.\n\n[Больш падрабязна аб інтэграцыі з AD/LDAP](https://docs.mattermost.com/deployment/sso-ldap.html?utm_medium=product&utm_source=mattermost-advisor-bot&utm_content=adldap)\n\nНаціснуўшы «Пацвердзіць», вы падзяліцеся сваёй інфармацыяй з grommunio-chat Inc., каб даведацца больш аб абнаўленні. [Больш падрабязна…](https://mattermost.com/pl/default-admin-advisory)"
+    "translation": "У вашай сістэме grommunio-chat зараз 200 карыстальнікаў. Па меры росту вашай карыстацкай базы стварэнне новых уліковых запісаў можа заняць шмат часу. Мы рэкамендуем вам інтэграваць Active Directory/LDAP вашай арганізацыі, што дазволіць любому, у каго ёсць уліковы запіс, атрымаць доступ да grommunio-chat.\n\n[Больш падрабязна аб інтэграцыі з AD/LDAP](https://docs.mattermost.com/deployment/sso-ldap.html?utm_medium=product&utm_source=mattermost-advisor-bot&utm_content=adldap)\n\nНаціснуўшы «Пацвердзіць», вы падзяліцеся сваёй інфармацыяй з grommunio, Inc., каб даведацца больш аб абнаўленні. [Больш падрабязна…](https://mattermost.com/pl/default-admin-advisory)"
   },
   {
     "id": "api.server.warn_metric.number_of_active_users_100.contact_us.email_body",

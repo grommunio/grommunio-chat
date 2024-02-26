@@ -5300,7 +5300,7 @@
   "warn_metric_ack_modal.number_of_posts.description": "Jūsų grommunio-chat sistemoje yra daug pranešimų. Numatytoji grommunio-chat duomenų bazės paieška pradeda rodyti našumo pablogėjimą maždaug 2,5 milijono pranešimų. Turėdama daugiau nei 5 milijonus įrašų, Elasticsearch gali padėti išvengti didelių našumo problemų, pvz., skirtojo laiko, naudojant paiešką ir paminėjimus. Susisiekite su mumis, kad sužinotumėte daugiau ir praneštumėte, kaip galime padėti.",
   "warn_metric_ack_modal.number_of_posts.header.title": "Pagerinti našumą",
   "warn_metric_ack_modal.number_of_users.header.title": "Dydžio keitimas naudojant grommunio-chat",
-  "warn_metric_ack_modal.subtext": "Spustelėdami Patvirtinti, savo informacija pasidalinsite su grommunio-chat Inc. {link}",
+  "warn_metric_ack_modal.subtext": "Spustelėdami Patvirtinti, savo informacija pasidalinsite su grommunio, Inc. {link}",
   "web.footer.about": "Apie",
   "web.footer.help": "Pagalba",
   "web.footer.privacy": "Privatumo politika",

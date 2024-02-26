@@ -2806,7 +2806,7 @@
   "warn_metric_ack_modal.number_of_posts.description": "Váš systém grommunio-chat obsahuje velké množství zpráv. Výchozí vyhledávání databáze grommunio-chat začíná vykazovat snížení výkonu při přibližně 2,5 mil příspěvcích. S více než 5 miliony příspěvků vám Elasticsearch pomůže vyhnout se významným problémům s výkonem vyhledávání a timeoutům. Kontaktujte nás a domluvíme se, jak vám můžeme pomoci.",
   "warn_metric_ack_modal.number_of_posts.header.title": "Zlepšit výkon",
   "warn_metric_ack_modal.number_of_users.header.title": "Škálování Mattermostu",
-  "warn_metric_ack_modal.subtext": "Kliknete-li na \"Vzít na vědomí\", souhlasíte se sdílením vašich informací s grommunio-chat Inc. {link}",
+  "warn_metric_ack_modal.subtext": "Kliknete-li na \"Vzít na vědomí\", souhlasíte se sdílením vašich informací s grommunio, Inc. {link}",
   "web.footer.about": "O",
   "web.footer.help": "Nápověda",
   "web.footer.privacy": "Soukromí",

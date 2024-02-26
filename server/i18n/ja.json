@@ -7271,7 +7271,7 @@
   },
   {
     "id": "api.server.warn_metric.email_domain.notification_body",
-    "translation": "プロジェクトには組織内、組織外の両方の人が参画することがあります。ゲストアカウント機能により、外部のパートナーをMattermostに参加させることができ、ゲストが閲覧可能な情報などの設定を行うことができます。\n\n詳しくは[ゲストアカウントに関する説明](https://www.mattermost.com/docs-guest-accounts/?utm_medium=product&utm_source=mattermost-advisor-bot&utm_content=guest-accounts)を参照してください。\n\n問い合わせ をクリックすると、あなたの情報が grommunio-chat Inc. へ送信されます。詳しくは[説明文書](https://mattermost.com/pl/default-admin-advisory)を参照してください"
+    "translation": "プロジェクトには組織内、組織外の両方の人が参画することがあります。ゲストアカウント機能により、外部のパートナーをMattermostに参加させることができ、ゲストが閲覧可能な情報などの設定を行うことができます。\n\n詳しくは[ゲストアカウントに関する説明](https://www.mattermost.com/docs-guest-accounts/?utm_medium=product&utm_source=mattermost-advisor-bot&utm_content=guest-accounts)を参照してください。\n\n問い合わせ をクリックすると、あなたの情報が grommunio, Inc. へ送信されます。詳しくは[説明文書](https://mattermost.com/pl/default-admin-advisory)を参照してください"
   },
   {
     "id": "api.server.warn_metric.email_domain.contact_us.email_body",
