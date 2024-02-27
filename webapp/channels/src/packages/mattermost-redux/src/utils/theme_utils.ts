@@ -121,7 +121,7 @@ type ThemeTypeMap = Record<ThemeType | LegacyThemeType, ThemeKey>;
 // object mapping theme types to their respective keys for retrieving the source themes directly
 // - supports mapping old themes to new themes
 const themeTypeMap: ThemeTypeMap = {
-    grommunio-chat: 'denim',
+    Mattermost: 'denim',
     Organization: 'sapphire',
     'grommunio-chat Dark': 'indigo',
     'Windows Dark': 'onyx',
