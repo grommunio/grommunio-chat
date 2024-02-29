@@ -6209,7 +6209,7 @@
   },
   {
     "id": "api.server.warn_metric.number_of_active_users_500.notification_body",
-    "translation": "Mattermost는 500명 이상의 사용자가 있는 환경에 배포할 때 사용자 관리, 서버 클러스터링 및 성능 모니터링과 같은 기능을 활용할 것을 강력하게 권장합니다. 자세히 알아보려면 저희에게 연락해서 어떻게 도움이 될 수 있을지 알려주세요.\n\n문의하기를 클릭하면 grommunio-chat, Inc.와 정보를 공유하게 됩니다. [자세히 알아보기](https://mattermost.com/pl/default-admin-advisory)"
+    "translation": "Mattermost는 500명 이상의 사용자가 있는 환경에 배포할 때 사용자 관리, 서버 클러스터링 및 성능 모니터링과 같은 기능을 활용할 것을 강력하게 권장합니다. 자세히 알아보려면 저희에게 연락해서 어떻게 도움이 될 수 있을지 알려주세요.\n\n문의하기를 클릭하면 grommunio, Inc.와 정보를 공유하게 됩니다. [자세히 알아보기](https://mattermost.com/pl/default-admin-advisory)"
   },
   {
     "id": "api.server.warn_metric.number_of_active_users_200.notification_body",
@@ -7049,7 +7049,7 @@
   },
   {
     "id": "api.templates.email_footer_v2",
-    "translation": "© 202ㅆ grommunio-chat, Inc. 530 Lytton Avenue, Second floor, Palo Alto, CA, 94301"
+    "translation": "© 202ㅆ grommunio, Inc. 530 Lytton Avenue, Second floor, Palo Alto, CA, 94301"
   },
   {
     "id": "api.templates.invite_body_footer.title",

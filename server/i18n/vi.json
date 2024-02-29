@@ -6235,7 +6235,7 @@
   },
   {
     "id": "api.server.warn_metric.number_of_teams_5.notification_body",
-    "translation": "Hệ thống Matter Extreme của bạn hiện có nhiều nhóm. Nhiều nhóm có cách điều phối và cộng tác ưa thích của riêng họ, bao gồm cách tạo kênh, ai có thể mời đồng đội mới và cách quản lý tích hợp. Lược đồ ghi đè nhóm cho phép bạn tùy chỉnh quyền của người dùng trong mỗi nhóm để đáp ứng nhu cầu cụ thể của họ.\n\n[Tìm hiểu thêm về cách sử dụng Quyền nâng cao](https://www.mattermost.com/docs-advanced-permissions-team-override/?utm_medium=product&utm_source=mattermost-advisor-bot&utm_content=advanced-permissions-team-override).\n\nBằng cách nhấp vào Liên hệ với chúng tôi, bạn sẽ chia sẻ thông tin của mình với grommunio-chat, Inc. [Tìm hiểu thêm](https://mattermost.com/pl/default-admin-advisory)"
+    "translation": "Hệ thống Matter Extreme của bạn hiện có nhiều nhóm. Nhiều nhóm có cách điều phối và cộng tác ưa thích của riêng họ, bao gồm cách tạo kênh, ai có thể mời đồng đội mới và cách quản lý tích hợp. Lược đồ ghi đè nhóm cho phép bạn tùy chỉnh quyền của người dùng trong mỗi nhóm để đáp ứng nhu cầu cụ thể của họ.\n\n[Tìm hiểu thêm về cách sử dụng Quyền nâng cao](https://www.mattermost.com/docs-advanced-permissions-team-override/?utm_medium=product&utm_source=mattermost-advisor-bot&utm_content=advanced-permissions-team-override).\n\nBằng cách nhấp vào Liên hệ với chúng tôi, bạn sẽ chia sẻ thông tin của mình với grommunio, Inc. [Tìm hiểu thêm](https://mattermost.com/pl/default-admin-advisory)"
   },
   {
     "id": "api.server.warn_metric.number_of_teams_5.notification_title",
@@ -6411,7 +6411,7 @@
   },
   {
     "id": "api.templates.copyright",
-    "translation": "© 2021 grommunio-chat, Inc. 530 Đại lộ Lytton, Tầng hai, Palo Alto, CA, 94301"
+    "translation": "© 2021 grommunio, Inc. 530 Đại lộ Lytton, Tầng hai, Palo Alto, CA, 94301"
   },
   {
     "id": "api.templates.delinquency_14.button",
@@ -6727,7 +6727,7 @@
   },
   {
     "id": "api.server.warn_metric.email_domain.notification_body",
-    "translation": "Các dự án thường có sự tham gia của mọi người cả bên trong và bên ngoài tổ chức. Với Tài khoản khách, bạn có thể đưa các đối tác bên ngoài vào hệ thống Matter Extreme của mình và chỉ định họ có thể làm việc cùng ai và họ có thể xem những gì.\n\n[Tìm hiểu thêm về cách bật Tài khoản khách](https://www.mattermost.com/docs-guest-accounts/?utm_medium=product&utm_source=mattermost-advisor-bot&utm_content=guest-accounts).\n\nBằng cách nhấp vào Liên hệ với chúng tôi, bạn sẽ chia sẻ thông tin của mình với grommunio-chat, Inc. [Tìm hiểu thêm](https://mattermost.com/pl/default-admin-advisory)"
+    "translation": "Các dự án thường có sự tham gia của mọi người cả bên trong và bên ngoài tổ chức. Với Tài khoản khách, bạn có thể đưa các đối tác bên ngoài vào hệ thống Matter Extreme của mình và chỉ định họ có thể làm việc cùng ai và họ có thể xem những gì.\n\n[Tìm hiểu thêm về cách bật Tài khoản khách](https://www.mattermost.com/docs-guest-accounts/?utm_medium=product&utm_source=mattermost-advisor-bot&utm_content=guest-accounts).\n\nBằng cách nhấp vào Liên hệ với chúng tôi, bạn sẽ chia sẻ thông tin của mình với grommunio, Inc. [Tìm hiểu thêm](https://mattermost.com/pl/default-admin-advisory)"
   },
   {
     "id": "api.server.warn_metric.email_domain.start_trial.notification_body",
@@ -6735,11 +6735,11 @@
   },
   {
     "id": "api.server.warn_metric.number_of_active_users_100.notification_body",
-    "translation": "Hệ thống Matter Extreme của bạn có hơn 100 người dùng. Khi cơ sở người dùng của bạn tăng lên, việc cấp phép tài khoản mới có thể trở nên tốn thời gian. Chúng tôi khuyên bạn nên tích hợp Active Directory/LDAP của tổ chức mình để cho phép bất kỳ ai có tài khoản đều có thể truy cập Matter Extreme.\n\n[Tìm hiểu thêm về cách tích hợp với AD/LDAP](https://www.mattermost.com/docs-adldap/?utm_medium=product&utm_source=mattermost-advisor-bot&utm_content=adldap)\n\nBằng cách nhấp vào Liên hệ với chúng tôi, bạn sẽ chia sẻ thông tin của mình với grommunio-chat, Inc. [Tìm hiểu thêm](https://mattermost.com/pl/default-admin-advisory)"
+    "translation": "Hệ thống Matter Extreme của bạn có hơn 100 người dùng. Khi cơ sở người dùng của bạn tăng lên, việc cấp phép tài khoản mới có thể trở nên tốn thời gian. Chúng tôi khuyên bạn nên tích hợp Active Directory/LDAP của tổ chức mình để cho phép bất kỳ ai có tài khoản đều có thể truy cập Matter Extreme.\n\n[Tìm hiểu thêm về cách tích hợp với AD/LDAP](https://www.mattermost.com/docs-adldap/?utm_medium=product&utm_source=mattermost-advisor-bot&utm_content=adldap)\n\nBằng cách nhấp vào Liên hệ với chúng tôi, bạn sẽ chia sẻ thông tin của mình với grommunio, Inc. [Tìm hiểu thêm](https://mattermost.com/pl/default-admin-advisory)"
   },
   {
     "id": "api.server.warn_metric.mfa.notification_body",
-    "translation": "Hệ thống Matter Extreme của bạn đã bật xác thực đa yếu tố, cho phép người dùng lựa chọn bảo mật tài khoản của họ bằng các phương tiện xác thực bổ sung ngoài mật khẩu. Để nâng cao tính bảo mật trên toàn hệ thống, bạn có thể yêu cầu tất cả tài khoản Matter Extreme sử dụng xác thực đa yếu tố.\n\n[Tìm hiểu thêm về cách thực thi Xác thực đa yếu tố](https://www.mattermost.com/docs-multi-factor-authentication/?utm_medium=product&utm_source=mattermost-advisor-bot&utm_content=multi-factor-authentication).\n\nBằng cách nhấp vào Liên hệ với chúng tôi, bạn sẽ chia sẻ thông tin của mình với grommunio-chat, Inc. [Tìm hiểu thêm](https://mattermost.com/pl/default-admin-advisory)"
+    "translation": "Hệ thống Matter Extreme của bạn đã bật xác thực đa yếu tố, cho phép người dùng lựa chọn bảo mật tài khoản của họ bằng các phương tiện xác thực bổ sung ngoài mật khẩu. Để nâng cao tính bảo mật trên toàn hệ thống, bạn có thể yêu cầu tất cả tài khoản Matter Extreme sử dụng xác thực đa yếu tố.\n\n[Tìm hiểu thêm về cách thực thi Xác thực đa yếu tố](https://www.mattermost.com/docs-multi-factor-authentication/?utm_medium=product&utm_source=mattermost-advisor-bot&utm_content=multi-factor-authentication).\n\nBằng cách nhấp vào Liên hệ với chúng tôi, bạn sẽ chia sẻ thông tin của mình với grommunio, Inc. [Tìm hiểu thêm](https://mattermost.com/pl/default-admin-advisory)"
   },
   {
     "id": "api.server.warn_metric.mfa.start_trial.notification_body",
@@ -6751,7 +6751,7 @@
   },
   {
     "id": "api.server.warn_metric.number_of_active_users_200.notification_body",
-    "translation": "Hệ thống Matter Extreme của bạn hiện có 200 người dùng. Khi bạn kết nối Matter Extreme với nhà cung cấp dịch vụ đăng nhập một lần trong tổ chức của mình, người dùng có thể truy cập Matter Extreme mà không cần phải nhập lại thông tin đăng nhập của họ. Chúng tôi khuyên bạn nên tích hợp nhà cung cấp SAML 2.0 với máy chủ grommunio-chat của mình.[Tìm hiểu thêm về cách tích hợp với SAML 2.0](https://www.mattermost.com/docs-saml/?utm_medium=product&utm_source=mattermost-advisor-bot&utm_content=saml) .\n\nBằng cách nhấp vào Liên hệ với chúng tôi, bạn sẽ chia sẻ thông tin của mình với grommunio-chat, Inc. [Tìm hiểu thêm](https://mattermost.com/pl/default-admin-advisory)"
+    "translation": "Hệ thống Matter Extreme của bạn hiện có 200 người dùng. Khi bạn kết nối Matter Extreme với nhà cung cấp dịch vụ đăng nhập một lần trong tổ chức của mình, người dùng có thể truy cập Matter Extreme mà không cần phải nhập lại thông tin đăng nhập của họ. Chúng tôi khuyên bạn nên tích hợp nhà cung cấp SAML 2.0 với máy chủ grommunio-chat của mình.[Tìm hiểu thêm về cách tích hợp với SAML 2.0](https://www.mattermost.com/docs-saml/?utm_medium=product&utm_source=mattermost-advisor-bot&utm_content=saml) .\n\nBằng cách nhấp vào Liên hệ với chúng tôi, bạn sẽ chia sẻ thông tin của mình với grommunio, Inc. [Tìm hiểu thêm](https://mattermost.com/pl/default-admin-advisory)"
   },
   {
     "id": "api.server.warn_metric.number_of_active_users_200.start_trial.notification_body",
@@ -6759,7 +6759,7 @@
   },
   {
     "id": "api.server.warn_metric.number_of_active_users_300.notification_body",
-    "translation": "Với rất nhiều cuộc trò chuyện diễn ra trên Matter Extreme, việc biết nơi tìm thông tin quan trọng có thể là một thách thức. Nếu bạn muốn phát thông báo tới nhiều khán giả, bạn có thể thiết lập Kênh thông báo chỉ đọc nơi bất kỳ ai cũng có thể tham gia nhưng chỉ quản trị viên kênh mới có thể đăng thông báo.\n\n[Tìm hiểu thêm về cách tạo Kênh thông báo chỉ đọc](https://www.mattermost.com/docs-channel-moderation/?utm_medium=product&utm_source=mattermost-advisor-bot&utm_content=channel-moderation)\n\nBằng cách nhấp vào Liên hệ với chúng tôi, bạn sẽ chia sẻ thông tin của mình với grommunio-chat, Inc. [Tìm hiểu thêm](https://mattermost.com/pl/default-admin-advisory)"
+    "translation": "Với rất nhiều cuộc trò chuyện diễn ra trên Matter Extreme, việc biết nơi tìm thông tin quan trọng có thể là một thách thức. Nếu bạn muốn phát thông báo tới nhiều khán giả, bạn có thể thiết lập Kênh thông báo chỉ đọc nơi bất kỳ ai cũng có thể tham gia nhưng chỉ quản trị viên kênh mới có thể đăng thông báo.\n\n[Tìm hiểu thêm về cách tạo Kênh thông báo chỉ đọc](https://www.mattermost.com/docs-channel-moderation/?utm_medium=product&utm_source=mattermost-advisor-bot&utm_content=channel-moderation)\n\nBằng cách nhấp vào Liên hệ với chúng tôi, bạn sẽ chia sẻ thông tin của mình với grommunio, Inc. [Tìm hiểu thêm](https://mattermost.com/pl/default-admin-advisory)"
   },
   {
     "id": "api.templates.delinquency_30.subtitle1",
@@ -6771,7 +6771,7 @@
   },
   {
     "id": "api.server.warn_metric.number_of_active_users_500.notification_body",
-    "translation": "grommunio-chat đặc biệt khuyến nghị việc triển khai trên 500 người dùng nên tận dụng các tính năng như quản lý người dùng, phân cụm máy chủ và giám sát hiệu suất. Hãy liên hệ với chúng tôi để tìm hiểu thêm và cho chúng tôi biết cách chúng tôi có thể trợ giúp.\n\nBằng cách nhấp vào Liên hệ với chúng tôi, bạn sẽ chia sẻ thông tin của mình với grommunio-chat, Inc. [Tìm hiểu thêm](https://mattermost.com/pl/default-admin-advisory)"
+    "translation": "grommunio-chat đặc biệt khuyến nghị việc triển khai trên 500 người dùng nên tận dụng các tính năng như quản lý người dùng, phân cụm máy chủ và giám sát hiệu suất. Hãy liên hệ với chúng tôi để tìm hiểu thêm và cho chúng tôi biết cách chúng tôi có thể trợ giúp.\n\nBằng cách nhấp vào Liên hệ với chúng tôi, bạn sẽ chia sẻ thông tin của mình với grommunio, Inc. [Tìm hiểu thêm](https://mattermost.com/pl/default-admin-advisory)"
   },
   {
     "id": "api.templates.delinquency_45.subject",
@@ -6791,11 +6791,11 @@
   },
   {
     "id": "api.templates.email_footer_v2",
-    "translation": "© 2022 grommunio-chat, Inc. 530 Đại lộ Lytton, Tầng hai, Palo Alto, CA, 94301"
+    "translation": "© 2022 grommunio, Inc. 530 Đại lộ Lytton, Tầng hai, Palo Alto, CA, 94301"
   },
   {
     "id": "api.server.warn_metric.number_of_channels_50.notification_body",
-    "translation": "Các kênh giúp cải thiện khả năng giao tiếp nhưng với việc người dùng trên khắp các kênh tham gia và tạo các kênh Matter Extreme, thách thức trong việc giữ cho hệ thống luôn ngăn nắp sẽ tăng lên. Quyền nâng cao cho phép bạn đặt người dùng hoặc vai trò nào có thể thực hiện một số hành động nhất định, bao gồm quản lý cài đặt kênh và thành viên, sử dụng @channel hoặc @here để gắn thẻ các nhóm người dùng rộng rãi và tạo webhook mới.\n\n[Tìm hiểu thêm về cách sử dụng Quyền nâng cao](https://www.mattermost.com/docs-advanced-permissions/?utm_medium=product&utm_source=mattermost-advisor-bot&utm_content=advanced-permissions)\n\nBằng cách nhấp vào Liên hệ với chúng tôi, bạn sẽ chia sẻ thông tin của mình với grommunio-chat, Inc. [Tìm hiểu thêm](https://mattermost.com/pl/default-admin-advisory)"
+    "translation": "Các kênh giúp cải thiện khả năng giao tiếp nhưng với việc người dùng trên khắp các kênh tham gia và tạo các kênh Matter Extreme, thách thức trong việc giữ cho hệ thống luôn ngăn nắp sẽ tăng lên. Quyền nâng cao cho phép bạn đặt người dùng hoặc vai trò nào có thể thực hiện một số hành động nhất định, bao gồm quản lý cài đặt kênh và thành viên, sử dụng @channel hoặc @here để gắn thẻ các nhóm người dùng rộng rãi và tạo webhook mới.\n\n[Tìm hiểu thêm về cách sử dụng Quyền nâng cao](https://www.mattermost.com/docs-advanced-permissions/?utm_medium=product&utm_source=mattermost-advisor-bot&utm_content=advanced-permissions)\n\nBằng cách nhấp vào Liên hệ với chúng tôi, bạn sẽ chia sẻ thông tin của mình với grommunio, Inc. [Tìm hiểu thêm](https://mattermost.com/pl/default-admin-advisory)"
   },
   {
     "id": "api.templates.delinquency_60.subtitle1",
@@ -6815,7 +6815,7 @@
   },
   {
     "id": "api.server.warn_metric.number_of_posts_2M.notification_body",
-    "translation": "Hệ thống Matter Extreme của bạn có số lượng tin nhắn lớn. Tìm kiếm cơ sở dữ liệu Matter Extreme mặc định bắt đầu hiển thị sự suy giảm hiệu suất ở khoảng 2,5 triệu bài đăng. Với hơn 5 triệu bài đăng, Elaticsearch có thể giúp tránh các vấn đề đáng kể về hiệu suất, chẳng hạn như thời gian chờ, với tìm kiếm và lượt đề cập. Hãy liên hệ với chúng tôi để tìm hiểu thêm và cho chúng tôi biết cách chúng tôi có thể trợ giúp.\n\n[Tìm hiểu thêm về cách cải thiện hiệu suất](https://www.mattermost.com/docs-elasticsearch/?utm_medium=product&utm_source=mattermost-advisor-bot&utm_content=elasticsearch)\n\nBằng cách nhấp vào Liên hệ với chúng tôi, bạn sẽ chia sẻ thông tin của mình với grommunio-chat, Inc. [Tìm hiểu thêm](https://mattermost.com/pl/default-admin-advisory)"
+    "translation": "Hệ thống Matter Extreme của bạn có số lượng tin nhắn lớn. Tìm kiếm cơ sở dữ liệu Matter Extreme mặc định bắt đầu hiển thị sự suy giảm hiệu suất ở khoảng 2,5 triệu bài đăng. Với hơn 5 triệu bài đăng, Elaticsearch có thể giúp tránh các vấn đề đáng kể về hiệu suất, chẳng hạn như thời gian chờ, với tìm kiếm và lượt đề cập. Hãy liên hệ với chúng tôi để tìm hiểu thêm và cho chúng tôi biết cách chúng tôi có thể trợ giúp.\n\n[Tìm hiểu thêm về cách cải thiện hiệu suất](https://www.mattermost.com/docs-elasticsearch/?utm_medium=product&utm_source=mattermost-advisor-bot&utm_content=elasticsearch)\n\nBằng cách nhấp vào Liên hệ với chúng tôi, bạn sẽ chia sẻ thông tin của mình với grommunio, Inc. [Tìm hiểu thêm](https://mattermost.com/pl/default-admin-advisory)"
   },
   {
     "id": "api.server.warn_metric.number_of_posts_2M.start_trial.notification_body",

@@ -6273,7 +6273,7 @@
   },
   {
     "id": "api.templates.email_footer_v2",
-    "translation": "© 2022 grommunio-chat, Inc. 530 Lytton Avenue, Second floor, Palo Alto, CA, 94301"
+    "translation": "© 2022 grommunio, Inc. 530 Lytton Avenue, Second floor, Palo Alto, CA, 94301"
   },
   {
     "id": "api.templates.email_footer",
@@ -6317,7 +6317,7 @@
   },
   {
     "id": "api.server.warn_metric.number_of_channels_50.notification_body",
-    "translation": "Каналы дапамагаюць палепшыць камунікацыю, але па меры далучэння да grommunio-chat новых карыстальнікаў і стварэння імі каналаў, задача падтрымання арганізаванасці сістэмы ўскладняецца. Пашыраныя правы дазваляюць устанавіць, якія карыстальнікі або ролі могуць выконваць пэўныя дзеянні, у тым ліку кіраванне настройкамі каналаў і падпісчыкаў, выкарыстоўваючы тэгі @channel або @here для шырокіх груп карыстальнікаў, а таксама для стварэння новых падзей webhook.\n\n[Больш падрабязна аб выкарыстанні пашыраных правоў] (https://www.mattermost.com/docs-advanced-permissions/?utm_medium=product&utm_source=mattermost-advisor-bot&utm_content=advanced-permissions).\n\nНаціснуўшы кнопку \"Звязацца з намі\", вы падзяліцеся сваёй інфармацыяй з кампаніяй grommunio-chat, Inc. [Больш падрабязна] (https://mattermost.com/pl/default-admin-advisory)"
+    "translation": "Каналы дапамагаюць палепшыць камунікацыю, але па меры далучэння да grommunio-chat новых карыстальнікаў і стварэння імі каналаў, задача падтрымання арганізаванасці сістэмы ўскладняецца. Пашыраныя правы дазваляюць устанавіць, якія карыстальнікі або ролі могуць выконваць пэўныя дзеянні, у тым ліку кіраванне настройкамі каналаў і падпісчыкаў, выкарыстоўваючы тэгі @channel або @here для шырокіх груп карыстальнікаў, а таксама для стварэння новых падзей webhook.\n\n[Больш падрабязна аб выкарыстанні пашыраных правоў] (https://www.mattermost.com/docs-advanced-permissions/?utm_medium=product&utm_source=mattermost-advisor-bot&utm_content=advanced-permissions).\n\nНаціснуўшы кнопку \"Звязацца з намі\", вы падзяліцеся сваёй інфармацыяй з кампаніяй grommunio, Inc. [Больш падрабязна] (https://mattermost.com/pl/default-admin-advisory)"
   },
   {
     "id": "api.server.warn_metric.number_of_channels_50.contact_us.email_body",
@@ -6333,7 +6333,7 @@
   },
   {
     "id": "api.server.warn_metric.number_of_active_users_500.notification_body",
-    "translation": "grommunio-chat настойліва рэкамендуе, каб пры разгортванні больш, чым на 500 карыстальнікаў было зроблена абнаўленне да Карпаратыўнай рэдакцыі grommunio-chat, якая прапануе такія функцыі, як кіраванне карыстальнікамі, кластарызацыя сервераў і маніторынг прадукцыйнасці. Звяжыцеся з намі, каб пазнаць больш і дайце ведаць, чым мы можам дапамагчы.\n\nНаціснуўшы кнопку Звязацца з намі, вы падзяліцеся сваёй інфармацыяй з grommunio-chat, Inc. [Больш падрабязна] (https://mattermost.com/pl/default-admin-advisory)"
+    "translation": "grommunio-chat настойліва рэкамендуе, каб пры разгортванні больш, чым на 500 карыстальнікаў было зроблена абнаўленне да Карпаратыўнай рэдакцыі grommunio-chat, якая прапануе такія функцыі, як кіраванне карыстальнікамі, кластарызацыя сервераў і маніторынг прадукцыйнасці. Звяжыцеся з намі, каб пазнаць больш і дайце ведаць, чым мы можам дапамагчы.\n\nНаціснуўшы кнопку Звязацца з намі, вы падзяліцеся сваёй інфармацыяй з grommunio, Inc. [Больш падрабязна] (https://mattermost.com/pl/default-admin-advisory)"
   },
   {
     "id": "api.server.warn_metric.number_of_active_users_500.contact_us.email_body",
@@ -6349,7 +6349,7 @@
   },
   {
     "id": "api.server.warn_metric.number_of_active_users_300.notification_body",
-    "translation": "У grommunio-chat шмат перамоваў, таму можа быць складана зразумець, дзе шукаць важную інфармацыю. Калі вы жадаеце трансляваць паведамленне для вялікай аўдыторыі, вы можаце наладзіць каналы аб'яваў для чытання, да якіх можа далучыцца любы ахвочы, але толькі адміністратары каналаў могуць размяшчаць паведамленні.\n\n[Больш падрабязна аб стварэнні каналаў аб'яваў толькі для чытання] (https://www.mattermost.com/docs-channel-moderation/?utm_medium=product&utm_source=mattermost-advisor-bot&utm_content=channel-moderation).\n\nНаціснуўшы кнопку \"Звязацца з намі\", вы падзяліцеся сваёй інфармацыяй з кампаніяй grommunio-chat, Inc. [Даведацца больш] (https://mattermost.com/pl/default-admin-advisory)"
+    "translation": "У grommunio-chat шмат перамоваў, таму можа быць складана зразумець, дзе шукаць важную інфармацыю. Калі вы жадаеце трансляваць паведамленне для вялікай аўдыторыі, вы можаце наладзіць каналы аб'яваў для чытання, да якіх можа далучыцца любы ахвочы, але толькі адміністратары каналаў могуць размяшчаць паведамленні.\n\n[Больш падрабязна аб стварэнні каналаў аб'яваў толькі для чытання] (https://www.mattermost.com/docs-channel-moderation/?utm_medium=product&utm_source=mattermost-advisor-bot&utm_content=channel-moderation).\n\nНаціснуўшы кнопку \"Звязацца з намі\", вы падзяліцеся сваёй інфармацыяй з кампаніяй grommunio, Inc. [Даведацца больш] (https://mattermost.com/pl/default-admin-advisory)"
   },
   {
     "id": "api.server.warn_metric.number_of_active_users_300.contact_us.email_body",
@@ -6365,7 +6365,7 @@
   },
   {
     "id": "api.server.warn_metric.number_of_active_users_200.notification_body",
-    "translation": "У вашай сістэме grommunio-chat зараз 200 карыстальнікаў. Калі вы падключаеце grommunio-chat да пастаўшчыка сістэмы адзінага ўваходу ў вашай арганізацыі, карыстачы могуць атрымаць доступ да grommunio-chat без неабходнасці паўторна ўводзіць свае ўліковыя дадзеныя. Мы раім вам інтэграваць свайго пастаўшчыка SAML 2.0 з вашым серверам grommunio-chat. [Больш падрабязна аб інтэграцыі з SAML 2.0](https://www.mattermost.com/docs-saml/?utm_medium=product&utm_source=mattermost-advisor-bot&utm_content=saml) .\n\nНаціснуўшы «Звязацца з намі», вы падзяліцеся сваёй інфармацыяй з grommunio-chat, Inc. [Больш падрабязна](https://mattermost.com/pl/default-admin-advisory)"
+    "translation": "У вашай сістэме grommunio-chat зараз 200 карыстальнікаў. Калі вы падключаеце grommunio-chat да пастаўшчыка сістэмы адзінага ўваходу ў вашай арганізацыі, карыстачы могуць атрымаць доступ да grommunio-chat без неабходнасці паўторна ўводзіць свае ўліковыя дадзеныя. Мы раім вам інтэграваць свайго пастаўшчыка SAML 2.0 з вашым серверам grommunio-chat. [Больш падрабязна аб інтэграцыі з SAML 2.0](https://www.mattermost.com/docs-saml/?utm_medium=product&utm_source=mattermost-advisor-bot&utm_content=saml) .\n\nНаціснуўшы «Звязацца з намі», вы падзяліцеся сваёй інфармацыяй з grommunio, Inc. [Больш падрабязна](https://mattermost.com/pl/default-admin-advisory)"
   },
   {
     "id": "api.server.warn_metric.number_of_active_users_200.contact_us.email_body",
@@ -6397,7 +6397,7 @@
   },
   {
     "id": "api.server.warn_metric.mfa.notification_body",
-    "translation": "У вашай сістэме grommunio-chat уключана шматфактарная аўтэнтыфікацыя, што дае карыстальнікам магчымасць абараніць свае ўліковыя запісы з дапамогай дадатковых сродкаў аўтэнтыфікацыі акрамя пароля. Для павышэння бяспекі ўсёй сістэмы вы можаце запатрабаваць, каб усе ўліковыя запісы grommunio-chat выкарыстоўвалі шматфактарную аўтэнтыфікацыю.\n\n[Больш падрабязна аб прымусовай шматфактарнай аўтэнтыфікацыі](https://www.mattermost.com/docs-multi-factor-authentication/?utm_medium=product&utm_source=mattermost-advisor-bot&utm_content=multi-factor-authentication).\n\nНаціснуўшы «Звязацца з намі», вы падзяліцеся сваёй інфармацыяй з grommunio-chat, Inc. [Больш падрабязна](https://mattermost.com/pl/default-admin-advisory)"
+    "translation": "У вашай сістэме grommunio-chat уключана шматфактарная аўтэнтыфікацыя, што дае карыстальнікам магчымасць абараніць свае ўліковыя запісы з дапамогай дадатковых сродкаў аўтэнтыфікацыі акрамя пароля. Для павышэння бяспекі ўсёй сістэмы вы можаце запатрабаваць, каб усе ўліковыя запісы grommunio-chat выкарыстоўвалі шматфактарную аўтэнтыфікацыю.\n\n[Больш падрабязна аб прымусовай шматфактарнай аўтэнтыфікацыі](https://www.mattermost.com/docs-multi-factor-authentication/?utm_medium=product&utm_source=mattermost-advisor-bot&utm_content=multi-factor-authentication).\n\nНаціснуўшы «Звязацца з намі», вы падзяліцеся сваёй інфармацыяй з grommunio, Inc. [Больш падрабязна](https://mattermost.com/pl/default-admin-advisory)"
   },
   {
     "id": "api.server.warn_metric.mfa.contact_us.email_body",
@@ -6413,7 +6413,7 @@
   },
   {
     "id": "api.server.warn_metric.email_domain.notification_body",
-    "translation": "У праектах часта ўдзельнічаюць людзі як унутры, так і за межамі арганізацыі. З дапамогай гасцявых уліковых запісаў вы можаце прыцягваць вонкавых партнёраў да сваёй сістэмы grommunio-chat і паказваць, з кім яны могуць працаваць і што яны могуць бачыць.\n\n[Больш падрабязна аб уключэнні гасцявых уліковых запісаў](https://www.mattermost.com/docs-guest-accounts/?utm_medium=product&utm_source=mattermost-advisor-bot&utm_content=guest-accounts).\n\nНаціснуўшы «Звязацца з намі», вы падзяліцеся сваёй інфармацыяй з grommunio-chat, Inc. [Больш падрабязна](https://mattermost.com/pl/default-admin-advisory)"
+    "translation": "У праектах часта ўдзельнічаюць людзі як унутры, так і за межамі арганізацыі. З дапамогай гасцявых уліковых запісаў вы можаце прыцягваць вонкавых партнёраў да сваёй сістэмы grommunio-chat і паказваць, з кім яны могуць працаваць і што яны могуць бачыць.\n\n[Больш падрабязна аб уключэнні гасцявых уліковых запісаў](https://www.mattermost.com/docs-guest-accounts/?utm_medium=product&utm_source=mattermost-advisor-bot&utm_content=guest-accounts).\n\nНаціснуўшы «Звязацца з намі», вы падзяліцеся сваёй інфармацыяй з grommunio, Inc. [Больш падрабязна](https://mattermost.com/pl/default-admin-advisory)"
   },
   {
     "id": "api.server.warn_metric.email_domain.contact_us.email_body",
@@ -8029,7 +8029,7 @@
   },
   {
     "id": "api.templates.copyright",
-    "translation": "© 2021 grommunio-chat, Inc. 530 Lytton Avenue, Second floor, Palo Alto, CA, 94301"
+    "translation": "© 2021 grommunio, Inc. 530 Lytton Avenue, Second floor, Palo Alto, CA, 94301"
   },
   {
     "id": "api.templates.cloud_welcome_email.title",
@@ -8409,7 +8409,7 @@
   },
   {
     "id": "api.server.warn_metric.number_of_teams_5.notification_body",
-    "translation": "У вашай сістэме grommunio-chat зараз ёсць некалькі каманд. У шматлікіх каманд ёсць свой упадабаны спосаб каардынацыі і супрацоўніцтва, у тым ліку тое, як ствараюцца каналы, хто можа запрашаць новых удзельнікаў каманды і як ажыццяўляецца інтэграцыя. Схемы групавога кіравання дазваляюць вам настройваць правы карыстальнікаў у кожнай камандзе ў адпаведнасці з іх канкрэтнымі патрэбамі.\n\n[Больш падрабязна аб выкарыстанні пашыраных правоў] (https://www.mattermost.com/docs-advanced-permissions-team-override/?utm_medium=product&utm_source=mattermost-advisor-bot&utm_content=advanced-permissions-team-override).\n\nНаціснуўшы кнопку \"Звязацца з намі\", вы падзяліцеся сваёй інфармацыяй з кампаніяй grommunio-chat, Inc. [Больш падрабязна](https://mattermost.com/pl/default-admin-advisory)"
+    "translation": "У вашай сістэме grommunio-chat зараз ёсць некалькі каманд. У шматлікіх каманд ёсць свой упадабаны спосаб каардынацыі і супрацоўніцтва, у тым ліку тое, як ствараюцца каналы, хто можа запрашаць новых удзельнікаў каманды і як ажыццяўляецца інтэграцыя. Схемы групавога кіравання дазваляюць вам настройваць правы карыстальнікаў у кожнай камандзе ў адпаведнасці з іх канкрэтнымі патрэбамі.\n\n[Больш падрабязна аб выкарыстанні пашыраных правоў] (https://www.mattermost.com/docs-advanced-permissions-team-override/?utm_medium=product&utm_source=mattermost-advisor-bot&utm_content=advanced-permissions-team-override).\n\nНаціснуўшы кнопку \"Звязацца з намі\", вы падзяліцеся сваёй інфармацыяй з кампаніяй grommunio, Inc. [Больш падрабязна](https://mattermost.com/pl/default-admin-advisory)"
   },
   {
     "id": "api.server.warn_metric.number_of_teams_5.contact_us.email_body",
@@ -8425,7 +8425,7 @@
   },
   {
     "id": "api.server.warn_metric.number_of_posts_2M.notification_body",
-    "translation": "У вашай сістэме grommunio-chat ёсць вялікая колькасць паведамленняў. Пошук у базе дадзеных grommunio-chat па змаўчанні пачынае паказваць зніжэнне прадукцыйнасці прыкладна пры 2,5 мільёнах паведамленняў. Калі паведамленняў больш за 5 мільёнаў, Elasticsearch можа дапамагчы пазбегнуць значных праблем з прадукцыйнасцю, такіх як таймаўты пры пошуку і апрацоўцы згадак. Звяжыцеся з намі, каб пазнаць больш і дайце ведаць, чым мы можам дапамагчы.\n\n[Больш падрабязна аб паляпшэнні прадукцыйнасці] (https://www.mattermost.com/docs-elasticsearch/?utm_medium=product&utm_source=mattermost-advisor-bot&utm_content=elasticsearch).\n\nНаціснуўшы кнопку \"Звязацца з намі\", вы падзяліцеся сваёй інфармацыяй з кампаніяй grommunio-chat, Inc. [Больш падрабязна] (https://mattermost.com/pl/default-admin-advisory)"
+    "translation": "У вашай сістэме grommunio-chat ёсць вялікая колькасць паведамленняў. Пошук у базе дадзеных grommunio-chat па змаўчанні пачынае паказваць зніжэнне прадукцыйнасці прыкладна пры 2,5 мільёнах паведамленняў. Калі паведамленняў больш за 5 мільёнаў, Elasticsearch можа дапамагчы пазбегнуць значных праблем з прадукцыйнасцю, такіх як таймаўты пры пошуку і апрацоўцы згадак. Звяжыцеся з намі, каб пазнаць больш і дайце ведаць, чым мы можам дапамагчы.\n\n[Больш падрабязна аб паляпшэнні прадукцыйнасці] (https://www.mattermost.com/docs-elasticsearch/?utm_medium=product&utm_source=mattermost-advisor-bot&utm_content=elasticsearch).\n\nНаціснуўшы кнопку \"Звязацца з намі\", вы падзяліцеся сваёй інфармацыяй з кампаніяй grommunio, Inc. [Больш падрабязна] (https://mattermost.com/pl/default-admin-advisory)"
   },
   {
     "id": "api.server.warn_metric.number_of_posts_2M.contact_us.email_body",

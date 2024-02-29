@@ -1,7 +1,7 @@
 {
   "about.buildnumber": "Číslo sestavení:",
   "about.cloudEdition": "Cloud",
-  "about.copyright": "Copyright 2015 - {currentYear} grommunio-chat, Inc. Všechna práva vyhrazena",
+  "about.copyright": "Copyright 2015 - {currentYear} grommunio, Inc. Všechna práva vyhrazena",
   "about.database": "Databáze:",
   "about.date": "Datum sestavení:",
   "about.dbversion": "Verze schématu databáze:",
@@ -1193,7 +1193,7 @@
   "admin.log.consoleJsonTitle": "Výstup logů konzole jako JSON:",
   "admin.log.consoleTitle": "Výstup logů do konzole: ",
   "admin.log.enableDiagnostics": "Zapnout diagnostiku a nahlašování chyb:",
-  "admin.log.enableDiagnosticsDescription": "Povolením této funkce přispíváte k zlepšování kvality a výkonu grommunio-chat zasíláním chybových hlášení a diagnostických informací do grommunio-chat, Inc. Přečtěte si naše <link>zásady ochrany osobních údajů</link>, pro více informací.",
+  "admin.log.enableDiagnosticsDescription": "Povolením této funkce přispíváte k zlepšování kvality a výkonu grommunio-chat zasíláním chybových hlášení a diagnostických informací do grommunio, Inc. Přečtěte si naše <link>zásady ochrany osobních údajů</link>, pro více informací.",
   "admin.log.fileDescription": "V produkci typicky nastavena na hodnotu true. Pokud nastaveno, jsou protokolované události zapisovány do mattermost.log protokolu v adresáři zadaném v poli Adresář pro logy. Protokoly jsou rotovány po 100 MB a archivovány do souboru ve stejném adresáři, s jménem obsahujícím s datestamp a sériové číslo. Například, mattermost.2017-03-31.001.",
   "admin.log.fileJsonTitle": "Výstup souborů jako JSON:",
   "admin.log.fileLevelDescription": "Toto nastavení určuje úroveň podrobností, které jsou zaznamenávané do log souboru. CHYBA: pouze chybové zprávy. INFO: chybové zprávy a informace kolem startu a inicializace. LADĚNÍ: podrobné zprávy pro vývojáře, kteří pracují na ladění problémů.",

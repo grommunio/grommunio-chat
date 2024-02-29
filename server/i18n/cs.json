@@ -6101,7 +6101,7 @@
   },
   {
     "id": "api.server.warn_metric.number_of_active_users_500.notification_body",
-    "translation": "grommunio-chat silně doporučuje, aby nasazení serveru s více jak 500 uživateli využilo vlastností jako správa uživatelů, server clustering a monitorování výkonu. Kontaktujte nás a zjistěte více o tom, jak můžeme pomoci.\n\nKliknutím na Kontaktujte nás budete sdílet své informace s grommunio-chat, Inc. [Zjistit více](https://mattermost.com/pl/default-admin-advisory)"
+    "translation": "grommunio-chat silně doporučuje, aby nasazení serveru s více jak 500 uživateli využilo vlastností jako správa uživatelů, server clustering a monitorování výkonu. Kontaktujte nás a zjistěte více o tom, jak můžeme pomoci.\n\nKliknutím na Kontaktujte nás budete sdílet své informace s grommunio, Inc. [Zjistit více](https://mattermost.com/pl/default-admin-advisory)"
   },
   {
     "id": "api.server.warn_metric.number_of_active_users_500.contact_us.email_body",
@@ -6121,7 +6121,7 @@
   },
   {
     "id": "api.server.warn_metric.number_of_active_users_300.notification_body",
-    "translation": "Při veškeré konverzaci, která se děje napříč Mattermostem, může být obtížné pátrat po důležitých informacích. Pokud chcete rozesílat informace širokému publiku, můžete vytvořit Oznamovací kanály. Ty jsou pouze pro čtení - vyjma adminů, kteří mohou zprávy vytvářet.\n\n[Zjistit více o Oznamovacích kanálech](https://www.mattermost.com/docs-channel-moderation/?utm_medium=product&utm_source=mattermost-advisor-bot&utm_content=channel-moderation)\n\nKliknutím na Kontaktujte nás budete sdílet své informace s grommunio-chat, Inc. [Zjistit více](https://mattermost.com/pl/default-admin-advisory)"
+    "translation": "Při veškeré konverzaci, která se děje napříč Mattermostem, může být obtížné pátrat po důležitých informacích. Pokud chcete rozesílat informace širokému publiku, můžete vytvořit Oznamovací kanály. Ty jsou pouze pro čtení - vyjma adminů, kteří mohou zprávy vytvářet.\n\n[Zjistit více o Oznamovacích kanálech](https://www.mattermost.com/docs-channel-moderation/?utm_medium=product&utm_source=mattermost-advisor-bot&utm_content=channel-moderation)\n\nKliknutím na Kontaktujte nás budete sdílet své informace s grommunio, Inc. [Zjistit více](https://mattermost.com/pl/default-admin-advisory)"
   },
   {
     "id": "api.server.warn_metric.number_of_active_users_300.contact_us.email_body",
@@ -6141,7 +6141,7 @@
   },
   {
     "id": "api.server.warn_metric.number_of_active_users_200.notification_body",
-    "translation": "Váš grommunio-chat má nyní 200 uživatelů. Pokud jej propojíte s vaším řešením SSO (single sign on), uživatelé budou moci využívat grommunio-chat bez nutnosti znovu zadávat své přihlašovací údaje. Doporučujeme integraci vašeho SAML 2.0 poskytovatele s grommunio-chat serverem [Zjistit více o integraci se SAML 2.0](https://www.mattermost.com/docs-saml/?utm_medium=product&utm_source=mattermost-advisor-bot&utm_content=saml).\n\nKliknutím na Kontaktujte nás budete sdílet své informace s grommunio-chat, Inc. [Zjistit více](https://mattermost.com/pl/default-admin-advisory)"
+    "translation": "Váš grommunio-chat má nyní 200 uživatelů. Pokud jej propojíte s vaším řešením SSO (single sign on), uživatelé budou moci využívat grommunio-chat bez nutnosti znovu zadávat své přihlašovací údaje. Doporučujeme integraci vašeho SAML 2.0 poskytovatele s grommunio-chat serverem [Zjistit více o integraci se SAML 2.0](https://www.mattermost.com/docs-saml/?utm_medium=product&utm_source=mattermost-advisor-bot&utm_content=saml).\n\nKliknutím na Kontaktujte nás budete sdílet své informace s grommunio, Inc. [Zjistit více](https://mattermost.com/pl/default-admin-advisory)"
   },
   {
     "id": "api.server.warn_metric.number_of_active_users_200.contact_us.email_body",
@@ -6161,7 +6161,7 @@
   },
   {
     "id": "api.server.warn_metric.email_domain.notification_body",
-    "translation": "Projekty často zahrnují lidi jak z vnitřku, tak vnějšku organizace. S pomocí návštěvnických účtů můžete zapojit externí partnery do vašeho Mattermostu a určit, s kým mohou pracovat a co mohou vidět.\n\n[Zjistit více o návštěvnických účtech]((https://www.mattermost.com/docs-guest-accounts/?utm_medium=product&utm_source=mattermost-advisor-bot&utm_content=guest-accounts).\n\nKliknutím na Kontaktujte nás budete sdílet své informace s grommunio-chat, Inc. [Zjistit více](https://mattermost.com/pl/default-admin-advisory)"
+    "translation": "Projekty často zahrnují lidi jak z vnitřku, tak vnějšku organizace. S pomocí návštěvnických účtů můžete zapojit externí partnery do vašeho Mattermostu a určit, s kým mohou pracovat a co mohou vidět.\n\n[Zjistit více o návštěvnických účtech]((https://www.mattermost.com/docs-guest-accounts/?utm_medium=product&utm_source=mattermost-advisor-bot&utm_content=guest-accounts).\n\nKliknutím na Kontaktujte nás budete sdílet své informace s grommunio, Inc. [Zjistit více](https://mattermost.com/pl/default-admin-advisory)"
   },
   {
     "id": "store.sql_bot.get.missing.app_error",
@@ -6349,7 +6349,7 @@
   },
   {
     "id": "api.server.warn_metric.number_of_teams_5.notification_body",
-    "translation": "Váš grommunio-chat má nyní více týmů. Mnoho týmů má své vlastní preference pokud jde o koordinaci a spolupráci, včetně toho, jak jsou zakládány kanály, kdo může pozvat nové členy nebo jak se spravují integrace. Týmová přetížená schémata (Override Schemes) umožňují přizpůsobit oprávnění uživateů pro každý tým zvlášť.\n\n[Zjistit více o Advanced Permissions](https://www.mattermost.com/docs-advanced-permissions-team-override/?utm_medium=product&utm_source=mattermost-advisor-bot&utm_content=advanced-permissions-team-override).\n\nKliknutím na Kontaktujte nás budete sdílet své informace s grommunio-chat, Inc. [Zjistit více](https://mattermost.com/pl/default-admin-advisory)"
+    "translation": "Váš grommunio-chat má nyní více týmů. Mnoho týmů má své vlastní preference pokud jde o koordinaci a spolupráci, včetně toho, jak jsou zakládány kanály, kdo může pozvat nové členy nebo jak se spravují integrace. Týmová přetížená schémata (Override Schemes) umožňují přizpůsobit oprávnění uživateů pro každý tým zvlášť.\n\n[Zjistit více o Advanced Permissions](https://www.mattermost.com/docs-advanced-permissions-team-override/?utm_medium=product&utm_source=mattermost-advisor-bot&utm_content=advanced-permissions-team-override).\n\nKliknutím na Kontaktujte nás budete sdílet své informace s grommunio, Inc. [Zjistit více](https://mattermost.com/pl/default-admin-advisory)"
   },
   {
     "id": "api.server.warn_metric.number_of_posts_2M.start_trial.notification_body",
@@ -6357,11 +6357,11 @@
   },
   {
     "id": "api.server.warn_metric.number_of_posts_2M.notification_body",
-    "translation": "Váš grommunio-chat má velký počet zpráv. Výchozí databázové hledání začíná mít výkonostní problémy kolem 2.5 mil příspěvků. Pří více jak 5 mil příspěvcích může Elasticsearch výrazně pomoci s výkonem. Kontaktujte nás, chcete-li se dozvědět více jak můžeme pomoci.\n\n[Zjistit více o zvýšení výkonu](https://www.mattermost.com/docs-elasticsearch/?utm_medium=product&utm_source=mattermost-advisor-bot&utm_content=elasticsearch)\n\nKliknutím na Kontaktujte nás budete sdílet své informace s grommunio-chat, Inc. [Zjistit více](https://mattermost.com/pl/default-admin-advisory)"
+    "translation": "Váš grommunio-chat má velký počet zpráv. Výchozí databázové hledání začíná mít výkonostní problémy kolem 2.5 mil příspěvků. Pří více jak 5 mil příspěvcích může Elasticsearch výrazně pomoci s výkonem. Kontaktujte nás, chcete-li se dozvědět více jak můžeme pomoci.\n\n[Zjistit více o zvýšení výkonu](https://www.mattermost.com/docs-elasticsearch/?utm_medium=product&utm_source=mattermost-advisor-bot&utm_content=elasticsearch)\n\nKliknutím na Kontaktujte nás budete sdílet své informace s grommunio, Inc. [Zjistit více](https://mattermost.com/pl/default-admin-advisory)"
   },
   {
     "id": "api.server.warn_metric.number_of_channels_50.notification_body",
-    "translation": "Kanály umožňují zlepšit komunikaci, ale s tím, jak je uživatelé napříč Mattermostem zakládají a vstupují do nich, rostou nároky na to udržovat systém organizovaný. Advanced Permissions umožní nastavit, kteří uživatelé nebo role mohou provádět určité akce, jako spravovat nastavení kanálů a jejich členů, využívat @channel nebo @here zmínek, či vytváření nových webhooků.\n\n[Zjistit více o Advanced Permissions](https://www.mattermost.com/docs-advanced-permissions/?utm_medium=product&utm_source=mattermost-advisor-bot&utm_content=advanced-permissions)\n\nKliknutím na Kontaktujte nás budete sdílet své informace s grommunio-chat, Inc. [Zjistit více](https://mattermost.com/pl/default-admin-advisory)"
+    "translation": "Kanály umožňují zlepšit komunikaci, ale s tím, jak je uživatelé napříč Mattermostem zakládají a vstupují do nich, rostou nároky na to udržovat systém organizovaný. Advanced Permissions umožní nastavit, kteří uživatelé nebo role mohou provádět určité akce, jako spravovat nastavení kanálů a jejich členů, využívat @channel nebo @here zmínek, či vytváření nových webhooků.\n\n[Zjistit více o Advanced Permissions](https://www.mattermost.com/docs-advanced-permissions/?utm_medium=product&utm_source=mattermost-advisor-bot&utm_content=advanced-permissions)\n\nKliknutím na Kontaktujte nás budete sdílet své informace s grommunio, Inc. [Zjistit více](https://mattermost.com/pl/default-admin-advisory)"
   },
   {
     "id": "model.config.is_valid.import.retention_days_too_low.app_error",
@@ -6617,7 +6617,7 @@
   },
   {
     "id": "api.templates.copyright",
-    "translation": "© 2020 grommunio-chat, Inc. 855 El Camino Real, 13A-168, Palo Alto, CA, 94301"
+    "translation": "© 2020 grommunio, Inc. 855 El Camino Real, 13A-168, Palo Alto, CA, 94301"
   },
   {
     "id": "app.command_webhook.handle_command_webhook.parse",
@@ -6641,7 +6641,7 @@
   },
   {
     "id": "api.server.warn_metric.number_of_active_users_100.notification_body",
-    "translation": "Váš grommunio-chat má přes 100 uživatelů. S tím, jak roste uživatelská základna, správa nových účtů se stává časově nákladnou. Doporučujeme integrovat vaši podnikovou databázi AD/LDAP, která umožní každému účtu přístup k Mattermostu.\n\n[Zjistit více o integraci ADL/LDAP](https://www.mattermost.com/docs-adldap/?utm_medium=product&utm_source=mattermost-advisor-bot&utm_content=adldap)\n\nKliknutím na Kontaktujte nás budete sdílet své informace s grommunio-chat, Inc. [Zjistit více](https://mattermost.com/pl/default-admin-advisory)"
+    "translation": "Váš grommunio-chat má přes 100 uživatelů. S tím, jak roste uživatelská základna, správa nových účtů se stává časově nákladnou. Doporučujeme integrovat vaši podnikovou databázi AD/LDAP, která umožní každému účtu přístup k Mattermostu.\n\n[Zjistit více o integraci ADL/LDAP](https://www.mattermost.com/docs-adldap/?utm_medium=product&utm_source=mattermost-advisor-bot&utm_content=adldap)\n\nKliknutím na Kontaktujte nás budete sdílet své informace s grommunio, Inc. [Zjistit více](https://mattermost.com/pl/default-admin-advisory)"
   },
   {
     "id": "api.server.warn_metric.number_of_active_users_100.contact_us.email_body",
@@ -6661,7 +6661,7 @@
   },
   {
     "id": "api.server.warn_metric.mfa.notification_body",
-    "translation": "Váš grommunio-chat má povolenu vícefaktorovou autentizaci, což umožňuje uživatelům zabezpečit jejich účty dalším způsobem, nejen heslem. Ke zvýšení zabezpečení napříč systémem můžete vynutit použivání vícefaktorové autentizace u všech účtů.\n\n[Zjistit více o vynucení vícefaktorové autentizace](https://www.mattermost.com/docs-multi-factor-authentication/?utm_medium=product&utm_source=mattermost-advisor-bot&utm_content=multi-factor-authentication). \n\nKliknutím na Kontaktujte nás budete sdílete své informace s grommunio-chat, Inc. [Zjistit více](https://mattermost.com/pl/default-admin-advisory)"
+    "translation": "Váš grommunio-chat má povolenu vícefaktorovou autentizaci, což umožňuje uživatelům zabezpečit jejich účty dalším způsobem, nejen heslem. Ke zvýšení zabezpečení napříč systémem můžete vynutit použivání vícefaktorové autentizace u všech účtů.\n\n[Zjistit více o vynucení vícefaktorové autentizace](https://www.mattermost.com/docs-multi-factor-authentication/?utm_medium=product&utm_source=mattermost-advisor-bot&utm_content=multi-factor-authentication). \n\nKliknutím na Kontaktujte nás budete sdílete své informace s grommunio, Inc. [Zjistit více](https://mattermost.com/pl/default-admin-advisory)"
   },
   {
     "id": "api.server.warn_metric.mfa.contact_us.email_body",

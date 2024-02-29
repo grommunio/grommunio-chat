@@ -5561,7 +5561,7 @@
   },
   {
     "id": "api.templates.email_footer_v2",
-    "translation": "© 2022 grommunio-chat, Inc. 530 Lytton Avenue, Second floor, Palo Alto, CA, 94301"
+    "translation": "© 2022 grommunio, Inc. 530 Lytton Avenue, Second floor, Palo Alto, CA, 94301"
   },
   {
     "id": "api.templates.email_footer",
@@ -5985,7 +5985,7 @@
   },
   {
     "id": "api.server.warn_metric.number_of_teams_5.notification_body",
-    "translation": "A grommunio-chat rendszerének jelenleg több csapata van. Sok csapatnak megvan a maga preferált módja a koordinációra és az együttműködésre, beleértve a csatornák létrehozásának módját, kik hívhatnak meg új csapat tagokat és hogy hogyan kezelik az integrációkat. A csapat felülbírálási sémái lehetővé teszik a felhasználói engedélyek testreszabását az egyes csapatokon belül, hogy megfeleljenek a saját igényeiknek.\n\n[További információk a fejlett engedélyek használatáról](https://www.mattermost.com/docs-advanced-permissions-team-override/?utm_medium=product&utm_source=mattermost-advisor-bot&utm_content=advanced-permissions-team-override).\n\nA Kapcsolat felvétele gombra kattintva megosztja adatait a grommunio-chat, Inc.-vel. [További információk](https://mattermost.com/pl/default-admin-advisory)"
+    "translation": "A grommunio-chat rendszerének jelenleg több csapata van. Sok csapatnak megvan a maga preferált módja a koordinációra és az együttműködésre, beleértve a csatornák létrehozásának módját, kik hívhatnak meg új csapat tagokat és hogy hogyan kezelik az integrációkat. A csapat felülbírálási sémái lehetővé teszik a felhasználói engedélyek testreszabását az egyes csapatokon belül, hogy megfeleljenek a saját igényeiknek.\n\n[További információk a fejlett engedélyek használatáról](https://www.mattermost.com/docs-advanced-permissions-team-override/?utm_medium=product&utm_source=mattermost-advisor-bot&utm_content=advanced-permissions-team-override).\n\nA Kapcsolat felvétele gombra kattintva megosztja adatait a grommunio, Inc.-vel. [További információk](https://mattermost.com/pl/default-admin-advisory)"
   },
   {
     "id": "api.server.warn_metric.number_of_teams_5.contact_us.email_body",
@@ -6005,7 +6005,7 @@
   },
   {
     "id": "api.server.warn_metric.number_of_posts_2M.notification_body",
-    "translation": "A grommunio-chat rendszerében nagy számú üzenet van. Az alapértelmezett grommunio-chat adatbázis keresés körülbelül 2,5 millió bejegyzésnél kezdi mutatni a teljesítmény romlását. Több mint 5 millió bejegyzéssel az Elasticsearch segíthet elkerülni a jelentős teljesítmény problémákat, például az időtúllépéseket. Vegye fel velünk a kapcsolatot, ha többet szeretne megtudni és tudassa velünk, hogy hogyan tudunk segíteni.\n\n[További információk a teljesítmény javításáról](https://www.mattermost.com/docs-elasticsearch/?utm_medium=product&utm_source=mattermost-advisor-bot&utm_content=elasticsearch)\n\nA Kapcsolat felvétele gombra kattintva megosztja adatait a grommunio-chat, Inc.-vel. [További információk](https://mattermost.com/pl/default-admin-advisory)"
+    "translation": "A grommunio-chat rendszerében nagy számú üzenet van. Az alapértelmezett grommunio-chat adatbázis keresés körülbelül 2,5 millió bejegyzésnél kezdi mutatni a teljesítmény romlását. Több mint 5 millió bejegyzéssel az Elasticsearch segíthet elkerülni a jelentős teljesítmény problémákat, például az időtúllépéseket. Vegye fel velünk a kapcsolatot, ha többet szeretne megtudni és tudassa velünk, hogy hogyan tudunk segíteni.\n\n[További információk a teljesítmény javításáról](https://www.mattermost.com/docs-elasticsearch/?utm_medium=product&utm_source=mattermost-advisor-bot&utm_content=elasticsearch)\n\nA Kapcsolat felvétele gombra kattintva megosztja adatait a grommunio, Inc.-vel. [További információk](https://mattermost.com/pl/default-admin-advisory)"
   },
   {
     "id": "api.server.warn_metric.number_of_posts_2M.contact_us.email_body",
@@ -6029,7 +6029,7 @@
   },
   {
     "id": "api.server.warn_metric.number_of_channels_50.notification_body",
-    "translation": "A csatornák segítenek a kommunikáció javításában, de azáltal, hogy a grommunio-chat felhasználók csatlakoznak és létrehoznak csatornákat, nő a rendszer szervezetten tartásának kihívása. A fejlett engedélyek segítségével beállíthatja, hogy mely felhasználók vagy szerepkörök hajthatnak végre bizonyos műveleteket, ideértve a csatornák beállítását és tagjainak kezelését, @channel vagy @here használatával a felhasználók széles körének címzését, valamint új webhorog létrehozását.\n\n[További információk a fejlett engedélyek használatáról](https://www.mattermost.com/docs-advanced-permissions/?utm_medium=product&utm_source=mattermost-advisor-bot&utm_content=advanced-permissions)\n\nA Kapcsolat felvétele gombra kattintva megosztja adatait a grommunio-chat, Inc.-vel. [További információk](https://mattermost.com/pl/default-admin-advisory)"
+    "translation": "A csatornák segítenek a kommunikáció javításában, de azáltal, hogy a grommunio-chat felhasználók csatlakoznak és létrehoznak csatornákat, nő a rendszer szervezetten tartásának kihívása. A fejlett engedélyek segítségével beállíthatja, hogy mely felhasználók vagy szerepkörök hajthatnak végre bizonyos műveleteket, ideértve a csatornák beállítását és tagjainak kezelését, @channel vagy @here használatával a felhasználók széles körének címzését, valamint új webhorog létrehozását.\n\n[További információk a fejlett engedélyek használatáról](https://www.mattermost.com/docs-advanced-permissions/?utm_medium=product&utm_source=mattermost-advisor-bot&utm_content=advanced-permissions)\n\nA Kapcsolat felvétele gombra kattintva megosztja adatait a grommunio, Inc.-vel. [További információk](https://mattermost.com/pl/default-admin-advisory)"
   },
   {
     "id": "api.server.warn_metric.number_of_channels_50.contact_us.email_body",
@@ -6049,7 +6049,7 @@
   },
   {
     "id": "api.server.warn_metric.number_of_active_users_500.notification_body",
-    "translation": "A grommunio-chat nyomatékosan javasolja, hogy több mint 500 felhasználó telepítéséhez használja ki az olyan funkciók előnyeit, mint a felhasználó kezelés, a szerver fürtösítés és a teljesítmény figyelés. Vegye fel velünk a kapcsolatot, hogy többet tudjon meg és tudassa velünk, hogy hogyan tudunk segíteni.\n\nA Kapcsolat felvétele gombra kattintva megosztja adatait a grommunio-chat, Inc.-vel. [További információk](https://mattermost.com/pl/default-admin-advisory)"
+    "translation": "A grommunio-chat nyomatékosan javasolja, hogy több mint 500 felhasználó telepítéséhez használja ki az olyan funkciók előnyeit, mint a felhasználó kezelés, a szerver fürtösítés és a teljesítmény figyelés. Vegye fel velünk a kapcsolatot, hogy többet tudjon meg és tudassa velünk, hogy hogyan tudunk segíteni.\n\nA Kapcsolat felvétele gombra kattintva megosztja adatait a grommunio, Inc.-vel. [További információk](https://mattermost.com/pl/default-admin-advisory)"
   },
   {
     "id": "api.server.warn_metric.number_of_active_users_500.contact_us.email_body",
@@ -6069,7 +6069,7 @@
   },
   {
     "id": "api.server.warn_metric.number_of_active_users_300.notification_body",
-    "translation": "Amikor rengeteg beszélgetés folyik az egész Mattermoston, kihívást jelenthet tudni, hogy hol keressünk fontos információkat. Ha nagy közönségnek szeretne üzenetet küldeni, beállíthat írásvédett bejelentési csatornákat, ahová bárki csatlakozhat, de csak a csatornák rendszergazdái küldhetnek üzeneteket.\n\n[További információk az írásvédett bejelentési csatornák létrehozásáról](https://www.mattermost.com/docs-channel-moderation/?utm_medium=product&utm_source=mattermost-advisor-bot&utm_content=channel-moderation)\n\nA Kapcsolat felvétele gombra kattintva megosztja adatait a grommunio-chat, Inc.-vel. [További információk](https://mattermost.com/pl/default-admin-advisory)"
+    "translation": "Amikor rengeteg beszélgetés folyik az egész Mattermoston, kihívást jelenthet tudni, hogy hol keressünk fontos információkat. Ha nagy közönségnek szeretne üzenetet küldeni, beállíthat írásvédett bejelentési csatornákat, ahová bárki csatlakozhat, de csak a csatornák rendszergazdái küldhetnek üzeneteket.\n\n[További információk az írásvédett bejelentési csatornák létrehozásáról](https://www.mattermost.com/docs-channel-moderation/?utm_medium=product&utm_source=mattermost-advisor-bot&utm_content=channel-moderation)\n\nA Kapcsolat felvétele gombra kattintva megosztja adatait a grommunio, Inc.-vel. [További információk](https://mattermost.com/pl/default-admin-advisory)"
   },
   {
     "id": "api.server.warn_metric.number_of_active_users_300.contact_us.email_body",
@@ -6089,7 +6089,7 @@
   },
   {
     "id": "api.server.warn_metric.number_of_active_users_200.notification_body",
-    "translation": "A grommunio-chat rendszerének most 200 felhasználója van. Amikor összekapcsolja Mattermostot és a szervezete egyszeri bejelentkezési szolgáltatóját, a felhasználók anélkül érhetik el a Mattermostot, hogy újra meg kellene adniuk hitelesítő adataikat. Javasoljuk, hogy integrálja SAML 2.0 szolgáltatóját a grommunio-chat szerverével. [Tudjon meg többet a SAML 2.0 integrációról](https://www.mattermost.com/docs-saml/?utm_medium=product&utm_source=mattermost-advisor-bot&utm_content=saml).\n\nA Kapcsolat felvétele gombra kattintva megosztja adatait a grommunio-chat, Inc.-vel. [További információk](https://mattermost.com/pl/default-admin-advisory)"
+    "translation": "A grommunio-chat rendszerének most 200 felhasználója van. Amikor összekapcsolja Mattermostot és a szervezete egyszeri bejelentkezési szolgáltatóját, a felhasználók anélkül érhetik el a Mattermostot, hogy újra meg kellene adniuk hitelesítő adataikat. Javasoljuk, hogy integrálja SAML 2.0 szolgáltatóját a grommunio-chat szerverével. [Tudjon meg többet a SAML 2.0 integrációról](https://www.mattermost.com/docs-saml/?utm_medium=product&utm_source=mattermost-advisor-bot&utm_content=saml).\n\nA Kapcsolat felvétele gombra kattintva megosztja adatait a grommunio, Inc.-vel. [További információk](https://mattermost.com/pl/default-admin-advisory)"
   },
   {
     "id": "api.server.warn_metric.number_of_active_users_200.contact_us.email_body",
@@ -6109,7 +6109,7 @@
   },
   {
     "id": "api.server.warn_metric.number_of_active_users_100.notification_body",
-    "translation": "A grommunio-chat rendszerének több mint 100 felhasználója van. Ahogyan a felhasználói bázisa növekszik az új fiókok létrehozása időigényessé válhat. Javasoljuk, hogy integrálja vállalata Active Directory/LDAP-ját amely lehetővé teszi, hogy bárki, akinek van fiókja hozzáférjen a Mattermosthoz.\n\n[További információk az AD/LDAP integrációról](https://www.mattermost.com/docs-adldap/?utm_medium=product&utm_source=mattermost-advisor-bot&utm_content=adldap)\n\nA Kapcsolat felvételi gombra kattintva megosztja adatait a grommunio-chat, Inc.-vel. [További információk](https://mattermost.com/pl/default-admin-advisory)"
+    "translation": "A grommunio-chat rendszerének több mint 100 felhasználója van. Ahogyan a felhasználói bázisa növekszik az új fiókok létrehozása időigényessé válhat. Javasoljuk, hogy integrálja vállalata Active Directory/LDAP-ját amely lehetővé teszi, hogy bárki, akinek van fiókja hozzáférjen a Mattermosthoz.\n\n[További információk az AD/LDAP integrációról](https://www.mattermost.com/docs-adldap/?utm_medium=product&utm_source=mattermost-advisor-bot&utm_content=adldap)\n\nA Kapcsolat felvételi gombra kattintva megosztja adatait a grommunio, Inc.-vel. [További információk](https://mattermost.com/pl/default-admin-advisory)"
   },
   {
     "id": "api.server.warn_metric.number_of_active_users_100.contact_us.email_body",
@@ -6129,7 +6129,7 @@
   },
   {
     "id": "api.server.warn_metric.mfa.notification_body",
-    "translation": "Az Ön grommunio-chat rendszerében engedélyezve van a többtényezős hitelesítés, amely lehetővé teszi a felhasználók számára, hogy a jelszavukon felül további hitelesítési eszközökkel biztosítsák fiókjukat. A rendszer biztonságának javítása érdekében megkövetelheti az összes grommunio-chat fióktól, hogy többtényezős hitelesítést használjanak.\n\n[További információk a többtényezős hitelesítés kényszerítéséről](https://www.mattermost.com/docs-multi-factor-authentication/?utm_medium=product&utm_source=mattermost-advisor-bot&utm_content=multi-factor-authentication).\n\nA Kapcsolat felvétele gombra kattintva megosztja adatait a grommunio-chat, Inc.-vel. [További információk](https://mattermost.com/pl/default-admin-advisory)"
+    "translation": "Az Ön grommunio-chat rendszerében engedélyezve van a többtényezős hitelesítés, amely lehetővé teszi a felhasználók számára, hogy a jelszavukon felül további hitelesítési eszközökkel biztosítsák fiókjukat. A rendszer biztonságának javítása érdekében megkövetelheti az összes grommunio-chat fióktól, hogy többtényezős hitelesítést használjanak.\n\n[További információk a többtényezős hitelesítés kényszerítéséről](https://www.mattermost.com/docs-multi-factor-authentication/?utm_medium=product&utm_source=mattermost-advisor-bot&utm_content=multi-factor-authentication).\n\nA Kapcsolat felvétele gombra kattintva megosztja adatait a grommunio, Inc.-vel. [További információk](https://mattermost.com/pl/default-admin-advisory)"
   },
   {
     "id": "api.server.warn_metric.mfa.contact_us.email_body",
@@ -6153,7 +6153,7 @@
   },
   {
     "id": "api.server.warn_metric.email_domain.notification_body",
-    "translation": "A projektek gyakran érintenek vállalaton belüli és kívüli embereket egyaránt. A Vendégfiókok segítségével külső partnereket vonhat be a grommunio-chat rendszerébe, és meghatározhatja, kivel dolgozhatnak és mit láthatnak.\n\n[További információ a vendégfiókok engedélyezéséről](https://www.mattermost.com/docs-guest-accounts/?utm_medium=product&utm_source=mattermost-advisor-bot&utm_content=guest-accounts).\n\nA Kapcsolat felvétel gombra kattintva megosztja adatait a grommunio-chat, Inc.-vel. [További információk](https://mattermost.com/pl/default-admin-advisory)"
+    "translation": "A projektek gyakran érintenek vállalaton belüli és kívüli embereket egyaránt. A Vendégfiókok segítségével külső partnereket vonhat be a grommunio-chat rendszerébe, és meghatározhatja, kivel dolgozhatnak és mit láthatnak.\n\n[További információ a vendégfiókok engedélyezéséről](https://www.mattermost.com/docs-guest-accounts/?utm_medium=product&utm_source=mattermost-advisor-bot&utm_content=guest-accounts).\n\nA Kapcsolat felvétel gombra kattintva megosztja adatait a grommunio, Inc.-vel. [További információk](https://mattermost.com/pl/default-admin-advisory)"
   },
   {
     "id": "api.server.warn_metric.email_domain.contact_us.email_body",
@@ -6852,7 +6852,7 @@
   },
   {
     "id": "api.templates.copyright",
-    "translation": "© 2021 grommunio-chat, Inc. 530 Lytton Avenue, Second floor, Palo Alto, CA, 94301"
+    "translation": "© 2021 grommunio, Inc. 530 Lytton Avenue, Second floor, Palo Alto, CA, 94301"
   },
   {
     "id": "api.templates.cloud_welcome_email.title",
