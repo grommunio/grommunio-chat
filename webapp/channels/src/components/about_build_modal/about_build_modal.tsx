@@ -261,7 +261,7 @@ export default class AboutBuildModal extends React.PureComponent<Props, State> {
                             <div className='about-modal__copyright'>
                                 <FormattedMessage
                                     id='about.copyright'
-                                    defaultMessage='Copyright 2015 - {currentYear} grommunio, Inc. All rights reserved'
+                                    defaultMessage='Copyright 2020 - {currentYear} grommunio GmbH. All rights reserved'
                                     values={{
                                         currentYear: new Date().getFullYear(),
                                     }}
@@ -269,8 +269,8 @@ export default class AboutBuildModal extends React.PureComponent<Props, State> {
                             </div>
                             <div className='about-modal__copyright'>
                                 <FormattedMessage
-                                    id='hehexd'
-                                    defaultMessage='Copyright 2020 - {currentYear} Mattermost, Inc. All rights reserved'
+                                    id='about.copyright2'
+                                    defaultMessage='Copyright 2015 - {currentYear} Mattermost, Inc. All rights reserved'
                                     values={{
                                         currentYear: new Date().getFullYear(),
                                     }}
