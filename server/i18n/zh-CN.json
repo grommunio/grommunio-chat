@@ -7003,7 +7003,7 @@
   },
   {
     "id": "api.server.warn_metric.number_of_active_users_200.notification_body",
-    "translation": "您的 grommunio-chat 系统现在有 200 个用户。当您将 grommunio-chat 与您的组织的单一登录提供者连接时，用户无需重新输入凭据即可访问 grommunio-chat。我们建议您将 SAML 2.0 提供者与 grommunio-chat 服务器集成。[深入了解与 SAML 2.0 集成](https://www.mattermost.com/docs-saml/?utm_medium=product&utm_source=mattermost-advisor-bot&utm_content=saml)。\n\n通过单击“联系我们”，您将与 grommunio, Inc. 分享您的信息。[了解更多](https://mattermost.com/pl/default-admin-advisory)"
+    "translation": "您的 grommunio-chat 系统现在有 200 个用户。当您将 grommunio-chat 与您的组织的单一登录提供者连接时，用户无需重新输入凭据即可访问 grommunio-chat。我们建议您将 SAML 2.0 提供者与 grommunio-chat 服务器集成。[深入了解与 SAML 2.0 集成](https://www.mattermost.com/docs-saml/?utm_medium=product&utm_source=mattermost-advisor-bot&utm_content=saml)。\n\n通过单击“联系我们”，您将与 grommunio GmbH 分享您的信息。[了解更多](https://mattermost.com/pl/default-admin-advisory)"
   },
   {
     "id": "api.server.warn_metric.email_us",
@@ -7431,7 +7431,7 @@
   },
   {
     "id": "api.templates.copyright",
-    "translation": "© 2021 grommunio, Inc. 530 Lytton Avenue, Second floor, Palo Alto, CA, 94301"
+    "translation": "© 2021 Mattermost, Inc. 530 Lytton Avenue, Second floor, Palo Alto, CA, 94301"
   },
   {
     "id": "api.roles.patch_roles.not_allowed_permission.error",
@@ -8103,7 +8103,7 @@
   },
   {
     "id": "api.templates.email_footer_v2",
-    "translation": "© 2022 grommunio, Inc. 530 Lytton Avenue, Second floor, Palo Alto, CA, 94301"
+    "translation": "© 2022 Mattermost, Inc. 530 Lytton Avenue, Second floor, Palo Alto, CA, 94301"
   },
   {
     "id": "api.templates.cloud_welcome_email.title",

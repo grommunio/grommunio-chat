@@ -6756,7 +6756,7 @@
   },
   {
     "id": "api.server.warn_metric.number_of_channels_50.notification_body",
-    "translation": "Kanäle tragen dazu bei, die Kommunikation zu verbessern, aber dass alle Benutzer in grommunio-chat Kanäle erstellen und Kanälen beitreten können, vergrößert das Problem der Übersichtlichkeit. Erweiterte Rechte ermöglichen Ihnen festzulegen, welche Benutzer oder Rollen bestimmte Aktionen durchführen dürfen, einschließlich der Verwaltung von Kanaleinstellungen und -mitgliedern, der Nutzung von @channel oder @here, um große Gruppen von Mitgliedern zu benachrichtigen, und der Erstellung von neuen Webhooks.\n\n[Mehr über erweiterte Rechte](https://www.mattermost.com/docs-advanced-permissions/?utm_medium=product&utm_source=mattermost-advisor-bot&utm_content=advanced-permissions)\n\nDurch Klicken auf \"Kontakt\" teilst du deine Daten mit grommunio, Inc. [mehr](https://mattermost.com/pl/default-admin-advisory)"
+    "translation": "Kanäle tragen dazu bei, die Kommunikation zu verbessern, aber dass alle Benutzer in grommunio-chat Kanäle erstellen und Kanälen beitreten können, vergrößert das Problem der Übersichtlichkeit. Erweiterte Rechte ermöglichen Ihnen festzulegen, welche Benutzer oder Rollen bestimmte Aktionen durchführen dürfen, einschließlich der Verwaltung von Kanaleinstellungen und -mitgliedern, der Nutzung von @channel oder @here, um große Gruppen von Mitgliedern zu benachrichtigen, und der Erstellung von neuen Webhooks.\n\n[Mehr über erweiterte Rechte](https://www.mattermost.com/docs-advanced-permissions/?utm_medium=product&utm_source=mattermost-advisor-bot&utm_content=advanced-permissions)\n\nDurch Klicken auf \"Kontakt\" teilst du deine Daten mit grommunio GmbH [mehr](https://mattermost.com/pl/default-admin-advisory)"
   },
   {
     "id": "api.back_to_app",
@@ -7455,7 +7455,7 @@
   },
   {
     "id": "api.server.warn_metric.mfa.notification_body",
-    "translation": "Dein grommunio-chat System hat Multi-Faktor Authentifizierung aktiviert, was Benutzern die Möglichkeit gibt ihre Konten mit über das Passwort hinausgehende Authentifizierung abzusichern. Um die Sicherheit im gesamten System zu erhöhen, kannst du bei alle Konten Multi-Faktor Authentifizierung erzwingen.\n\n[Lerne mehr über erzwungene Multi-Faktor Authentifizierung] (https://www.mattermost.com/docs-multi-factor-authentication/?utm_medium=product&utm_source=mattermost-advisor-bot&utm_content=multi-factor-authentication). \n\nDurch das Anklicken von Kontaktiere Uns, teilst du Daten mit grommunio, Inc. [Erfahren Sie mehr](https://mattermost.com/pl/default-admin-advisory)"
+    "translation": "Dein grommunio-chat System hat Multi-Faktor Authentifizierung aktiviert, was Benutzern die Möglichkeit gibt ihre Konten mit über das Passwort hinausgehende Authentifizierung abzusichern. Um die Sicherheit im gesamten System zu erhöhen, kannst du bei alle Konten Multi-Faktor Authentifizierung erzwingen.\n\n[Lerne mehr über erzwungene Multi-Faktor Authentifizierung] (https://www.mattermost.com/docs-multi-factor-authentication/?utm_medium=product&utm_source=mattermost-advisor-bot&utm_content=multi-factor-authentication). \n\nDurch das Anklicken von Kontaktiere Uns, teilst du Daten mit grommunio GmbH [Erfahren Sie mehr](https://mattermost.com/pl/default-admin-advisory)"
   },
   {
     "id": "api.server.warn_metric.mfa.contact_us.email_body",
@@ -7479,7 +7479,7 @@
   },
   {
     "id": "api.server.warn_metric.email_domain.notification_body",
-    "translation": "Projekte involvieren häufig Personen innerhalb und außerhalb einer Organisation. Mit Gastkonten kannst du externe Partner in dein grommunio-chat System einbinden und festlegen, mit wem diese arbeiten und was diese sehen dürfen.\n\n[Lerne mehr über das Aktivieren von Gastkonten](https://www.mattermost.com/docs-guest-accounts/?utm_medium=product&utm_source=mattermost-advisor-bot&utm_content=guest-accounts).\n\nDurch das Anklicken von Kontaktiere Uns, teilst du Daten mit grommunio, Inc. [Erfahren Sie mehr](https://mattermost.com/pl/default-admin-advisory)"
+    "translation": "Projekte involvieren häufig Personen innerhalb und außerhalb einer Organisation. Mit Gastkonten kannst du externe Partner in dein grommunio-chat System einbinden und festlegen, mit wem diese arbeiten und was diese sehen dürfen.\n\n[Lerne mehr über das Aktivieren von Gastkonten](https://www.mattermost.com/docs-guest-accounts/?utm_medium=product&utm_source=mattermost-advisor-bot&utm_content=guest-accounts).\n\nDurch das Anklicken von Kontaktiere Uns, teilst du Daten mit grommunio GmbH [Erfahren Sie mehr](https://mattermost.com/pl/default-admin-advisory)"
   },
   {
     "id": "api.server.warn_metric.email_domain.contact_us.email_body",
@@ -7571,7 +7571,7 @@
   },
   {
     "id": "api.server.warn_metric.number_of_active_users_200.notification_body",
-    "translation": "Dein grommunio-chat System hat jetzt 200 Benutzer. Wenn du grommunio-chat an den Single-Sign-On Provider deiner Organisation anbindest, können Benutzer auf grommunio-chat zugreifen, ohne ihre Anmeldeinformationen erneut einzugeben. Wir empfehlen, dass du deinen SAML 2.0 Provider in deinen grommunio-chat Server integrierst. [Lerne mehr über die SAML 2.0 Integration] (https://www.mattermost.com/docs-saml/?utm_medium=product&utm_source=mattermost-advisor-bot&utm_content=saml).\n\nDurch das Anklicken von Kontaktiere Uns, teilst du Daten mit grommunio, Inc. [Erfahren Sie mehr](https://mattermost.com/pl/default-admin-advisory)"
+    "translation": "Dein grommunio-chat System hat jetzt 200 Benutzer. Wenn du grommunio-chat an den Single-Sign-On Provider deiner Organisation anbindest, können Benutzer auf grommunio-chat zugreifen, ohne ihre Anmeldeinformationen erneut einzugeben. Wir empfehlen, dass du deinen SAML 2.0 Provider in deinen grommunio-chat Server integrierst. [Lerne mehr über die SAML 2.0 Integration] (https://www.mattermost.com/docs-saml/?utm_medium=product&utm_source=mattermost-advisor-bot&utm_content=saml).\n\nDurch das Anklicken von Kontaktiere Uns, teilst du Daten mit grommunio GmbH [Erfahren Sie mehr](https://mattermost.com/pl/default-admin-advisory)"
   },
   {
     "id": "api.server.warn_metric.number_of_active_users_200.contact_us.email_body",
@@ -7591,7 +7591,7 @@
   },
   {
     "id": "api.server.warn_metric.number_of_active_users_100.notification_body",
-    "translation": "Dein grommunio-chat System hat über 100 Benutzer. Mit wachsender Benutzeranzahl, wird das Einrichten neuer Konten immer zeitaufwändiger. Wir empfehlen das Active Directory/LDAP deiner Organisation zu integrieren, was jedem mit einem Konto erlaubt auf grommunio-chat zuzugreifen.\n\n[Lerne mehr über die Integration von AD/LDAP] (https://www.mattermost.com/docs-adldap/?utm_medium=product&utm_source=mattermost-advisor-bot&utm_content=adldap). \n\nDurch das Anklicken von Kontaktiere Uns, teilst du Daten mit grommunio, Inc. [Erfahren Sie mehr](https://mattermost.com/pl/default-admin-advisory)"
+    "translation": "Dein grommunio-chat System hat über 100 Benutzer. Mit wachsender Benutzeranzahl, wird das Einrichten neuer Konten immer zeitaufwändiger. Wir empfehlen das Active Directory/LDAP deiner Organisation zu integrieren, was jedem mit einem Konto erlaubt auf grommunio-chat zuzugreifen.\n\n[Lerne mehr über die Integration von AD/LDAP] (https://www.mattermost.com/docs-adldap/?utm_medium=product&utm_source=mattermost-advisor-bot&utm_content=adldap). \n\nDurch das Anklicken von Kontaktiere Uns, teilst du Daten mit grommunio GmbH [Erfahren Sie mehr](https://mattermost.com/pl/default-admin-advisory)"
   },
   {
     "id": "api.server.warn_metric.number_of_active_users_100.contact_us.email_body",
@@ -7635,7 +7635,7 @@
   },
   {
     "id": "api.server.warn_metric.number_of_active_users_500.notification_body",
-    "translation": "grommunio-chat empfiehlt dringend, dass Installationen mit mehr als 500 Benutzern die Vorteile von Funktionen, wie Benutzermanagement, Server Clustering und Performanzüberwachung nutzen. Kontaktiere uns um mehr darüber zu erfahren und teile uns mit, wie wir dir helfen können.\n\nDurch Anklicken von Kontaktiere uns, teilst du Informationen mit grommunio, Inc. [Mehr dazu](https://mattermost.com/pl/default-admin-advisory)"
+    "translation": "grommunio-chat empfiehlt dringend, dass Installationen mit mehr als 500 Benutzern die Vorteile von Funktionen, wie Benutzermanagement, Server Clustering und Performanzüberwachung nutzen. Kontaktiere uns um mehr darüber zu erfahren und teile uns mit, wie wir dir helfen können.\n\nDurch Anklicken von Kontaktiere uns, teilst du Informationen mit grommunio GmbH [Mehr dazu](https://mattermost.com/pl/default-admin-advisory)"
   },
   {
     "id": "api.server.warn_metric.number_of_active_users_500.contact_us.email_body",
@@ -7647,7 +7647,7 @@
   },
   {
     "id": "api.server.warn_metric.number_of_active_users_300.notification_body",
-    "translation": "Mit der Masse an Kommunikation, die in grommunio-chat passiert, kann es schwierig sein zu wissen, wo wichtige Informationen gefunden werden können. Wenn du eine Nachricht an ein breites Publikum senden willst, kannst du Nur-Lesbare Ankündigungskanäle erstellen, denen jedermann beitreten kann, in die aber nur Administratoren Nachrichten schreiben können.\n\n[Lerne mehr über das Erstellen von Nur-Lesbaren Ankündigungskanälen](https://www.mattermost.com/docs-channel-moderation/?utm_medium=product&utm_source=mattermost-advisor-bot&utm_content=channel-moderation)\n\nDurch Anklicken von \"Kontaktiere uns\" teilst du Informationen mit grommunio, Inc. [Mehr dazu](https://mattermost.com/pl/default-admin-advisory)"
+    "translation": "Mit der Masse an Kommunikation, die in grommunio-chat passiert, kann es schwierig sein zu wissen, wo wichtige Informationen gefunden werden können. Wenn du eine Nachricht an ein breites Publikum senden willst, kannst du Nur-Lesbare Ankündigungskanäle erstellen, denen jedermann beitreten kann, in die aber nur Administratoren Nachrichten schreiben können.\n\n[Lerne mehr über das Erstellen von Nur-Lesbaren Ankündigungskanälen](https://www.mattermost.com/docs-channel-moderation/?utm_medium=product&utm_source=mattermost-advisor-bot&utm_content=channel-moderation)\n\nDurch Anklicken von \"Kontaktiere uns\" teilst du Informationen mit grommunio GmbH [Mehr dazu](https://mattermost.com/pl/default-admin-advisory)"
   },
   {
     "id": "api.server.warn_metric.number_of_active_users_300.contact_us.email_body",
@@ -7711,7 +7711,7 @@
   },
   {
     "id": "api.server.warn_metric.number_of_teams_5.notification_body",
-    "translation": "Deine grommunio-chat Umgebung hat jetzt mehrere Teams. Viele Teams habe ihren eigenen, bevorzugten Weg der Koordination und Zusammenarbeit, unter anderem, wie Kanäle erstellt werden, wer neue Teammitglieder einladen kann und wie Integrationen verwaltet werden. Team Übersteuerungsschemata erlauben es Ihnen, Benutzerberechtigungen in jedem Team auf dessen speziellen Bedürfnisse anzupassen.\n\n[Mehr über erweiterte Rechte](https://www.mattermost.com/docs-advanced-permissions-team-override/?utm_medium=product&utm_source=mattermost-advisor-bot&utm_content=advanced-permissions-team-override)\n\nDurch Klicken auf \"Kontakt\" teilst du deine Daten mit grommunio, Inc. [mehr](https://mattermost.com/pl/default-admin-advisory)"
+    "translation": "Deine grommunio-chat Umgebung hat jetzt mehrere Teams. Viele Teams habe ihren eigenen, bevorzugten Weg der Koordination und Zusammenarbeit, unter anderem, wie Kanäle erstellt werden, wer neue Teammitglieder einladen kann und wie Integrationen verwaltet werden. Team Übersteuerungsschemata erlauben es Ihnen, Benutzerberechtigungen in jedem Team auf dessen speziellen Bedürfnisse anzupassen.\n\n[Mehr über erweiterte Rechte](https://www.mattermost.com/docs-advanced-permissions-team-override/?utm_medium=product&utm_source=mattermost-advisor-bot&utm_content=advanced-permissions-team-override)\n\nDurch Klicken auf \"Kontakt\" teilst du deine Daten mit grommunio GmbH [mehr](https://mattermost.com/pl/default-admin-advisory)"
   },
   {
     "id": "api.server.warn_metric.number_of_teams_5.contact_us.email_body",
@@ -7727,7 +7727,7 @@
   },
   {
     "id": "api.server.warn_metric.number_of_posts_2M.notification_body",
-    "translation": "Dein grommunio-chat Umgebung hat eine große Anzahl an Nachrichten. Die standardmäßige grommunio-chat-Datenbanksuche beginnt bei ungefähr 2.5 Millionen Nachrichten ein Nachlassen der Leistung zu zeigen. Bei über 5 Millionen Nachrichten kann Elasticsearch signifikante Leistungseinbrüche, wie Timeouts bei der Suche und @-Erwähnungen, vermeiden. Kontaktiere uns um mehr zu erfahren und lasse uns wissen, wie wir dich unterstützen können.\n\n[Lerne mehr über die Verbesserung der Leistung](https://www.mattermost.com/docs-elasticsearch/?utm_medium=product&utm_source=mattermost-advisor-bot&utm_content=elasticsearch)\n\nDurch Anklicken von \"Kontaktiere Uns\", teilst du Informationen mit grommunio, Inc. [Mehr Information](https://mattermost.com/pl/default-admin-advisory)"
+    "translation": "Dein grommunio-chat Umgebung hat eine große Anzahl an Nachrichten. Die standardmäßige grommunio-chat-Datenbanksuche beginnt bei ungefähr 2.5 Millionen Nachrichten ein Nachlassen der Leistung zu zeigen. Bei über 5 Millionen Nachrichten kann Elasticsearch signifikante Leistungseinbrüche, wie Timeouts bei der Suche und @-Erwähnungen, vermeiden. Kontaktiere uns um mehr zu erfahren und lasse uns wissen, wie wir dich unterstützen können.\n\n[Lerne mehr über die Verbesserung der Leistung](https://www.mattermost.com/docs-elasticsearch/?utm_medium=product&utm_source=mattermost-advisor-bot&utm_content=elasticsearch)\n\nDurch Anklicken von \"Kontaktiere Uns\", teilst du Informationen mit grommunio GmbH [Mehr Information](https://mattermost.com/pl/default-admin-advisory)"
   },
   {
     "id": "api.server.warn_metric.number_of_posts_2M.notification_title",
@@ -7799,11 +7799,11 @@
   },
   {
     "id": "api.templates.email_footer_v2",
-    "translation": "© 2022 grommunio, Inc. 530 Lytton Avenue, Second floor, Palo Alto, CA, 94301"
+    "translation": "© 2022 Mattermost, Inc. 530 Lytton Avenue, Second floor, Palo Alto, CA, 94301"
   },
   {
     "id": "api.templates.copyright",
-    "translation": "© 2021 grommunio, Inc. 530 Lytton Avenue, Second floor, Palo Alto, CA, 94301"
+    "translation": "© 2021 Mattermost, Inc. 530 Lytton Avenue, Second floor, Palo Alto, CA, 94301"
   },
   {
     "id": "api.templates.cloud_welcome_email.title",

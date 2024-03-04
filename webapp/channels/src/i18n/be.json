@@ -1,7 +1,7 @@
 {
   "about.buildnumber": "Нумар Зборкi:",
   "about.cloudEdition": "Воблака",
-  "about.copyright": "Copyright 2015 - {currentYear} grommunio, Inc. Усе правы абаронены",
+  "about.copyright": "Copyright 2020 - {currentYear} grommunio GmbH Усе правы абаронены",
   "about.database": "База дадзеных:",
   "about.date": "Дата зборкі:",
   "about.dbversion": "Версія схемы базы дадзеных:",
@@ -4615,7 +4615,7 @@
   "warn_metric_ack_modal.number_of_posts.description": "У сістэме grommunio-chat ёсць вялікая колькасць паведамленняў. Пошук у базе дадзеных grommunio-chat па змаўчанні пачынае паказваць зніжэнне прадукцыйнасці прыкладна на 2,5 мільёна паведамленняў. З больш чым 5 мільёнамі паведамленняў, Elasticsearch можа дапамагчы пазбегнуць значных праблем з прадукцыйнасцю, такіх як таймаўты пры пошуку і затрымкі. Звяжыцеся з намі, каб пазнаць больш і дайце ведаць, чым мы можам дапамагчы.",
   "warn_metric_ack_modal.number_of_posts.header.title": "Палепшыць прадукцыйнасць",
   "warn_metric_ack_modal.number_of_users.header.title": "Маштабаванне з grommunio-chat",
-  "warn_metric_ack_modal.subtext": "Націснуўшы кнопку Пацвердзіць, вы падзяліцеся сваёй інфармацыяй з кампаніяй grommunio, Inc. {link}",
+  "warn_metric_ack_modal.subtext": "Націснуўшы кнопку Пацвердзіць, вы падзяліцеся сваёй інфармацыяй з кампаніяй grommunio GmbH {link}",
   "web.footer.about": "Пра сістэму",
   "web.footer.help": "Даведка",
   "web.footer.privacy": "Канфідэнцыйнасць",
