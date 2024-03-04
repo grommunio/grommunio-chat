@@ -1,4 +1,4 @@
-// Copyright (c) 2015-present grommunio GmbH All Rights Reserved.
+// Copyright (c) 2015-present grommunio GmbH. All rights Reserved.
 // See LICENSE.txt for license information.
 
 package i18n

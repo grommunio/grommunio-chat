@@ -7,7 +7,7 @@
   "TWO_THOUSAND_FIVE_HUNDRED_AND_UP": "2501-5000",
   "about.buildnumber": "Build Number:",
   "about.cloudEdition": "Cloud",
-  "about.copyright": "Copyright 2020 - {currentYear} grommunio GmbH All rights reserved",
+  "about.copyright": "Copyright 2020 - {currentYear} grommunio GmbH. All rights reserved",
   "about.database": "Database:",
   "about.date": "Build Date:",
   "about.dbversion": "Database Schema Version:",
