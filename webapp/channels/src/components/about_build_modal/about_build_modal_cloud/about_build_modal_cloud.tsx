@@ -73,7 +73,7 @@ export default function AboutBuildModalCloud(props: Props) {
                 >
                     <FormattedMessage
                         id='about.title'
-                        values={{appTitle: config.SiteName || 'Mattermost'}}
+                        values={{appTitle: config.SiteName || 'grommunio chat'}}
                         defaultMessage='About {appTitle}'
                     />
                 </Modal.Title>
@@ -85,14 +85,14 @@ export default function AboutBuildModalCloud(props: Props) {
                     </div>
                     <div>
                         <h3 className='about-modal__title'>
-                            <strong>{'Mattermost'} {title}</strong>
+                            <strong>{'grommunio chat'} {title}</strong>
                         </h3>
                         <p className='subtitle'>{subTitle}</p>
                         <div className='description'>
                             <div data-testid='aboutModalVersion'>
                                 <FormattedMessage
                                     id='about.version'
-                                    defaultMessage='Mattermost Version:'
+                                    defaultMessage='grommunio chat Version:'
                                 />
                                 <span id='versionString'>{'\u00a0' + config.Version}</span>
                             </div>
@@ -101,11 +101,11 @@ export default function AboutBuildModalCloud(props: Props) {
                         <div className='about-footer'>
                             <FormattedMessage
                                 id='about.notice'
-                                defaultMessage='Mattermost is made possible by the open source software used in our <linkServer>server</linkServer>, <linkDesktop>desktop</linkDesktop> and <linkMobile>mobile</linkMobile> apps.'
+                                defaultMessage='grommunio chat is made possible by the open source software used in our <linkServer>server</linkServer>, <linkDesktop>desktop</linkDesktop> and <linkMobile>mobile</linkMobile> apps.'
                                 values={{
                                     linkServer: (msg: React.ReactNode) => (
                                         <ExternalLink
-                                            href='https://github.com/mattermost/mattermost-server/blob/master/NOTICE.txt'
+                                            href='ttps://github.com/grommunio/grommunio-chat'
                                             location='about_build_modal_cloud'
                                         >
                                             {msg}
@@ -113,7 +113,7 @@ export default function AboutBuildModalCloud(props: Props) {
                                     ),
                                     linkDesktop: (msg: React.ReactNode) => (
                                         <ExternalLink
-                                            href='https://github.com/mattermost/desktop/blob/master/NOTICE.txt'
+                                            href='https://github.com/grommunio/grommunio-desktop'
                                             location='about_build_modal_cloud'
                                         >
                                             {msg}
@@ -121,7 +121,7 @@ export default function AboutBuildModalCloud(props: Props) {
                                     ),
                                     linkMobile: (msg: React.ReactNode) => (
                                         <ExternalLink
-                                            href='https://github.com/mattermost/mattermost-mobile/blob/master/NOTICE.txt'
+                                            href='https://github.com/grommunio/grommunio-chat-mobile'
                                             location='about_build_modal_cloud'
                                         >
                                             {msg}
@@ -131,7 +131,16 @@ export default function AboutBuildModalCloud(props: Props) {
                             />
                             <div className='copy-right'>
                                 <FormattedMessage
-                                    id='about.copyright'
+                                    id='about.copyright_grommunio'
+                                    defaultMessage='Copyright 2020 - {currentYear} grommunio GmbH. All rights reserved'
+                                    values={{
+                                        currentYear: new Date().getFullYear(),
+                                    }}
+                                />
+                            </div>
+                            <div className='copy-right'>
+                                <FormattedMessage
+                                    id='about.copyright_mattermost'
                                     defaultMessage='Copyright 2015 - {currentYear} Mattermost, Inc. All rights reserved'
                                     values={{
                                         currentYear: new Date().getFullYear(),

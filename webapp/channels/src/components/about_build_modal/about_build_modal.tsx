@@ -83,13 +83,13 @@ export default class AboutBuildModal extends React.PureComponent<Props, State> {
             <div>
                 <FormattedMessage
                     id='about.teamEditionLearn'
-                    defaultMessage='Join the Mattermost community at '
+                    defaultMessage='Join the grommunio chat community at '
                 />
                 <ExternalLink
                     location='about_build_modal'
-                    href='https://mattermost.com/community/'
+                    href='https://community.grommunio.com'
                 >
-                    {'mattermost.com/community/'}
+                    {'community.grommunio.com'}
                 </ExternalLink>
             </div>
         );
@@ -118,9 +118,9 @@ export default class AboutBuildModal extends React.PureComponent<Props, State> {
                     />
                     <ExternalLink
                         location='about_build_modal'
-                        href='https://mattermost.com/'
+                        href='https://grommunio.com/'
                     >
-                        {'mattermost.com'}
+                        {'grommunio.com'}
                     </ExternalLink>
                 </div>
             );
@@ -199,7 +199,7 @@ export default class AboutBuildModal extends React.PureComponent<Props, State> {
                         <FormattedMessage
                             id='about.title'
                             values={{
-                                appTitle: config.SiteName || 'Mattermost',
+                                appTitle: config.SiteName || 'grommunio chat',
                             }}
                             defaultMessage='About {appTitle}'
                         />
@@ -213,7 +213,7 @@ export default class AboutBuildModal extends React.PureComponent<Props, State> {
                         <div>
                             <h3 className='about-modal__title'>
                                 <strong>
-                                    {'Mattermost'} {title}
+                                    {'grommunio chat'} {title}
                                 </strong>
                             </h3>
                             <p className='about-modal__subtitle pb-2'>
@@ -223,7 +223,7 @@ export default class AboutBuildModal extends React.PureComponent<Props, State> {
                                 <div data-testid='aboutModalVersion'>
                                     <FormattedMessage
                                         id='about.version'
-                                        defaultMessage='Mattermost Version:'
+                                        defaultMessage='grommunio chat Version:'
                                     />
                                     <span id='versionString'>
                                         {'\u00a0' + mmversion}
@@ -252,10 +252,20 @@ export default class AboutBuildModal extends React.PureComponent<Props, State> {
                     </div>
                     <div className='about-modal__footer'>
                         {learnMore}
+                        <div className='about-modal__copyright'>
+                                <FormattedMessage
+                                    id='about.copyright_grommunio'
+                                    defaultMessage='Copyright 2020 - {currentYear} grommunio GmbH. All rights reserved'
+                                    values={{
+                                        currentYear: new Date().getFullYear(),
+                                    }}
+                                />
+                            </div>
+
                         <div className='form-group'>
                             <div className='about-modal__copyright'>
                                 <FormattedMessage
-                                    id='about.copyright'
+                                    id='about.copyright_mattermost'
                                     defaultMessage='Copyright 2015 - {currentYear} Mattermost, Inc. All rights reserved'
                                     values={{
                                         currentYear: new Date().getFullYear(),
@@ -273,12 +283,12 @@ export default class AboutBuildModal extends React.PureComponent<Props, State> {
                         <p>
                             <FormattedMessage
                                 id='about.notice'
-                                defaultMessage='Mattermost is made possible by the open source software used in our <linkServer>server</linkServer>, <linkDesktop>desktop</linkDesktop> and <linkMobile>mobile</linkMobile> apps.'
+                                defaultMessage='grommunio chat is made possible by the open source software used in our <linkServer>server</linkServer>, <linkDesktop>desktop</linkDesktop> and <linkMobile>mobile</linkMobile> apps.'
                                 values={{
                                     linkServer: (msg: React.ReactNode) => (
                                         <ExternalLink
                                             location='about_build_modal'
-                                            href='https://github.com/mattermost/mattermost-server/blob/master/NOTICE.txt'
+                                            href='https://github.com/grommunio/grommunio-chat'
                                         >
                                             {msg}
                                         </ExternalLink>
@@ -286,7 +296,7 @@ export default class AboutBuildModal extends React.PureComponent<Props, State> {
                                     linkDesktop: (msg: React.ReactNode) => (
                                         <ExternalLink
                                             location='about_build_modal'
-                                            href='https://github.com/mattermost/desktop/blob/master/NOTICE.txt'
+                                            href='https://github.com/grommunio/grommunio-desktop'
                                         >
                                             {msg}
                                         </ExternalLink>
@@ -294,7 +304,7 @@ export default class AboutBuildModal extends React.PureComponent<Props, State> {
                                     linkMobile: (msg: React.ReactNode) => (
                                         <ExternalLink
                                             location='about_build_modal'
-                                            href='https://github.com/mattermost/mattermost-mobile/blob/master/NOTICE.txt'
+                                            href='https://github.com/grommunio/grommunio-chat-mobile'
                                         >
                                             {msg}
                                         </ExternalLink>
