@@ -30,7 +30,7 @@ export default function SelfHostedExpansionSuccessPage(props: Props) {
     const formattedSubtitleText = (
         <FormattedMessage
             id={'self_hosted_expansion.license_applied'}
-            defaultMessage={'The license has been automatically applied to your Mattermost instance. Your updated invoice will be visible in the <billing>Billing section</billing> of the system console.'}
+            defaultMessage={'The license has been automatically applied to your grommunio chat instance. Your updated invoice will be visible in the <billing>Billing section</billing> of the system console.'}
             values={{
                 billing: (billingText: React.ReactNode) => (
                     <a

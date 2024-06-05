@@ -153,7 +153,7 @@ function StartTrialFormModal(props: Props): JSX.Element | null {
                 subtitle = (
                     <FormattedMessage
                         id='admin.license.trial-request.embargoed'
-                        defaultMessage='We were unable to process the request due to limitations for embargoed countries. <link>Learn more in our documentation</link>, or reach out to legal@mattermost.com for questions around export limitations.'
+                        defaultMessage='We were unable to process the request due to limitations for embargoed countries. <link>Learn more in our documentation</link>, or reach out to legal@grommunio.com for questions around export limitations.'
                         values={{
                             link: (text: string) => (
                                 <ExternalLink
@@ -319,7 +319,7 @@ function StartTrialFormModal(props: Props): JSX.Element | null {
                 <div className='disclaimer'>
                     <FormattedMessage
                         id='start_trial_form.disclaimer'
-                        defaultMessage='By selecting Start trial, I agree to the <agreement>Mattermost Software Evaluation Agreement</agreement>, <privacypolicy>Privacy Policy</privacypolicy>, and receiving product emails.'
+                        defaultMessage='By selecting Start trial, I agree to the <agreement>grommunio chat Software Evaluation Agreement</agreement>, <privacypolicy>Privacy Policy</privacypolicy>, and receiving product emails.'
                         values={{
                             agreement: (msg: React.ReactNode) => (
                                 <ExternalLink

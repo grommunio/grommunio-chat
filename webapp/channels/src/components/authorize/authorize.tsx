@@ -132,7 +132,7 @@ export default class Authorize extends React.PureComponent<Props, State> {
                         <div className='text'>
                             <FormattedMarkdownMessage
                                 id='authorize.title'
-                                defaultMessage='Authorize **{appName}** to Connect to Your **Mattermost** User Account'
+                                defaultMessage='Authorize **{appName}** to Connect to Your **grommunio chat** User Account'
                                 values={{
                                     appName: app.name,
                                 }}

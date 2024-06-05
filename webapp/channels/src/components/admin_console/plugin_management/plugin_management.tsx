@@ -1121,7 +1121,7 @@ class PluginManagement extends AdminSettings<Props, State> {
                                     helpText={
                                         <FormattedMessage
                                             id='admin.plugins.settings.requirePluginSignatureDesc'
-                                            defaultMessage='When true, uploading plugins is disabled and may only be installed through the Marketplace. Plugins are always verified during Mattermost server startup and initialization. See <link>documentation</link> to learn more.'
+                                            defaultMessage='When true, uploading plugins is disabled and may only be installed through the Marketplace. Plugins are always verified during grommunio chat server startup and initialization. See <link>documentation</link> to learn more.'
                                             values={{
                                                 link: (msg: React.ReactNode) => (
                                                     <ExternalLink

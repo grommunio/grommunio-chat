@@ -127,7 +127,7 @@ const RequestBusinessEmailModal = (
             <div className='start-trial-email-disclaimer'>
                 <FormattedMessage
                     id='request_business_email.start_trial.modal.disclaimer'
-                    defaultMessage='By selecting <highlight>“Start trial”</highlight>, I agree to the <linkEvaluation>Mattermost Software and Services License Agreement</linkEvaluation>, <linkPrivacy>privacy policy</linkPrivacy> and receiving product emails.'
+                    defaultMessage='By selecting <highlight>“Start trial”</highlight>, I agree to the <linkEvaluation>grommunio chat Software and Services License Agreement</linkEvaluation>, <linkPrivacy>privacy policy</linkPrivacy> and receiving product emails.'
                     values={{
                         highlight: (msg: React.ReactNode) => (
                             <strong>
