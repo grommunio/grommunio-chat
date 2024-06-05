@@ -11,7 +11,6 @@ import {loadStatusesForChannelAndSidebar} from 'actions/status_actions';
 
 import CenterChannel from 'components/channel_layout/center_channel';
 import LoadingScreen from 'components/loading_screen';
-import ProductNoticesModal from 'components/product_notices_modal';
 import ResetStatusModal from 'components/reset_status_modal';
 import Sidebar from 'components/sidebar';
 import UnreadsStatusHandler from 'components/unreads_status_handler';
@@ -64,7 +63,6 @@ export default function ChannelController(props: Props) {
                 data-testid='channel_view'
             >
                 <UnreadsStatusHandler/>
-                <ProductNoticesModal/>
                 <div className={classNames('container-fluid channel-view-inner')}>
                     {props.shouldRenderCenterChannel ? <CenterChannel/> : <LoadingScreen centered={true}/>}
                     <Pluggable pluggableName='Root'/>
