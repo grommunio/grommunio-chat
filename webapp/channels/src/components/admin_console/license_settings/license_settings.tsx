@@ -32,8 +32,6 @@ import StarterLeftPanel, {messages as licenseSettingsStarterEditionMessages} fro
 import StarterRightPanel from './starter_edition/starter_right_panel';
 import TeamEditionLeftPanel from './team_edition/team_edition_left_panel';
 import TeamEditionRightPanel from './team_edition/team_edition_right_panel';
-import TrialBanner from './trial_banner/trial_banner';
-import TrialLicenseCard from './trial_license_card/trial_license_card';
 
 import './license_settings.scss';
 
@@ -353,38 +351,11 @@ export default class LicenseSettings extends React.PureComponent<Props, State> {
                 </AdminHeader>
                 <div className='admin-console__wrapper'>
                     <div className='admin-console__content'>
-                        <div className='admin-console__banner_section'>
-                            {!this.state.clickNormalUpgradeBtn && license.IsLicensed !== 'true' &&
-                                this.props.prevTrialLicense?.IsLicensed !== 'true' &&
-                                <TrialBanner
-                                    isDisabled={isDisabled}
-                                    gettingTrialResponseCode={this.state.gettingTrialResponseCode}
-                                    gettingTrialError={this.state.gettingTrialError}
-                                    gettingTrial={this.state.gettingTrial}
-                                    enterpriseReady={this.props.enterpriseReady}
-                                    upgradingPercentage={this.state.upgradingPercentage}
-                                    handleUpgrade={this.handleUpgrade}
-                                    upgradeError={this.state.upgradeError}
-                                    restartError={this.state.restartError}
-                                    handleRestart={this.handleRestart}
-                                    restarting={this.state.restarting}
-                                    openEEModal={this.openEELicenseModal}
-                                />
-                            }
-                            {this.renewLicenseCard()}
-                        </div>
                         <div className='top-wrapper'>
                             <div className='left-panel'>
                                 <div className='panel-card'>
                                     {leftPanel}
                                 </div>
-                                {(!isTrialLicense(license)) && this.termsAndPolicy}
-                            </div>
-                            <div className='right-panel'>
-                                <div className='panel-card'>
-                                    {rightPanel}
-                                </div>
-                                {!isEnterpriseOrE20License(license) && this.comparePlans}
                             </div>
                         </div>
                     </div>
@@ -398,9 +369,8 @@ export default class LicenseSettings extends React.PureComponent<Props, State> {
 
         if (isTrialLicense(this.props.license)) {
             return (
-                <TrialLicenseCard
-                    license={this.props.license}
-                />
+                <>
+                </>
             );
         }
         if (isLicenseExpired(this.props.license) || isLicenseExpiring(this.props.license)) {
