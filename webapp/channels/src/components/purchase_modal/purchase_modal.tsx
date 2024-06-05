@@ -34,7 +34,6 @@ import ExternalLink from 'components/external_link';
 import AddressForm from 'components/payment_form/address_form';
 import PaymentForm from 'components/payment_form/payment_form';
 import {STRIPE_CSS_SRC} from 'components/payment_form/stripe';
-import PricingModal from 'components/pricing_modal';
 import RootPortal from 'components/root_portal';
 import SeatsCalculator, {errorInvalidNumber} from 'components/seats_calculator';
 import type {Seats} from 'components/seats_calculator';
@@ -327,13 +326,6 @@ class PurchaseModal extends React.PureComponent<Props, State> {
     };
 
     openPricingModal = (callerInfo: string) => {
-        this.props.actions.openModal({
-            modalId: ModalIdentifiers.PRICING_MODAL,
-            dialogType: PricingModal,
-            dialogProps: {
-                callerCTA: callerInfo,
-            },
-        });
     };
 
     comparePlan = (

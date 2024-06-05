@@ -8,8 +8,6 @@ import {isCurrentLicenseCloud} from 'mattermost-redux/selectors/entities/cloud';
 import {trackEvent} from 'actions/telemetry_actions';
 import {openModal} from 'actions/views/modals';
 
-import PricingModal from 'components/pricing_modal';
-
 import {ModalIdentifiers, TELEMETRY_CATEGORIES} from 'utils/constants';
 
 export type TelemetryProps = {
@@ -29,12 +27,5 @@ export default function useOpenPricingModal() {
         trackEvent(category, 'click_open_pricing_modal', {
             callerInfo: telemetryProps?.trackingLocation,
         });
-        dispatch(openModal({
-            modalId: ModalIdentifiers.PRICING_MODAL,
-            dialogType: PricingModal,
-            dialogProps: {
-                callerCTA: telemetryProps?.trackingLocation,
-            },
-        }));
     };
 }
