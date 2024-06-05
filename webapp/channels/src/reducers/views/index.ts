@@ -6,7 +6,6 @@ import {combineReducers} from 'redux';
 import addChannelCtaDropdown from './add_channel_cta_dropdown';
 import addChannelDropdown from './add_channel_dropdown';
 import admin from './admin';
-import announcementBar from './announcement_bar';
 import browser from './browser';
 import channel from './channel';
 import channelSelectorModal from './channel_selector_modal';
@@ -32,7 +31,6 @@ import threads from './threads';
 
 export default combineReducers({
     admin,
-    announcementBar,
     browser,
     channel,
     rhs,

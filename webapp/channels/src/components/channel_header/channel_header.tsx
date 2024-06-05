@@ -75,7 +75,6 @@ export type Props = {
         showChannelMembers: (channelId: string, inEditingMode?: boolean) => void;
     };
     currentRelativeTeamUrl: string;
-    announcementBarCount: number;
     customStatus?: UserCustomStatus;
     isCustomStatusEnabled: boolean;
     isCustomStatusExpired: boolean;
@@ -204,7 +203,7 @@ class ChannelHeader extends React.PureComponent<Props, State> {
         }
 
         // add 40px to take the global header into account
-        const topOffset = (announcementBarSize * this.props.announcementBarCount) + 40;
+        const topOffset = (announcementBarSize) + 40;
         const channelHeaderPoverWidth = this.headerDescriptionRef.current?.clientWidth || 0 - (this.props.hasMoreThanOneTeam ? 64 : 0);
 
         this.setState({topOffset});

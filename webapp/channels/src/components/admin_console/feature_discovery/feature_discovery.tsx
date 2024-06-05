@@ -10,10 +10,7 @@ import type {ClientLicense} from '@mattermost/types/config';
 
 import {trackEvent} from 'actions/telemetry_actions';
 
-import {EmbargoedEntityTrialError} from 'components/admin_console/license_settings/trial_banner/trial_banner';
 import AlertBanner from 'components/alert_banner';
-import ContactUsButton from 'components/announcement_bar/contact_sales/contact_us';
-import PurchaseLink from 'components/announcement_bar/purchase_link/purchase_link';
 import CloudStartTrialButton from 'components/cloud_start_trial/cloud_start_trial_btn';
 import ExternalLink from 'components/external_link';
 import FormattedMarkdownMessage from 'components/formatted_markdown_message';
@@ -148,18 +145,6 @@ export default class FeatureDiscovery extends React.PureComponent<Props, State> 
         return (
             <div className='purchase-card'>
                 <>
-                    <PurchaseLink
-                        eventID='post_trial_purchase_license'
-                        buttonTextElement={
-                            <FormattedMessage
-                                id='admin.license.trialCard.purchase_license'
-                                defaultMessage='Purchase a license'
-                            />
-                        }
-                    />
-                    <ContactUsButton
-                        eventID='post_trial_contact_sales'
-                    />
                 </>
 
             </div>
@@ -355,7 +340,6 @@ export default class FeatureDiscovery extends React.PureComponent<Props, State> 
         if (this.state.gettingTrialError && this.state.gettingTrialResponseCode === 451) {
             gettingTrialError = (
                 <p className='trial-error'>
-                    <EmbargoedEntityTrialError/>
                 </p>
             );
         } else if (this.state.gettingTrialError) {

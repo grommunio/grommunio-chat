@@ -10,8 +10,6 @@ import type {ClientLicense} from '@mattermost/types/config';
 import {Client4} from 'mattermost-redux/client';
 
 import AlertBanner from 'components/alert_banner';
-import ContactUsButton from 'components/announcement_bar/contact_sales/contact_us';
-import RenewalLink from 'components/announcement_bar/renewal_link/';
 import FormattedMarkdownMessage from 'components/formatted_markdown_message';
 
 import {getSkuDisplayName} from 'utils/subscription';
@@ -42,10 +40,6 @@ const RenewLicenseCard: React.FC<RenewLicenseCardProps> = ({license, totalUsers,
     const renewLinkTelemetry = {success: 'renew_license_admin_console_success', error: 'renew_license_admin_console_fail'};
     const contactSalesBtn = (
         <div className='purchase-card'>
-            <ContactUsButton
-                eventID='post_trial_contact_sales'
-                customClass='light-blue-btn'
-            />
         </div>
     );
 
@@ -113,11 +107,6 @@ const RenewLicenseCard: React.FC<RenewLicenseCardProps> = ({license, totalUsers,
                 />
             </div>
             <div className='RenewLicenseCard__buttons'>
-                <RenewalLink
-                    isDisabled={isDisabled}
-                    telemetryInfo={renewLinkTelemetry}
-                    customBtnText={customBtnText}
-                />
                 {showContactSalesBtn && contactSalesBtn}
             </div>
         </div>

@@ -6,7 +6,6 @@ import {FormattedMessage} from 'react-intl';
 
 import type {ClientLicense} from '@mattermost/types/config';
 
-import ContactUsButton from 'components/announcement_bar/contact_sales/contact_us';
 import TwoPeopleChattingSvg from 'components/common/svg_images_components/two_people_chatting_svg';
 import WomanUpArrowsAndCloudsSvg from 'components/common/svg_images_components/woman_up_arrows_and_clouds_svg';
 import WomanWithCardSvg from 'components/common/svg_images_components/woman_with_card_svg';
@@ -35,10 +34,6 @@ const EnterpriseEditionRightPanel = ({
 
     const contactSalesBtn = (
         <div className='purchase-card'>
-            <ContactUsButton
-                eventID='post_trial_contact_sales'
-                customClass='light-blue-btn'
-            />
         </div>
     );
 

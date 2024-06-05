@@ -2,7 +2,6 @@
 // See LICENSE.txt for license information.
 
 import './account_settings_modal';
-import './announcement_bar';
 import './boards';
 import './channel';
 import './channel_header';

@@ -4,8 +4,6 @@
 import React, {useState, useCallback} from 'react';
 import {Route} from 'react-router-dom';
 
-import AnnouncementBar from 'components/announcement_bar';
-
 import type {HeaderProps} from './header';
 
 import './header_footer_route.scss';
@@ -33,7 +31,6 @@ export const HFRoute = ({path, component: Component}: HFRouteProps) => {
             render={() => (
                 <>
                     <React.Suspense fallback={null}>
-                        <AnnouncementBar/>
                     </React.Suspense>
                     <div className='header-footer-route'>
                         <div className='header-footer-route-container'>

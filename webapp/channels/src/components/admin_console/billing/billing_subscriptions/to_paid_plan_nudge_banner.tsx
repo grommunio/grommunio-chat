@@ -14,7 +14,6 @@ import {deprecateCloudFree, get as getPreference} from 'mattermost-redux/selecto
 import {getCurrentUser, isCurrentUserSystemAdmin} from 'mattermost-redux/selectors/entities/users';
 
 import AlertBanner from 'components/alert_banner';
-import AnnouncementBar from 'components/announcement_bar/default_announcement_bar';
 import useOpenCloudPurchaseModal from 'components/common/hooks/useOpenCloudPurchaseModal';
 import useOpenPricingModal from 'components/common/hooks/useOpenPricingModal';
 import useOpenSalesLink from 'components/common/hooks/useOpenSalesLink';
@@ -161,17 +160,8 @@ export const ToPaidPlanBannerDismissable = () => {
     const announcementType = (daysToCloudFreeEnd <= 10) ? AnnouncementBarTypes.CRITICAL : AnnouncementBarTypes.ANNOUNCEMENT;
 
     return (
-        <AnnouncementBar
-            id='cloud-free-deprecation-announcement-bar'
-            type={announcementType}
-            showCloseButton={daysToCloudFreeEnd > 10}
-            onButtonClick={openPricingModal}
-            modalButtonText={t('cloud_billing.nudge_to_paid.view_plans')}
-            modalButtonDefaultText='View plans'
-            message={<FormattedMessage {...message}/>}
-            showLinkAsButton={true}
-            handleClose={showBanner}
-        />
+        <>
+        </>
     );
 };
 

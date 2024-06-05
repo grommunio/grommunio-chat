@@ -10,7 +10,6 @@ import type {Channel} from '@mattermost/types/channels';
 import type {CloudUsage} from '@mattermost/types/cloud';
 import type {Team} from '@mattermost/types/teams';
 
-import AnnouncementBar from 'components/announcement_bar';
 import BackButton from 'components/common/back_button';
 import SiteNameAndDescription from 'components/common/site_name_and_description';
 import DisplayName from 'components/create_team/components/display_name';
@@ -99,7 +98,6 @@ export default class CreateTeam extends React.PureComponent<Props & RouteCompone
 
         return (
             <div>
-                <AnnouncementBar/>
                 <BackButton url={url}/>
                 <div className='col-sm-12'>
                     <div className='signup-team__container'>

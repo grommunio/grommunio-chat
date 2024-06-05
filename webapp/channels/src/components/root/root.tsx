@@ -29,7 +29,6 @@ import BrowserStore from 'stores/browser_store';
 import store from 'stores/redux_store';
 
 import AccessProblem from 'components/access_problem';
-import AnnouncementBarController from 'components/announcement_bar';
 import AppBar from 'components/app_bar/app_bar';
 import {makeAsyncComponent} from 'components/async_load';
 import CloudEffects from 'components/cloud_effects';
@@ -558,7 +557,6 @@ export default class Root extends React.PureComponent<Props, State> {
                         )}
                         <WindowSizeObserver/>
                         <ModalController/>
-                        <AnnouncementBarController/>
                         <SystemNotice/>
                         <GlobalHeader/>
                         <CloudEffects/>

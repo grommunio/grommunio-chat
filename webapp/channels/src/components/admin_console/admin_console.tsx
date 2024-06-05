@@ -14,7 +14,6 @@ import type {ActionResult} from 'mattermost-redux/types/actions';
 
 import SchemaAdminSettings from 'components/admin_console/schema_admin_settings';
 import SearchKeywordMarking from 'components/admin_console/search_keyword_marking';
-import AnnouncementBarController from 'components/announcement_bar';
 import BackstageNavbar from 'components/backstage/components/backstage_navbar';
 import DiscardChangesModal from 'components/discard_changes_modal';
 import ModalController from 'components/modal_controller';
@@ -211,7 +210,6 @@ class AdminConsole extends React.PureComponent<Props, State> {
 
         return (
             <>
-                <AnnouncementBarController/>
                 <SystemNotice/>
                 <BackstageNavbar team={this.props.team}/>
                 <AdminSidebar onSearchChange={this.handleSearchChange}/>

@@ -38,7 +38,6 @@ import {
     showChannelMembers,
 } from 'actions/views/rhs';
 import {getIsRhsOpen, getRhsState} from 'selectors/rhs';
-import {getAnnouncementBarCount} from 'selectors/views/announcement_bar';
 import {makeGetCustomStatus, isCustomStatusEnabled, isCustomStatusExpired} from 'selectors/views/custom_status';
 import {isModalOpen} from 'selectors/views/modals';
 
@@ -102,7 +101,6 @@ function makeMapStateToProps() {
             pinnedPostsCount: stats.pinnedpost_count,
             hasMoreThanOneTeam,
             currentRelativeTeamUrl: getCurrentRelativeTeamUrl(state),
-            announcementBarCount: getAnnouncementBarCount(state),
             customStatus,
             isCustomStatusEnabled: isCustomStatusEnabled(state),
             isCustomStatusExpired: isCustomStatusExpired(state, customStatus),

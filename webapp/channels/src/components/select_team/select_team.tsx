@@ -14,7 +14,6 @@ import {Permissions} from 'mattermost-redux/constants';
 import {emitUserLoggedOutEvent} from 'actions/global_actions';
 import {trackEvent} from 'actions/telemetry_actions.jsx';
 
-import AnnouncementBar from 'components/announcement_bar';
 import BackButton from 'components/common/back_button';
 import InfiniteScroll from 'components/common/infinite_scroll';
 import SiteNameAndDescription from 'components/common/site_name_and_description';
@@ -367,7 +366,6 @@ export default class SelectTeam extends React.PureComponent<Props, State> {
         }
         return (
             <div>
-                <AnnouncementBar/>
                 {headerButton}
                 <div className='col-sm-12'>
                     <div

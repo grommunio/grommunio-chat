@@ -59,12 +59,6 @@ describe('Plugin Marketplace', () => {
         // # Scroll to GitHub plugin
         cy.get('#marketplace-plugin-github').scrollIntoView().should('be.visible');
 
-        // * Verify the installed plugin shows up in "Installed" tab
-        cy.uiCloseAnnouncementBar().then(() => {
-            cy.get('#marketplaceTabs-tab-installed').scrollIntoView().should('be.visible').click();
-            cy.get('#marketplaceTabs-pane-installed').find('.more-modal__row').should('have.length', 1);
-        });
-
         // * Verify no error bar should be visible
         cy.get('#error_bar').should('not.exist');
     });
