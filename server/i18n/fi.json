@@ -661,7 +661,7 @@
   },
   {
     "id": "mattermost.bulletin.subject",
-    "translation": "Mattermost Turvallisuusilmoitus"
+    "translation": "grommunio chat Turvallisuusilmoitus"
   },
   {
     "id": "manaultesting.test_autolink.unable.app_error",
@@ -749,7 +749,7 @@
   },
   {
     "id": "ent.migration.migratetosaml.username_already_used_by_other_user",
-    "translation": "Käyttäjätunnus on jo toisen Mattermost-käyttäjän käytössä."
+    "translation": "Käyttäjätunnus on jo toisen grommunio chat-käyttäjän käytössä."
   },
   {
     "id": "ent.migration.migratetosaml.user_not_found_in_users_mapping_file",
@@ -853,7 +853,7 @@
   },
   {
     "id": "ent.ldap.syncronize.search_failure.app_error",
-    "translation": "Ei voitu etsiä käyttäjiä AD/LDAPista. Tarkista että Mattermost palvelu voi yhdistää AD/LDAP palveluun ja yritä uudestaan."
+    "translation": "Ei voitu etsiä käyttäjiä AD/LDAPista. Tarkista että grommunio chat palvelu voi yhdistää AD/LDAP palveluun ja yritä uudestaan."
   },
   {
     "id": "ent.ldap.syncronize.populate_syncables",
@@ -877,7 +877,7 @@
   },
   {
     "id": "ent.ldap.do_login.user_filtered.app_error",
-    "translation": "AD/LDAP tililläsi ei ole lupaa käyttää tätä Mattermost palvelua. Pyydä järjestelmänvalvojaa tarkistamaan AD/LDAP käyttäjäsuodatuksen."
+    "translation": "AD/LDAP tililläsi ei ole lupaa käyttää tätä grommunio chat palvelua. Pyydä järjestelmänvalvojaa tarkistamaan AD/LDAP käyttäjäsuodatuksen."
   },
   {
     "id": "ent.ldap.do_login.unable_to_connect.app_error",
@@ -1281,7 +1281,7 @@
   },
   {
     "id": "oauth.gitlab.tos.error",
-    "translation": "GitLabin palveluehdot ovat muuttuneet. Mene osoitteeseen gitlab.com ja hyväksy ne, ja yritä sitten kirjautua Mattermostiin uudestaan."
+    "translation": "GitLabin palveluehdot ovat muuttuneet. Mene osoitteeseen gitlab.com ja hyväksy ne, ja yritä sitten kirjautua grommunio chatiin uudestaan."
   },
   {
     "id": "model.websocket_client.connect_fail.app_error",
@@ -2737,7 +2737,7 @@
   },
   {
     "id": "api.slackimport.slack_import.log",
-    "translation": "Mattermost Slack tuontilogi\r\n"
+    "translation": "grommunio chat Slack tuontilogi\r\n"
   },
   {
     "id": "api.slackimport.slack_add_users.unable_import",
@@ -2749,7 +2749,7 @@
   },
   {
     "id": "api.slackimport.slack_add_users.merge_existing_failed",
-    "translation": "Slack-käyttäjä yhdistetty olemassaolevaan Mattermost-käyttäjään jolla sama sähköpostiosoite {{.Email}} ja käyttäjänimi {{.Username}}, mutta ei voitu lisätä käyttäjää tiimiin.\r\n"
+    "translation": "Slack-käyttäjä yhdistetty olemassaolevaan grommunio chat-käyttäjään jolla sama sähköpostiosoite {{.Email}} ja käyttäjänimi {{.Username}}, mutta ei voitu lisätä käyttäjää tiimiin.\r\n"
   },
   {
     "id": "app.channel.get_deleted.missing.app_error",
@@ -3209,7 +3209,7 @@
   },
   {
     "id": "api.slackimport.slack_add_users.merge_existing",
-    "translation": "Slack-käyttäjä on yhdistetty olemassaolevaan Mattermost-käyttäjään jolla sama sähköpostiosoite {{.Email}} ja käyttäjänimi {{.Username}}.\r\n"
+    "translation": "Slack-käyttäjä on yhdistetty olemassaolevaan grommunio chat-käyttäjään jolla sama sähköpostiosoite {{.Email}} ja käyttäjänimi {{.Username}}.\r\n"
   },
   {
     "id": "api.slackimport.slack_add_users.email_pwd",
@@ -3221,7 +3221,7 @@
   },
   {
     "id": "api.slackimport.slack_add_channels.merge",
-    "translation": "Slack-kanava {{.DisplayName}} on jo olemassa aktiivisena Mattermost-kanavana. Molemmat kanavat on yhdistetty.\r\n"
+    "translation": "Slack-kanava {{.DisplayName}} on jo olemassa aktiivisena grommunio chat-kanavana. Molemmat kanavat on yhdistetty.\r\n"
   },
   {
     "id": "api.slackimport.slack_add_channels.import_failed",
@@ -3954,7 +3954,7 @@
   },
   {
     "id": "api.command_mute.no_channel.error",
-    "translation": "Kanavaa ei löydetty. Käytä [kanavan tunnistetta](https://about.mattermost.com/default-channel-handle-documentation) sen määrittämiseen."
+    "translation": "Kanavaa ei löydetty. Käytä [kanavan tunnistetta](https://about.grommunio chat.com/default-channel-handle-documentation) sen määrittämiseen."
   },
   {
     "id": "api.command_mute.name",
@@ -3966,7 +3966,7 @@
   },
   {
     "id": "api.command_mute.error",
-    "translation": "Kanavaa {{.Channel}} ei löydetty. Käytä [kanavan tunnistetta](https://about.mattermost.com/default-channel-handle-documentation) kanavan määrittämiseen."
+    "translation": "Kanavaa {{.Channel}} ei löydetty. Käytä [kanavan tunnistetta](https://about.grommunio chat.com/default-channel-handle-documentation) kanavan määrittämiseen."
   },
   {
     "id": "api.user.login_by_oauth.not_available.app_error",
@@ -4278,7 +4278,7 @@
   },
   {
     "id": "api.command_logout.desc",
-    "translation": "Uloskirjaus Mattermostista"
+    "translation": "Uloskirjaus grommunio chatista"
   },
   {
     "id": "api.command_leave.name",
@@ -4374,7 +4374,7 @@
   },
   {
     "id": "api.command_invite.channel.error",
-    "translation": "Kanavaa {{.Channel}} ei löydetty. Käytä [kanavan tunnistetta](https://about.mattermost.com/default-channel-handle-documentation) kanavan löytämiseen."
+    "translation": "Kanavaa {{.Channel}} ei löydetty. Käytä [kanavan tunnistetta](https://about.grommunio chat.com/default-channel-handle-documentation) kanavan löytämiseen."
   },
   {
     "id": "api.command_invite.channel.app_error",
@@ -4386,7 +4386,7 @@
   },
   {
     "id": "api.command_help.desc",
-    "translation": "Avaa Mattermostin ohjesivusto"
+    "translation": "Avaa grommunio chatin ohjesivusto"
   },
   {
     "id": "api.command_groupmsg.permission.app_error",
@@ -4661,7 +4661,7 @@
   },
   {
     "id": "api.command.invite_people.desc",
-    "translation": "Kutsu käyttäjiä Mattermost-ryhmääsi"
+    "translation": "Kutsu käyttäjiä grommunio chat-ryhmääsi"
   },
   {
     "id": "api.command.execute_command.start.app_error",
@@ -4937,7 +4937,7 @@
   },
   {
     "id": "api.admin.test_email.subject",
-    "translation": "Mattermost - Sähköpostiasetusten testaaminen"
+    "translation": "grommunio chat - Sähköpostiasetusten testaaminen"
   },
   {
     "id": "api.admin.test_email.reenter_password",
@@ -4949,7 +4949,7 @@
   },
   {
     "id": "api.admin.test_email.body",
-    "translation": "Näyttää siltä, että Mattermostin sähköpostiasetuksesi ovat oikein!"
+    "translation": "Näyttää siltä, että grommunio chatin sähköpostiasetuksesi ovat oikein!"
   },
   {
     "id": "api.admin.saml.not_available.app_error",
@@ -5125,7 +5125,7 @@
   },
   {
     "id": "api.bot.teams_channels.add_message_mobile",
-    "translation": "Lisää minut niihin tiimeihin ja kanaviin joissa haluat minun toimivan. Voit käyttää selainta tai Mattermostin työpöytäsovellusta."
+    "translation": "Lisää minut niihin tiimeihin ja kanaviin joissa haluat minun toimivan. Voit käyttää selainta tai grommunio chatin työpöytäsovellusta."
   },
   {
     "id": "api.back_to_app",

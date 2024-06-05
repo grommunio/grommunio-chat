@@ -85,7 +85,7 @@
   },
   {
     "id": "api.admin.test_email.body",
-    "translation": "Mattermost e-posta ayarları doğru görünüyor!"
+    "translation": "grommunio chat e-posta ayarları doğru görünüyor!"
   },
   {
     "id": "api.admin.test_email.missing_server",
@@ -97,7 +97,7 @@
   },
   {
     "id": "api.admin.test_email.subject",
-    "translation": "Mattermost - E-posta ayarları sınanıyor"
+    "translation": "grommunio chat - E-posta ayarları sınanıyor"
   },
   {
     "id": "api.admin.test_s3.missing_s3_bucket",
@@ -345,7 +345,7 @@
   },
   {
     "id": "api.command.invite_people.desc",
-    "translation": "Mattermost takımınıza bir e-posta çağrısı gönderir"
+    "translation": "grommunio chat takımınıza bir e-posta çağrısı gönderir"
   },
   {
     "id": "api.command.invite_people.email_invitations_off",
@@ -620,7 +620,7 @@
   },
   {
     "id": "api.command_help.desc",
-    "translation": "Mattermost yardım iletisini görüntüle"
+    "translation": "grommunio chat yardım iletisini görüntüle"
   },
   {
     "id": "api.command_help.name",
@@ -632,7 +632,7 @@
   },
   {
     "id": "api.command_invite.channel.error",
-    "translation": "{{.Channel}} kanalı bulunamadı. Lütfen kanalları belirtmek için [kanal kısaltması](https://docs.mattermost.com/messaging/managing-channels.html#naming-a-channel) kullanın."
+    "translation": "{{.Channel}} kanalı bulunamadı. Lütfen kanalları belirtmek için [kanal kısaltması](https://docs.grommunio.com) kullanın."
   },
   {
     "id": "api.command_invite.desc",
@@ -668,7 +668,7 @@
   },
   {
     "id": "api.command_invite.private_channel.app_error",
-    "translation": "{{.Channel}} kanalı bulunamadı. Lütfen kanalları belirtmek için [kanal kısaltmasını](https://docs.mattermost.com/messaging/managing-channels.html#naming-a-channel) kullanın."
+    "translation": "{{.Channel}} kanalı bulunamadı. Lütfen kanalları belirtmek için [kanal kısaltmasını](https://docs.grommunio.com) kullanın."
   },
   {
     "id": "api.command_invite.success",
@@ -727,7 +727,7 @@
   },
   {
     "id": "api.command_logout.desc",
-    "translation": "Mattermost oturumunu kapatır"
+    "translation": "grommunio chat oturumunu kapatır"
   },
   {
     "id": "api.command_logout.name",
@@ -779,7 +779,7 @@
   },
   {
     "id": "api.command_mute.error",
-    "translation": "{{.Channel}} kanalı bulunamadı. Lütfen kanalları belirtmek için [kanal kısaltması](https://docs.mattermost.com/messaging/managing-channels.html#naming-a-channel) kullanın."
+    "translation": "{{.Channel}} kanalı bulunamadı. Lütfen kanalları belirtmek için [kanal kısaltması](https://docs.grommunio.com) kullanın."
   },
   {
     "id": "api.command_mute.hint",
@@ -791,7 +791,7 @@
   },
   {
     "id": "api.command_mute.no_channel.error",
-    "translation": "Belirtilen kanal bulunamadı. Lütfen kanalları belirtmek için [kanal kısaltması](https://docs.mattermost.com/messaging/managing-channels.html#naming-a-channel) kullanın."
+    "translation": "Belirtilen kanal bulunamadı. Lütfen kanalları belirtmek için [kanal kısaltması](https://docs.grommunio.com) kullanın."
   },
   {
     "id": "api.command_mute.not_member.error",
@@ -1516,7 +1516,7 @@
   },
   {
     "id": "api.slackimport.slack_add_channels.merge",
-    "translation": "{{.DisplayName}} Slack kanalı zaten etkin bir Mattermost kanalı olarak var. İki kanal birleştirilecek.\n"
+    "translation": "{{.DisplayName}} Slack kanalı zaten etkin bir grommunio chat kanalı olarak var. İki kanal birleştirilecek.\n"
   },
   {
     "id": "api.slackimport.slack_add_users.created",
@@ -1528,11 +1528,11 @@
   },
   {
     "id": "api.slackimport.slack_add_users.merge_existing",
-    "translation": "E-posta adresi {{.Email}} olan Slack kullanıcısı aynı e-posta adresini kullanan {{.Username}} Mattermost kullanıcısı ile birleştirildi.\n"
+    "translation": "E-posta adresi {{.Email}} olan Slack kullanıcısı aynı e-posta adresini kullanan {{.Username}} grommunio chat kullanıcısı ile birleştirildi.\n"
   },
   {
     "id": "api.slackimport.slack_add_users.merge_existing_failed",
-    "translation": "E-posta adresi {{.Email}} olan Slack kullanıcısı aynı e-posta adresini kullanan {{.Username}} Mattermost kullanıcısı birleştirildi ancak kullanıcı ilgili takıma eklenemedi.\n"
+    "translation": "E-posta adresi {{.Email}} olan Slack kullanıcısı aynı e-posta adresini kullanan {{.Username}} grommunio chat kullanıcısı birleştirildi ancak kullanıcı ilgili takıma eklenemedi.\n"
   },
   {
     "id": "api.slackimport.slack_add_users.missing_email_address",
@@ -1544,7 +1544,7 @@
   },
   {
     "id": "api.slackimport.slack_import.log",
-    "translation": "Mattermost Slack içe aktarma günlüğü\n"
+    "translation": "grommunio chat Slack içe aktarma günlüğü\n"
   },
   {
     "id": "api.slackimport.slack_import.note1",
@@ -1852,7 +1852,7 @@
   },
   {
     "id": "api.templates.post_body.button",
-    "translation": "Mattermost içinde yanıtla"
+    "translation": "grommunio chat içinde yanıtla"
   },
   {
     "id": "api.templates.reset_body.button",
@@ -1912,7 +1912,7 @@
   },
   {
     "id": "api.templates.verify_body.info",
-    "translation": "Bu e-posta adresi ile açılmış bir Mattermost hesabı var."
+    "translation": "Bu e-posta adresi ile açılmış bir grommunio chat hesabı var."
   },
   {
     "id": "api.templates.verify_body.title",
@@ -1932,7 +1932,7 @@
   },
   {
     "id": "api.templates.welcome_body.info",
-    "translation": "Bu e-posta adresi ile açılmış bir Mattermost hesabı var."
+    "translation": "Bu e-posta adresi ile açılmış bir grommunio chat hesabı var."
   },
   {
     "id": "api.templates.welcome_body.title",
@@ -3196,7 +3196,7 @@
   },
   {
     "id": "ent.ldap.do_login.user_filtered.app_error",
-    "translation": "AD/LDAP hesabınızın bu Mattermost sunucusunu kullanma izni yok. Lütfen sistem yöneticinizden AD/LDAP kullanıcı süzgecini denetlemesini isteyin."
+    "translation": "AD/LDAP hesabınızın bu grommunio chat sunucusunu kullanma izni yok. Lütfen sistem yöneticinizden AD/LDAP kullanıcı süzgecini denetlemesini isteyin."
   },
   {
     "id": "ent.ldap.do_login.user_not_registered.app_error",
@@ -3216,7 +3216,7 @@
   },
   {
     "id": "ent.ldap.syncronize.search_failure.app_error",
-    "translation": "AD/LDAP üzerinde kullanıcılar aranamadı. Mattermost sunucunuzun AD/LDAP sunucunuza bağlanabildiğinden emin olun."
+    "translation": "AD/LDAP üzerinde kullanıcılar aranamadı. grommunio chat sunucunuzun AD/LDAP sunucunuza bağlanabildiğinden emin olun."
   },
   {
     "id": "ent.ldap.validate_filter.app_error",
@@ -3312,7 +3312,7 @@
   },
   {
     "id": "ent.migration.migratetosaml.username_already_used_by_other_user",
-    "translation": "Bu kullanıcı adı zaten başka bir Mattermost kullanıcısı tarafından kullanılıyor."
+    "translation": "Bu kullanıcı adı zaten başka bir grommunio chat kullanıcısı tarafından kullanılıyor."
   },
   {
     "id": "ent.saml.attribute.app_error",
@@ -3396,7 +3396,7 @@
   },
   {
     "id": "mattermost.bulletin.subject",
-    "translation": "Mattermost güvenlik duyurusu"
+    "translation": "grommunio chat güvenlik duyurusu"
   },
   {
     "id": "mfa.activate.bad_token.app_error",
@@ -4544,7 +4544,7 @@
   },
   {
     "id": "oauth.gitlab.tos.error",
-    "translation": "GitLab hizmet koşulları güncellendi. Lütfen {{.URL}} adresine giderek yeni hizmet koşullarını onayladıktan sonra Mattermost oturumunu yeniden açmayı deneyin."
+    "translation": "GitLab hizmet koşulları güncellendi. Lütfen {{.URL}} adresine giderek yeni hizmet koşullarını onayladıktan sonra grommunio chat oturumunu yeniden açmayı deneyin."
   },
   {
     "id": "plugin.api.update_user_status.bad_status",
@@ -5012,7 +5012,7 @@
   },
   {
     "id": "ent.ldap.syncronize.search_failure_size_exceeded.app_error",
-    "translation": "Boyut sınırı aşıldı. En büyük dosya boyutu ayarını artırmayı deneyin. Ayrıntılı bilgi almak için https://docs.mattermost.com/deployment/sso-ldap.html#i-see-the-log-error-ldap-result-code-4-size-limit-exceeded adresine bakabilirsiniz."
+    "translation": "Boyut sınırı aşıldı. En büyük dosya boyutu ayarını artırmayı deneyin. Ayrıntılı bilgi almak için https://docs.grommunio chat.com/deployment/sso-ldap.html#i-see-the-log-error-ldap-result-code-4-size-limit-exceeded adresine bakabilirsiniz."
   },
   {
     "id": "ent.ldap.validate_admin_filter.app_error",
@@ -5108,7 +5108,7 @@
   },
   {
     "id": "api.license.request_trial_license.app_error",
-    "translation": "Deneme lisansı alınamadı. Lütfen yeniden deneyin ya da support@mattermost.com adresine yazın."
+    "translation": "Deneme lisansı alınamadı. Lütfen yeniden deneyin ya da support@grommunio chat.com adresine yazın."
   },
   {
     "id": "api.admin.delete_brand_image.storage.not_found",
@@ -5128,7 +5128,7 @@
   },
   {
     "id": "api.bot.teams_channels.add_message_mobile",
-    "translation": "Lütfen beni etkileşimde bulunmamı istediğiniz takım ve kanallara ekleyin. Bu işlemi tarayıcı ya da Mattermost masaüstü uygulaması üzerinden yapabilirsiniz."
+    "translation": "Lütfen beni etkileşimde bulunmamı istediğiniz takım ve kanallara ekleyin. Bu işlemi tarayıcı ya da grommunio chat masaüstü uygulaması üzerinden yapabilirsiniz."
   },
   {
     "id": "api.channel.channel_member_counts_by_group.license.error",
@@ -5260,7 +5260,7 @@
   },
   {
     "id": "app.bot.get_disable_bot_sysadmin_message",
-    "translation": "{{if .disableBotsSetting}}{{if .printAllBots}}{{.UserName}} devre dışı bırakılmış. Bunlar şu anda devre dışı bırakılmış şu bot hesaplarını yönetiyor.\n\n{{.BotNames}}{{else}}{{.UserName}} devre dışı bırakılmış. Bunlar şu anda devre dışı bırakılmış şu {{.NumBots}} bot hesaplarını yönetiyor:\n\n{{.BotNames}}{{end}}Bu bot hesaplarının sahipliğini almak için, hesapları **Bütünleştirmeler > Bot Hesapları** bölümünden etkinleştirin ve bot hesapları için yeni kodlar oluşturun.\n\nAyrıntılı bilgi almak için [belgelere bakabilirsiniz](https://docs.mattermost.com/developer/bot-accounts.html#what-happens-when-a-user-who-owns-bot-accounts-is-disabled).{{else}}{{if .printAllBots}}{{.UserName}} devre dışı bırakılmış. Bunlar şu anda hala etkin olan şu bot hesaplarını yönetiyor.\n\n{{.BotNames}}\n{{else}}{{.UserName}} devre dışı bırakılmış. Bunlar şu anda hala etkin olan şu {{.NumBots}} bot hesaplarını yönetiyor:\n\n{{.BotNames}}{{end}}Bu bot hesaplarının sahipliğini almak için, hesapları **Bütünleştirmeler > Bot Hesapları** bölümünden yeniden etkinleştirmeniz ve bot hesapları için yeni kodlar oluşturmanız önemle önerilir.\n\nAyrıntılı bilgi almak için [belgelere bakabilirsiniz](https://docs.mattermost.com/developer/bot-accounts.html#what-happens-when-a-user-who-owns-bot-accounts-is-disabled).\n\nKullanıcıların devre dışı bırakılmasından sonra bot hesaplarının da otomatik olarak devre dışı bırakılmasını istiyorsanız, **Sistem Panosu > Bütünleştirmeler > Bot Hesapları** bölümünden “Kullanıcı hesabı devre dışı bırakıldığında bot hesapları devre dışı bırakılsın” seçeneğini etkinleştirin.{{end}}"
+    "translation": "{{if .disableBotsSetting}}{{if .printAllBots}}{{.UserName}} devre dışı bırakılmış. Bunlar şu anda devre dışı bırakılmış şu bot hesaplarını yönetiyor.\n\n{{.BotNames}}{{else}}{{.UserName}} devre dışı bırakılmış. Bunlar şu anda devre dışı bırakılmış şu {{.NumBots}} bot hesaplarını yönetiyor:\n\n{{.BotNames}}{{end}}Bu bot hesaplarının sahipliğini almak için, hesapları **Bütünleştirmeler > Bot Hesapları** bölümünden etkinleştirin ve bot hesapları için yeni kodlar oluşturun.\n\nAyrıntılı bilgi almak için [belgelere bakabilirsiniz](https://docs.grommunio.com).\n\nKullanıcıların devre dışı bırakılmasından sonra bot hesaplarının da otomatik olarak devre dışı bırakılmasını istiyorsanız, **Sistem Panosu > Bütünleştirmeler > Bot Hesapları** bölümünden “Kullanıcı hesabı devre dışı bırakıldığında bot hesapları devre dışı bırakılsın” seçeneğini etkinleştirin.{{end}}"
   },
   {
     "id": "app.channel.get_more_channels.get.app_error",
@@ -5432,11 +5432,11 @@
   },
   {
     "id": "web.error.unsupported_browser.download_app_or_upgrade_browser",
-    "translation": "Mattermost uygulamasını indirin ya da daha iyi bir deneyim elde etmek için desteklenen bir tarayıcı kullanın."
+    "translation": "grommunio chat uygulamasını indirin ya da daha iyi bir deneyim elde etmek için desteklenen bir tarayıcı kullanın."
   },
   {
     "id": "web.error.unsupported_browser.no_longer_support",
-    "translation": "Bu tarayıcı artık Mattermost tarafından desteklenmiyor"
+    "translation": "Bu tarayıcı artık grommunio chat tarafından desteklenmiyor"
   },
   {
     "id": "api.push_notifications.session.expired",
@@ -5596,7 +5596,7 @@
   },
   {
     "id": "api.templates.remove_expired_license.subject",
-    "translation": "Mattermost Enterprise lisansı devre dışı bırakıldı."
+    "translation": "grommunio chat Enterprise lisansı devre dışı bırakıldı."
   },
   {
     "id": "api.team.add_members.error",
@@ -5836,7 +5836,7 @@
   },
   {
     "id": "web.error.unsupported_browser.no_longer_support_version",
-    "translation": "Kullandığınız tarayıcının bu sürümü artık Mattermost tarafından desteklenmiyor"
+    "translation": "Kullandığınız tarayıcının bu sürümü artık grommunio chat tarafından desteklenmiyor"
   },
   {
     "id": "web.error.unsupported_browser.open_system_browser.edge",
@@ -5932,7 +5932,7 @@
   },
   {
     "id": "api.license.request-trial.bad-request.terms-not-accepted",
-    "translation": "Lisans isteğinde bulunmak için Mattermost yazılım değerlendirme sözleşmesi ve kişisel verilerin gizliliği ilkesi metinlerini kabul etmelisiniz."
+    "translation": "Lisans isteğinde bulunmak için grommunio chat yazılım değerlendirme sözleşmesi ve kişisel verilerin gizliliği ilkesi metinlerini kabul etmelisiniz."
   },
   {
     "id": "app.channel.create_initial_sidebar_categories.internal_error",
@@ -6952,43 +6952,43 @@
   },
   {
     "id": "api.upgrade_to_enterprise_status.signature.app_error",
-    "translation": "Mattermost Enterprise üst tarifesine geçilemedi. İndirilen dosyanın sayısal imzası doğrulanamadı."
+    "translation": "grommunio chat Enterprise üst tarifesine geçilemedi. İndirilen dosyanın sayısal imzası doğrulanamadı."
   },
   {
     "id": "api.upgrade_to_enterprise_status.app_error",
-    "translation": "Mattermost Enterprise üst tarifesine geçilemedi."
+    "translation": "grommunio chat Enterprise üst tarifesine geçilemedi."
   },
   {
     "id": "api.upgrade_to_enterprise.system_not_supported.app_error",
-    "translation": "Mattermost Enterprise üst tarifesine geçilemedi. Bu özellik yalnızca x86-64 mimarisine sahip Linux sistemleri üzerinde kullanılabilir."
+    "translation": "grommunio chat Enterprise üst tarifesine geçilemedi. Bu özellik yalnızca x86-64 mimarisine sahip Linux sistemleri üzerinde kullanılabilir."
   },
   {
     "id": "api.upgrade_to_enterprise.invalid-user.app_error",
-    "translation": "Mattermost Enterprise üst tarifesine geçilemedi. {{.MattermostUsername}} Mattermost sistem kullanıcısının gerekli program dosyalarına yazma izni yok. Bir sistem yöneticisi Mattermost uygulamasının kurulu olduğu sunucu üzerinde aşağıdaki komutları yürüterek dosya izinlerini güncelleyebilir:\n\n```\nchown {{.MattermostUsername}} \"{{.Path}}\"\n```\n\nDosya izinleri değiştirildikten sonra Mattermost üst tarifesine geçmeyi yeniden deneyin. Geçiş işlemi tamamlanıp sunucuyu yeniden başlatıldıktan sonra aşağıdaki komutun yürütülerek program dosyası izinlerini özgün duruma döndürülmesi gerektiğini unutmayın:\n\n```\nchown {{.FileUsername}} \"{{.Path}}\"\n```"
+    "translation": "grommunio chat Enterprise üst tarifesine geçilemedi. {{.MattermostUsername}} grommunio chat sistem kullanıcısının gerekli program dosyalarına yazma izni yok. Bir sistem yöneticisi grommunio chat uygulamasının kurulu olduğu sunucu üzerinde aşağıdaki komutları yürüterek dosya izinlerini güncelleyebilir:\n\n```\nchown {{.MattermostUsername}} \"{{.Path}}\"\n```\n\nDosya izinleri değiştirildikten sonra grommunio chat üst tarifesine geçmeyi yeniden deneyin. Geçiş işlemi tamamlanıp sunucuyu yeniden başlatıldıktan sonra aşağıdaki komutun yürütülerek program dosyası izinlerini özgün duruma döndürülmesi gerektiğini unutmayın:\n\n```\nchown {{.FileUsername}} \"{{.Path}}\"\n```"
   },
   {
     "id": "api.upgrade_to_enterprise.invalid-user-and-permission.app_error",
-    "translation": "Mattermost Enterprise üst tarifesine geçilemedi. {{.MattermostUsername}} Mattermost sistem kullanıcısının gerekli program dosyalarına yazma izni yok. Bir sistem yöneticisi Mattermost uygulamasının kurulu olduğu sunucu üzerinde aşağıdaki komutları yürüterek dosya izinlerini güncelleyebilir:\n\n```\nchown {{.MattermostUsername}} \"{{.Path}}\"\nchmod +w \"{{.Path}}\"\n```\n\nDosya izinleri değiştirildikten sonra Mattermost üst tarifesine geçmeyi yeniden deneyin. Geçiş işlemini tamamlanıp sunucuyu yeniden başlatıldıktan sonra aşağıdaki komutun yürütülerek program dosyası izinlerini özgün duruma döndürülmesi gerektiğini unutmayın:\n\n```\nchown {{.FileUsername}} \"{{.Path}}\"\nchmod -w \"{{.Path}}\"\n```"
+    "translation": "grommunio chat Enterprise üst tarifesine geçilemedi. {{.MattermostUsername}} grommunio chat sistem kullanıcısının gerekli program dosyalarına yazma izni yok. Bir sistem yöneticisi grommunio chat uygulamasının kurulu olduğu sunucu üzerinde aşağıdaki komutları yürüterek dosya izinlerini güncelleyebilir:\n\n```\nchown {{.MattermostUsername}} \"{{.Path}}\"\nchmod +w \"{{.Path}}\"\n```\n\nDosya izinleri değiştirildikten sonra grommunio chat üst tarifesine geçmeyi yeniden deneyin. Geçiş işlemini tamamlanıp sunucuyu yeniden başlatıldıktan sonra aşağıdaki komutun yürütülerek program dosyası izinlerini özgün duruma döndürülmesi gerektiğini unutmayın:\n\n```\nchown {{.FileUsername}} \"{{.Path}}\"\nchmod -w \"{{.Path}}\"\n```"
   },
   {
     "id": "api.upgrade_to_enterprise.invalid-permission.app_error",
-    "translation": "Mattermost Enterprise üst tarifesine geçilemedi. {{.MattermostUsername}} Mattermost sistem kullanıcısının gerekli program dosyalarına yazma izni yok. Bir sistem yöneticisi Mattermost uygulamasının kurulu olduğu sunucu üzerinde aşağıdaki komutları yürüterek dosya izinlerini güncelleyebilir:\n\n```\nchmod +w \"{{.Path}}\"\n```\n\nDosya izinleri değiştirildikten sonra Mattermost üst tarifesine geçmeyi yeniden deneyin. Geçiş işlemini tamamlanıp sunucuyu yeniden başlatıldıktan sonra aşağıdaki komutun yürütülerek program dosyası izinlerini özgün duruma döndürülmesi gerektiğini unutmayın:\n\n```\nchmod -w \"{{.Path}}\"\n```"
+    "translation": "grommunio chat Enterprise üst tarifesine geçilemedi. {{.MattermostUsername}} grommunio chat sistem kullanıcısının gerekli program dosyalarına yazma izni yok. Bir sistem yöneticisi grommunio chat uygulamasının kurulu olduğu sunucu üzerinde aşağıdaki komutları yürüterek dosya izinlerini güncelleyebilir:\n\n```\nchmod +w \"{{.Path}}\"\n```\n\nDosya izinleri değiştirildikten sonra grommunio chat üst tarifesine geçmeyi yeniden deneyin. Geçiş işlemini tamamlanıp sunucuyu yeniden başlatıldıktan sonra aşağıdaki komutun yürütülerek program dosyası izinlerini özgün duruma döndürülmesi gerektiğini unutmayın:\n\n```\nchmod -w \"{{.Path}}\"\n```"
   },
   {
     "id": "api.upgrade_to_enterprise.generic_error.app_error",
-    "translation": "Mattermost Enterprise üst tarifesine geçilemedi."
+    "translation": "grommunio chat Enterprise üst tarifesine geçilemedi."
   },
   {
     "id": "api.upgrade_to_enterprise.app_error",
-    "translation": "Zaten bir Mattermost Enterprise üst tarifesine geçme işlemi yapılıyor."
+    "translation": "Zaten bir grommunio chat Enterprise üst tarifesine geçme işlemi yapılıyor."
   },
   {
     "id": "api.upgrade_to_enterprise.already-enterprise.app_error",
-    "translation": "Zaten Mattermost Enterprise üst tarifesini kullandığınız için tarife geçişi yapamazsınız."
+    "translation": "Zaten grommunio chat Enterprise üst tarifesini kullandığınız için tarife geçişi yapamazsınız."
   },
   {
     "id": "api.upgrade_to_enterprise.already-done.app_error",
-    "translation": "Zaten Mattermost Enterprise üst tarifesine geçmişsiniz. Lütfen geçiş işlemini tamamlamak için sunucuyu yeniden başlatın."
+    "translation": "Zaten grommunio chat Enterprise üst tarifesine geçmişsiniz. Lütfen geçiş işlemini tamamlamak için sunucuyu yeniden başlatın."
   },
   {
     "id": "api.system.update_notices.validating_failed",
@@ -7284,7 +7284,7 @@
   },
   {
     "id": "api.templates.copyright",
-    "translation": "© 2021 Mattermost, Inc. 530 Lytton Avenue, Second floor, Palo Alto, CA, 94301"
+    "translation": "© 2024 grommunio GmbH. Donau-City-Str. 7, door 2, 30th floor, DC Tower, 1220 Vienna, Austria"
   },
   {
     "id": "app.user.update_threads_read_for_user.app_error",
@@ -7340,11 +7340,11 @@
   },
   {
     "id": "api.templates.payment_failed_no_card.title",
-    "translation": "Mattermost Cloud faturanızın ödemesi var"
+    "translation": "grommunio chat Cloud faturanızın ödemesi var"
   },
   {
     "id": "api.templates.payment_failed_no_card.subject",
-    "translation": "Mattermost Cloud aboneliğinizin ödemesi var"
+    "translation": "grommunio chat Cloud aboneliğinizin ödemesi var"
   },
   {
     "id": "api.templates.payment_failed_no_card.info3",
@@ -7352,7 +7352,7 @@
   },
   {
     "id": "api.templates.payment_failed_no_card.info1",
-    "translation": "Son ödeme dönemine ait Mattermost Cloud faturanız ödendi. Ancak dosyada ödeme bilgileriniz yok."
+    "translation": "Son ödeme dönemine ait grommunio chat Cloud faturanız ödendi. Ancak dosyada ödeme bilgileriniz yok."
   },
   {
     "id": "api.templates.payment_failed_no_card.button",
@@ -7364,11 +7364,11 @@
   },
   {
     "id": "api.templates.payment_failed.subject",
-    "translation": "İşlem gerekli: Mattermost {{.Plan}} ödemesi alınamadı"
+    "translation": "İşlem gerekli: grommunio chat {{.Plan}} ödemesi alınamadı"
   },
   {
     "id": "api.templates.payment_failed.info3",
-    "translation": "Mattermost {{.Plan}} erişiminizin kesintiye uğramaması için sorunu çözmek amacıyla bankanızla görüşün ya da ödeme bilgilerinizi güncelleyin. Ödeme bilgileri güncellendikten sonra Mattermost kalan ödemeyi almayı deneyecek."
+    "translation": "grommunio chat {{.Plan}} erişiminizin kesintiye uğramaması için sorunu çözmek amacıyla bankanızla görüşün ya da ödeme bilgilerinizi güncelleyin. Ödeme bilgileri güncellendikten sonra grommunio chat kalan ödemeyi almayı deneyecek."
   },
   {
     "id": "api.templates.payment_failed.info2",
@@ -7376,7 +7376,7 @@
   },
   {
     "id": "api.templates.payment_failed.info1",
-    "translation": "Bankanız, Mattermost Cloud çalışma alanınız ile ilişkilendirilmiş {{.CardBrand}} ****{{.LastFour}} karından ödeme yapılmasına izin vermedi."
+    "translation": "Bankanız, grommunio chat Cloud çalışma alanınız ile ilişkilendirilmiş {{.CardBrand}} ****{{.LastFour}} karından ödeme yapılmasına izin vermedi."
   },
   {
     "id": "model.config.is_valid.import.retention_days_too_low.app_error",
@@ -7748,7 +7748,7 @@
   },
   {
     "id": "api.templates.email_footer_v2",
-    "translation": "© 2022 Mattermost, Inc. 530 Lytton Avenue, Second floor, Palo Alto, CA, 94301"
+    "translation": "© 2024 grommunio GmbH. Donau-City-Str. 7, door 2, 30th floor, DC Tower, 1220 Vienna, Austria"
   },
   {
     "id": "api.post.search_files.invalid_body.app_error",
@@ -7816,7 +7816,7 @@
   },
   {
     "id": "api.templates.invite_body_footer.title",
-    "translation": "Mattermost nedir?"
+    "translation": "grommunio chat nedir?"
   },
   {
     "id": "api.templates.invite_body_footer.learn_more",
@@ -7824,11 +7824,11 @@
   },
   {
     "id": "api.templates.invite_body_footer.info",
-    "translation": "Mattermost güvenli takım işbirliği sağlayan esnek ve açık kaynaklı bir iletişim platformudur."
+    "translation": "grommunio chat güvenli takım işbirliği sağlayan esnek ve açık kaynaklı bir iletişim platformudur."
   },
   {
     "id": "api.templates.invite_body.subTitle",
-    "translation": "Mattermost üzerinde takımınızla iş birliği yapmaya başlayın"
+    "translation": "grommunio chat üzerinde takımınızla iş birliği yapmaya başlayın"
   },
   {
     "id": "api.templates.cloud_welcome_email.title",
@@ -7872,11 +7872,11 @@
   },
   {
     "id": "api.templates.cloud_welcome_email.download_mm_info",
-    "translation": "Mattermost uygulamasını indir"
+    "translation": "grommunio chat uygulamasını indir"
   },
   {
     "id": "api.templates.cloud_welcome_email.button",
-    "translation": "Mattermost uygulamasını aç"
+    "translation": "grommunio chat uygulamasını aç"
   },
   {
     "id": "api.templates.cloud_welcome_email.app_market_place",
@@ -7936,7 +7936,7 @@
   },
   {
     "id": "api.command_remote.desc",
-    "translation": "Mattermost kopyaları arasında iletişim kurmak için uzak güvenli bağlantıları çağırın."
+    "translation": "grommunio chat kopyaları arasında iletişim kurmak için uzak güvenli bağlantıları çağırın."
   },
   {
     "id": "api.command_remote.decode_invitation.error",
@@ -7956,7 +7956,7 @@
   },
   {
     "id": "api.command_remote.accept.help",
-    "translation": "Bir dış Mattermost kopyasından gelen bir çağrıyı kabul et"
+    "translation": "Bir dış grommunio chat kopyasından gelen bir çağrıyı kabul et"
   },
   {
     "id": "api.command_remote.accept_invitation",
@@ -7968,7 +7968,7 @@
   },
   {
     "id": "api.command_share.invite_remote.help",
-    "translation": "Bir dış Mattermost kopyasını geçerli paylaşılmış kanala çağırır"
+    "translation": "Bir dış grommunio chat kopyasını geçerli paylaşılmış kanala çağırır"
   },
   {
     "id": "api.command_share.invitation_sent",
@@ -7992,7 +7992,7 @@
   },
   {
     "id": "api.command_share.desc",
-    "translation": "Geçerli kanalı bir dış Mattermost kopyası ile paylaşır."
+    "translation": "Geçerli kanalı bir dış grommunio chat kopyası ile paylaşır."
   },
   {
     "id": "api.command_share.could_not_uninvite.error",
@@ -8060,7 +8060,7 @@
   },
   {
     "id": "api.command_remote.invite_summary",
-    "translation": "Aşağıdaki şifreli (AES256 + Base64) veri yığınını parola ile dış Mattermost yöneticisine gönderin. `{{.Command}}` bölü komutunu kullanarak çağrıyı kabul edebilir.\n\n```\n{{.Invitation}}\n```\n\n**Güvenli bağlantının sizin Mattermost kopyanıza ** {{.SiteURL}} adresi ile erişilebildiğinden emin olun"
+    "translation": "Aşağıdaki şifreli (AES256 + Base64) veri yığınını parola ile dış grommunio chat yöneticisine gönderin. `{{.Command}}` bölü komutunu kullanarak çağrıyı kabul edebilir.\n\n```\n{{.Invitation}}\n```\n\n**Güvenli bağlantının sizin grommunio chat kopyanıza ** {{.SiteURL}} adresi ile erişilebildiğinden emin olun"
   },
   {
     "id": "api.command_remote.remote_add_remove.help",
@@ -8344,7 +8344,7 @@
   },
   {
     "id": "app.notification.footer.infoLogin",
-    "translation": "Mattermost oturumu aç"
+    "translation": "grommunio chat oturumu aç"
   },
   {
     "id": "app.notification.footer.info",
@@ -8399,7 +8399,7 @@
   },
   {
     "id": "api.email_batching.send_batched_email_notification.button",
-    "translation": "Mattermost uygulamasını aç"
+    "translation": "grommunio chat uygulamasını aç"
   },
   {
     "id": "api.oauth.click_redirect",
@@ -8455,7 +8455,7 @@
   },
   {
     "id": "api.license.request-trial.can-start-trial.not-allowed",
-    "translation": "Yeni deneme lisansı kullanılamadı. Bu Mattermost kopyasında daha önce deneme lisansı kullanmışsınız. Deneme sürenizi uzatmak istiyorsanız [satış ekibimizle](https://mattermost.com/contact-us/) görüşebilirsiniz."
+    "translation": "Yeni deneme lisansı kullanılamadı. Bu grommunio chat kopyasında daha önce deneme lisansı kullanmışsınız. Deneme sürenizi uzatmak istiyorsanız [satış ekibimizle](https://grommunio chat.com/contact-us/) görüşebilirsiniz."
   },
   {
     "id": "api.license.request-trial.can-start-trial.error",
@@ -8467,7 +8467,7 @@
   },
   {
     "id": "api.templates.license_up_for_renewal_title",
-    "translation": "Mattermost aboneliğinizin yenilenmesi gerekiyor"
+    "translation": "grommunio chat aboneliğinizin yenilenmesi gerekiyor"
   },
   {
     "id": "api.templates.license_up_for_renewal_subtitle_two",
@@ -8475,7 +8475,7 @@
   },
   {
     "id": "api.templates.license_up_for_renewal_subtitle",
-    "translation": "{{.UserName}}, aboneliğiniz {{.Days}} gün içinde sona erecek. Mattermost tarafından sunulan esnek ve güvenli takım çalışmasını deneyimlediğinizi umuyoruz. Takımınızın bu özellikleri kullanmayı sürdürebilmesi için aboneliğinizi yenileyin."
+    "translation": "{{.UserName}}, aboneliğiniz {{.Days}} gün içinde sona erecek. grommunio chat tarafından sunulan esnek ve güvenli takım çalışmasını deneyimlediğinizi umuyoruz. Takımınızın bu özellikleri kullanmayı sürdürebilmesi için aboneliğinizi yenileyin."
   },
   {
     "id": "api.templates.license_up_for_renewal_subject",
@@ -8722,8 +8722,8 @@
     "translation": "Önceden hazırlanmış uygulama eki sürümü işlenemedi."
   },
   {
-    "id": "model.oauth.is_valid.mattermost_app_id.app_error",
-    "translation": "MattermostAppID en fazla 32 karakter uzunluğunda olabilir."
+    "id": "model.oauth.is_valid.grommunio chat_app_id.app_error",
+    "translation": "grommunio chatAppID en fazla 32 karakter uzunluğunda olabilir."
   },
   {
     "id": "app.channel.get_file_count.app_error",
@@ -8787,7 +8787,7 @@
   },
   {
     "id": "api.license.request_trial_license.embargoed",
-    "translation": "Ambargo uygulanan ülkelerdeki sınırlamalar nedeniyle isteği işleyemedik. [Belgelerimizden ayrıntılı bilgi alın](https://mattermost.com/pl/limitations-for-embargoed-countries) ya da ihracat sınırlamalarıyla ilgili sorularınız için legal@mattermost.com adresine yazın."
+    "translation": "Ambargo uygulanan ülkelerdeki sınırlamalar nedeniyle isteği işleyemedik. [Belgelerimizden ayrıntılı bilgi alın](https://grommunio chat.com/pl/limitations-for-embargoed-countries) ya da ihracat sınırlamalarıyla ilgili sorularınız için legal@grommunio chat.com adresine yazın."
   },
   {
     "id": "api.templates.cloud_upgrade_confirmation.title",
@@ -8795,7 +8795,7 @@
   },
   {
     "id": "api.templates.cloud_upgrade_confirmation.subject",
-    "translation": "Mattermost üst tarifeye geçme onayı"
+    "translation": "grommunio chat üst tarifeye geçme onayı"
   },
   {
     "id": "api.elasticsearch.test_elasticsearch_settings_nil.app_error",
@@ -8803,7 +8803,7 @@
   },
   {
     "id": "api.file.cloud_upload.app_error",
-    "translation": "Bir Bulut kopyasına mmctl ile yükleme desteklenmiyor. Lütfen şu makaleye bakın: https://docs.mattermost.com/manage/cloud-data-export.html."
+    "translation": "Bir Bulut kopyasına mmctl ile yükleme desteklenmiyor. Lütfen şu makaleye bakın: https://docs.grommunio chat.com/manage/cloud-data-export.html."
   },
   {
     "id": "app.teams.analytics_teams_count.app_error",
@@ -8863,7 +8863,7 @@
   },
   {
     "id": "api.command_help.success",
-    "translation": "Mattermost, sağladığı araçlar ile takımların güvenli iletişim, işbirliği ve birlikte çalışmasını sağlayan açık kaynaklı bir platformdur.\nMattermost üç temel araç sunar:\n\n**Kanallar** - Takımınızla toplu olarak ve üyeleriyle birebir iletişim kurabilirsiniz.\n**[Senaryolar](/playbooks)** - Yinelenen işlemlere özel yapılandırmalar oluşturarak öngörülebilir sonuçlar alabilirsiniz.\n\n[İlgili belgeler ve rehberler]({{.HelpLink}})"
+    "translation": "grommunio chat, sağladığı araçlar ile takımların güvenli iletişim, işbirliği ve birlikte çalışmasını sağlayan açık kaynaklı bir platformdur.\ngrommunio chat üç temel araç sunar:\n\n**Kanallar** - Takımınızla toplu olarak ve üyeleriyle birebir iletişim kurabilirsiniz.\n**[Senaryolar](/playbooks)** - Yinelenen işlemlere özel yapılandırmalar oluşturarak öngörülebilir sonuçlar alabilirsiniz.\n\n[İlgili belgeler ve rehberler]({{.HelpLink}})"
   },
   {
     "id": "api.command_marketplace.unsupported.app_error",
@@ -8891,7 +8891,7 @@
   },
   {
     "id": "api.templates.delinquency_90.title",
-    "translation": "Mattermost çalışma alanınız alt tarifeye geçirildi"
+    "translation": "grommunio chat çalışma alanınız alt tarifeye geçirildi"
   },
   {
     "id": "api.templates.delinquency_90.subtitle3",
@@ -8907,7 +8907,7 @@
   },
   {
     "id": "api.templates.delinquency_90.subject",
-    "translation": "Mattermost Cloud çalışma alanınız alt tarifeye geçirildi"
+    "translation": "grommunio chat Cloud çalışma alanınız alt tarifeye geçirildi"
   },
   {
     "id": "api.templates.delinquency_90.secondary_action_button",
@@ -8931,7 +8931,7 @@
   },
   {
     "id": "api.templates.delinquency_75.subtitle1",
-    "translation": "Bu son uyarıdır. Mattermost Cloud çalışma alanınızın ödemesini {{.DelinquencyDate}} tarihinden beri alamadık."
+    "translation": "Bu son uyarıdır. grommunio chat Cloud çalışma alanınızın ödemesini {{.DelinquencyDate}} tarihinden beri alamadık."
   },
   {
     "id": "api.templates.delinquency_7.subtitle2",
@@ -8939,7 +8939,7 @@
   },
   {
     "id": "api.templates.delinquency_75.subject",
-    "translation": "Mattermost {{.Plan}} tarifeniz 15 gün sonra alt tarifeye geçirilecek"
+    "translation": "grommunio chat {{.Plan}} tarifeniz 15 gün sonra alt tarifeye geçirilecek"
   },
   {
     "id": "api.templates.delinquency_75.downgrade_to_free",
@@ -8963,7 +8963,7 @@
   },
   {
     "id": "api.templates.delinquency_60.title",
-    "translation": "Mattermost çalışma alanınız 30 gün sonra alt tarifeye geçirilecek"
+    "translation": "grommunio chat çalışma alanınız 30 gün sonra alt tarifeye geçirilecek"
   },
   {
     "id": "api.templates.delinquency_60.subtitle3",
@@ -8983,7 +8983,7 @@
   },
   {
     "id": "api.templates.delinquency_45.subject",
-    "translation": "Uyarı: Mattermost {{.Plan}} tarifeniz yakında alt tarifeye geçirilecek"
+    "translation": "Uyarı: grommunio chat {{.Plan}} tarifeniz yakında alt tarifeye geçirilecek"
   },
   {
     "id": "api.templates.delinquency_30.title",
@@ -9027,11 +9027,11 @@
   },
   {
     "id": "api.templates.delinquency_30.subtitle1",
-    "translation": "Mattermost {{.Plan}} tarifenizi korumak için zamanınız var. Ancak ödeme yönteminizle ilgili sorunları çözmeniz gerekiyor."
+    "translation": "grommunio chat {{.Plan}} tarifenizi korumak için zamanınız var. Ancak ödeme yönteminizle ilgili sorunları çözmeniz gerekiyor."
   },
   {
     "id": "api.templates.delinquency_30.subject",
-    "translation": "Mattermost {{.Plan}} özelliklerinizi korumak için harekete geçin"
+    "translation": "grommunio chat {{.Plan}} özelliklerinizi korumak için harekete geçin"
   },
   {
     "id": "api.templates.delinquency_30.limits_documentation",
@@ -9059,7 +9059,7 @@
   },
   {
     "id": "api.templates.delinquency_14.subject",
-    "translation": "Mattermost {{.Plan}} tarifenizin ödeme süresi geçmiş"
+    "translation": "grommunio chat {{.Plan}} tarifenizin ödeme süresi geçmiş"
   },
   {
     "id": "api.templates.delinquency_14.button",
@@ -9343,7 +9343,7 @@
   },
   {
     "id": "api.server.cws.needs_enterprise_edition",
-    "translation": "Bu hizmet yalnızca Mattermost Enterprise sürümüyle kullanılabilir"
+    "translation": "Bu hizmet yalnızca grommunio chat Enterprise sürümüyle kullanılabilir"
   },
   {
     "id": "app.oauth.remove_auth_data_by_client_id.app_error",

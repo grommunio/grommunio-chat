@@ -85,7 +85,7 @@
   },
   {
     "id": "api.admin.test_email.body",
-    "translation": "Кажется, ваша электронная почта Mattermost установлена верно!"
+    "translation": "Кажется, ваша электронная почта grommunio chat установлена верно!"
   },
   {
     "id": "api.admin.test_email.missing_server",
@@ -97,7 +97,7 @@
   },
   {
     "id": "api.admin.test_email.subject",
-    "translation": "Mattermost - Тестирование настроек электронной почты"
+    "translation": "grommunio chat - Тестирование настроек электронной почты"
   },
   {
     "id": "api.admin.test_s3.missing_s3_bucket",
@@ -345,7 +345,7 @@
   },
   {
     "id": "api.command.invite_people.desc",
-    "translation": "Отправить письмо с приглашением в вашу команду Mattermost"
+    "translation": "Отправить письмо с приглашением в вашу команду grommunio chat"
   },
   {
     "id": "api.command.invite_people.email_invitations_off",
@@ -621,7 +621,7 @@
   },
   {
     "id": "api.command_help.desc",
-    "translation": "Показать справку Mattermost"
+    "translation": "Показать справку grommunio chat"
   },
   {
     "id": "api.command_help.name",
@@ -633,7 +633,7 @@
   },
   {
     "id": "api.command_invite.channel.error",
-    "translation": "Не удалось найти канал {{.Channel}}. Для идентификации каналов используйте [название канала](https://docs.mattermost.com/messaging/managing-channels.html#naming-a-channel)."
+    "translation": "Не удалось найти канал {{.Channel}}. Для идентификации каналов используйте [название канала](https://docs.grommunio.com)."
   },
   {
     "id": "api.command_invite.desc",
@@ -669,7 +669,7 @@
   },
   {
     "id": "api.command_invite.private_channel.app_error",
-    "translation": "Невозможно найти канал {{.Channel}}. Пожалуйста, используйте [управление каналом](https://docs.mattermost.com/messaging/managing-channels.html#naming-a-channel) для идентификации."
+    "translation": "Невозможно найти канал {{.Channel}}. Пожалуйста, используйте [управление каналом](https://docs.grommunio.com) для идентификации."
   },
   {
     "id": "api.command_invite.success",
@@ -729,7 +729,7 @@
   },
   {
     "id": "api.command_logout.desc",
-    "translation": "Выход из Mattermost"
+    "translation": "Выход из grommunio chat"
   },
   {
     "id": "api.command_logout.name",
@@ -781,7 +781,7 @@
   },
   {
     "id": "api.command_mute.error",
-    "translation": "Не удалось найти канал {{.Channel}}. Для идентификации каналов используйте [название канала](https://docs.mattermost.com/messaging/managing-channels.html#naming-a-channel)."
+    "translation": "Не удалось найти канал {{.Channel}}. Для идентификации каналов используйте [название канала](https://docs.grommunio.com)."
   },
   {
     "id": "api.command_mute.hint",
@@ -793,7 +793,7 @@
   },
   {
     "id": "api.command_mute.no_channel.error",
-    "translation": "Не удалось найти указанный канал. Пожалуйста, используйте [дескриптор канала](https://docs.mattermost.com/messaging/managing-channels.html#naming-a-channel) для идентификации каналов."
+    "translation": "Не удалось найти указанный канал. Пожалуйста, используйте [дескриптор канала](https://docs.grommunio.com) для идентификации каналов."
   },
   {
     "id": "api.command_mute.not_member.error",
@@ -1521,7 +1521,7 @@
   },
   {
     "id": "api.slackimport.slack_add_channels.merge",
-    "translation": "Slack канал {{.DisplayName}} уже существует в виде канала Mattermost. Произведено слияние.\r\n"
+    "translation": "Slack канал {{.DisplayName}} уже существует в виде канала grommunio chat. Произведено слияние.\r\n"
   },
   {
     "id": "api.slackimport.slack_add_users.created",
@@ -1533,11 +1533,11 @@
   },
   {
     "id": "api.slackimport.slack_add_users.merge_existing",
-    "translation": "Slack пользователь слился с существующим пользователем Mattermost с соответствующим адресом электронной почты {{.Email}} и именем пользователя {{.Username}}.\r\n"
+    "translation": "Slack пользователь слился с существующим пользователем grommunio chat с соответствующим адресом электронной почты {{.Email}} и именем пользователя {{.Username}}.\r\n"
   },
   {
     "id": "api.slackimport.slack_add_users.merge_existing_failed",
-    "translation": "Пользователь Slack объединен с существующим пользователем Mattermost по совпадению email {{.Email}} и имени пользователя {{.Username}}, но было невозможно добавить пользователя в его команду.\r\n"
+    "translation": "Пользователь Slack объединен с существующим пользователем grommunio chat по совпадению email {{.Email}} и имени пользователя {{.Username}}, но было невозможно добавить пользователя в его команду.\r\n"
   },
   {
     "id": "api.slackimport.slack_add_users.missing_email_address",
@@ -1549,7 +1549,7 @@
   },
   {
     "id": "api.slackimport.slack_import.log",
-    "translation": "Лог импорта Mattermost Slack\r\n"
+    "translation": "Лог импорта grommunio chat Slack\r\n"
   },
   {
     "id": "api.slackimport.slack_import.note1",
@@ -1857,7 +1857,7 @@
   },
   {
     "id": "api.templates.post_body.button",
-    "translation": "Ответить в Mattermost"
+    "translation": "Ответить в grommunio chat"
   },
   {
     "id": "api.templates.reset_body.button",
@@ -1917,7 +1917,7 @@
   },
   {
     "id": "api.templates.verify_body.info",
-    "translation": "Этот адрес электронной почты был использован для создания учётной записи Mattermost."
+    "translation": "Этот адрес электронной почты был использован для создания учётной записи grommunio chat."
   },
   {
     "id": "api.templates.verify_body.title",
@@ -1937,7 +1937,7 @@
   },
   {
     "id": "api.templates.welcome_body.info",
-    "translation": "Этот email-адрес был использован для создания учётной записи Mattermost."
+    "translation": "Этот email-адрес был использован для создания учётной записи grommunio chat."
   },
   {
     "id": "api.templates.welcome_body.title",
@@ -3157,7 +3157,7 @@
   },
   {
     "id": "ent.elasticsearch.test_config.license.error",
-    "translation": "Ваша версия сервера Mattermost не поддерживает Elasticsearch."
+    "translation": "Ваша версия сервера grommunio chat не поддерживает Elasticsearch."
   },
   {
     "id": "ent.elasticsearch.test_config.reenter_password",
@@ -3201,7 +3201,7 @@
   },
   {
     "id": "ent.ldap.do_login.user_filtered.app_error",
-    "translation": "Ваша учетная запись AD/LDAP не имеет разрешения на использование этого сервера Mattermost. Пожалуйста, обратитесь к системному администратору, чтобы проверить фильтр пользователей AD/LDAP."
+    "translation": "Ваша учетная запись AD/LDAP не имеет разрешения на использование этого сервера grommunio chat. Пожалуйста, обратитесь к системному администратору, чтобы проверить фильтр пользователей AD/LDAP."
   },
   {
     "id": "ent.ldap.do_login.user_not_registered.app_error",
@@ -3221,7 +3221,7 @@
   },
   {
     "id": "ent.ldap.syncronize.search_failure.app_error",
-    "translation": "Не удалось найти пользователей в AD/LDAP. Проверьте, может ли сервер Mattermost подключиться к вашему серверу AD/LDAP, и попробуйте снова."
+    "translation": "Не удалось найти пользователей в AD/LDAP. Проверьте, может ли сервер grommunio chat подключиться к вашему серверу AD/LDAP, и попробуйте снова."
   },
   {
     "id": "ent.ldap.validate_filter.app_error",
@@ -3317,7 +3317,7 @@
   },
   {
     "id": "ent.migration.migratetosaml.username_already_used_by_other_user",
-    "translation": "Имя пользователя уже используется другим пользователем Mattermost."
+    "translation": "Имя пользователя уже используется другим пользователем grommunio chat."
   },
   {
     "id": "ent.saml.attribute.app_error",
@@ -3401,7 +3401,7 @@
   },
   {
     "id": "mattermost.bulletin.subject",
-    "translation": "Бюллетень безопасности Mattermost"
+    "translation": "Бюллетень безопасности grommunio chat"
   },
   {
     "id": "mfa.activate.bad_token.app_error",
@@ -4549,7 +4549,7 @@
   },
   {
     "id": "oauth.gitlab.tos.error",
-    "translation": "Условия предоставления услуг GitLab обновлены. Пожалуйста, зайдите на {{.URL}}, чтобы принять их, а затем попробуйте снова войти в Mattermost."
+    "translation": "Условия предоставления услуг GitLab обновлены. Пожалуйста, зайдите на {{.URL}}, чтобы принять их, а затем попробуйте снова войти в grommunio chat."
   },
   {
     "id": "plugin.api.update_user_status.bad_status",
@@ -4681,7 +4681,7 @@
   },
   {
     "id": "api.license.request_trial_license.app_error",
-    "translation": "Не удалось получить пробную лицензию, попробуйте еще раз или свяжитесь с support@mattermost.com."
+    "translation": "Не удалось получить пробную лицензию, попробуйте еще раз или свяжитесь с support@grommunio chat.com."
   },
   {
     "id": "api.admin.delete_brand_image.storage.not_found",
@@ -4697,7 +4697,7 @@
   },
   {
     "id": "api.bot.teams_channels.add_message_mobile",
-    "translation": "Пожалуйста, добавьте меня в команды и каналы, c которыми мне нужно взаимодействовать. Это можно сделать в браузере или в приложении Mattermost для ПК."
+    "translation": "Пожалуйста, добавьте меня в команды и каналы, c которыми мне нужно взаимодействовать. Это можно сделать в браузере или в приложении grommunio chat для ПК."
   },
   {
     "id": "api.channel.get_channel_moderations.license.error",
@@ -5277,7 +5277,7 @@
   },
   {
     "id": "app.bot.get_disable_bot_sysadmin_message",
-    "translation": "{{if .disableBotsSetting}}{{if .printAllBots}}{{.UserName}} были деактивированы. Они управляли следующими учетными записями ботов, которые теперь отключены.\n\n{{.BotNames}}{{else}}{{.UserName}} были деактивированы. Они управляли {{.NumBots}} учетными записями ботов, которые теперь отключены, включая следующие:\n\n{{.BotNames}}{{end}} Вы можете стать владельцем каждого бота, включив его в разделе **Интеграции > Учетные записи ботов** и создав новые токены для бота.\n\nДля получения дополнительной информации см. Нашу [документацию](https://docs.mattermost.com/developer/bot-accounts.html#what-happens-when-a-user-who-owns-bot-accounts-is-disabled).{{else}}{{if .printAllBots}}{{.UserName}} были деактивированы. Они управляли следующими учетными записями ботов, которые все еще включены.\n\n{{.BotNames}}\n{{else}}{{.UserName}} были деактивированы. Они управляли {{.NumBots}} учетными записями ботов, которые по-прежнему включены, включая следующие:\n\n{{.BotNames}}{{end}} Мы настоятельно рекомендуем вам стать владельцем каждого бота, повторно включив его в разделе **Интеграция > Учетные записи ботов** и создав новые токены для бота.\n\nДля получения дополнительной информации см. Нашу [документацию](https://docs.mattermost.com/developer/bot-accounts.html#what-happens-when-a-user-who-owns-bot-accounts-is-disabled).\n\nЕсли вы хотите, чтобы учетные записи ботов автоматически отключались после деактивации пользователя, установите для параметра «Отключить учетные записи ботов после деактивации пользователя» в **Системная консоль > Интеграция > Учетные записи ботов** значение \"да\".{{end}}"
+    "translation": "{{if .disableBotsSetting}}{{if .printAllBots}}{{.UserName}} были деактивированы. Они управляли следующими учетными записями ботов, которые теперь отключены.\n\n{{.BotNames}}{{else}}{{.UserName}} были деактивированы. Они управляли {{.NumBots}} учетными записями ботов, которые теперь отключены, включая следующие:\n\n{{.BotNames}}{{end}} Вы можете стать владельцем каждого бота, включив его в разделе **Интеграции > Учетные записи ботов** и создав новые токены для бота.\n\nДля получения дополнительной информации см. Нашу [документацию](https://docs.grommunio.com).\n\nЕсли вы хотите, чтобы учетные записи ботов автоматически отключались после деактивации пользователя, установите для параметра «Отключить учетные записи ботов после деактивации пользователя» в **Системная консоль > Интеграция > Учетные записи ботов** значение \"да\".{{end}}"
   },
   {
     "id": "app.channel.get_more_channels.get.app_error",
@@ -5453,7 +5453,7 @@
   },
   {
     "id": "ent.ldap.syncronize.search_failure_size_exceeded.app_error",
-    "translation": "Превышен лимит размера. Попробуйте увеличить настройку \"Максимальный размер страницы\". Подробнее об этом читайте на сайте https://docs.mattermost.com/onboard/ad-ldap.html#i-see-the-log-error-ldap-result-code-4-size-limit-exceeded."
+    "translation": "Превышен лимит размера. Попробуйте увеличить настройку \"Максимальный размер страницы\". Подробнее об этом читайте на сайте https://docs.grommunio chat.com/onboard/ad-ldap.html#i-see-the-log-error-ldap-result-code-4-size-limit-exceeded."
   },
   {
     "id": "group_not_associated_to_synced_team",
@@ -5549,7 +5549,7 @@
   },
   {
     "id": "web.error.unsupported_browser.no_longer_support_version",
-    "translation": "Эта версия вашего браузера больше не поддерживается Mattermost"
+    "translation": "Эта версия вашего браузера больше не поддерживается grommunio chat"
   },
   {
     "id": "ent.get_users_in_channel_during",
@@ -5657,7 +5657,7 @@
   },
   {
     "id": "api.templates.remove_expired_license.subject",
-    "translation": "Корпоративная лицензия Mattermost была отключена."
+    "translation": "Корпоративная лицензия grommunio chat была отключена."
   },
   {
     "id": "api.user.create_user.invalid_invitation_type.app_error",
@@ -5793,7 +5793,7 @@
   },
   {
     "id": "web.error.unsupported_browser.download_app_or_upgrade_browser",
-    "translation": "Загрузите приложение Mattermost или используйте поддерживаемый браузер для лучшей работы."
+    "translation": "Загрузите приложение grommunio chat или используйте поддерживаемый браузер для лучшей работы."
   },
   {
     "id": "web.error.unsupported_browser.download_the_app",
@@ -5833,7 +5833,7 @@
   },
   {
     "id": "web.error.unsupported_browser.no_longer_support",
-    "translation": "Этот браузер больше не поддерживается Mattermost"
+    "translation": "Этот браузер больше не поддерживается grommunio chat"
   },
   {
     "id": "web.error.unsupported_browser.open_system_browser.edge",
@@ -5933,7 +5933,7 @@
   },
   {
     "id": "api.license.request-trial.bad-request.terms-not-accepted",
-    "translation": "Вы должны принять Соглашение об оценке программного обеспечения Mattermost и Политику конфиденциальности, чтобы запросить лицензию."
+    "translation": "Вы должны принять Соглашение об оценке программного обеспечения grommunio chat и Политику конфиденциальности, чтобы запросить лицензию."
   },
   {
     "id": "app.recover.save.app_error",
@@ -6493,43 +6493,43 @@
   },
   {
     "id": "api.upgrade_to_enterprise_status.signature.app_error",
-    "translation": "Mattermost не удалось обновить до Корпоративной редакции. Не удалось проверить цифровую подпись загруженного двоичного файла."
+    "translation": "grommunio chat не удалось обновить до Корпоративной редакции. Не удалось проверить цифровую подпись загруженного двоичного файла."
   },
   {
     "id": "api.upgrade_to_enterprise_status.app_error",
-    "translation": "Mattermost не удалось обновить до Корпоративной редакции."
+    "translation": "grommunio chat не удалось обновить до Корпоративной редакции."
   },
   {
     "id": "api.upgrade_to_enterprise.system_not_supported.app_error",
-    "translation": "Mattermost не удалось обновить до Корпоративной редакции. Эта функция будет работать только в системах Linux с архитектурой x86-64."
+    "translation": "grommunio chat не удалось обновить до Корпоративной редакции. Эта функция будет работать только в системах Linux с архитектурой x86-64."
   },
   {
     "id": "api.upgrade_to_enterprise.invalid-user.app_error",
-    "translation": "Mattermost не удалось обновить до Корпоративной редакции. Системный пользователь Mattermost {{.MattermostUsername}} не имеет прав на запись в необходимый двоичный файл. Системный администратор может обновить права доступа к файлам, выполнив следующую команду на сервере, где установлен Mattermost:\n\n```\nchown {{.MattermostUsername}} \"{{.Path}}\"\n```\n\nПосле изменения прав доступа к файлу попробуйте снова обновить Mattermost. После обновления и перезапуска не забудьте восстановить исходные разрешения для двоичного файла:\n\n```\nchown {{.FileUsername}} \"{{.Path}}\"\n```"
+    "translation": "grommunio chat не удалось обновить до Корпоративной редакции. Системный пользователь grommunio chat {{.MattermostUsername}} не имеет прав на запись в необходимый двоичный файл. Системный администратор может обновить права доступа к файлам, выполнив следующую команду на сервере, где установлен grommunio chat:\n\n```\nchown {{.MattermostUsername}} \"{{.Path}}\"\n```\n\nПосле изменения прав доступа к файлу попробуйте снова обновить grommunio chat. После обновления и перезапуска не забудьте восстановить исходные разрешения для двоичного файла:\n\n```\nchown {{.FileUsername}} \"{{.Path}}\"\n```"
   },
   {
     "id": "api.upgrade_to_enterprise.invalid-user-and-permission.app_error",
-    "translation": "Mattermost не удалось обновить до Корпоративной редакции. Системный пользователь Mattermost {{.MattermostUsername}} не имеет прав на запись в необходимый двоичный файл. Системный администратор может обновить права доступа к файлам, выполнив следующую команду на сервере, где установлен Mattermost:\n\n```\nchown {{.MattermostUsername}} \"{{.Path}}\"\nchmod +w \"{{.Path}}\"\n```\n\nПосле изменения прав доступа к файлу попробуйте снова обновить Mattermost. После обновления и перезапуска не забудьте восстановить исходные разрешения для двоичного файла:\n\n```\nchown {{.FileUsername}} \"{{.Path}}\"\nchmod -w \"{{.Path}}\"\n```"
+    "translation": "grommunio chat не удалось обновить до Корпоративной редакции. Системный пользователь grommunio chat {{.MattermostUsername}} не имеет прав на запись в необходимый двоичный файл. Системный администратор может обновить права доступа к файлам, выполнив следующую команду на сервере, где установлен grommunio chat:\n\n```\nchown {{.MattermostUsername}} \"{{.Path}}\"\nchmod +w \"{{.Path}}\"\n```\n\nПосле изменения прав доступа к файлу попробуйте снова обновить grommunio chat. После обновления и перезапуска не забудьте восстановить исходные разрешения для двоичного файла:\n\n```\nchown {{.FileUsername}} \"{{.Path}}\"\nchmod -w \"{{.Path}}\"\n```"
   },
   {
     "id": "api.upgrade_to_enterprise.invalid-permission.app_error",
-    "translation": "Mattermost не удалось обновить до Корпоративной редакции. Системный пользователь Mattermost {{.MattermostUsername}} не имеет прав на запись в необходимый двоичный файл. Системный администратор может обновить права доступа к файлам, выполнив следующую команду на сервере, где установлен Mattermost:\n\n```\nchmod +w \"{{.Path}}\"\n```\n\nПосле изменения прав доступа к файлу попробуйте снова обновить Mattermost. После обновления и перезапуска не забудьте восстановить исходные разрешения для двоичного файла:\n\n```\nchmod -w \"{{.Path}}\"\n```"
+    "translation": "grommunio chat не удалось обновить до Корпоративной редакции. Системный пользователь grommunio chat {{.MattermostUsername}} не имеет прав на запись в необходимый двоичный файл. Системный администратор может обновить права доступа к файлам, выполнив следующую команду на сервере, где установлен grommunio chat:\n\n```\nchmod +w \"{{.Path}}\"\n```\n\nПосле изменения прав доступа к файлу попробуйте снова обновить grommunio chat. После обновления и перезапуска не забудьте восстановить исходные разрешения для двоичного файла:\n\n```\nchmod -w \"{{.Path}}\"\n```"
   },
   {
     "id": "api.upgrade_to_enterprise.generic_error.app_error",
-    "translation": "Mattermost не удалось обновить до Корпоративной редакции."
+    "translation": "grommunio chat не удалось обновить до Корпоративной редакции."
   },
   {
     "id": "api.upgrade_to_enterprise.app_error",
-    "translation": "Обновление до Mattermost Корпоративная редакция уже выполняется."
+    "translation": "Обновление до grommunio chat Корпоративная редакция уже выполняется."
   },
   {
     "id": "api.upgrade_to_enterprise.already-enterprise.app_error",
-    "translation": "Вы не можете выполнить обновление, потому что вы уже используете Mattermost Корпоративная редакция."
+    "translation": "Вы не можете выполнить обновление, потому что вы уже используете grommunio chat Корпоративная редакция."
   },
   {
     "id": "api.upgrade_to_enterprise.already-done.app_error",
-    "translation": "Вы уже перешли на Mattermost Корпоративная редакция. Пожалуйста, перезапустите сервер, чтобы завершить обновление."
+    "translation": "Вы уже перешли на grommunio chat Корпоративная редакция. Пожалуйста, перезапустите сервер, чтобы завершить обновление."
   },
   {
     "id": "app.job.update.app_error",
@@ -7673,11 +7673,11 @@
   },
   {
     "id": "api.templates.payment_failed_no_card.title",
-    "translation": "Ваш счёт за Mattermost Cloud к оплате"
+    "translation": "Ваш счёт за grommunio chat Cloud к оплате"
   },
   {
     "id": "api.templates.payment_failed_no_card.subject",
-    "translation": "Оплата производится за подписку на Mattermost Cloud"
+    "translation": "Оплата производится за подписку на grommunio chat Cloud"
   },
   {
     "id": "api.templates.payment_failed_no_card.info3",
@@ -7685,7 +7685,7 @@
   },
   {
     "id": "api.templates.payment_failed_no_card.info1",
-    "translation": "Ваш счёт Mattermost Cloud за последний расчётный период был обработан. Однако у нас нет ваших платёжных реквизитов."
+    "translation": "Ваш счёт grommunio chat Cloud за последний расчётный период был обработан. Однако у нас нет ваших платёжных реквизитов."
   },
   {
     "id": "api.templates.payment_failed_no_card.button",
@@ -7697,11 +7697,11 @@
   },
   {
     "id": "api.templates.payment_failed.subject",
-    "translation": "Требуется действие: Оплата за Mattermost {{.Plan}} не произведена"
+    "translation": "Требуется действие: Оплата за grommunio chat {{.Plan}} не произведена"
   },
   {
     "id": "api.templates.payment_failed.info3",
-    "translation": "Чтобы обеспечить бесперебойный доступ к Mattermost {{.Plan}}, свяжитесь с вашим финансовым учреждением для устранения основной проблемы или обновите платёжную информацию. После обновления платёжных данных Mattermost предпримет попытку погасить остаток задолженности."
+    "translation": "Чтобы обеспечить бесперебойный доступ к grommunio chat {{.Plan}}, свяжитесь с вашим финансовым учреждением для устранения основной проблемы или обновите платёжную информацию. После обновления платёжных данных grommunio chat предпримет попытку погасить остаток задолженности."
   },
   {
     "id": "api.templates.payment_failed.info2",
@@ -7709,7 +7709,7 @@
   },
   {
     "id": "api.templates.payment_failed.info1",
-    "translation": "Ваше финансовое учреждение отклонило платёж вашей карты {{.CardBrand}}. ****{{.LastFour}}, связанный с вашим рабочим пространством Mattermost Cloud."
+    "translation": "Ваше финансовое учреждение отклонило платёж вашей карты {{.CardBrand}}. ****{{.LastFour}}, связанный с вашим рабочим пространством grommunio chat Cloud."
   },
   {
     "id": "api.templates.invite_body_guest.subTitle",
@@ -7717,7 +7717,7 @@
   },
   {
     "id": "api.templates.invite_body_footer.title",
-    "translation": "Что такое Mattermost?"
+    "translation": "Что такое grommunio chat?"
   },
   {
     "id": "api.templates.invite_body_footer.learn_more",
@@ -7725,11 +7725,11 @@
   },
   {
     "id": "api.templates.invite_body_footer.info",
-    "translation": "Mattermost - это гибкая платформа обмена сообщениями с открытым исходным кодом, обеспечивающая безопасную совместную работу в команде."
+    "translation": "grommunio chat - это гибкая платформа обмена сообщениями с открытым исходным кодом, обеспечивающая безопасную совместную работу в команде."
   },
   {
     "id": "api.templates.invite_body.subTitle",
-    "translation": "Начните работу с вашей командой на Mattermost"
+    "translation": "Начните работу с вашей командой на grommunio chat"
   },
   {
     "id": "api.templates.email_us_anytime_at",
@@ -7737,11 +7737,11 @@
   },
   {
     "id": "api.templates.email_footer_v2",
-    "translation": "© 2022 Mattermost, Inc. 530 Lytton Avenue, Second floor, Palo Alto, CA, 94301"
+    "translation": "© 2024 grommunio GmbH. Donau-City-Str. 7, door 2, 30th floor, DC Tower, 1220 Vienna, Austria"
   },
   {
     "id": "api.templates.copyright",
-    "translation": "© 2021 Mattermost, Inc. 530 Lytton Avenue, Second floor, Palo Alto, CA, 94301"
+    "translation": "© 2024 grommunio GmbH. Donau-City-Str. 7, door 2, 30th floor, DC Tower, 1220 Vienna, Austria"
   },
   {
     "id": "api.templates.cloud_welcome_email.title",
@@ -7793,11 +7793,11 @@
   },
   {
     "id": "api.templates.cloud_welcome_email.download_mm_info",
-    "translation": "Скачать Mattermost App"
+    "translation": "Скачать grommunio chat App"
   },
   {
     "id": "api.templates.cloud_welcome_email.button",
-    "translation": "Открыть Mattermost"
+    "translation": "Открыть grommunio chat"
   },
   {
     "id": "api.templates.cloud_welcome_email.app_market_place",
@@ -7933,7 +7933,7 @@
   },
   {
     "id": "api.command_share.desc",
-    "translation": "Разделяет текущий канал с удалённым экземпляром Mattermost."
+    "translation": "Разделяет текущий канал с удалённым экземпляром grommunio chat."
   },
   {
     "id": "api.command_share.could_not_uninvite.error",
@@ -8085,7 +8085,7 @@
   },
   {
     "id": "api.command_remote.desc",
-    "translation": "Создайте безопасные соединения для связи между экземплярами Mattermost."
+    "translation": "Создайте безопасные соединения для связи между экземплярами grommunio chat."
   },
   {
     "id": "api.command_remote.decode_invitation.error",
@@ -8109,7 +8109,7 @@
   },
   {
     "id": "api.command_remote.accept.help",
-    "translation": "Принять приглашение от внешнего кластера Mattermost"
+    "translation": "Принять приглашение от внешнего кластера grommunio chat"
   },
   {
     "id": "api.command_share.share_read_only.hint",
@@ -8381,7 +8381,7 @@
   },
   {
     "id": "api.email_batching.send_batched_email_notification.button",
-    "translation": "Открыть Mattermost"
+    "translation": "Открыть grommunio chat"
   },
   {
     "id": "api.custom_status.set_custom_statuses.update.app_error",
@@ -8401,7 +8401,7 @@
   },
   {
     "id": "api.license.request-trial.can-start-trial.not-allowed",
-    "translation": "Не удалось применить новую пробную лицензию. Вы уже применяли пробную лицензию к этому экземпляру Mattermost. Если вы хотите продлить пробный период, пожалуйста, [свяжитесь с нашим отделом продаж] (https://mattermost.com/contact-us/)."
+    "translation": "Не удалось применить новую пробную лицензию. Вы уже применяли пробную лицензию к этому экземпляру grommunio chat. Если вы хотите продлить пробный период, пожалуйста, [свяжитесь с нашим отделом продаж] (https://grommunio chat.com/contact-us/)."
   },
   {
     "id": "api.license.request-trial.can-start-trial.error",
@@ -8449,7 +8449,7 @@
   },
   {
     "id": "app.notification.footer.infoLogin",
-    "translation": "Войти в Mattermost"
+    "translation": "Войти в grommunio chat"
   },
   {
     "id": "app.notification.footer.info",
@@ -8537,7 +8537,7 @@
   },
   {
     "id": "api.templates.license_up_for_renewal_title",
-    "translation": "Ваша подписка Mattermost подлежит продлению"
+    "translation": "Ваша подписка grommunio chat подлежит продлению"
   },
   {
     "id": "api.templates.license_up_for_renewal_subtitle_two",
@@ -8545,7 +8545,7 @@
   },
   {
     "id": "api.templates.license_up_for_renewal_subtitle",
-    "translation": "{{.UserName}}, срок действия Вашей подписки истекает через {{.Days}} дней. Мы надеемся, что Вам нравится гибкое и безопасное командное сотрудничество, которое обеспечивает Mattermost. Продлите подписку в ближайшее время, чтобы Ваша команда могла продолжать пользоваться этими преимуществами."
+    "translation": "{{.UserName}}, срок действия Вашей подписки истекает через {{.Days}} дней. Мы надеемся, что Вам нравится гибкое и безопасное командное сотрудничество, которое обеспечивает grommunio chat. Продлите подписку в ближайшее время, чтобы Ваша команда могла продолжать пользоваться этими преимуществами."
   },
   {
     "id": "api.templates.license_up_for_renewal_subject",
@@ -8724,8 +8724,8 @@
     "translation": "Ошибка при попытке сохранить первую полную настройку администратора в магазине."
   },
   {
-    "id": "model.oauth.is_valid.mattermost_app_id.app_error",
-    "translation": "Максимальная длина MattermostAppID — 32 символа."
+    "id": "model.oauth.is_valid.grommunio chat_app_id.app_error",
+    "translation": "Максимальная длина grommunio chatAppID — 32 символа."
   },
   {
     "id": "app.channel.get_file_count.app_error",
@@ -8777,7 +8777,7 @@
   },
   {
     "id": "api.license.request_trial_license.embargoed",
-    "translation": "Нам не удалось обработать запрос из-за ограничений для стран, на которые распространяется эмбарго. [Подробнее читайте в нашей документации](https://mattermost.com/pl/limitations-for-embargoed-countries) или обращайтесь по адресу legal@mattermost.com, если у вас есть вопросы об экспортных ограничениях."
+    "translation": "Нам не удалось обработать запрос из-за ограничений для стран, на которые распространяется эмбарго. [Подробнее читайте в нашей документации](https://grommunio chat.com/pl/limitations-for-embargoed-countries) или обращайтесь по адресу legal@grommunio chat.com, если у вас есть вопросы об экспортных ограничениях."
   },
   {
     "id": "api.getThreadsForUser.bad_only_params",
@@ -8797,7 +8797,7 @@
   },
   {
     "id": "api.templates.cloud_upgrade_confirmation.subject",
-    "translation": "Подтверждение обновления Mattermost"
+    "translation": "Подтверждение обновления grommunio chat"
   },
   {
     "id": "api.templates.delinquency_14.title",
@@ -8813,7 +8813,7 @@
   },
   {
     "id": "api.templates.delinquency_14.subject",
-    "translation": "Просрочена оплата вашего Mattermost {{.Plan}}"
+    "translation": "Просрочена оплата вашего grommunio chat {{.Plan}}"
   },
   {
     "id": "api.templates.delinquency_14.button",
@@ -8829,7 +8829,7 @@
   },
   {
     "id": "api.file.cloud_upload.app_error",
-    "translation": "Загрузка через mmctl в экземпляр Cloud не поддерживается. Пожалуйста, ознакомьтесь с документацией здесь: https://docs.mattermost.com/manage/cloud-data-export.html."
+    "translation": "Загрузка через mmctl в экземпляр Cloud не поддерживается. Пожалуйста, ознакомьтесь с документацией здесь: https://docs.grommunio chat.com/manage/cloud-data-export.html."
   },
   {
     "id": "api.elasticsearch.test_elasticsearch_settings_nil.app_error",
@@ -8849,7 +8849,7 @@
   },
   {
     "id": "api.command_help.success",
-    "translation": "Mattermost - это платформа с открытым исходным кодом для безопасного общения, сотрудничества и организации работы между командами с использованием различных инструментов.\nMattermost состоит из двух ключевых инструментов:\n\n**Channels** - Каналы - оставайтесь всегда на связи со своей командой посредством 1:1 и групповых чатов.\n**[Playbooks](/playbooks)** - Сценарии - создавайте и настраивайте повторяющиеся процессы для достижения конкретных и предсказуемых результатов.\n\n[Посмотреть документацию и руководства]({{.HelpLink}})"
+    "translation": "grommunio chat - это платформа с открытым исходным кодом для безопасного общения, сотрудничества и организации работы между командами с использованием различных инструментов.\ngrommunio chat состоит из двух ключевых инструментов:\n\n**Channels** - Каналы - оставайтесь всегда на связи со своей командой посредством 1:1 и групповых чатов.\n**[Playbooks](/playbooks)** - Сценарии - создавайте и настраивайте повторяющиеся процессы для достижения конкретных и предсказуемых результатов.\n\n[Посмотреть документацию и руководства]({{.HelpLink}})"
   },
   {
     "id": "api.cloud.teams_limit_reached.restore",
@@ -8977,7 +8977,7 @@
   },
   {
     "id": "api.templates.delinquency_90.title",
-    "translation": "Ваше рабочее пространство Mattermost было понижено в статусе"
+    "translation": "Ваше рабочее пространство grommunio chat было понижено в статусе"
   },
   {
     "id": "api.templates.delinquency_90.subtitle3",
@@ -8993,7 +8993,7 @@
   },
   {
     "id": "api.templates.delinquency_90.subject",
-    "translation": "Ваше рабочее пространство Mattermost Cloud было понижено"
+    "translation": "Ваше рабочее пространство grommunio chat Cloud было понижено"
   },
   {
     "id": "api.templates.delinquency_90.secondary_action_button",
@@ -9017,11 +9017,11 @@
   },
   {
     "id": "api.templates.delinquency_75.subtitle1",
-    "translation": "Это последнее напоминание о том, что мы не получили оплату за ваше рабочее пространство Mattermost Cloud с {{.DelinquencyDate}}."
+    "translation": "Это последнее напоминание о том, что мы не получили оплату за ваше рабочее пространство grommunio chat Cloud с {{.DelinquencyDate}}."
   },
   {
     "id": "api.templates.delinquency_75.subject",
-    "translation": "Ваш Mattermost {{.Plan}} будет понижен через 15 дней"
+    "translation": "Ваш grommunio chat {{.Plan}} будет понижен через 15 дней"
   },
   {
     "id": "api.templates.delinquency_75.button",
@@ -9045,7 +9045,7 @@
   },
   {
     "id": "api.templates.delinquency_60.title",
-    "translation": "Ваше рабочее пространство Mattermost будет понижено в течение 30 дней"
+    "translation": "Ваше рабочее пространство grommunio chat будет понижено в течение 30 дней"
   },
   {
     "id": "api.templates.delinquency_60.subtitle3",
@@ -9081,7 +9081,7 @@
   },
   {
     "id": "api.templates.delinquency_45.subject",
-    "translation": "Уведомление: В ближайшее время ваш Mattermost {{.Plan}} будет понижен"
+    "translation": "Уведомление: В ближайшее время ваш grommunio chat {{.Plan}} будет понижен"
   },
   {
     "id": "api.templates.delinquency_45.button",
@@ -9097,11 +9097,11 @@
   },
   {
     "id": "api.templates.delinquency_30.subtitle1",
-    "translation": "У вас есть время, чтобы сохранить ваш Mattermost {{.Plan}} активным, но вам нужно решить проблемы с методом оплаты."
+    "translation": "У вас есть время, чтобы сохранить ваш grommunio chat {{.Plan}} активным, но вам нужно решить проблемы с методом оплаты."
   },
   {
     "id": "api.templates.delinquency_30.subject",
-    "translation": "Действуйте, чтобы сохранить функционал Mattermost {{.Plan}}"
+    "translation": "Действуйте, чтобы сохранить функционал grommunio chat {{.Plan}}"
   },
   {
     "id": "api.templates.delinquency_30.limits_documentation",
@@ -9345,7 +9345,7 @@
   },
   {
     "id": "api.server.cws.needs_enterprise_edition",
-    "translation": "Услуга доступна только в редакции Mattermost Enterprise"
+    "translation": "Услуга доступна только в редакции grommunio chat Enterprise"
   },
   {
     "id": "api.system.logs.invalidFilter",
@@ -10153,7 +10153,7 @@
   },
   {
     "id": "api.server.cws.disabled",
-    "translation": "Взаимодействие с клиентским порталом Mattermost было отключено системным администратором."
+    "translation": "Взаимодействие с клиентским порталом grommunio chat было отключено системным администратором."
   },
   {
     "id": "model.user.is_valid.invalidProperty.app_error",
