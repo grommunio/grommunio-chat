@@ -198,7 +198,7 @@ const defaultServerConfig: AdminConfig = {
         MaximumPayloadSizeBytes: 100000,
     },
     TeamSettings: {
-        SiteName: 'Mattermost',
+        SiteName: 'grommunio chat',
         MaxUsersPerTeam: 50,
         EnableJoinLeaveMessageByDefault: true,
         EnableUserCreation: true,
