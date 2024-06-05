@@ -2,20 +2,20 @@
 // See LICENSE.txt for license information.
 
 export const FEEDBACK_EMAIL = 'test@example.com';
-export const ABOUT_LINK = 'https://docs.mattermost.com/pl/about-mattermost';
-export const ASK_COMMUNITY_LINK = 'https://mattermost.com/pl/default-ask-mattermost-community/';
-export const HELP_LINK = 'https://mattermost.com/pl/help/';
-export const PRIVACY_POLICY_LINK = 'https://mattermost.com/pl/privacy-policy/';
-export const REPORT_A_PROBLEM_LINK = 'https://mattermost.com/pl/report-a-bug';
-export const TERMS_OF_SERVICE_LINK = 'https://mattermost.com/pl/terms-of-use/';
+export const ABOUT_LINK = 'https://grommunio.com/about-us/';
+export const ASK_COMMUNITY_LINK = 'https://community.grommunio.com/';
+export const HELP_LINK = 'https://docs.grommunio.com/';
+export const PRIVACY_POLICY_LINK = 'https://grommunio.com/privacy-policy/';
+export const REPORT_A_PROBLEM_LINK = '';
+export const TERMS_OF_SERVICE_LINK = 'https://grommunio.com/wp-content/uploads/2021/09/AGB_grommunio_EN_01OCT21.pdf';
 
 export const CLOUD = 'Cloud';
 export const E20 = 'E20';
 export const TEAM = 'Team';
 
 export const FixedPublicLinks = {
-    TermsOfService: 'https://mattermost.com/pl/terms-of-use/',
-    PrivacyPolicy: 'https://mattermost.com/pl/privacy-policy/',
+    TermsOfService: 'https://grommunio.com/wp-content/uploads/2021/09/AGB_grommunio_EN_01OCT21.pdf',
+    PrivacyPolicy: 'https://grommunio.com/privacy-policy/',
 };
 
 export const SupportSettings = {

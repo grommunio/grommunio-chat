@@ -183,13 +183,13 @@
         "ShowFullName": true
     },
     "SupportSettings": {
-        "TermsOfServiceLink": "https://mattermost.com/pl/terms-of-use/",
-        "PrivacyPolicyLink": "https://mattermost.com/pl/privacy-policy/",
-        "AboutLink": "https://mattermost.com/default-about/",
-        "HelpLink": "https://mattermost.com/pl/help/",
-        "ReportAProblemLink": "https://mattermost.com/pl/report-a-bug",
+        "TermsOfServiceLink": "https://grommunio.com/wp-content/uploads/2021/09/AGB_grommunio_EN_01OCT21.pdf",
+        "PrivacyPolicyLink": "https://grommunio.com/privacy-policy/",
+        "AboutLink": "https://grommunio.com/about-us/",
+        "HelpLink": "https://docs.grommunio.com/",
+        "ReportAProblemLink": "",
         "ForgotPasswordLink": "",
-        "SupportEmail": "feedback@mattermost.com"
+        "SupportEmail": "feedback@grommunio.com"
     },
     "AnnouncementSettings": {
         "EnableBanner": false,
@@ -296,9 +296,9 @@
         "LoginButtonTextColor": ""
     },
     "NativeAppSettings": {
-        "AppDownloadLink": "https://mattermost.com/download/",
-        "AndroidAppDownloadLink": "https://mattermost.com/pl/android-app/",
-        "IosAppDownloadLink": "https://mattermost.com/pl/ios-app/"
+        "AppDownloadLink": "https://grommunio.com/download/",
+        "AndroidAppDownloadLink": "https://grommunio.com/download/",
+        "IosAppDownloadLink": "https://grommunio.com/download/"
     },
     "ClusterSettings": {
         "Enable": false,

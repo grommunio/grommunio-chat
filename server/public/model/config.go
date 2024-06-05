@@ -134,11 +134,12 @@ const (
 
 	EmailSettingsDefaultFeedbackOrganization = ""
 
-	SupportSettingsDefaultTermsOfServiceLink = "https://mattermost.com/pl/terms-of-use/"
-	SupportSettingsDefaultPrivacyPolicyLink  = "https://mattermost.com/pl/privacy-policy/"
-	SupportSettingsDefaultAboutLink          = "https://mattermost.com/pl/about-mattermost"
-	SupportSettingsDefaultHelpLink           = "https://mattermost.com/pl/help/"
-	SupportSettingsDefaultReportAProblemLink = "https://mattermost.com/pl/report-a-bug"
+
+	SupportSettingsDefaultTermsOfServiceLink = "https://grommunio.com/wp-content/uploads/2021/09/AGB_grommunio_EN_01OCT21.pdf"
+	SupportSettingsDefaultPrivacyPolicyLink  = "https://grommunio.com/privacy-policy/"
+	SupportSettingsDefaultAboutLink          = "https://grommunio.com/about-us/"
+	SupportSettingsDefaultHelpLink           = "https://docs.grommunio.com/"
+	SupportSettingsDefaultReportAProblemLink = ""
 	SupportSettingsDefaultSupportEmail       = ""
 	SupportSettingsDefaultReAcceptancePeriod = 365
 
