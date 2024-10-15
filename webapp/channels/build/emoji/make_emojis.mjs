@@ -126,7 +126,7 @@ readMissingDirPromise.then(() => {
 
 // Copy mattermost emoji image
 const webappImagesDir = path.resolve(webappRootDir, 'channels', 'src', 'images');
-endResults.push(copyFileAndPrint(path.resolve(webappImagesDir, 'icon64x64.png'), path.resolve(webappImagesDir, 'emoji/mattermost.png'), 'mattermost-emoji'));
+endResults.push(copyFileAndPrint(path.resolve(webappImagesDir, 'icon64x64.png'), path.resolve(webappImagesDir, 'emoji/grommunio.png'), 'grommunio-emoji'));
 
 const sheetSource = path.resolve(webappRootDir, `node_modules/emoji-datasource-apple/img/apple/sheets/${EMOJI_SIZE}.png`);
 const sheetAbsoluteFile = path.resolve(webappRootDir, 'channels', 'src', 'images/emoji-sheets/apple-sheet.png');
@@ -212,12 +212,12 @@ fullEmoji.forEach((emoji) => {
 
 // add built-in custom emojis
 fullEmoji.push({
-    id: 'mattermost',
-    name: 'Mattermost',
+    id: 'grommunio',
+    name: 'grommunio',
     unified: '',
-    image: 'mattermost.png',
-    short_name: 'mattermost',
-    short_names: ['mattermost'],
+    image: 'grommunio.png',
+    short_name: 'grommunio',
+    short_names: ['grommunio'],
     category: 'custom',
 });
 
