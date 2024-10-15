@@ -1072,8 +1072,8 @@ export const DraggingStateTypes = {
 };
 
 export const AboutLinks = {
-    TERMS_OF_SERVICE: 'https://mattermost.com/pl/terms-of-use/',
-    PRIVACY_POLICY: 'https://mattermost.com/pl/privacy-policy/',
+    TERMS_OF_SERVICE: 'https://grommunio.com/wp-content/uploads/2021/09/AGB_grommunio_EN_01OCT21.pdf',
+    PRIVACY_POLICY: 'https://grommunio.com/privacy-policy/',
 };
 
 export const CloudLinks = {
