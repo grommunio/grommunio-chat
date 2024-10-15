@@ -1733,7 +1733,7 @@
   },
   {
     "id": "app.bot.get_disable_bot_sysadmin_message",
-    "translation": "{{if .disableBotsSetting}}{{if .printAllBots}}Uživatel {{.UserName}} byl zneplatněn. Uživatel spravoval následující účty robotů, které byly nyní též zneplatněny.\n\n{{.BotNames}}{{else}}Uživatel {{.UserName}} byl zneplatněn. Uživatel spravoval určitý počet ({{.NumBots}}) účty robotů, které byly nyní též zneplatněny. Jsou to také tyto:\n\n{{.BotNames}}{{end}}Můžeš převzít vlastnictví každého robota tím, že to povolíš v nabídce **Integrace > Účty robotů** a vytvoříš nového peška pro robota.\n\nPro více informací, viz naše [dokumentace](https://docs.mattermost.com/developer/bot-accounts.html#what-happens-when-a-user-who-owns-bot-accounts-is-disabled).{{else}}{{if .printAllBots}}Uživatel {{.UserName}} byl zneplatněn. Uživatel spravoval následující účty robotů, které jsou stále zplatněny.\n\n{{.BotNames}}\n{{else}}Uživatel {{.UserName}} byl zneplatněn. Uživatel spravoval určitý počet ({{.NumBots}}) účty robotů, , které jsou stále zplatněny. Jsou to také tyto:\n\n{{.BotNames}}{{end}}Silně doporučujeme převzít vlastiství nad těmito roboty tím, že je povolíš v nabídce **Integrace > Účty robotů** a vytvoříš nového peška pro robota.\n\nPro více informací, viz naše [dokumentace](https://docs.mattermost.com/developer/bot-accounts.html#what-happens-when-a-user-who-owns-bot-accounts-is-disabled).\n\nPokud chceš, aby se účty robotů automaticky zneplatniIy po zneplatnění uživatele, nastav na hodnotu \"pravda\" položku \"Zneplatnit účty robotů po zneplatnění uživatele\" v nabídce **Konzola Systému > Integrace > Účty robotů**.{{end}}"
+    "translation": "{{if .disableBotsSetting}}{{if .printAllBots}}Uživatel {{.UserName}} byl zneplatněn. Uživatel spravoval následující účty robotů, které byly nyní též zneplatněny.\n\n{{.BotNames}}{{else}}Uživatel {{.UserName}} byl zneplatněn. Uživatel spravoval určitý počet ({{.NumBots}}) účty robotů, které byly nyní též zneplatněny. Jsou to také tyto:\n\n{{.BotNames}}{{end}}Můžeš převzít vlastnictví každého robota tím, že to povolíš v nabídce **Integrace > Účty robotů** a vytvoříš nového peška pro robota.\n\nPro více informací, viz naše [dokumentace](https://grommunio.com).{{else}}{{if .printAllBots}}Uživatel {{.UserName}} byl zneplatněn. Uživatel spravoval následující účty robotů, které jsou stále zplatněny.\n\n{{.BotNames}}\n{{else}}Uživatel {{.UserName}} byl zneplatněn. Uživatel spravoval určitý počet ({{.NumBots}}) účty robotů, , které jsou stále zplatněny. Jsou to také tyto:\n\n{{.BotNames}}{{end}}Silně doporučujeme převzít vlastiství nad těmito roboty tím, že je povolíš v nabídce **Integrace > Účty robotů** a vytvoříš nového peška pro robota.\n\nPro více informací, viz naše [dokumentace](https://grommunio.com).\n\nPokud chceš, aby se účty robotů automaticky zneplatniIy po zneplatnění uživatele, nastav na hodnotu \"pravda\" položku \"Zneplatnit účty robotů po zneplatnění uživatele\" v nabídce **Konzola Systému > Integrace > Účty robotů**.{{end}}"
   },
   {
     "id": "app.bot.createbot.internal_error",
@@ -2589,7 +2589,7 @@
   },
   {
     "id": "ent.ldap.syncronize.search_failure_size_exceeded.app_error",
-    "translation": "Překročen limit. Zkuste zkontrolovat [max page size](https://docs.mattermost.com/deployment/sso-ldap.html#i-see-the-log-error-ldap-result-code-4-size-limit-exceeded)."
+    "translation": "Překročen limit. Zkuste zkontrolovat [max page size](https://grommunio.com)."
   },
   {
     "id": "ent.ldap.syncronize.search_failure.app_error",
@@ -4201,7 +4201,7 @@
   },
   {
     "id": "api.command_mute.no_channel.error",
-    "translation": "Nelze najít kanál {{.Channel}}. Použijte prosím [název kanálu](https://about.mattermost.com/default-channel-handle-documentation) k identifikaci kanálů."
+    "translation": "Nelze najít kanál {{.Channel}}. Použijte prosím [název kanálu](https://grommunio.com) k identifikaci kanálů."
   },
   {
     "id": "api.command_mute.name",
@@ -4213,7 +4213,7 @@
   },
   {
     "id": "api.command_mute.error",
-    "translation": "Nelze najít kanál {{.Channel}}. Použijte prosím [název kanálu](https://about.mattermost.com/default-channel-handle-documentation) k identifikaci kanálů."
+    "translation": "Nelze najít kanál {{.Channel}}. Použijte prosím [název kanálu](https://grommunio.com) k identifikaci kanálů."
   },
   {
     "id": "api.command_mute.desc",
@@ -4365,7 +4365,7 @@
   },
   {
     "id": "api.command_invite.channel.error",
-    "translation": "Nelze najít kanál {{.Channel}}. Použijte prosím [channel handle](https://about.mattermost.com/default-channel-handle-documentation) k identifikaci kanálů."
+    "translation": "Nelze najít kanál {{.Channel}}. Použijte prosím [channel handle](https://grommunio.com) k identifikaci kanálů."
   },
   {
     "id": "api.command_invite.channel.app_error",
@@ -5305,7 +5305,7 @@
   },
   {
     "id": "api.license.request_trial_license.app_error",
-    "translation": "Zkušební licenci nelze získat, zkuste to znovu nebo se obraťte na support@mattermost.com."
+    "translation": "Zkušební licenci nelze získat, zkuste to znovu nebo se obraťte na support@grommunio.com."
   },
   {
     "id": "api.license.request-trial.bad-request.terms-not-accepted",

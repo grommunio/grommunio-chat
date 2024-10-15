@@ -633,7 +633,7 @@
   },
   {
     "id": "api.command_invite.channel.error",
-    "translation": "Impossibile trovare il canale {{.Channel}}. Usare [channel handle](https://docs.mattermost.com/messaging/managing-channels.html#naming-a-channel) per identificare i canali."
+    "translation": "Impossibile trovare il canale {{.Channel}}. Usare [channel handle](https://grommunio.com) per identificare i canali."
   },
   {
     "id": "api.command_invite.desc",
@@ -777,7 +777,7 @@
   },
   {
     "id": "api.command_mute.error",
-    "translation": "Impossibile trovare il canale {{.Channel}}. Usare [channel handle](https://docs.mattermost.com/messaging/managing-channels.html#naming-a-channel) per identificare i canali."
+    "translation": "Impossibile trovare il canale {{.Channel}}. Usare [channel handle](https://grommunio.com) per identificare i canali."
   },
   {
     "id": "api.command_mute.hint",
@@ -789,7 +789,7 @@
   },
   {
     "id": "api.command_mute.no_channel.error",
-    "translation": "Impossibile trovare il canale specificato. Usare [channel handle](https://docs.mattermost.com/messaging/managing-channels.html#naming-a-channel) per identificare i canali."
+    "translation": "Impossibile trovare il canale specificato. Usare [channel handle](https://grommunio.com) per identificare i canali."
   },
   {
     "id": "api.command_mute.not_member.error",
@@ -5225,7 +5225,7 @@
   },
   {
     "id": "app.bot.get_disable_bot_sysadmin_message",
-    "translation": "{{if .disableBotsSetting}}{{if .printAllBots}}{{.UserName}} disattivato. Hanno gestito questi account bot che adesso sono disattivati.\n\n{{.BotNames}}{{else}}{{.UserName}} disattivato. Hanno gestito {{.NumBots}} account bot che sono stati disattivati, inclusi i seguenti:\n\n{{.BotNames}}{{end}}Puoi impossessarti di ciascuno di questi bot attivandoli in **Integrazioni > Account Bot** e creando nuovi token per il bot.\n\nPer ulteriori informazioni, vedere la [documentazione](https://docs.mattermost.com/developer/bot-accounts.html#what-happens-when-a-user-who-owns-bot-accounts-is-disabled).{{else}}{{if .printAllBots}}{{.UserName}} disattivato. Hanno gestito i sequenti account bot che sono ancora attivi.\n\n{{.BotNames}}\n{{else}}{{.UserName}} disattivato. Hanno gestito {{.NumBots}} account bot che sono ancora attivi, inclusi i seguenti:\n\n{{.BotNames}}{{end}} Si raccomanda caldamente di impossessarsi di ciascuno di questi bot riattivandoli in **Integrazioni > Account Bot** e creando nuovi token per i bot.\n\nPer ulteriori informazioni, vedere la [documentazione](https://docs.mattermost.com/developer/bot-accounts.html#what-happens-when-a-user-who-owns-bot-accounts-is-disabled).\n\nSe desideri che gli account bot siano disattivati automaticamente dopo la disattivazione dell'utente, impostare “Disattiva gli account bot dopo la disattivazione dell'utente” nella *Console di Sistema > Integrazioni > Account Bot** a vero.{{end}}"
+    "translation": "{{if .disableBotsSetting}}{{if .printAllBots}}{{.UserName}} disattivato. Hanno gestito questi account bot che adesso sono disattivati.\n\n{{.BotNames}}{{else}}{{.UserName}} disattivato. Hanno gestito {{.NumBots}} account bot che sono stati disattivati, inclusi i seguenti:\n\n{{.BotNames}}{{end}}Puoi impossessarti di ciascuno di questi bot attivandoli in **Integrazioni > Account Bot** e creando nuovi token per il bot.\n\nPer ulteriori informazioni, vedere la [documentazione](https://grommunio.com).{{else}}{{if .printAllBots}}{{.UserName}} disattivato. Hanno gestito i sequenti account bot che sono ancora attivi.\n\n{{.BotNames}}\n{{else}}{{.UserName}} disattivato. Hanno gestito {{.NumBots}} account bot che sono ancora attivi, inclusi i seguenti:\n\n{{.BotNames}}{{end}} Si raccomanda caldamente di impossessarsi di ciascuno di questi bot riattivandoli in **Integrazioni > Account Bot** e creando nuovi token per i bot.\n\nPer ulteriori informazioni, vedere la [documentazione](https://grommunio.com).\n\nSe desideri che gli account bot siano disattivati automaticamente dopo la disattivazione dell'utente, impostare “Disattiva gli account bot dopo la disattivazione dell'utente” nella *Console di Sistema > Integrazioni > Account Bot** a vero.{{end}}"
   },
   {
     "id": "app.channel.get_channels.not_found.app_error",
@@ -5353,7 +5353,7 @@
   },
   {
     "id": "ent.ldap.syncronize.search_failure_size_exceeded.app_error",
-    "translation": "Limite Dimensione Superato. Controllare [dimensione massima pagina](https://docs.mattermost.com/deployment/sso-ldap.html#i-see-the-log-error-ldap-result-code-4-size-limit-exceeded)."
+    "translation": "Limite Dimensione Superato. Controllare [dimensione massima pagina](https://grommunio.com)."
   },
   {
     "id": "group_not_associated_to_synced_team",
@@ -5445,7 +5445,7 @@
   },
   {
     "id": "api.license.request_trial_license.app_error",
-    "translation": "Impossibile ottenere una licenza di prova, per favore riprovare o contattare support@mattermost.com."
+    "translation": "Impossibile ottenere una licenza di prova, per favore riprovare o contattare support@grommunio.com."
   },
   {
     "id": "api.team.import_team.unknown_import_from.app_error",

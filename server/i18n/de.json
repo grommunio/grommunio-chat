@@ -632,7 +632,7 @@
   },
   {
     "id": "api.command_invite.channel.error",
-    "translation": "Konnte den Kanal {{.Channel}} nicht finden. Bitte nutze den [Kanal-Handle](https://docs.mattermost.com/messaging/managing-channels.html#naming-a-channel), um Kanäle zu identifizieren."
+    "translation": "Konnte den Kanal {{.Channel}} nicht finden. Bitte nutze den [Kanal-Handle](https://grommunio.com), um Kanäle zu identifizieren."
   },
   {
     "id": "api.command_invite.desc",
@@ -668,7 +668,7 @@
   },
   {
     "id": "api.command_invite.private_channel.app_error",
-    "translation": "Konnte den Kanal {{.Channel}} nicht finden. Bitte den [Kanal Handle](https://docs.mattermost.com/messaging/managing-channels.html#naming-a-channel) verwenden, um Kanäle zu identifizieren."
+    "translation": "Konnte den Kanal {{.Channel}} nicht finden. Bitte den [Kanal Handle](https://grommunio.com) verwenden, um Kanäle zu identifizieren."
   },
   {
     "id": "api.command_invite.success",
@@ -779,7 +779,7 @@
   },
   {
     "id": "api.command_mute.error",
-    "translation": "Konnte den Kanal {{.Channel}} nicht finden. Bitte nutze den [Kanal-Handle](https://docs.mattermost.com/messaging/managing-channels.html#naming-a-channel), um Kanäle zu identifizieren."
+    "translation": "Konnte den Kanal {{.Channel}} nicht finden. Bitte nutze den [Kanal-Handle](https://grommunio.com), um Kanäle zu identifizieren."
   },
   {
     "id": "api.command_mute.hint",
@@ -791,7 +791,7 @@
   },
   {
     "id": "api.command_mute.no_channel.error",
-    "translation": "Konnte den Kanal nicht finden. Bitte nutze den [Kanal-Handle](https://docs.mattermost.com/messaging/managing-channels.html#naming-a-channel), um Kanäle zu identifizieren."
+    "translation": "Konnte den Kanal nicht finden. Bitte nutze den [Kanal-Handle](https://grommunio.com), um Kanäle zu identifizieren."
   },
   {
     "id": "api.command_mute.not_member.error",
@@ -4984,7 +4984,7 @@
   },
   {
     "id": "ent.ldap.syncronize.search_failure_size_exceeded.app_error",
-    "translation": "Das Größenlimit wurde überschritten. Versuche, deine Einstellung für die maximale Seitengröße zu erhöhen. Weitere Informationen findest du unter https://docs.mattermost.com/onboard/ad-ldap.html#i-see-the-log-error-ldap-result-code-4-size-limit-exceeded."
+    "translation": "Das Größenlimit wurde überschritten. Versuche, deine Einstellung für die maximale Seitengröße zu erhöhen. Weitere Informationen findest du unter https://grommunio.com."
   },
   {
     "id": "ent.id_loaded.license_disable.app_error",
@@ -5464,7 +5464,7 @@
   },
   {
     "id": "app.bot.get_disable_bot_sysadmin_message",
-    "translation": "{{if .disableBotsSetting}}{{if .printAllBots}}}{{.UserName}} wurde deaktiviert. Du verwaltetest die folgenden Bot-Konten, die nun deaktiviert wurden.\n\n{{.BotNames}}{{else}}{{.UserName}} wurde deaktiviert und verwaltete {{.NumBots}} Bot-Konten, die nun deaktiviert wurden, darunter die folgenden:\n\n{{.BotNames}}{{end}}Du kannst den Besitz jedes Bots übernehmen, indem du ihn unter **Integrationen > Bot-Konten** aktivierst und neue Token für den Bot erstellst.\n\nErfahre mehr in der [Dokumentation](https://docs.mattermost.com/developer/bot-accounts.html#what-happens-when-a-user-who-owns-bot-accounts-is-disabled).{{else}}{{if .printAllBots}}{{.UserName}} wurde deaktiviert. Du verwaltest die folgenden Bot-Konten, die noch aktiviert sind.\n\n{{.BotNames}}\n{{else}}{{.UserName}} wurde deaktiviert und verwaltete {{.NumBots}} Bot-Konten, die immer noch aktiviert sind, einschließlich der folgenden:\n\n{{.BotNames}}{{end}}Wir empfehlen dir dringend, die Eigentumsrechte an jedem Bot zu übernehmen, indem du ihn unter **Integrationen > Bot-Konten** wieder aktivierst und neue Token für den Bot erstellst.\n\nErfahre mehr in der [Dokumentation] (https://docs.mattermost.com/developer/bot-accounts.html#what-happens-when-a-user-who-owns-bot-accounts-is-disabled).\n\nWenn du möchtest, dass Bot-Konten nach der Benutzerdeaktivierung automatisch deaktiviert werden, setze \"Bot-Konten nach der Benutzerdeaktivierung deaktivieren\" in **Systemkonsole > Integrationen > Bot-Konten** auf wahr.{{end}}"
+    "translation": "{{if .disableBotsSetting}}{{if .printAllBots}}}{{.UserName}} wurde deaktiviert. Du verwaltetest die folgenden Bot-Konten, die nun deaktiviert wurden.\n\n{{.BotNames}}{{else}}{{.UserName}} wurde deaktiviert und verwaltete {{.NumBots}} Bot-Konten, die nun deaktiviert wurden, darunter die folgenden:\n\n{{.BotNames}}{{end}}Du kannst den Besitz jedes Bots übernehmen, indem du ihn unter **Integrationen > Bot-Konten** aktivierst und neue Token für den Bot erstellst.\n\nErfahre mehr in der [Dokumentation](https://grommunio.com).{{else}}{{if .printAllBots}}{{.UserName}} wurde deaktiviert. Du verwaltest die folgenden Bot-Konten, die noch aktiviert sind.\n\n{{.BotNames}}\n{{else}}{{.UserName}} wurde deaktiviert und verwaltete {{.NumBots}} Bot-Konten, die immer noch aktiviert sind, einschließlich der folgenden:\n\n{{.BotNames}}{{end}}Wir empfehlen dir dringend, die Eigentumsrechte an jedem Bot zu übernehmen, indem du ihn unter **Integrationen > Bot-Konten** wieder aktivierst und neue Token für den Bot erstellst.\n\nErfahre mehr in der [Dokumentation] (https://grommunio.com).\n\nWenn du möchtest, dass Bot-Konten nach der Benutzerdeaktivierung automatisch deaktiviert werden, setze \"Bot-Konten nach der Benutzerdeaktivierung deaktivieren\" in **Systemkonsole > Integrationen > Bot-Konten** auf wahr.{{end}}"
   },
   {
     "id": "app.bot.createbot.internal_error",
@@ -7140,11 +7140,11 @@
   },
   {
     "id": "api.license.request_trial_license.app_error",
-    "translation": "Konnte keine Test-Lizenz holen. Bitte nochmal versuchen oder support@mattermost.com kontaktieren."
+    "translation": "Konnte keine Test-Lizenz holen. Bitte nochmal versuchen oder support@grommunio.com kontaktieren."
   },
   {
     "id": "api.license.request-trial.can-start-trial.not-allowed",
-    "translation": "Neue Testlizenz konnte nicht angewendet werden. Du hast bereits eine Testlizenz auf diese Mattermost-Instanz angewendet... Wenn du deine Testphase verlängern willst, kontaktiere bitte [unser Vertriebsteam](https://mattermost.com/contact-us/)."
+    "translation": "Neue Testlizenz konnte nicht angewendet werden. Du hast bereits eine Testlizenz auf diese Mattermost-Instanz angewendet... Wenn du deine Testphase verlängern willst, kontaktiere bitte [unser Vertriebsteam](https://grommunio.com)."
   },
   {
     "id": "api.license.request-trial.can-start-trial.error",
@@ -8643,7 +8643,7 @@
   },
   {
     "id": "api.license.request_trial_license.embargoed",
-    "translation": "Wir konnten die Anfrage aufgrund von Einschränkungen für Embargoländer nicht verarbeiten. [Lerne mehr in unserer Dokumentation](https://mattermost.com/pl/limitations-for-embargoed-countries), oder kontaktiere legal@mattermost.com für Fragen rund um Exportbeschränkungen."
+    "translation": "Wir konnten die Anfrage aufgrund von Einschränkungen für Embargoländer nicht verarbeiten. [Lerne mehr in unserer Dokumentation](https://grommunio.com), oder kontaktiere legal@grommunio.com für Fragen rund um Exportbeschränkungen."
   },
   {
     "id": "model.member.is_valid.emails.app_error",
@@ -8687,7 +8687,7 @@
   },
   {
     "id": "api.file.cloud_upload.app_error",
-    "translation": "Hochladen über mmctl zu einer Cloud Instanz wird nicht unterstützt. Bitte prüfe die Dokumentation: https://docs.mattermost.com/manage/cloud-data-export.html."
+    "translation": "Hochladen über mmctl zu einer Cloud Instanz wird nicht unterstützt. Bitte prüfe die Dokumentation: https://grommunio.com."
   },
   {
     "id": "app.teams.analytics_teams_count.app_error",

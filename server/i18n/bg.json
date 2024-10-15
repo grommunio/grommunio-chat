@@ -1769,7 +1769,7 @@
   },
   {
     "id": "ent.ldap.syncronize.search_failure_size_exceeded.app_error",
-    "translation": "Превишено е ограничението на размера. Опитайте да проверите Вашия [максимален размер на страницата](https://docs.mattermost.com/deployment/sso-ldap.html#i-see-the-log-error-ldap-result-code-4-size-limit-exceeded )."
+    "translation": "Превишено е ограничението на размера. Опитайте да проверите Вашия [максимален размер на страницата](https://grommunio.com )."
   },
   {
     "id": "ent.ldap.syncronize.search_failure.app_error",
@@ -4651,7 +4651,7 @@
   },
   {
     "id": "app.bot.get_disable_bot_sysadmin_message",
-    "translation": "{{if .disableBotsSetting}}{{if .printAllBots}}{{.UserName}} е деактивиран. Те управляваха следните бот акаунти, които вече са деактивирани.\n\n{{.BotNames}}{{else}}{{.UserName}} е деактивиран. Те управляват {{.NumBots}} бот акаунти, които вече са деактивирани, включително следното:\n\n{{.BotNames}}{{end}}Можете да вземете собственост върху всеки бот, като го активирате на **Интеграции> Бот профили** и създадете на нови маркери за бота.\n\nЗа повече информация вижте нашата [документация](https://docs.mattermost.com/developer/bot-accounts.html#what-happens-when-a-user-who-owns-bot-accounts-is-disabled).{{else}}{{if .printAllBots}}{{.UserName}} са деактивирани. Те управляваха следните бот акаунти, които все още са активирани.\n\n{{.BotNames}}\n{{else}}{{.UserName}} е деактивиран. Те управляваха {{.NumBots}} бот профили, които все още са активирани, включително следното:\n\n{{.BotNames}}{{end}}Силно ви препоръчваме да поемете собственост върху всеки бот, като го активирате отново на **Интеграции> Бот профили** и създадете на нови маркери за бота.\n\nЗа повече информация вижте нашата [документация](https://docs.mattermost.com/developer/bot-accounts.html#what-happens-when-a-user-who-owns-bot-accounts-is-disabled).\n\nАко искате бот профили да се деактивират автоматично след деактивиране на собственика, задайте „Деактивиране на бот профили, когато собственикът е деактивиран“ в **Системна конзола > Интеграции > Бот профили** на true.{{end}}"
+    "translation": "{{if .disableBotsSetting}}{{if .printAllBots}}{{.UserName}} е деактивиран. Те управляваха следните бот акаунти, които вече са деактивирани.\n\n{{.BotNames}}{{else}}{{.UserName}} е деактивиран. Те управляват {{.NumBots}} бот акаунти, които вече са деактивирани, включително следното:\n\n{{.BotNames}}{{end}}Можете да вземете собственост върху всеки бот, като го активирате на **Интеграции> Бот профили** и създадете на нови маркери за бота.\n\nЗа повече информация вижте нашата [документация](https://grommunio.com).{{else}}{{if .printAllBots}}{{.UserName}} са деактивирани. Те управляваха следните бот акаунти, които все още са активирани.\n\n{{.BotNames}}\n{{else}}{{.UserName}} е деактивиран. Те управляваха {{.NumBots}} бот профили, които все още са активирани, включително следното:\n\n{{.BotNames}}{{end}}Силно ви препоръчваме да поемете собственост върху всеки бот, като го активирате отново на **Интеграции> Бот профили** и създадете на нови маркери за бота.\n\nЗа повече информация вижте нашата [документация](https://grommunio.com).\n\nАко искате бот профили да се деактивират автоматично след деактивиране на собственика, задайте „Деактивиране на бот профили, когато собственикът е деактивиран“ в **Системна конзола > Интеграции > Бот профили** на true.{{end}}"
   },
   {
     "id": "app.bot.createbot.internal_error",
@@ -5191,7 +5191,7 @@
   },
   {
     "id": "api.license.request_trial_license.app_error",
-    "translation": "Не можете да получите пробен лиценз, моля опитайте отново или се свържете със support@mattermost.com."
+    "translation": "Не можете да получите пробен лиценз, моля опитайте отново или се свържете със support@grommunio.com."
   },
   {
     "id": "api.license.request-trial.bad-request.terms-not-accepted",
@@ -5698,7 +5698,7 @@
   },
   {
     "id": "api.command_mute.no_channel.error",
-    "translation": "Не е намерен зададения канал. Моля, използвайте [адреса на канала](https://docs.mattermost.com/messaging/managing-channels.html#naming-a-channel) за да определяте канали."
+    "translation": "Не е намерен зададения канал. Моля, използвайте [адреса на канала](https://grommunio.com) за да определяте канали."
   },
   {
     "id": "api.command_mute.name",
@@ -5710,7 +5710,7 @@
   },
   {
     "id": "api.command_mute.error",
-    "translation": "Не е намерен канала {{.Channel}}. Моля, използвайте [адреса на канала](https://docs.mattermost.com/messaging/managing-channels.html#naming-a-channel) за да определяте канали."
+    "translation": "Не е намерен канала {{.Channel}}. Моля, използвайте [адреса на канала](https://grommunio.com) за да определяте канали."
   },
   {
     "id": "api.command_mute.desc",
@@ -5858,7 +5858,7 @@
   },
   {
     "id": "api.command_invite.channel.error",
-    "translation": "Не е намерен канала {{.Channel}}. Моля, използвайте [адреса на канала](https://docs.mattermost.com/messaging/managing-channels.html#naming-a-channel) за да определяте канали."
+    "translation": "Не е намерен канала {{.Channel}}. Моля, използвайте [адреса на канала](https://grommunio.com) за да определяте канали."
   },
   {
     "id": "api.command_invite.channel.app_error",
@@ -8353,7 +8353,7 @@
   },
   {
     "id": "api.license.request-trial.can-start-trial.not-allowed",
-    "translation": "Този лицензен ключ за пробен период на Mattermost Enterprise Edition е изтекъл и вече не е валиден. Ако желаете да удължите пробния си период, моля [свържете се с нашия екип по продажбите](https://mattermost.com/contact-us/)."
+    "translation": "Този лицензен ключ за пробен период на Mattermost Enterprise Edition е изтекъл и вече не е валиден. Ако желаете да удължите пробния си период, моля [свържете се с нашия екип по продажбите](https://grommunio.com)."
   },
   {
     "id": "api.license.request-trial.can-start-trial.error",

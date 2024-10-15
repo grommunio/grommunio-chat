@@ -2789,7 +2789,7 @@
   },
   {
     "id": "ent.ldap.syncronize.search_failure_size_exceeded.app_error",
-    "translation": "Перавышаны мяжа памеру. Паспрабуйце праверыць [максімальны памер старонкі](https://docs.mattermost.com/deployment/sso-ldap.html#i-see-the-log-error-ldap-result-code-4-size-limit-exceeded) ."
+    "translation": "Перавышаны мяжа памеру. Паспрабуйце праверыць [максімальны памер старонкі](https://grommunio.com) ."
   },
   {
     "id": "ent.ldap.syncronize.search_failure.app_error",
@@ -5097,7 +5097,7 @@
   },
   {
     "id": "app.bot.get_disable_bot_sysadmin_message",
-    "translation": "{{if .disableBotsSetting}}{{if .printAllBots}}{{.UserName}} былі дэактываваны. Яны кіравалі наступнымі ўліковымі запісамі ботаў, якія зараз адключаныя.\n\n{{.BotNames}}{{else}}{{.UserName}} былі дэактываваны. Яны кіравалі {{.NumBots}} уліковымі запісамі ботаў, якія зараз адключаныя, уключаючы наступныя:\n\n{{.BotNames}}{{end}} Вы можаце стаць уладальнікам кожнага бота, улучыўшы яго ў раздзеле **Інтэграцыі > Уліковыя запісы ботаў** і стварыўшы новыя токены для бота.\n\nДля атрымання дадатковай інфармацыі гл. Нашу [дакументацыю](https://docs.mattermost.com/developer/bot-accounts.html#what-happens-when-a-user-who-owns-bot-accounts-is-disabled ).{{else}}{{if .printAllBots}}{{.UserName}} былі дэактываваны. Яны кіравалі наступнымі ўліковымі запісамі ботаў, якія ўсё яшчэ ўключаны.\n\n{{.BotNames}}\n{{else}}{{.UserName}} былі дэактываваны. Яны кіравалі {{.NumBots}} уліковымі запісамі ботаў, якія па-ранейшаму ўключаны, уключаючы наступныя:\n\n{{.BotNames}}{{end}} Мы настойліва раім вам стаць уладальнікам кожнага бота, паўторна ўключыўшы яго ў раздзеле **Інтэграцыя > Уліковыя запісы ботаў** і стварыўшы новыя токены для бота.\n\nДля атрымання дадатковай інфармацыі гл. Нашу [дакументацыю](https://docs.mattermost.com/developer/bot-accounts.html#what-happens-when-a-user-who-owns-bot-accounts-is-disabled ).\n\nКалі вы хочаце, каб уліковыя запісы ботаў аўтаматычна адключаліся пасля дэактывацыі карыстальніка, усталюйце для параметра «Адключыць уліковыя запісы ботаў пасля дэактывацыі карыстальніка» у **Сістэмная кансоль > Інтэграцыя > Уліковыя запісы ботаў** значэнне \"так\".{{end}}"
+    "translation": "{{if .disableBotsSetting}}{{if .printAllBots}}{{.UserName}} былі дэактываваны. Яны кіравалі наступнымі ўліковымі запісамі ботаў, якія зараз адключаныя.\n\n{{.BotNames}}{{else}}{{.UserName}} былі дэактываваны. Яны кіравалі {{.NumBots}} уліковымі запісамі ботаў, якія зараз адключаныя, уключаючы наступныя:\n\n{{.BotNames}}{{end}} Вы можаце стаць уладальнікам кожнага бота, улучыўшы яго ў раздзеле **Інтэграцыі > Уліковыя запісы ботаў** і стварыўшы новыя токены для бота.\n\nДля атрымання дадатковай інфармацыі гл. Нашу [дакументацыю](https://grommunio.com ).{{else}}{{if .printAllBots}}{{.UserName}} былі дэактываваны. Яны кіравалі наступнымі ўліковымі запісамі ботаў, якія ўсё яшчэ ўключаны.\n\n{{.BotNames}}\n{{else}}{{.UserName}} былі дэактываваны. Яны кіравалі {{.NumBots}} уліковымі запісамі ботаў, якія па-ранейшаму ўключаны, уключаючы наступныя:\n\n{{.BotNames}}{{end}} Мы настойліва раім вам стаць уладальнікам кожнага бота, паўторна ўключыўшы яго ў раздзеле **Інтэграцыя > Уліковыя запісы ботаў** і стварыўшы новыя токены для бота.\n\nДля атрымання дадатковай інфармацыі гл. Нашу [дакументацыю](https://grommunio.com ).\n\nКалі вы хочаце, каб уліковыя запісы ботаў аўтаматычна адключаліся пасля дэактывацыі карыстальніка, усталюйце для параметра «Адключыць уліковыя запісы ботаў пасля дэактывацыі карыстальніка» у **Сістэмная кансоль > Інтэграцыя > Уліковыя запісы ботаў** значэнне \"так\".{{end}}"
   },
   {
     "id": "app.bot.createbot.internal_error",
@@ -6493,11 +6493,11 @@
   },
   {
     "id": "api.license.request_trial_license.app_error",
-    "translation": "Не ўдалося атрымаць пробную ліцэнзію, паспрабуйце яшчэ раз ці зьвяжыцеся з support@mattermost.com."
+    "translation": "Не ўдалося атрымаць пробную ліцэнзію, паспрабуйце яшчэ раз ці зьвяжыцеся з support@grommunio.com."
   },
   {
     "id": "api.license.request-trial.can-start-trial.not-allowed",
-    "translation": "Тэрмін дзеяння гэтага выпрабавальнага ліцэнзійнага ключа для Mattermost Enterprise Edition скончыўся і больш не дзейнічае. Калі вы хочаце падоўжыць пробны перыяд, калі ласка, [звяжыцеся з нашым аддзелам продажаў] (https://mattermost.com/contact-us/)."
+    "translation": "Тэрмін дзеяння гэтага выпрабавальнага ліцэнзійнага ключа для Mattermost Enterprise Edition скончыўся і больш не дзейнічае. Калі вы хочаце падоўжыць пробны перыяд, калі ласка, [звяжыцеся з нашым аддзелам продажаў] (https://grommunio.com)."
   },
   {
     "id": "api.license.request-trial.can-start-trial.error",
@@ -7077,7 +7077,7 @@
   },
   {
     "id": "api.command_invite.channel.error",
-    "translation": "Не ўдалося знайсці канал {{.Channel}}. Для ідэнтыфікацыі каналаў выкарыстоўвайце [дэскрыптар канала](https://docs.mattermost.com/channels/channel-naming-conventions.html)."
+    "translation": "Не ўдалося знайсці канал {{.Channel}}. Для ідэнтыфікацыі каналаў выкарыстоўвайце [дэскрыптар канала](https://grommunio.com)."
   },
   {
     "id": "api.command_invite.channel.app_error",
@@ -8581,11 +8581,11 @@
   },
   {
     "id": "api.command_mute.no_channel.error",
-    "translation": "Не ўдалося знайсці ўказаны канал. Калі ласка, выкарыстоўвайце [дэскрыптар канала](https://docs.mattermost.com/messaging/managing-channels.html#naming-a-channel) для ідэнтыфікацыі каналаў."
+    "translation": "Не ўдалося знайсці ўказаны канал. Калі ласка, выкарыстоўвайце [дэскрыптар канала](https://grommunio.com) для ідэнтыфікацыі каналаў."
   },
   {
     "id": "api.command_mute.error",
-    "translation": "Не ўдалося знайсці канал {{.Channel}}. Для ідэнтыфікацыі каналаў выкарыстоўвайце [дэскрыптар канала](https://docs.mattermost.com/channels/channel-naming-conventions.html)."
+    "translation": "Не ўдалося знайсці канал {{.Channel}}. Для ідэнтыфікацыі каналаў выкарыстоўвайце [дэскрыптар канала](https://grommunio.com)."
   },
   {
     "id": "api.command_mute.desc",
@@ -8629,7 +8629,7 @@
   },
   {
     "id": "api.license.request_trial_license.embargoed",
-    "translation": "Мы не змаглі апрацаваць запыт з-за абмежаванняў для краін, на якія распаўсюджваецца эмбарга. [Даведацца больш у нашай дакументацыі](https://mattermost.com/pl/limitations-for-embargoed-countries) або звяртайцеся па адрасе legal@mattermost.com па пытаннях адносна абмежаванняў на экспарт."
+    "translation": "Мы не змаглі апрацаваць запыт з-за абмежаванняў для краін, на якія распаўсюджваецца эмбарга. [Даведацца больш у нашай дакументацыі](https://grommunio.com) або звяртайцеся па адрасе legal@grommunio.com па пытаннях адносна абмежаванняў на экспарт."
   },
   {
     "id": "api.getThreadsForUser.bad_only_params",

@@ -1801,7 +1801,7 @@
   },
   {
     "id": "ent.ldap.syncronize.search_failure_size_exceeded.app_error",
-    "translation": "بیش از حد مجاز [حداکثر اندازه صفحه](https://docs.mattermost.com/deployment/sso-ldap.html#i-see-the-log-error-ldap-result-code-4-size-limit-exceeded) را امتحان کنید"
+    "translation": "بیش از حد مجاز [حداکثر اندازه صفحه](https://grommunio.com) را امتحان کنید"
   },
   {
     "id": "ent.ldap.syncronize.search_failure.app_error",
@@ -5477,7 +5477,7 @@
   },
   {
     "id": "app.bot.get_disable_bot_sysadmin_message",
-    "translation": "{{if .disableBotsSetting}}{{if .printAllBots}}{{.UserName}} غیرفعال شد. آنها حساب های ربات زیر را که اکنون غیرفعال شده اند مدیریت کردند.\n\n{{.BotNames}}{{else}}{{.UserName}} غیرفعال شد. آنها حساب های ربات {{.NumBots}} را که اکنون غیرفعال شده اند ، مدیریت می کنند ، از جمله موارد زیر:\n\n{{.BotNames}}{{end}} با فعال کردن ربات می توانید در ** ادغام > حساب های ربات ** مالکیت آن را بدست آورید و ایجاد نشانه های جدید برای ربات کنید.\n\nبرای اطلاعات بیشتر ، به [مستندات](https://docs.mattermost.com/developer/bot-accounts.html#what-happens-when-a-user-who-owns-bot-accounts-is-disabled)ما مراجعه کنید . {{else}}{{if .printAllBots}}{{.UserName}} غیرفعال شد. آنها حساب های ربات زیر را که هنوز فعال هستند مدیریت کردند.\n\n{{.BotNames}}\n{{else}}{{.UserName}} غیرفعال شد. آنها حساب های ربات {{.NumBots}} را که هنوز فعال هستند ، از جمله موارد زیر را مدیریت کردند:\n\n{{.BotNames}}{{end}} ما اکیداً به شما توصیه می کنیم با فعال کردن مجدد ربات ، در ** ادغام ها> حساب های ربات **آنرا مالکیت کنید و ایجاد رمزهای جدید برای ربات کنید. .\n\nبرای اطلاعات بیشتر ، به [مستندات](https://docs.mattermost.com/developer/bot-accounts.html#what-happens-when-a-user-who-owns-bot-accounts-is-disabled).\n\nاگر می خواهید حساب ربات پس از غیرفعال شدن مالک به طور خودکار غیرفعال شود ، '** غیرفعال کردن حساب های ربات هنگام غیرفعال شدن مالک' را در ** سیستم کنسول> ادغام ها> حساب های ربات ** به صحیح تنظیم کنید . {{end}}"
+    "translation": "{{if .disableBotsSetting}}{{if .printAllBots}}{{.UserName}} غیرفعال شد. آنها حساب های ربات زیر را که اکنون غیرفعال شده اند مدیریت کردند.\n\n{{.BotNames}}{{else}}{{.UserName}} غیرفعال شد. آنها حساب های ربات {{.NumBots}} را که اکنون غیرفعال شده اند ، مدیریت می کنند ، از جمله موارد زیر:\n\n{{.BotNames}}{{end}} با فعال کردن ربات می توانید در ** ادغام > حساب های ربات ** مالکیت آن را بدست آورید و ایجاد نشانه های جدید برای ربات کنید.\n\nبرای اطلاعات بیشتر ، به [مستندات](https://grommunio.com)ما مراجعه کنید . {{else}}{{if .printAllBots}}{{.UserName}} غیرفعال شد. آنها حساب های ربات زیر را که هنوز فعال هستند مدیریت کردند.\n\n{{.BotNames}}\n{{else}}{{.UserName}} غیرفعال شد. آنها حساب های ربات {{.NumBots}} را که هنوز فعال هستند ، از جمله موارد زیر را مدیریت کردند:\n\n{{.BotNames}}{{end}} ما اکیداً به شما توصیه می کنیم با فعال کردن مجدد ربات ، در ** ادغام ها> حساب های ربات **آنرا مالکیت کنید و ایجاد رمزهای جدید برای ربات کنید. .\n\nبرای اطلاعات بیشتر ، به [مستندات](https://grommunio.com).\n\nاگر می خواهید حساب ربات پس از غیرفعال شدن مالک به طور خودکار غیرفعال شود ، '** غیرفعال کردن حساب های ربات هنگام غیرفعال شدن مالک' را در ** سیستم کنسول> ادغام ها> حساب های ربات ** به صحیح تنظیم کنید . {{end}}"
   },
   {
     "id": "app.bot.createbot.internal_error",
@@ -6347,11 +6347,11 @@
   },
   {
     "id": "api.license.request_trial_license.app_error",
-    "translation": "دریافت مجوز آزمایشی امکان پذیر نیست ، لطفاً دوباره امتحان کنید یا با support@mattermost.com تماس بگیرید."
+    "translation": "دریافت مجوز آزمایشی امکان پذیر نیست ، لطفاً دوباره امتحان کنید یا با support@grommunio.com تماس بگیرید."
   },
   {
     "id": "api.license.request-trial.can-start-trial.not-allowed",
-    "translation": "نمی‌توان مجوز دوره آزمایشی جدیدی اعمال کرد. شما از قبل یک مجوز دوره آزمایشی در این مترموست اعمال کرده‌اید. اگر می‌خواهید دوره آزمایشی خود را تمدید کنید، لطفاً [با بخش فروش ما تماس بگیرید] (https://mattermost.com/contact-us/)."
+    "translation": "نمی‌توان مجوز دوره آزمایشی جدیدی اعمال کرد. شما از قبل یک مجوز دوره آزمایشی در این مترموست اعمال کرده‌اید. اگر می‌خواهید دوره آزمایشی خود را تمدید کنید، لطفاً [با بخش فروش ما تماس بگیرید] (https://grommunio.com)."
   },
   {
     "id": "api.license.request-trial.can-start-trial.error",
@@ -7322,7 +7322,7 @@
   },
   {
     "id": "api.command_mute.no_channel.error",
-    "translation": "کانال مشخص شده یافت نشد. برای شناسایی کانال ها لطفاً از [هندل کانال](https://docs.mattermost.com/messaging/managing-channels.html#naming-a-channel) استفاده کنید."
+    "translation": "کانال مشخص شده یافت نشد. برای شناسایی کانال ها لطفاً از [هندل کانال](https://grommunio.com) استفاده کنید."
   },
   {
     "id": "api.command_mute.name",
@@ -7334,7 +7334,7 @@
   },
   {
     "id": "api.command_mute.error",
-    "translation": "کانال {{.Channel}} پیدا نشد. برای شناسایی کانال ها لطفاً از [هندل کانال](https://docs.mattermost.com/messaging/managing-channels.html#naming-a-channel) استفاده کنید."
+    "translation": "کانال {{.Channel}} پیدا نشد. برای شناسایی کانال ها لطفاً از [هندل کانال](https://grommunio.com) استفاده کنید."
   },
   {
     "id": "api.command_mute.desc",
@@ -7446,7 +7446,7 @@
   },
   {
     "id": "api.command_invite.private_channel.app_error",
-    "translation": "کانال {{.Channel}} پیدا نشد. لطفاً از [شناساگر کانال](https://docs.mattermost.com/messaging/managing-channels.html#naming-a-channel) برای شناسایی کانال‌ها استفاده کنید."
+    "translation": "کانال {{.Channel}} پیدا نشد. لطفاً از [شناساگر کانال](https://grommunio.com) برای شناسایی کانال‌ها استفاده کنید."
   },
   {
     "id": "api.command_invite.permission.app_error",
@@ -7482,7 +7482,7 @@
   },
   {
     "id": "api.command_invite.channel.error",
-    "translation": "کانال {{.Channel}} پیدا نشد. برای شناسایی کانال ها لطفاً از [هندل کانال](https://docs.mattermost.com/messaging/managing-channels.html#naming-a-channel) استفاده کنید."
+    "translation": "کانال {{.Channel}} پیدا نشد. برای شناسایی کانال ها لطفاً از [هندل کانال](https://grommunio.com) استفاده کنید."
   },
   {
     "id": "api.oauth.revoke_access_token.del_token.app_error",
