@@ -1,7 +1,7 @@
 {
   "about.buildnumber": "Número da Build:",
   "about.cloudEdition": "Cloud",
-  "about.copyright": "Copyright 2015 - {currentYear} Mattermost, Inc. Todos os direitos reservados",
+  "about.copyright": "Copyright 2015 - {currentYear} grommunio GmbH. Todos os direitos reservados",
   "about.database": "Base de dados:",
   "about.date": "Data da Build:",
   "about.dbversion": "Versão do Schema da base de dados:",

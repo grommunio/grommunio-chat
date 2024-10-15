@@ -1,7 +1,7 @@
 {
   "about.buildnumber": "বিল্ড সংখ্যা:",
   "about.cloudEdition": "ক্লাউড",
-  "about.copyright": "কপিরাইট ২০১৫ - {currentYear} Mattermost, Inc. সর্বস্বত্ব সংরক্ষিত",
+  "about.copyright": "কপিরাইট ২০১৫ - {currentYear} grommunio GmbH. সর্বস্বত্ব সংরক্ষিত",
   "about.database": "ডাটাবেস:",
   "about.date": "বিল্ড তারিখ:",
   "about.dbversion": "ডাটাবেস স্কিমা সংস্করণ:",

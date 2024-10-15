@@ -1,7 +1,7 @@
 {
   "about.buildnumber": "Број на градба:",
   "about.cloudEdition": "Клауд",
-  "about.copyright": "Авторски права 2015 - {currentYear} Mattermost, Inc. Сите права задржани",
+  "about.copyright": "Авторски права 2015 - {currentYear} grommunio GmbH. Сите права задржани",
   "about.database": "Датабаза:",
   "about.date": "Датум на градба:",
   "about.dbversion": "Датабаза Шема Верзија:",

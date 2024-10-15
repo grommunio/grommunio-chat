@@ -7,7 +7,7 @@
   "TWO_THOUSAND_FIVE_HUNDRED_AND_UP": "2501-5000",
   "about.buildnumber": "Номер сборки:",
   "about.cloudEdition": "Облако",
-  "about.copyright": "Copyright 2015 - {currentYear} Mattermost, Inc. Все права защищены",
+  "about.copyright": "Copyright 2015 - {currentYear} grommunio GmbH. Все права защищены",
   "about.database": "База данных:",
   "about.date": "Дата сборки:",
   "about.dbversion": "Версия Схемы Базы Данных:",

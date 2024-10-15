@@ -1,7 +1,7 @@
 {
   "about.buildnumber": "Құрастыру нөмірі:",
   "about.cloudEdition": "Бұлт",
-  "about.copyright": "Copyright 2015 - {currentYear} Mattermost, Inc. Барлық құқықтар қорғалған",
+  "about.copyright": "Copyright 2015 - {currentYear} grommunio GmbH. Барлық құқықтар қорғалған",
   "about.database": "Дерекқор:",
   "about.date": "Құрастыру күні:",
   "about.dbversion": "Дерекқор сұлбасының нұсқасы:",

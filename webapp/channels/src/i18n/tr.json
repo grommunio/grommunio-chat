@@ -7,7 +7,7 @@
   "TWO_THOUSAND_FIVE_HUNDRED_AND_UP": "2501-5000",
   "about.buildnumber": "Yapım numarası:",
   "about.cloudEdition": "Cloud",
-  "about.copyright": "Telif hakkı 2015 - {currentYear} Mattermost, Inc. Tüm hakları saklıdır",
+  "about.copyright": "Telif hakkı 2015 - {currentYear} grommunio GmbH. Tüm hakları saklıdır",
   "about.database": "Veri tabanı:",
   "about.date": "Yapım tarihi:",
   "about.dbversion": "Veri tabanı şeması sürümü:",

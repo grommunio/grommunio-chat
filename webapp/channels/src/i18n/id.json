@@ -1,7 +1,7 @@
 {
   "about.buildnumber": "Buat Nomor:",
   "about.cloudEdition": "Awan",
-  "about.copyright": "Hak Cipta 2015 - {currentYear} Mattermost, Inc. Semua hak dilindungi undang-undang",
+  "about.copyright": "Hak Cipta 2015 - {currentYear} grommunio GmbH. Semua hak dilindungi undang-undang",
   "about.database": "Basis data:",
   "about.date": "Tanggal Pembuatan:",
   "about.dbversion": "Versi Skema Database:",

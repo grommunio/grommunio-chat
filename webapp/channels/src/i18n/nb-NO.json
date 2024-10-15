@@ -1,7 +1,7 @@
 {
   "about.buildnumber": "Bygg nummer:",
   "about.cloudEdition": "Sky",
-  "about.copyright": "Copyright 2015 - {currentYear} Mattermost, Inc. Alle rettigheter forbeholdt",
+  "about.copyright": "Copyright 2015 - {currentYear} grommunio GmbH. Alle rettigheter forbeholdt",
   "about.database": "Database:",
   "about.date": "Bygget:",
   "about.dbversion": "Versjon av databaseskjema:",

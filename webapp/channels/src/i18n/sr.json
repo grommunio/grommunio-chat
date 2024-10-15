@@ -1,7 +1,7 @@
 {
   "about.buildnumber": "Број градње:",
   "about.cloudEdition": "облак",
-  "about.copyright": "Ауторска права 2015 - {currentYear} Mattermost, Inc. Сва права задржана",
+  "about.copyright": "Ауторска права 2015 - {currentYear} grommunio GmbH. Сва права задржана",
   "about.database": "База података:",
   "about.date": "Датум градње:",
   "about.dbversion": "верзија шеме базе података:",

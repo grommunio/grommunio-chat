@@ -7,7 +7,7 @@
   "TWO_THOUSAND_FIVE_HUNDRED_AND_UP": "2501-5000",
   "about.buildnumber": "Byggnummer:",
   "about.cloudEdition": "Cloud",
-  "about.copyright": "Copyright 2015 - {currentYear} Mattermost, Inc. Alla rättigheter reserverade",
+  "about.copyright": "Copyright 2015 - {currentYear} grommunio GmbH. Alla rättigheter reserverade",
   "about.database": "Databas:",
   "about.date": "Byggdatum:",
   "about.dbversion": "Databasschemaversion:",

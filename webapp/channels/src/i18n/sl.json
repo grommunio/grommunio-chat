@@ -1,7 +1,7 @@
 {
   "about.buildnumber": "Številka izdelave:",
   "about.cloudEdition": "Oblak",
-  "about.copyright": "Avtorske pravice 2015 - {currentYear} Mattermost, Inc. Vse pravice pridržane",
+  "about.copyright": "Avtorske pravice 2015 - {currentYear} grommunio GmbH. Vse pravice pridržane",
   "about.database": "Podatkovna zbirka:",
   "about.date": "Datum izdelave:",
   "about.dbversion": "Različica sheme podatkovne zbirke:",
@@ -417,7 +417,7 @@
   "admin.license.removing": "Odstranjevanje licence ...",
   "admin.log.consoleDescription": "Običajno je v produkciji nastaljeno na false. Razvijalci lahko to polje nastavijo na true, da izpisujejo sporočila dnevnika na konzolo na podlagi možnosti konzolne ravni. Če je true, strežnik zapiše sporočila v standardni izhodni tok (stdout). Spreminjanje te nastavitve zahteva ponovni zagon strežnika, preden začne delovati.",
   "admin.log.enableDiagnostics": "Omogoči diagnostiko in poročanje o napakah:",
-  "admin.log.enableDiagnosticsDescription": "Omogočite to funkcijo, da izboljšate kakovost in zmogljivost aplikacije Mattermost, tako da pošljete poročanje o napakah in diagnostične informacije podjetju Mattermost, Inc. Preberite naš [privacy policy](!https://about.mattermost.com/default-privacy-policy/) za več informacij.",
+  "admin.log.enableDiagnosticsDescription": "Omogočite to funkcijo, da izboljšate kakovost in zmogljivost aplikacije Mattermost, tako da pošljete poročanje o napakah in diagnostične informacije podjetju grommunio GmbH. Preberite naš [privacy policy](!https://about.mattermost.com/default-privacy-policy/) za več informacij.",
   "admin.log.locationPlaceholder": "Vnesite lokacijo datoteke",
   "admin.logs.bannerDesc": "Če želite poiskati uporabnike z ID-jem uporabnika ali z ID-jem žetona, pojdite v Poročanje > Uporabniki in prilepite ID v iskalni filter.",
   "admin.manage_roles.additionalRoles": "Izberite dodatna dovoljenja za račun. [Read more about roles and permissions](!https://about.mattermost.com/default-permissions).",
