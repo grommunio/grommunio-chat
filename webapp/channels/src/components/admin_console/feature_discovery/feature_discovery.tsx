@@ -13,7 +13,6 @@ import {trackEvent} from 'actions/telemetry_actions';
 
 import {EmbargoedEntityTrialError} from 'components/admin_console/license_settings/trial_banner/trial_banner';
 import AlertBanner from 'components/alert_banner';
-import PurchaseLink from 'components/announcement_bar/purchase_link/purchase_link';
 import ExternalLink from 'components/external_link';
 import FormattedMarkdownMessage from 'components/formatted_markdown_message';
 import StartTrialBtn from 'components/learn_more_trial_modal/start_trial_btn';
@@ -86,59 +85,6 @@ export default class FeatureDiscovery extends React.PureComponent<Props, State> 
         goToMattermostContactSalesForm(firstName, lastName, companyName, customerEmail, 'mattermost', utmMedium);
     };
 
-    renderPostTrialCta = () => {
-        const {
-            minimumSKURequiredForFeature,
-            learnMoreURL,
-        } = this.props;
-        if (minimumSKURequiredForFeature === LicenseSkus.Enterprise) {
-            return (
-                <div className='purchase-card'>
-                    <button
-                        className='btn btn-primary'
-                        data-testid='featureDiscovery_primaryCallToAction'
-                        onClick={() => {
-                            trackEvent(TELEMETRY_CATEGORIES.SELF_HOSTED_ADMIN, 'click_enterprise_contact_sales_feature_discovery');
-                            this.contactSalesFunc();
-                        }}
-                    >
-                        <FormattedMessage
-                            id='admin.ldap_feature_discovery_cloud.call_to_action.primary_sales'
-                            defaultMessage='Contact sales'
-                        />
-                    </button>
-                    <ExternalLink
-                        location='feature_discovery'
-                        className='btn btn-secondary'
-                        href={learnMoreURL}
-                        data-testid='featureDiscovery_secondaryCallToAction'
-                    >
-                        <FormattedMessage
-                            id='admin.ldap_feature_discovery.call_to_action.secondary'
-                            defaultMessage='Learn more'
-                        />
-                    </ExternalLink>
-                </div>
-            );
-        }
-
-        return (
-            <div className='purchase-card'>
-                <>
-                    <PurchaseLink
-                        eventID='post_trial_purchase_license'
-                        buttonTextElement={
-                            <FormattedMessage
-                                id='admin.license.trialCard.purchase_license'
-                                defaultMessage='Purchase a license'
-                            />
-                        }
-                    />
-                </>
-
-            </div>
-        );
-    };
 
     renderStartTrial = (learnMoreURL: string, gettingTrialError: React.ReactNode) => {
         const {
@@ -316,7 +262,6 @@ export default class FeatureDiscovery extends React.PureComponent<Props, State> 
                             {...copy}
                         />
                     </div>
-                    {this.props.prevTrialLicense?.IsLicensed === 'true' ? this.renderPostTrialCta() : this.renderStartTrial(learnMoreURL, gettingTrialError)}
                 </div>
                 <div className='FeatureDiscovery_imageWrapper'>
                     {featureDiscoveryImage}
