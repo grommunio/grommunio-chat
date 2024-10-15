@@ -1,3 +1,4 @@
+// Copyright (c) 2020-present grommunio GmbH. All Rights Reserved.
 // Copyright (c) 2015-present Mattermost, Inc. All Rights Reserved.
 // See LICENSE.txt for license information.
 
@@ -65,84 +66,27 @@ export default class AboutBuildModal extends React.PureComponent<Props, State> {
             );
         }
 
-        let title = (
+        const subTitle = (
             <FormattedMessage
-                id='about.teamEditiont0'
-                defaultMessage='Team Edition'
+                id='about.enterpriseEditionSt'
+                defaultMessage='Modern communication from behind your firewall.'
             />
         );
 
-        let subTitle = (
-            <FormattedMessage
-                id='about.teamEditionSt'
-                defaultMessage='All your team communication in one place, instantly searchable and accessible anywhere.'
-            />
-        );
-
-        let learnMore = (
+        const learnMore = (
             <div>
                 <FormattedMessage
-                    id='about.teamEditionLearn'
-                    defaultMessage='Join the grommunio chat community at '
+                    id='about.grommunioLearn'
+                    defaultMessage='Learn more about grommunio at '
                 />
                 <ExternalLink
                     location='about_build_modal'
-                    href='https://mattermost.com/community/'
+                    href='https://grommunio.com/'
                 >
-                    {'mattermost.com/community/'}
+                    {'grommunio.com'}
                 </ExternalLink>
             </div>
         );
-
-        let licensee;
-        if (config.BuildEnterpriseReady === 'true') {
-            title = (
-                <FormattedMessage
-                    id='about.teamEditiont1'
-                    defaultMessage='Enterprise Edition'
-                />
-            );
-
-            subTitle = (
-                <FormattedMessage
-                    id='about.enterpriseEditionSt'
-                    defaultMessage='Modern communication from behind your firewall.'
-                />
-            );
-
-            learnMore = (
-                <div>
-                    <FormattedMessage
-                        id='about.enterpriseEditionLearn'
-                        defaultMessage='Learn more about Enterprise Edition at '
-                    />
-                    <ExternalLink
-                        location='about_build_modal'
-                        href='https://mattermost.com/'
-                    >
-                        {'mattermost.com'}
-                    </ExternalLink>
-                </div>
-            );
-
-            if (license.IsLicensed === 'true') {
-                title = (
-                    <FormattedMessage
-                        id='about.enterpriseEditione1'
-                        defaultMessage='Enterprise Edition'
-                    />
-                );
-                licensee = (
-                    <div className='form-group'>
-                        <FormattedMessage
-                            id='about.licensed'
-                            defaultMessage='Licensed to:'
-                        />
-                        <Nbsp/>{license.Company}
-                    </div>
-                );
-            }
-        }
 
         const termsOfService = (
             <ExternalLink
@@ -199,7 +143,7 @@ export default class AboutBuildModal extends React.PureComponent<Props, State> {
                         <FormattedMessage
                             id='about.title'
                             values={{
-                                appTitle: config.SiteName || 'Mattermost',
+                                appTitle: config.SiteName || 'grommunio chat',
                             }}
                             defaultMessage='About {appTitle}'
                         />
@@ -213,7 +157,7 @@ export default class AboutBuildModal extends React.PureComponent<Props, State> {
                         <div>
                             <h3 className='about-modal__title'>
                                 <strong>
-                                    {'Mattermost'} {title}
+                                    {'grommunio chat'}
                                 </strong>
                             </h3>
                             <p className='about-modal__subtitle pb-2'>
@@ -247,7 +191,6 @@ export default class AboutBuildModal extends React.PureComponent<Props, State> {
                                     {'\u00a0' + config.SQLDriverName}
                                 </div>
                             </div>
-                            {licensee}
                         </div>
                     </div>
                     <div className='about-modal__footer'>
@@ -255,8 +198,17 @@ export default class AboutBuildModal extends React.PureComponent<Props, State> {
                         <div className='form-group'>
                             <div className='about-modal__copyright'>
                                 <FormattedMessage
-                                    id='about.copyright'
+                                    id='about.copyright.grommunio'
                                     defaultMessage='Copyright 2020 - {currentYear} grommunio GmbH. All rights reserved'
+                                    values={{
+                                        currentYear: new Date().getFullYear(),
+                                    }}
+                                />
+                            </div>
+                            <div className='about-modal__copyright'>
+                                <FormattedMessage
+                                    id='about.copyright.mattermost'
+                                    defaultMessage='Copyright 2015 - {currentYear} Mattermost, Inc. All rights reserved'
                                     values={{
                                         currentYear: new Date().getFullYear(),
                                     }}
@@ -278,7 +230,7 @@ export default class AboutBuildModal extends React.PureComponent<Props, State> {
                                     linkServer: (msg: React.ReactNode) => (
                                         <ExternalLink
                                             location='about_build_modal'
-                                            href='https://github.com/mattermost/mattermost-server/blob/master/NOTICE.txt'
+                                            href='https://github.com/grommunio/grommunio-chat'
                                         >
                                             {msg}
                                         </ExternalLink>
@@ -286,7 +238,7 @@ export default class AboutBuildModal extends React.PureComponent<Props, State> {
                                     linkDesktop: (msg: React.ReactNode) => (
                                         <ExternalLink
                                             location='about_build_modal'
-                                            href='https://github.com/mattermost/desktop/blob/master/NOTICE.txt'
+                                            href='https://github.com/grommunio/grommunio-desktop'
                                         >
                                             {msg}
                                         </ExternalLink>
@@ -294,7 +246,7 @@ export default class AboutBuildModal extends React.PureComponent<Props, State> {
                                     linkMobile: (msg: React.ReactNode) => (
                                         <ExternalLink
                                             location='about_build_modal'
-                                            href='https://github.com/mattermost/mattermost-mobile/blob/master/NOTICE.txt'
+                                            href='https://github.com/grommunio/grommunio-chat-mobile'
                                         >
                                             {msg}
                                         </ExternalLink>
