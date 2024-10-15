@@ -72,7 +72,6 @@ const LazyTermsOfService = React.lazy(() => import('components/terms_of_service'
 const LazyShouldVerifyEmail = React.lazy(() => import('components/should_verify_email/should_verify_email'));
 const LazyDoVerifyEmail = React.lazy(() => import('components/do_verify_email/do_verify_email'));
 const LazyClaimController = React.lazy(() => import('components/claim'));
-const LazyLinkingLandingPage = React.lazy(() => import('components/linking_landing_page'));
 const LazySelectTeam = React.lazy(() => import('components/select_team'));
 const LazyAuthorize = React.lazy(() => import('components/authorize'));
 const LazyCreateTeam = React.lazy(() => import('components/create_team'));
@@ -93,7 +92,6 @@ const Signup = makeAsyncComponent('SignupController', LazySignup);
 const ShouldVerifyEmail = makeAsyncComponent('ShouldVerifyEmail', LazyShouldVerifyEmail);
 const DoVerifyEmail = makeAsyncComponent('DoVerifyEmail', LazyDoVerifyEmail);
 const ClaimController = makeAsyncComponent('ClaimController', LazyClaimController);
-const LinkingLandingPage = makeAsyncComponent('LinkingLandingPage', LazyLinkingLandingPage);
 const SelectTeam = makeAsyncComponent('SelectTeam', LazySelectTeam);
 const Authorize = makeAsyncComponent('Authorize', LazyAuthorize);
 const Mfa = makeAsyncComponent('Mfa', LazyMfa);
@@ -287,66 +285,9 @@ export default class Root extends React.PureComponent<Props, State> {
         this.props.actions.migrateRecentEmojis();
         this.props.actions.loadRecentlyUsedCustomEmojis();
 
-        this.showLandingPageIfNecessary();
-
         Utils.applyTheme(this.props.theme);
     };
 
-    private showLandingPageIfNecessary = () => {
-        // We have nothing to redirect to if we're already on Desktop App
-        // Chromebook has no Desktop App to switch to
-        if (UserAgent.isDesktopApp() || UserAgent.isChromebook()) {
-            return;
-        }
-
-        // Nothing to link to if we've removed the Android App download link
-        if (UserAgent.isAndroidWeb() && !this.props.androidDownloadLink) {
-            return;
-        }
-
-        // Nothing to link to if we've removed the iOS App download link
-        if (UserAgent.isIosWeb() && !this.props.iosDownloadLink) {
-            return;
-        }
-
-        // Nothing to link to if we've removed the Desktop App download link
-        if (!this.props.appDownloadLink) {
-            return;
-        }
-
-        // Only show the landing page once
-        if (BrowserStore.hasSeenLandingPage()) {
-            return;
-        }
-
-        // We don't want to show when resetting the password
-        if (this.props.location.pathname === '/reset_password_complete') {
-            return;
-        }
-
-        // We don't want to show when we're doing Desktop App external login
-        if (this.props.location.pathname === '/login/desktop') {
-            return;
-        }
-
-        // Stop this infinitely redirecting
-        if (this.props.location.pathname.includes('/landing')) {
-            return;
-        }
-
-        // Disabled to avoid breaking the CWS flow
-        if (this.props.isCloud) {
-            return;
-        }
-
-        // Disable for Rainforest tests
-        if (window.location.hostname?.endsWith('.test.mattermost.com')) {
-            return;
-        }
-
-        this.props.history.push('/landing#' + this.props.location.pathname + this.props.location.search);
-        BrowserStore.setLandingPageSeen(true);
-    };
 
     componentDidUpdate(prevProps: Props) {
         if (!deepEqual(prevProps.theme, this.props.theme)) {
@@ -489,10 +430,6 @@ export default class Root extends React.PureComponent<Props, State> {
                     <LoggedInRoute
                         path={'/terms_of_service'}
                         component={TermsOfService}
-                    />
-                    <Route
-                        path={'/landing'}
-                        component={LinkingLandingPage}
                     />
                     <Route
                         path={'/admin_console'}
