@@ -91,7 +91,7 @@ const PostMessagePreview = (props: Props) => {
         />
     );
     if (isSystemMessage && !fromWebhook && !isBot) {
-        avatar = (<MattermostLogo className='icon'/>);
+        avatar = (<MattermostLogo spanProps={{className: 'icon'}}/>);
     } else if (user?.id) {
         avatar = (
             <Avatar
