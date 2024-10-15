@@ -52,6 +52,7 @@ const (
 
 	DefaultLocale        = "en"
 	UserAuthServiceEmail = "email"
+	UserAuthServicePam   = "pam"
 
 	UserEmailMaxLength    = 128
 	UserNicknameMaxRunes  = 64
