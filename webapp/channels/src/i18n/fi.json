@@ -1,7 +1,8 @@
 {
   "about.buildnumber": "Koontikäännöksen numero:",
   "about.cloudEdition": "Pilvi",
-  "about.copyright": "Copyright 2015 - {currentYear} grommunio GmbH. Kaikki oikeudet pidätetään",
+  "about.copyright.mattermost": "Copyright 2015 - {currentYear} Mattermost, Inc. Kaikki oikeudet pidätetään",
+  "about.copyright.grommunio": "Copyright 2020 - {currentYear} grommunio GmbH. Kaikki oikeudet pidätetään",
   "about.database": "Tietokanta:",
   "about.date": "Koontiversio luotu:",
   "about.dbversion": "Tietokannan skeeman versio:",

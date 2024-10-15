@@ -1,7 +1,8 @@
 {
   "about.buildnumber": "Build nömiri:",
   "about.cloudEdition": "Cloud",
-  "about.copyright": "Copyright 2015 - {currentYear} grommunio GmbH. Barlık kūkıktar korgalgan",
+  "about.copyright.mattermost": "Copyright 2015 - {currentYear} Mattermost, Inc. Barlık kūkıktar korgalgan",
+  "about.copyright.grommunio": "Copyright 2020 - {currentYear} grommunio GmbH. Barlık kūkıktar korgalgan",
   "about.database": "Database:",
   "about.date": "Build küni:",
   "about.dbversion": "Database Schema Versesi:",

@@ -1,7 +1,8 @@
 {
   "about.buildnumber": "빌드 번호:",
   "about.cloudEdition": "클라우드",
-  "about.copyright": "Copyright 2015 - {currentYear} grommunio GmbH. All rights reserved",
+  "about.copyright.mattermost": "Copyright 2015 - {currentYear} Mattermost, Inc. All rights reserved",
+  "about.copyright.grommunio": "Copyright 2020 - {currentYear} grommunio GmbH. All rights reserved",
   "about.database": "데이터베이스:",
   "about.date": "빌드 날짜:",
   "about.dbversion": "데이터베이스 스키마 버전:",

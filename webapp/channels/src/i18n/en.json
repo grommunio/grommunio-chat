@@ -1,7 +1,8 @@
 {
   "about.buildnumber": "Build Number:",
   "about.cloudEdition": "Cloud",
-  "about.copyright": "Copyright 2015 - {currentYear} grommunio GmbH. All rights reserved",
+  "about.copyright.mattermost": "Copyright 2015 - {currentYear} Mattermost, Inc. All rights reserved",
+  "about.copyright.grommunio": "Copyright 2020 - {currentYear} grommunio GmbH. All rights reserved",
   "about.database": "Database:",
   "about.date": "Build Date:",
   "about.dbversion": "Database Schema Version:",

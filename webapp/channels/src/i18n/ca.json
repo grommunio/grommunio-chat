@@ -1,7 +1,8 @@
 {
   "about.buildnumber": "Número de compilació:",
   "about.cloudEdition": "Núvol",
-  "about.copyright": "Drets d'autor 2015 - {currentYear} grommunio GmbH. Tots els drets reservats",
+  "about.copyright.mattermost": "Drets d'autor 2015 - {currentYear} Mattermost, Inc. Tots els drets reservats",
+  "about.copyright.grommunio": "Drets d'autor 2020 - {currentYear} grommunio GmbH. Tots els drets reservats",
   "about.database": "Base de dades:",
   "about.date": "Data de compilació:",
   "about.dbversion": "Versió de l'esquema de la base de dades:",

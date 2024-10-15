@@ -1,7 +1,8 @@
 {
   "about.buildnumber": "Номер збірки:",
   "about.cloudEdition": "Хмара",
-  "about.copyright": "Copyright 2015 - {currentYear} grommunio GmbH. Всі права захищені",
+  "about.copyright.mattermost": "Copyright 2015 - {currentYear} Mattermost, Inc. Всі права захищені",
+  "about.copyright.grommunio": "Copyright 2020 - {currentYear} grommunio GmbH. Всі права захищені",
   "about.database": "База даних:",
   "about.date": "Дата створення:",
   "about.dbversion": "Версія схеми бази даних:",

@@ -1,7 +1,8 @@
 {
   "about.buildnumber": "Αριθμός Έκδοσης:",
   "about.cloudEdition": "Cloud",
-  "about.copyright": "© 2015 - {currentYear} grommunio GmbH. Με επιφύλαξη παντός νόμιμου δικαιώματος",
+  "about.copyright.mattermost": "© 2015 - {currentYear} Mattermost, Inc. Με επιφύλαξη παντός νόμιμου δικαιώματος",
+  "about.copyright.grommunio": "© 2020 - {currentYear} grommunio GmbH. Με επιφύλαξη παντός νόμιμου δικαιώματος",
   "about.database": "Βάση Δεδομένων:",
   "about.date": "Ημερομηνία Δημιουργίας:",
   "about.dbversion": "Έκδοση Σχήματος Βάσης Δεδομένων:",

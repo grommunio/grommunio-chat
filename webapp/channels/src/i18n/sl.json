@@ -1,7 +1,8 @@
 {
   "about.buildnumber": "Številka izdelave:",
   "about.cloudEdition": "Oblak",
-  "about.copyright": "Avtorske pravice 2015 - {currentYear} grommunio GmbH. Vse pravice pridržane",
+  "about.copyright.mattermost": "Avtorske pravice 2015 - {currentYear} Mattermost, Inc. Vse pravice pridržane",
+  "about.copyright.grommunio": "Avtorske pravice 2020 - {currentYear} grommunio GmbH. Vse pravice pridržane",
   "about.database": "Podatkovna zbirka:",
   "about.date": "Datum izdelave:",
   "about.dbversion": "Različica sheme podatkovne zbirke:",

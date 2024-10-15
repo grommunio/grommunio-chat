@@ -1,7 +1,8 @@
 {
   "about.buildnumber": "เบอร์รุ่น",
   "about.cloudEdition": "Cloud",
-  "about.copyright": "ลิขสิทธิ์ 2015 - {currentYear} grommunio GmbH. สงวนลิขสิทธิ์",
+  "about.copyright.mattermost": "ลิขสิทธิ์ 2015 - {currentYear} Mattermost, Inc. สงวนลิขสิทธิ์",
+  "about.copyright.grommunio": "ลิขสิทธิ์ 2020 - {currentYear} grommunio GmbH. สงวนลิขสิทธิ์",
   "about.database": "ฐานข้อมูล:",
   "about.date": "วันที่สร้าง:",
   "about.dbversion": "เวอร์ชันแผนภาพเค้าร่างของฐานข้อมูล",

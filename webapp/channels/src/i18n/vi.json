@@ -1,7 +1,8 @@
 {
   "about.buildnumber": "Số bản dựng:",
   "about.cloudEdition": "Đám mây",
-  "about.copyright": "Bản quyền 2015 - {currentYear} grommunio GmbH. Mọi quyền được bảo lưu",
+  "about.copyright.mattermost": "Bản quyền 2015 - {currentYear} Mattermost, Inc. Mọi quyền được bảo lưu",
+  "about.copyright.grommunio": "Bản quyền 2020 - {currentYear} grommunio GmbH. Mọi quyền được bảo lưu",
   "about.database": "Cơ sở dữ liệu:",
   "about.date": "Ngày xây dựng:",
   "about.dbversion": "Phiên bản Lược đồ Cơ sở dữ liệu:",

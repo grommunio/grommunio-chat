@@ -1,7 +1,8 @@
 {
   "about.buildnumber": "Konstrukcijos numeris:",
   "about.cloudEdition": "Debesis",
-  "about.copyright": "Autorių teisės, 2015 m. – {currentYear} grommunio GmbH. Visos teisės saugomos",
+  "about.copyright.mattermost": "Autorių teisės, 2015 m. – {currentYear} Mattermost, Inc. Visos teisės saugomos",
+  "about.copyright.grommunio": "Autorių teisės, 2020 m. – {currentYear} grommunio GmbH. Visos teisės saugomos",
   "about.database": "Duom. bazė:",
   "about.date": "Kūrimo data:",
   "about.dbversion": "Duomenų bazės schemos versija:",

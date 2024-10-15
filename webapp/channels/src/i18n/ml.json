@@ -1,7 +1,8 @@
 {
   "about.buildnumber": "നിർമാണ നമ്പർ :",
   "about.cloudEdition": "ക്ലൗഡ്",
-  "about.copyright": "പകർപ്പവകാശം 2015 - {currentYear} grommunio GmbH. എല്ലാ അവകാശങ്ങളും നിക്ഷിപ്തം",
+  "about.copyright.mattermost": "പകർപ്പവകാശം 2015 - {currentYear} Mattermost, Inc. എല്ലാ അവകാശങ്ങളും നിക്ഷിപ്തം",
+  "about.copyright.grommunio": "പകർപ്പവകാശം 2020 - {currentYear} grommunio GmbH. എല്ലാ അവകാശങ്ങളും നിക്ഷിപ്തം",
   "about.database": "വിവര സഞ്ചയം:",
   "about.date": "നിർമ്മാണ തീയതി:",
   "about.dbversion": "വിവര സഞ്ചയ രൂപരേഖ പതിപ്പ്:",

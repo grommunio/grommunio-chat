@@ -1,7 +1,8 @@
 {
   "about.buildnumber": "Build nummer:",
   "about.cloudEdition": "Sky",
-  "about.copyright": "Copyright 2015 - {currentYear} grommunio GmbH. Alle rettigheder forbeholdes",
+  "about.copyright.mattermost": "Copyright 2015 - {currentYear} Mattermost, Inc. Alle rettigheder forbeholdes",
+  "about.copyright.grommunio": "Copyright 2020 - {currentYear} grommunio GmbH. Alle rettigheder forbeholdes",
   "about.database": "Database:",
   "about.date": "Byggedato:",
   "about.dbversion": "Database version:",

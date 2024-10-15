@@ -1,7 +1,8 @@
 {
   "about.buildnumber": "Kiadás száma:",
   "about.cloudEdition": "Felhő",
-  "about.copyright": "Copyright 2015 - {currentYear} grommunio GmbH. Minden jog fenntartva",
+  "about.copyright.mattermost": "Copyright 2015 - {currentYear} Mattermost, Inc. Minden jog fenntartva",
+  "about.copyright.grommunio": "Copyright 2020 - {currentYear} grommunio GmbH. Minden jog fenntartva",
   "about.database": "Adatbázis:",
   "about.date": "Kiadás dátuma:",
   "about.dbversion": "Adatbázis séma verzió:",

@@ -1,7 +1,8 @@
 {
   "about.buildnumber": "ანაწყობის ნომერი:",
   "about.cloudEdition": "ქართ",
-  "about.copyright": "საავტორო უფლებები 2015 - {currentYear} grommunio GmbH.ყველა უფლება დაცულია",
+  "about.copyright.mattermost": "საავტორო უფლებები 2015 - {currentYear} Mattermost, Inc.ყველა უფლება დაცულია",
+  "about.copyright.grommunio": "საავტორო უფლებები 2020 - {currentYear} grommunio GmbH.ყველა უფლება დაცულია",
   "about.database": "მონაცემთა ბაზა:",
   "about.date": "აწყობის თარიღი:",
   "about.dbversion": "მონაცემთა ბაზის სქემის ვერსია:",

@@ -1,7 +1,8 @@
 {
   "about.buildnumber": "編譯序號：",
   "about.cloudEdition": "雲端版",
-  "about.copyright": "版權所有 2015-{currentYear} grommunio GmbH. 保留所有權利",
+  "about.copyright.mattermost": "版權所有 2015-{currentYear} Mattermost, Inc. 保留所有權利",
+  "about.copyright.grommunio": "版權所有 2020-{currentYear} grommunio GmbH. 保留所有權利",
   "about.database": "資料庫：",
   "about.date": "編譯日期：",
   "about.dbversion": "資料庫結構描述版本：",

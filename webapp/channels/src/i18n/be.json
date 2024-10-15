@@ -1,7 +1,8 @@
 {
   "about.buildnumber": "Нумар Зборкi:",
   "about.cloudEdition": "Воблака",
-  "about.copyright": "Copyright 2015 - {currentYear} grommunio GmbH. Усе правы абаронены",
+  "about.copyright.mattermost": "Copyright 2015 - {currentYear} Mattermost, Inc. Усе правы абаронены",
+  "about.copyright.grommunio": "Copyright 2020 - {currentYear} grommunio GmbH. Усе правы абаронены",
   "about.database": "База дадзеных:",
   "about.date": "Дата зборкі:",
   "about.dbversion": "Версія схемы базы дадзеных:",
