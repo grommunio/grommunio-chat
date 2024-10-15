@@ -171,7 +171,7 @@ function StartTrialFormModal(props: Props): JSX.Element | null {
                 subtitle = (
                     <FormattedMessage
                         id='admin.license.trial-request.embargoed'
-                        defaultMessage='We were unable to process the request due to limitations for embargoed countries. <link>Learn more in our documentation</link>, or reach out to legal@mattermost.com for questions around export limitations.'
+                        defaultMessage='We were unable to process the request due to limitations for embargoed countries. <link>Learn more in our documentation</link>, or reach out to legal@grommunio.com for questions around export limitations.'
                         values={{
                             link: (text: string) => (
                                 <ExternalLink
