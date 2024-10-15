@@ -12,7 +12,7 @@
   "about.hash": "Хэш Зборкi:",
   "about.hashee": "Хэш Зборкi EE:",
   "about.licensed": "Ліцэнзія зарэгістраваная на:",
-  "about.notice": "Mattermost стаў магчымым дзякуючы праграмнаму забеспячэнню з адкрытым зыходным кодам, якое выкарыстоўваецца ў нашых [серверным](!https://github.com/mattermost/mattermost-server/blob/master/NOTICE.txt), [настольным](!https://github.com/mattermost/desktop/blob/master/NOTICE.txt) і [мабільным](!https://github.com/mattermost/mattermost-mobile/blob/master/NOTICE.txt) дадатках.",
+  "about.notice": "Mattermost стаў магчымым дзякуючы праграмнаму забеспячэнню з адкрытым зыходным кодам, якое выкарыстоўваецца ў нашых [серверным](!https://github.com/grommunio/grommunio-chat), [настольным](!https://github.com/grommunio/grommunio-desktop) і [мабільным](!https://github.com/grommunio/grommunio-chat-mobile) дадатках.",
   "about.privacy": "Палітыка Прыватнасці",
   "about.teamEditionLearn": "Далучайцеся да супольнасці Mattermost на ",
   "about.teamEditionSt": "Сувязь усёй вашай каманды ў адным месцы, з імгненным пошукам і доступам адкуль заўгодна.",
