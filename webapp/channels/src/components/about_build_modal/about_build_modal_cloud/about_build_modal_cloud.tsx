@@ -132,7 +132,7 @@ export default function AboutBuildModalCloud(props: Props) {
                             <div className='copy-right'>
                                 <FormattedMessage
                                     id='about.copyright'
-                                    defaultMessage='Copyright 2015 - {currentYear} Mattermost, Inc. All rights reserved'
+                                    defaultMessage='Copyright 2020 - {currentYear} grommunio GmbH. All rights reserved'
                                     values={{
                                         currentYear: new Date().getFullYear(),
                                     }}
