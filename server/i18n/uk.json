@@ -85,7 +85,7 @@
   },
   {
     "id": "api.admin.test_email.body",
-    "translation": "Здається, Ваша електронна пошта Mattermost встановлена вірно!"
+    "translation": "Здається, Ваша електронна пошта grommunio chat встановлена вірно!"
   },
   {
     "id": "api.admin.test_email.missing_server",
@@ -97,7 +97,7 @@
   },
   {
     "id": "api.admin.test_email.subject",
-    "translation": "Mattermost - Тестування налаштувань електронної пошти"
+    "translation": "grommunio chat - Тестування налаштувань електронної пошти"
   },
   {
     "id": "api.admin.test_s3.missing_s3_bucket",
@@ -345,7 +345,7 @@
   },
   {
     "id": "api.command.invite_people.desc",
-    "translation": "Надішліть запрошення електронною поштою до команди Mattermost"
+    "translation": "Надішліть запрошення електронною поштою до команди grommunio chat"
   },
   {
     "id": "api.command.invite_people.email_invitations_off",
@@ -621,7 +621,7 @@
   },
   {
     "id": "api.command_help.desc",
-    "translation": "Показати довідкове повідомлення Mattermost"
+    "translation": "Показати довідкове повідомлення grommunio chat"
   },
   {
     "id": "api.command_help.name",
@@ -725,7 +725,7 @@
   },
   {
     "id": "api.command_logout.desc",
-    "translation": "Вийти з Mattermost"
+    "translation": "Вийти з grommunio chat"
   },
   {
     "id": "api.command_logout.name",
@@ -1529,11 +1529,11 @@
   },
   {
     "id": "api.slackimport.slack_add_users.merge_existing",
-    "translation": "Slack користувач об'єднано з існуючим користувачем Mattermost з відповідною електронною адресою {{.Email}} та ім'ям користувача {{.Username}}.\r\n"
+    "translation": "Slack користувач об'єднано з існуючим користувачем grommunio chat з відповідною електронною адресою {{.Email}} та ім'ям користувача {{.Username}}.\r\n"
   },
   {
     "id": "api.slackimport.slack_add_users.merge_existing_failed",
-    "translation": "Slack користувач об'єднався з існуючим користувачем Mattermost з відповідною електронною адресою {{.Email}} та ім'ям користувача {{.Username}}, але не зміг додати користувача до своєї команди.\r\n"
+    "translation": "Slack користувач об'єднався з існуючим користувачем grommunio chat з відповідною електронною адресою {{.Email}} та ім'ям користувача {{.Username}}, але не зміг додати користувача до своєї команди.\r\n"
   },
   {
     "id": "api.slackimport.slack_add_users.missing_email_address",
@@ -1545,7 +1545,7 @@
   },
   {
     "id": "api.slackimport.slack_import.log",
-    "translation": "Лог імпорту Mattermost Slack\r\n "
+    "translation": "Лог імпорту grommunio chat Slack\r\n "
   },
   {
     "id": "api.slackimport.slack_import.note1",
@@ -3197,7 +3197,7 @@
   },
   {
     "id": "ent.ldap.do_login.user_filtered.app_error",
-    "translation": "Ваш обліковий запис AD/LDAP не має дозволу на використання цього сервера Mattermost. Будь ласка, зверніться до системного адміністратора, щоб перевірити фільтр користувачів AD/LDAP."
+    "translation": "Ваш обліковий запис AD/LDAP не має дозволу на використання цього сервера grommunio chat. Будь ласка, зверніться до системного адміністратора, щоб перевірити фільтр користувачів AD/LDAP."
   },
   {
     "id": "ent.ldap.do_login.user_not_registered.app_error",
@@ -3217,7 +3217,7 @@
   },
   {
     "id": "ent.ldap.syncronize.search_failure.app_error",
-    "translation": "Не вдалося знайти користувачів в AD/LDAP. Перевірте, чи сервер Mattermost може підключитися до вашого сервера AD/LDAP і повторіть спробу."
+    "translation": "Не вдалося знайти користувачів в AD/LDAP. Перевірте, чи сервер grommunio chat може підключитися до вашого сервера AD/LDAP і повторіть спробу."
   },
   {
     "id": "ent.ldap.validate_filter.app_error",
@@ -3313,7 +3313,7 @@
   },
   {
     "id": "ent.migration.migratetosaml.username_already_used_by_other_user",
-    "translation": "Ім'я користувача, яке вже використовувалося іншим користувачем Mattermost."
+    "translation": "Ім'я користувача, яке вже використовувалося іншим користувачем grommunio chat."
   },
   {
     "id": "ent.saml.attribute.app_error",
@@ -3397,7 +3397,7 @@
   },
   {
     "id": "mattermost.bulletin.subject",
-    "translation": "Бюлетень безпеки Mattermost"
+    "translation": "Бюлетень безпеки grommunio chat"
   },
   {
     "id": "mfa.activate.bad_token.app_error",
@@ -4541,7 +4541,7 @@
   },
   {
     "id": "oauth.gitlab.tos.error",
-    "translation": "Умови обслуговування GitLab оновлено. Будь ласка, заходьте на gitlab.com, щоб прийняти їх, а потім спробуйте знову увійти в Mattermost."
+    "translation": "Умови обслуговування GitLab оновлено. Будь ласка, заходьте на gitlab.com, щоб прийняти їх, а потім спробуйте знову увійти в grommunio chat."
   },
   {
     "id": "plugin.api.update_user_status.bad_status",
@@ -4705,11 +4705,11 @@
   },
   {
     "id": "web.error.unsupported_browser.no_longer_support_version",
-    "translation": "This version of your browser is no longer supported by Mattermost"
+    "translation": "This version of your browser is no longer supported by grommunio chat"
   },
   {
     "id": "web.error.unsupported_browser.no_longer_support",
-    "translation": "This browser is no longer supported by Mattermost"
+    "translation": "This browser is no longer supported by grommunio chat"
   },
   {
     "id": "web.error.unsupported_browser.min_os_version.windows",
@@ -4753,7 +4753,7 @@
   },
   {
     "id": "web.error.unsupported_browser.download_app_or_upgrade_browser",
-    "translation": "Download the Mattermost app or use a supported browser for a better experience."
+    "translation": "Download the grommunio chat app or use a supported browser for a better experience."
   },
   {
     "id": "web.error.unsupported_browser.download",
@@ -5513,7 +5513,7 @@
   },
   {
     "id": "api.templates.remove_expired_license.subject",
-    "translation": "Mattermost Enterprise license has been disabled."
+    "translation": "grommunio chat Enterprise license has been disabled."
   },
   {
     "id": "api.templates.remove_expired_license.body.title",
@@ -5733,7 +5733,7 @@
   },
   {
     "id": "api.bot.teams_channels.add_message_mobile",
-    "translation": "Please add me to teams and channels you want me to interact in. To do this, use the browser or Mattermost Desktop App."
+    "translation": "Please add me to teams and channels you want me to interact in. To do this, use the browser or grommunio chat Desktop App."
   },
   {
     "id": "api.bot.create_disabled",
@@ -6805,7 +6805,7 @@
   },
   {
     "id": "api.command_remote.desc",
-    "translation": "Створіть безпечні з'єднання між екземплярами Mattermost."
+    "translation": "Створіть безпечні з'єднання між екземплярами grommunio chat."
   },
   {
     "id": "api.command_remote.decode_invitation.error",
@@ -6829,7 +6829,7 @@
   },
   {
     "id": "api.command_remote.accept.help",
-    "translation": "Прийміть запрошення від зовнішнього екземпляра Mattermost"
+    "translation": "Прийміть запрошення від зовнішнього екземпляра grommunio chat"
   },
   {
     "id": "api.command_marketplace.unsupported.app_error",
@@ -6845,7 +6845,7 @@
   },
   {
     "id": "api.command_help.success",
-    "translation": "Mattermost – це платформа з відкритим вихідним кодом для безпечного спілкування, співробітництва та організації роботи між командами з використанням різноманітних інструментів.\nMattermost складається з трьох ключових інструментів:\n\n**Channels** - Залишайтеся на зв’язку зі своєю командою за допомогою індивідуальних і групових повідомлень.\n**[Playbooks](/playbooks)** - Створіть і налаштуйте повторювані процеси для досягнення конкретних і передбачуваних результатів.\n**[Boards](/boards)** - Керуйте проектами та завданнями в структурі дошки Kanban, щоб допомогти вашій команді досягти ключових віх.\n\n[Переглянути документацію та посібники]({{.HelpLink}})"
+    "translation": "grommunio chat – це платформа з відкритим вихідним кодом для безпечного спілкування, співробітництва та організації роботи між командами з використанням різноманітних інструментів.\ngrommunio chat складається з трьох ключових інструментів:\n\n**Channels** - Залишайтеся на зв’язку зі своєю командою за допомогою індивідуальних і групових повідомлень.\n**[Playbooks](/playbooks)** - Створіть і налаштуйте повторювані процеси для досягнення конкретних і передбачуваних результатів.\n**[Boards](/boards)** - Керуйте проектами та завданнями в структурі дошки Kanban, щоб допомогти вашій команді досягти ключових віх.\n\n[Переглянути документацію та посібники]({{.HelpLink}})"
   },
   {
     "id": "api.command_custom_status.success",

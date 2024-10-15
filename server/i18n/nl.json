@@ -85,7 +85,7 @@
   },
   {
     "id": "api.admin.test_email.body",
-    "translation": "Mail voor Mattermost lijkt goed geconfigureerd te zijn!"
+    "translation": "Mail voor grommunio chat lijkt goed geconfigureerd te zijn!"
   },
   {
     "id": "api.admin.test_email.missing_server",
@@ -97,7 +97,7 @@
   },
   {
     "id": "api.admin.test_email.subject",
-    "translation": "Mattermost - E-mail-instellingen testen"
+    "translation": "grommunio chat - E-mail-instellingen testen"
   },
   {
     "id": "api.admin.test_s3.missing_s3_bucket",
@@ -345,7 +345,7 @@
   },
   {
     "id": "api.command.invite_people.desc",
-    "translation": "Stuur een email uitnodiging naar jouw Mattermost team"
+    "translation": "Stuur een email uitnodiging naar jouw grommunio chat team"
   },
   {
     "id": "api.command.invite_people.email_invitations_off",
@@ -620,7 +620,7 @@
   },
   {
     "id": "api.command_help.desc",
-    "translation": "Toon Mattermost-help bericht"
+    "translation": "Toon grommunio chat-help bericht"
   },
   {
     "id": "api.command_help.name",
@@ -727,7 +727,7 @@
   },
   {
     "id": "api.command_logout.desc",
-    "translation": "Uitloggen uit Mattermost"
+    "translation": "Uitloggen uit grommunio chat"
   },
   {
     "id": "api.command_logout.name",
@@ -1516,7 +1516,7 @@
   },
   {
     "id": "api.slackimport.slack_add_channels.merge",
-    "translation": "Het Slack kanaal {{.DisplayName}} bestaat reeds als een actief Mattermost kanaal. Beide kanalen zijn samengevoegd.\n"
+    "translation": "Het Slack kanaal {{.DisplayName}} bestaat reeds als een actief grommunio chat kanaal. Beide kanalen zijn samengevoegd.\n"
   },
   {
     "id": "api.slackimport.slack_add_users.created",
@@ -1528,7 +1528,7 @@
   },
   {
     "id": "api.slackimport.slack_add_users.merge_existing",
-    "translation": "Slack gebruiker is samengevoegd met een bestaande Mattermost gebruiker met zelfde e-mail {{.Email}} en gebruikersnaam {{.Username}}.\n"
+    "translation": "Slack gebruiker is samengevoegd met een bestaande grommunio chat gebruiker met zelfde e-mail {{.Email}} en gebruikersnaam {{.Username}}.\n"
   },
   {
     "id": "api.slackimport.slack_add_users.merge_existing_failed",
@@ -1544,7 +1544,7 @@
   },
   {
     "id": "api.slackimport.slack_import.log",
-    "translation": "Mattermost Slack importeer log\n"
+    "translation": "grommunio chat Slack importeer log\n"
   },
   {
     "id": "api.slackimport.slack_import.note1",
@@ -1852,7 +1852,7 @@
   },
   {
     "id": "api.templates.post_body.button",
-    "translation": "Beantwoorden in Mattermost"
+    "translation": "Beantwoorden in grommunio chat"
   },
   {
     "id": "api.templates.reset_body.button",
@@ -1912,7 +1912,7 @@
   },
   {
     "id": "api.templates.verify_body.info",
-    "translation": "Dit e-mailadres werd gebruikt om een account aan te maken bij Mattermost."
+    "translation": "Dit e-mailadres werd gebruikt om een account aan te maken bij grommunio chat."
   },
   {
     "id": "api.templates.verify_body.title",
@@ -1932,7 +1932,7 @@
   },
   {
     "id": "api.templates.welcome_body.info",
-    "translation": "Dit e-mailadres werd gebruikt om een account aan te maken bij Mattermost."
+    "translation": "Dit e-mailadres werd gebruikt om een account aan te maken bij grommunio chat."
   },
   {
     "id": "api.templates.welcome_body.title",
@@ -3196,7 +3196,7 @@
   },
   {
     "id": "ent.ldap.do_login.user_filtered.app_error",
-    "translation": "Je AD/LDAP account heeft niet de juiste permissies om van deze Mattermost server gebruik te maken. Vraag je Systeembeheerder om het AD/LDAP gebruikersfilter te controleren."
+    "translation": "Je AD/LDAP account heeft niet de juiste permissies om van deze grommunio chat server gebruik te maken. Vraag je Systeembeheerder om het AD/LDAP gebruikersfilter te controleren."
   },
   {
     "id": "ent.ldap.do_login.user_not_registered.app_error",
@@ -3216,7 +3216,7 @@
   },
   {
     "id": "ent.ldap.syncronize.search_failure.app_error",
-    "translation": "Fout bij het zoeken naar gebruikers in AD/LDAP. Test of de Mattermost-server verbinding kan maken met jouw AD/LDAP-server en probeer het opnieuw."
+    "translation": "Fout bij het zoeken naar gebruikers in AD/LDAP. Test of de grommunio chat-server verbinding kan maken met jouw AD/LDAP-server en probeer het opnieuw."
   },
   {
     "id": "ent.ldap.validate_filter.app_error",
@@ -3312,7 +3312,7 @@
   },
   {
     "id": "ent.migration.migratetosaml.username_already_used_by_other_user",
-    "translation": "Gebruikersnaam al gebruikt door een andere Mattermost gebruiker."
+    "translation": "Gebruikersnaam al gebruikt door een andere grommunio chat gebruiker."
   },
   {
     "id": "ent.saml.attribute.app_error",
@@ -3396,7 +3396,7 @@
   },
   {
     "id": "mattermost.bulletin.subject",
-    "translation": "Mattermost beveiligings bulletin"
+    "translation": "grommunio chat beveiligings bulletin"
   },
   {
     "id": "mfa.activate.bad_token.app_error",
@@ -4540,7 +4540,7 @@
   },
   {
     "id": "oauth.gitlab.tos.error",
-    "translation": "GitLab's gebruiksvoorwaarden zijn bijgewerkt. Ga naar {{.URL}} om deze te aanvaarden probeer opnieuw in te loggen op Mattermost."
+    "translation": "GitLab's gebruiksvoorwaarden zijn bijgewerkt. Ga naar {{.URL}} om deze te aanvaarden probeer opnieuw in te loggen op grommunio chat."
   },
   {
     "id": "plugin.api.update_user_status.bad_status",
@@ -4728,11 +4728,11 @@
   },
   {
     "id": "web.error.unsupported_browser.no_longer_support_version",
-    "translation": "Deze versie van je browser wordt niet langer ondersteund door Mattermost"
+    "translation": "Deze versie van je browser wordt niet langer ondersteund door grommunio chat"
   },
   {
     "id": "web.error.unsupported_browser.no_longer_support",
-    "translation": "Deze browser wordt niet langer ondersteund door Mattermost"
+    "translation": "Deze browser wordt niet langer ondersteund door grommunio chat"
   },
   {
     "id": "web.error.unsupported_browser.min_os_version.windows",
@@ -4776,7 +4776,7 @@
   },
   {
     "id": "web.error.unsupported_browser.download_app_or_upgrade_browser",
-    "translation": "Download de Mattermost app of gebruik een ondersteunde browser voor een betere ervaring."
+    "translation": "Download de grommunio chat app of gebruik een ondersteunde browser voor een betere ervaring."
   },
   {
     "id": "web.error.unsupported_browser.download",
@@ -5540,7 +5540,7 @@
   },
   {
     "id": "api.templates.remove_expired_license.subject",
-    "translation": "Mattermost Enterprise licentie werd uitgeschakeld."
+    "translation": "grommunio chat Enterprise licentie werd uitgeschakeld."
   },
   {
     "id": "api.templates.remove_expired_license.body.title",
@@ -5764,7 +5764,7 @@
   },
   {
     "id": "api.bot.teams_channels.add_message_mobile",
-    "translation": "Voeg me toe aan de teams en kanalen waarin je met me wil praten. Gebruik hiervoor je browser of de Mattermost desktop app."
+    "translation": "Voeg me toe aan de teams en kanalen waarin je met me wil praten. Gebruik hiervoor je browser of de grommunio chat desktop app."
   },
   {
     "id": "api.bot.create_disabled",
@@ -5916,7 +5916,7 @@
   },
   {
     "id": "api.license.request-trial.bad-request.terms-not-accepted",
-    "translation": "Je moet de Mattermost Evaluation Agreement en Privacy Policy aanvaarden om een licentie te kunnen aanvragen."
+    "translation": "Je moet de grommunio chat Evaluation Agreement en Privacy Policy aanvaarden om een licentie te kunnen aanvragen."
   },
   {
     "id": "app.recover.save.app_error",
@@ -6508,7 +6508,7 @@
   },
   {
     "id": "api.upgrade_to_enterprise.already-done.app_error",
-    "translation": "Je hebt reeds geüpgraded naar de Mattermost Enterprise Editie. Gelieve de server te herstarten om de upgrade te beëindigen."
+    "translation": "Je hebt reeds geüpgraded naar de grommunio chat Enterprise Editie. Gelieve de server te herstarten om de upgrade te beëindigen."
   },
   {
     "id": "api.config.migrate_config.app_error",
@@ -6616,19 +6616,19 @@
   },
   {
     "id": "api.upgrade_to_enterprise_status.app_error",
-    "translation": "Mattermost kon niet worden geüpgraded naar de Enterprise Editie."
+    "translation": "grommunio chat kon niet worden geüpgraded naar de Enterprise Editie."
   },
   {
     "id": "api.upgrade_to_enterprise.invalid-user.app_error",
-    "translation": "Mattermost kon niet upgraden naar de Enterprise Editie. De Mattermost systeemgebruiker {{.MattermostUsername}} heeft geen schrijfrechten op het nodige programmabestand. Een systeembeheerder kan de toegangsrechten wijzigen door volgende opdracht uit te voeren op de server waarop Mattermost geïnstalleerd is:\n\n```\nchown {{.MattermostUsername}} \"{{.Path}}\"\n```\n\nNa het wijzigen van de toegangsrechten, kan je opnieuw proberen Mattermost te upgraden. Na de upgrade en het herstarten, vergeet niet om opnieuw de originele toegangsrechten opnieuw in te stellen:\n\n```\nchown {{.FileUsername}} \"{{.Path}}\"\n```"
+    "translation": "grommunio chat kon niet upgraden naar de Enterprise Editie. De grommunio chat systeemgebruiker {{.MattermostUsername}} heeft geen schrijfrechten op het nodige programmabestand. Een systeembeheerder kan de toegangsrechten wijzigen door volgende opdracht uit te voeren op de server waarop grommunio chat geïnstalleerd is:\n\n```\nchown {{.MattermostUsername}} \"{{.Path}}\"\n```\n\nNa het wijzigen van de toegangsrechten, kan je opnieuw proberen grommunio chat te upgraden. Na de upgrade en het herstarten, vergeet niet om opnieuw de originele toegangsrechten opnieuw in te stellen:\n\n```\nchown {{.FileUsername}} \"{{.Path}}\"\n```"
   },
   {
     "id": "api.upgrade_to_enterprise.invalid-permission.app_error",
-    "translation": "Mattermost kon niet upgraden naar de Enterprise Editie. De Mattermost systeemgebruiker {{.MattermostUsername}} heeft geen schrijfrechten op het noodzakelijke binaire bestand. Een systeembeheerder kan de bestandsrechten wijzigen door de volgende opdracht uit te voeren op de server waarop Mattermost is geïnstalleerd:\n\n```\nchmod +w \"{{.Path}}\"\n```\n\nNa het wijzigen van de bestandsrechten, probeer opnieuw Mattermost te upgraden. Na de upgrade en herstart, denk er aan om dan de bestandsrechten opnieuw te herstellen naar de originele bestandsrechten: \n\n```\nchmod -w \"{{.Path}}\"\n```"
+    "translation": "grommunio chat kon niet upgraden naar de Enterprise Editie. De grommunio chat systeemgebruiker {{.MattermostUsername}} heeft geen schrijfrechten op het noodzakelijke binaire bestand. Een systeembeheerder kan de bestandsrechten wijzigen door de volgende opdracht uit te voeren op de server waarop grommunio chat is geïnstalleerd:\n\n```\nchmod +w \"{{.Path}}\"\n```\n\nNa het wijzigen van de bestandsrechten, probeer opnieuw grommunio chat te upgraden. Na de upgrade en herstart, denk er aan om dan de bestandsrechten opnieuw te herstellen naar de originele bestandsrechten: \n\n```\nchmod -w \"{{.Path}}\"\n```"
   },
   {
     "id": "api.upgrade_to_enterprise.app_error",
-    "translation": "Een upgrade naar de Mattermost Enterprise editie wordt reeds uitgevoerd."
+    "translation": "Een upgrade naar de grommunio chat Enterprise editie wordt reeds uitgevoerd."
   },
   {
     "id": "api.user.login_cws.license.error",
@@ -6660,23 +6660,23 @@
   },
   {
     "id": "api.upgrade_to_enterprise_status.signature.app_error",
-    "translation": "Mattermost kon niet upgraden naar de Enterprise editie. De digitale handtekening van het gedownloade bestand kon niet worden geverifieerd."
+    "translation": "grommunio chat kon niet upgraden naar de Enterprise editie. De digitale handtekening van het gedownloade bestand kon niet worden geverifieerd."
   },
   {
     "id": "api.upgrade_to_enterprise.system_not_supported.app_error",
-    "translation": "Mattermost kont niet upgraden naar de Enterprise editie. Dit werkt enkel op Linuxsystemen met een X86-64 architectuur."
+    "translation": "grommunio chat kont niet upgraden naar de Enterprise editie. Dit werkt enkel op Linuxsystemen met een X86-64 architectuur."
   },
   {
     "id": "api.upgrade_to_enterprise.invalid-user-and-permission.app_error",
-    "translation": "Mattermost kon niet upgraden naar de Enterprise Editie. De Mattermost systeemgebruiker {{.MattermostUsername}} heeft geen schrijfrechten op het nodige programmabestand. Een systeembeheerder kan de toegangsrechten wijzigen door volgende opdracht uit te voeren op de server waarop Mattermost geïnstalleerd is:\n\n```\nchown {{.MattermostUsername}} \"{{.Path}}\"\nchmod +w \"{{.Path}}\"\n```\n\nNa het wijzigen van de toegangsrechten, kan je opnieuw proberen Mattermost te upgraden. Na de upgrade en het herstarten, vergeet niet om opnieuw de originele toegangsrechten opnieuw in te stellen:\n\n```\nchown {{.FileUsername}} \"{{.Path}}\"\nchmod -w \"{{.Path}}\"\n```"
+    "translation": "grommunio chat kon niet upgraden naar de Enterprise Editie. De grommunio chat systeemgebruiker {{.MattermostUsername}} heeft geen schrijfrechten op het nodige programmabestand. Een systeembeheerder kan de toegangsrechten wijzigen door volgende opdracht uit te voeren op de server waarop grommunio chat geïnstalleerd is:\n\n```\nchown {{.MattermostUsername}} \"{{.Path}}\"\nchmod +w \"{{.Path}}\"\n```\n\nNa het wijzigen van de toegangsrechten, kan je opnieuw proberen grommunio chat te upgraden. Na de upgrade en het herstarten, vergeet niet om opnieuw de originele toegangsrechten opnieuw in te stellen:\n\n```\nchown {{.FileUsername}} \"{{.Path}}\"\nchmod -w \"{{.Path}}\"\n```"
   },
   {
     "id": "api.upgrade_to_enterprise.generic_error.app_error",
-    "translation": "Mattermost kon niet worden geüpgraded naar de Enterprise Editie."
+    "translation": "grommunio chat kon niet worden geüpgraded naar de Enterprise Editie."
   },
   {
     "id": "api.upgrade_to_enterprise.already-enterprise.app_error",
-    "translation": "Je kan niet upgraden omdat je reeds werkt met de Mattermost Enterprise editie."
+    "translation": "Je kan niet upgraden omdat je reeds werkt met de grommunio chat Enterprise editie."
   },
   {
     "id": "api.team.add_team_member.invalid_body.app_error",
@@ -7720,7 +7720,7 @@
   },
   {
     "id": "api.templates.invite_body_footer.title",
-    "translation": "Wat is Mattermost?"
+    "translation": "Wat is grommunio chat?"
   },
   {
     "id": "api.templates.invite_body_footer.learn_more",
@@ -7728,11 +7728,11 @@
   },
   {
     "id": "api.templates.invite_body_footer.info",
-    "translation": "Mattermost is een flexibel, open source messaging platform dat veilige teamsamenwerking mogelijk maakt."
+    "translation": "grommunio chat is een flexibel, open source messaging platform dat veilige teamsamenwerking mogelijk maakt."
   },
   {
     "id": "api.templates.invite_body.subTitle",
-    "translation": "Begin samen te werken met jouw team op Mattermost"
+    "translation": "Begin samen te werken met jouw team op grommunio chat"
   },
   {
     "id": "api.team.invite_guests_to_channels.invalid_body.app_error",
@@ -7792,11 +7792,11 @@
   },
   {
     "id": "api.templates.cloud_welcome_email.download_mm_info",
-    "translation": "Download de Mattermost-app"
+    "translation": "Download de grommunio chat-app"
   },
   {
     "id": "api.templates.cloud_welcome_email.button",
-    "translation": "Mattermost openen"
+    "translation": "grommunio chat openen"
   },
   {
     "id": "api.templates.cloud_welcome_email.app_market_place",
@@ -7860,7 +7860,7 @@
   },
   {
     "id": "api.command_remote.accept.help",
-    "translation": "Accepteer een uitnodiging van een externe Mattermost server"
+    "translation": "Accepteer een uitnodiging van een externe grommunio chat server"
   },
   {
     "id": "api.command_remote.invitation.hint",
@@ -7976,7 +7976,7 @@
   },
   {
     "id": "api.command_share.invite_remote.help",
-    "translation": "Nodigt een externe Mattermost instantie uit in het huidige gedeelde kanaal"
+    "translation": "Nodigt een externe grommunio chat instantie uit in het huidige gedeelde kanaal"
   },
   {
     "id": "api.command_share.invitation_sent",
@@ -8004,7 +8004,7 @@
   },
   {
     "id": "api.command_share.desc",
-    "translation": "Deelt het huidige kanaal met een externe Mattermost instantie."
+    "translation": "Deelt het huidige kanaal met een externe grommunio chat instantie."
   },
   {
     "id": "api.command_share.could_not_uninvite.error",
@@ -8112,7 +8112,7 @@
   },
   {
     "id": "api.command_remote.invite_summary",
-    "translation": "Stuur de volgende AES 256-bit versleutelde uitnodiging naar de externe Mattermost systeembeheerder samen met het wachtwoord. De systeembeheerder zal de `{{.Command}}` slashopdracht gebruiken om de uitnodiging te accepteren.\n\n```\n{{.Invitation}}\n```\n\n**Zorg ervoor dat de beveiligde verbinding toegang heeft tot jouw cluster via** {{.SiteURL}}"
+    "translation": "Stuur de volgende AES 256-bit versleutelde uitnodiging naar de externe grommunio chat systeembeheerder samen met het wachtwoord. De systeembeheerder zal de `{{.Command}}` slashopdracht gebruiken om de uitnodiging te accepteren.\n\n```\n{{.Invitation}}\n```\n\n**Zorg ervoor dat de beveiligde verbinding toegang heeft tot jouw cluster via** {{.SiteURL}}"
   },
   {
     "id": "api.command_remote.invite_password.hint",
@@ -8140,7 +8140,7 @@
   },
   {
     "id": "api.command_remote.desc",
-    "translation": "Nodig beveiligde verbindingen uit voor communicatie tussen Mattermost-servers."
+    "translation": "Nodig beveiligde verbindingen uit voor communicatie tussen grommunio chat-servers."
   },
   {
     "id": "api.command_remote.decode_invitation.error",
@@ -8252,7 +8252,7 @@
   },
   {
     "id": "app.notification.footer.infoLogin",
-    "translation": "Inloggen op Mattermost"
+    "translation": "Inloggen op grommunio chat"
   },
   {
     "id": "app.notification.footer.info",
@@ -8311,7 +8311,7 @@
   },
   {
     "id": "api.email_batching.send_batched_email_notification.button",
-    "translation": "Mattermost openen"
+    "translation": "grommunio chat openen"
   },
   {
     "id": "app.team.get_common_team_ids_for_users.app_error",
@@ -8363,7 +8363,7 @@
   },
   {
     "id": "api.license.request-trial.can-start-trial.not-allowed",
-    "translation": "Fout bij het toevoegen van de nieuwe proeflicentie. Je hebt eerder al een proeflicentie toegepast op deze Mattermost instance.Als je jouw proefperiode wil verlengen, neem dan [contact op met ons verkoopteam](https://grommunio.com)."
+    "translation": "Fout bij het toevoegen van de nieuwe proeflicentie. Je hebt eerder al een proeflicentie toegepast op deze grommunio chat instance.Als je jouw proefperiode wil verlengen, neem dan [contact op met ons verkoopteam](https://grommunio.com)."
   },
   {
     "id": "api.license.request-trial.can-start-trial.error",
@@ -8375,11 +8375,11 @@
   },
   {
     "id": "api.templates.license_up_for_renewal_title",
-    "translation": "Jouw Mattermost abonnement is aan vernieuwing toe"
+    "translation": "Jouw grommunio chat abonnement is aan vernieuwing toe"
   },
   {
     "id": "api.templates.license_up_for_renewal_subtitle",
-    "translation": "{{.UserName}}, jouw abonnement is ingesteld om te verlopen in {{.Days}} dagen. We hopen dat je de flexibele, veilige teamsamenwerking ervaart die Mattermost mogelijk maakt. Verleng snel jouw Mattermost abonnement om er zeker van te zijn dat jouw team kan blijven profiteren van deze voordelen."
+    "translation": "{{.UserName}}, jouw abonnement is ingesteld om te verlopen in {{.Days}} dagen. We hopen dat je de flexibele, veilige teamsamenwerking ervaart die grommunio chat mogelijk maakt. Verleng snel jouw grommunio chat abonnement om er zeker van te zijn dat jouw team kan blijven profiteren van deze voordelen."
   },
   {
     "id": "api.templates.license_up_for_renewal_subject",
@@ -8759,7 +8759,7 @@
   },
   {
     "id": "api.command_help.success",
-    "translation": "Mattermost is een open source platform voor veilige communicatie, samenwerking, en regie van werk over tools en teams heen.\nMattermost bevat twee belangrijke tools:\n\n**Channels** - Blijf verbonden met je team via 1:1 en groepsberichten.\n**[Playbooks](/playbooks)** - Bouw en configureer herhaalbare processen om specifieke en voorspelbare resultaten te bereiken.\n\n[Documentatie en leidraden bekijken]({{.HelpLink}})"
+    "translation": "grommunio chat is een open source platform voor veilige communicatie, samenwerking, en regie van werk over tools en teams heen.\ngrommunio chat bevat twee belangrijke tools:\n\n**Channels** - Blijf verbonden met je team via 1:1 en groepsberichten.\n**[Playbooks](/playbooks)** - Bouw en configureer herhaalbare processen om specifieke en voorspelbare resultaten te bereiken.\n\n[Documentatie en leidraden bekijken]({{.HelpLink}})"
   },
   {
     "id": "ent.saml.configure.certificate_parse_error.app_error",
@@ -9007,7 +9007,7 @@
   },
   {
     "id": "api.server.cws.needs_enterprise_edition",
-    "translation": "Dienst alleen beschikbaar in Mattermost Enterprise editie"
+    "translation": "Dienst alleen beschikbaar in grommunio chat Enterprise editie"
   },
   {
     "id": "api.license.request-trial.bad-request.business-email",
@@ -9771,7 +9771,7 @@
   },
   {
     "id": "api.server.cws.disabled",
-    "translation": "Interacties met het Mattermost Klantenportaal zijn uitgeschakeld door de systeembeheerder."
+    "translation": "Interacties met het grommunio chat Klantenportaal zijn uitgeschakeld door de systeembeheerder."
   },
   {
     "id": "basic_security_check.url.too_long_error",
@@ -9907,11 +9907,11 @@
   },
   {
     "id": "api.config.update.elasticsearch.autocomplete_cannot_be_enabled_error",
-    "translation": "Kanalen automatisch aanvullen kan niet worden ingeschakeld omdat het schema van de kanaalindex verouderd is. Het wordt aanbevolen om je kanaalindex te regenereren. Zie de Mattermost changelog voor meer informatie"
+    "translation": "Kanalen automatisch aanvullen kan niet worden ingeschakeld omdat het schema van de kanaalindex verouderd is. Het wordt aanbevolen om je kanaalindex te regenereren. Zie de grommunio chat changelog voor meer informatie"
   },
   {
     "id": "app.channel.elasticsearch_channel_index.notify_admin.message",
-    "translation": "Het schema van je Elasticsearch kanaalindex is verouderd. Het wordt aanbevolen om je kanaalindex te regenereren.\nKlik op de `Kanalenindex herbouwen` knop in [Elasticsearch sectie in System Console]({{.ElasticsearchSection}}) om het probleem op te lossen.\nZie Mattermost changelog voor meer informatie."
+    "translation": "Het schema van je Elasticsearch kanaalindex is verouderd. Het wordt aanbevolen om je kanaalindex te regenereren.\nKlik op de `Kanalenindex herbouwen` knop in [Elasticsearch sectie in System Console]({{.ElasticsearchSection}}) om het probleem op te lossen.\nZie grommunio chat changelog voor meer informatie."
   },
   {
     "id": "bleveengine.purge_list.not_implemented",
