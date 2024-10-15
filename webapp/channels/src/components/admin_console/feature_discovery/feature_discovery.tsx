@@ -11,7 +11,6 @@ import type {ClientLicense} from '@mattermost/types/config';
 
 import {trackEvent} from 'actions/telemetry_actions';
 
-import {EmbargoedEntityTrialError} from 'components/admin_console/license_settings/trial_banner/trial_banner';
 import AlertBanner from 'components/alert_banner';
 import ExternalLink from 'components/external_link';
 import FormattedMarkdownMessage from 'components/formatted_markdown_message';
@@ -191,13 +190,7 @@ export default class FeatureDiscovery extends React.PureComponent<Props, State> 
         }
 
         let gettingTrialError: React.ReactNode = '';
-        if (this.state.gettingTrialError && this.state.gettingTrialResponseCode === 451) {
-            gettingTrialError = (
-                <p className='trial-error'>
-                    <EmbargoedEntityTrialError/>
-                </p>
-            );
-        } else if (this.state.gettingTrialError) {
+        if (this.state.gettingTrialError) {
             gettingTrialError = (
                 <p className='trial-error'>
                     <FormattedMessage

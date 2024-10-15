@@ -17,8 +17,8 @@ import {trackEvent} from 'actions/telemetry_actions';
 import ExternalLink from 'components/external_link';
 import AdminHeader from 'components/widgets/admin_console/admin_header';
 
-import {AboutLinks, CloudLinks, ModalIdentifiers} from 'utils/constants';
-import {isLicenseExpired, isLicenseExpiring, isTrialLicense, isEnterpriseOrE20License, licenseSKUWithFirstLetterCapitalized} from 'utils/license_utils';
+import {ModalIdentifiers} from 'utils/constants';
+import {isTrialLicense, licenseSKUWithFirstLetterCapitalized} from 'utils/license_utils';
 
 import type {ModalData} from 'types/actions';
 
@@ -27,13 +27,9 @@ import EnterpriseEditionRightPanel from './enterprise_edition/enterprise_edition
 import ConfirmLicenseRemovalModal from './modals/confirm_license_removal_modal';
 import EELicenseModal from './modals/ee_license_modal';
 import UploadLicenseModal from './modals/upload_license_modal';
-import RenewLinkCard from './renew_license_card/renew_license_card';
 import StarterLeftPanel, {messages as licenseSettingsStarterEditionMessages} from './starter_edition/starter_left_panel';
 import StarterRightPanel from './starter_edition/starter_right_panel';
 import TeamEditionLeftPanel from './team_edition/team_edition_left_panel';
-import TeamEditionRightPanel from './team_edition/team_edition_right_panel';
-import TrialBanner from './trial_banner/trial_banner';
-import TrialLicenseCard from './trial_license_card/trial_license_card';
 
 import './license_settings.scss';
 
@@ -262,89 +258,14 @@ export default class LicenseSettings extends React.PureComponent<Props, State> {
         );
     };
 
-    termsAndPolicy = (
-        <div className='terms-and-policy'>
-            {'See also '}
-            {this.createLink(AboutLinks.TERMS_OF_SERVICE, 'Enterprise Edition Terms of Use')}
-            {' and '}
-            {this.createLink(AboutLinks.PRIVACY_POLICY, 'Privacy Policy')}
-        </div>
-    );
-
-    comparePlans = (
-        <div className='compare-plans-text'>
-            {'Curious about upgrading? '}
-            {this.createLink(CloudLinks.PRICING, 'Compare Plans')}
-        </div>
-    );
 
     render() {
-        const {license, upgradedFromTE, isDisabled} = this.props;
-
-        let leftPanel = null;
-        let rightPanel = null;
-
-        if (!this.props.enterpriseReady) { // Team Edition
-            // Note: DO NOT LOCALISE THESE STRINGS. Legally we can not since the license is in English.
-            leftPanel = (
-                <TeamEditionLeftPanel
-                    openEELicenseModal={this.openEELicenseModal}
-                    currentPlan={this.currentPlan}
-                />
-            );
-
-            rightPanel = (
-                <TeamEditionRightPanel
-                    upgradingPercentage={this.state.upgradingPercentage}
-                    upgradeError={this.state.upgradeError}
-                    restartError={this.state.restartError}
-                    handleRestart={this.handleRestart}
-                    handleUpgrade={this.handleUpgrade}
-                    restarting={this.state.restarting}
-                    openEEModal={this.openEELicenseModal}
-                    setClickNormalUpgradeBtn={this.setClickNormalUpgradeBtn}
-                />
-            );
-        } else if (license.IsLicensed === 'true') {
-            // Note: DO NOT LOCALISE THESE STRINGS. Legally we can not since the license is in English.
-            leftPanel = (
-                <EnterpriseEditionLeftPanel
-                    openEELicenseModal={this.openEELicenseModal}
-                    upgradedFromTE={upgradedFromTE}
-                    license={license}
-                    isTrialLicense={isTrialLicense(license)}
-                    handleRemove={this.confirmLicenseRemoval}
-                    isDisabled={isDisabled}
-                    removing={this.state.removing}
-                    fileInputRef={this.fileInputRef}
-                    handleChange={this.handleChange}
-                    statsActiveUsers={this.props.totalUsers || 0}
-                />
-            );
-
-            rightPanel = (
-                <EnterpriseEditionRightPanel
-                    isTrialLicense={isTrialLicense(license)}
-                    license={license}
-                />
-            );
-        } else {
-            // Note: DO NOT LOCALISE THESE STRINGS. Legally we can not since the license is in English.
-            // This is Mattermost Starter (Already downloaded the binary but no license has been set, or ended the trial period)
-            leftPanel = (
-                <StarterLeftPanel
-                    openEELicenseModal={this.openEELicenseModal}
-                    currentPlan={this.currentPlan}
-                    upgradedFromTE={this.props.upgradedFromTE}
-                    fileInputRef={this.fileInputRef}
-                    handleChange={this.handleChange}
-                />
-            );
-
-            rightPanel = (
-                <StarterRightPanel/>
-            );
-        }
+        const leftPanel = (
+            <TeamEditionLeftPanel
+                openEELicenseModal={this.openEELicenseModal}
+                currentPlan={this.currentPlan}
+            />
+        );
 
         return (
             <div className='wrapper--fixed'>
@@ -353,38 +274,11 @@ export default class LicenseSettings extends React.PureComponent<Props, State> {
                 </AdminHeader>
                 <div className='admin-console__wrapper'>
                     <div className='admin-console__content'>
-                        <div className='admin-console__banner_section'>
-                            {!this.state.clickNormalUpgradeBtn && license.IsLicensed !== 'true' &&
-                                this.props.prevTrialLicense?.IsLicensed !== 'true' &&
-                                <TrialBanner
-                                    isDisabled={isDisabled}
-                                    gettingTrialResponseCode={this.state.gettingTrialResponseCode}
-                                    gettingTrialError={this.state.gettingTrialError}
-                                    gettingTrial={this.state.gettingTrial}
-                                    enterpriseReady={this.props.enterpriseReady}
-                                    upgradingPercentage={this.state.upgradingPercentage}
-                                    handleUpgrade={this.handleUpgrade}
-                                    upgradeError={this.state.upgradeError}
-                                    restartError={this.state.restartError}
-                                    handleRestart={this.handleRestart}
-                                    restarting={this.state.restarting}
-                                    openEEModal={this.openEELicenseModal}
-                                />
-                            }
-                            {this.renewLicenseCard()}
-                        </div>
                         <div className='top-wrapper'>
                             <div className='left-panel'>
                                 <div className='panel-card'>
                                     {leftPanel}
                                 </div>
-                                {(!isTrialLicense(license)) && this.termsAndPolicy}
-                            </div>
-                            <div className='right-panel'>
-                                <div className='panel-card'>
-                                    {rightPanel}
-                                </div>
-                                {!isEnterpriseOrE20License(license) && this.comparePlans}
                             </div>
                         </div>
                     </div>
@@ -394,22 +288,6 @@ export default class LicenseSettings extends React.PureComponent<Props, State> {
     }
 
     renewLicenseCard = () => {
-        if (isTrialLicense(this.props.license)) {
-            return (
-                <TrialLicenseCard
-                    license={this.props.license}
-                />
-            );
-        }
-        if (isLicenseExpired(this.props.license) || isLicenseExpiring(this.props.license)) {
-            return (
-                <RenewLinkCard
-                    license={this.props.license}
-                    isLicenseExpired={isLicenseExpired(this.props.license)}
-                    totalUsers={this.props.totalUsers}
-                />
-            );
-        }
         return null;
     };
 }
