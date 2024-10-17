@@ -21,6 +21,12 @@ const Footer = () => {
                 key='footer-copyright'
                 className='footer-copyright'
             >
+                {`© ${new Date().getFullYear()} grommunio GmbH.`}
+            </span>
+            <span
+                key='footer-copyright'
+                className='footer-copyright'
+            >
                 {`© ${new Date().getFullYear()} Mattermost Inc.`}
             </span>
             {AboutLink && (
