@@ -25,13 +25,7 @@ const PurchaseLink: React.FC<Props> = (props: Props) => {
     };
 
     return (
-        <button
-            id={props.eventID}
-            className={'annnouncementBar__purchaseNow'}
-            onClick={handlePurchaseLinkClick}
-        >
-            {props.buttonTextElement}
-        </button>
+        <div/>
     );
 };
 
