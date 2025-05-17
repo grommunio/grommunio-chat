@@ -1138,7 +1138,7 @@ func (a *App) CheckProviderAttributes(c request.CTX, user *model.User, patch *mo
 	}
 
 	// If any login provider is used, then the username may not be changed
-	if user.AuthService != "" && tryingToChange(&user.Username, patch.Username) {
+	if !(user.AuthService == "" || user.AuthService == model.UserAuthServicePam) && tryingToChange(&user.Username, patch.Username) {
 		return "username"
 	}
 
