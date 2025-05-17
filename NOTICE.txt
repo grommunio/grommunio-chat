@@ -1,4 +1,6 @@
-Mattermost Server
+grommunio chat Server
+
+©2020-present grommunio GmbH. All Rights Reserved.
 
 ©2015-present Mattermost,Inc. All Rights Reserved. See LICENSE for license information.
 
