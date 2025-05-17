@@ -4,7 +4,6 @@
 import React from 'react';
 import {FormattedMessage} from 'react-intl';
 
-import WomanUpArrowsAndCloudsSvg from 'components/common/svg_images_components/woman_up_arrows_and_clouds_svg';
 import FormattedMarkdownMessage from 'components/formatted_markdown_message';
 import LoadingWrapper from 'components/widgets/loading/loading_wrapper';
 
@@ -79,7 +78,7 @@ const TeamEditionRightPanel: React.FC<TeamEditionRightPanelProps> = ({
                 <p className='upgrade-legal-terms'>
                     <FormattedMarkdownMessage
                         id='admin.license.enterprise.upgrade.acceptTermsInitial'
-                        defaultMessage='By clicking **Upgrade**, I agree to the terms of the grommunio chat '
+                        defaultMessage='By clicking **Upgrade**, I agree to the terms of the Mattermost '
                     />
                     <a
                         role='button'
@@ -116,7 +115,7 @@ const TeamEditionRightPanel: React.FC<TeamEditionRightPanelProps> = ({
                 <p>
                     <FormattedMarkdownMessage
                         id='admin.license.upgraded-restart'
-                        defaultMessage='You have upgraded your binary to grommunio-chat enterprise, please restart the server to start using the new binary. You can do it right here:'
+                        defaultMessage='You have upgraded your binary to mattermost enterprise, please restart the server to start using the new binary. You can do it right here:'
                     />
                 </p>
                 <p>
@@ -153,39 +152,7 @@ const TeamEditionRightPanel: React.FC<TeamEditionRightPanelProps> = ({
     }
 
     return (
-        <div className='TeamEditionRightPanel'>
-            <div className='svg-image'>
-                <WomanUpArrowsAndCloudsSvg
-                    width={200}
-                    height={200}
-                />
-            </div>
-            <div className='upgrade-title'>
-                <FormattedMessage
-                    id='admin.license.enterprise.upgrade'
-                    defaultMessage='Upgrade to Enterprise Edition'
-                />
-            </div>
-            <div className='upgrade-subtitle'>
-                <FormattedMessage
-                    id='admin.license.enterprise.license_required_upgrade'
-                    defaultMessage='A license is required to unlock enterprise features'
-                />
-            </div>
-            <div className='advantages-list'>
-                {upgradeAdvantages.map((item: string, i: number) => {
-                    return (
-                        <div
-                            className='item'
-                            key={i.toString()}
-                        >
-                            <i className='fa fa-lock'/>{item}
-                        </div>
-                    );
-                })}
-            </div>
-            {upgradeButton}
-        </div>
+        <div/>
     );
 };
 
