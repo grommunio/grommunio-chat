@@ -627,9 +627,9 @@ func (a *App) LoginByOAuth(c request.CTX, service string, userData io.Reader, te
 			map[string]any{"Service": service}, "", http.StatusBadRequest)
 	}
 
-	user, err := a.GetUserByAuth(model.NewString(*authUser.AuthData), service)
+	user, err := a.GetUserByEmail(authUser.Email)
 	if err != nil {
-		if err.Id == MissingAuthAccountError {
+		if err.Id == MissingAccountError {
 			user, err = a.CreateOAuthUser(c, service, bytes.NewReader(buf.Bytes()), teamID, tokenUser)
 		} else {
 			return nil, err
@@ -769,7 +769,7 @@ func (a *App) GetAuthorizationCode(c request.CTX, w http.ResponseWriter, r *http
 
 	clientId := *sso.Id
 	endpoint := *sso.AuthEndpoint
-	scope := *sso.Scope
+	//scope := *sso.Scope
 
 	tokenExtra := generateOAuthStateTokenExtra(props["email"], props["action"], cookieValue)
 	stateToken, err := a.CreateOAuthStateToken(tokenExtra)
@@ -787,11 +787,14 @@ func (a *App) GetAuthorizationCode(c request.CTX, w http.ResponseWriter, r *http
 
 	redirectURI := siteURL + "/signup/" + service + "/complete"
 
-	authURL := endpoint + "?response_type=code&client_id=" + clientId + "&redirect_uri=" + url.QueryEscape(redirectURI) + "&state=" + url.QueryEscape(state)
+	authURL := endpoint + "?response_type=code&client_id=" + clientId + "&redirect_uri=" + url.QueryEscape(redirectURI) + "&state=" + url.QueryEscape(state) + "&scope=openid"
 
-	if scope != "" {
-		authURL += "&scope=" + utils.URLEncode(scope)
-	}
+	/*
+		// on Team edition it is only possible to set scope=read_user (no fck idea, where to override this, but at this point it's just easier to add scope=openid hardcoded)
+		if scope != "" {
+			authURL += "&scope=" + utils.URLEncode(scope)
+		}
+	*/
 
 	if loginHint != "" {
 		authURL += "&login_hint=" + utils.URLEncode(loginHint)
