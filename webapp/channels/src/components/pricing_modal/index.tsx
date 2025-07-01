@@ -2,7 +2,6 @@
 // See LICENSE.txt for license information.
 
 import React, {useState} from 'react';
-import {Modal} from 'react-bootstrap';
 import {useDispatch, useSelector} from 'react-redux';
 
 import {isCurrentLicenseCloud} from 'mattermost-redux/selectors/entities/cloud';
@@ -54,23 +53,7 @@ function PricingModal(props: Props) {
     );
 
     return (
-        <Modal
-            className='PricingModal'
-            show={showModal}
-            id='pricingModal'
-            onExited={() => {
-                dispatch(closeModal(ModalIdentifiers.PRICING_MODAL));
-            }}
-            data-testid='pricingModal'
-            dialogClassName='a11y__modal'
-            onHide={onHide}
-            role='none'
-            aria-modal='true'
-            aria-labelledby='pricing_modal_title'
-        >
-            {content}
-
-        </Modal>
+        <div/>
     );
 }
 

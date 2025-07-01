@@ -4,13 +4,11 @@
 import React from 'react';
 import {FormattedMessage} from 'react-intl';
 
-import {GenericModal} from '@mattermost/components';
 import type {ProductNotices, ProductNotice} from '@mattermost/types/product_notices';
 
 import {trackEvent} from 'actions/telemetry_actions.jsx';
 
 import ExternalLink from 'components/external_link';
-import Markdown from 'components/markdown';
 import AdminEyeIcon from 'components/widgets/icons/admin_eye_icon';
 import NextIcon from 'components/widgets/icons/fa_next_icon';
 import PreviousIcon from 'components/widgets/icons/fa_previous_icon';
@@ -249,42 +247,8 @@ export default class ProductNoticesModal extends React.PureComponent<Props, Stat
             return null;
         }
 
-        const presentNoticeInfo = this.state.noticesData[this.state.presentNoticeIndex];
-        const handlePreviousButton = this.state.presentNoticeIndex === 0 ? undefined : this.handlePreviousButton;
-        const autoCloseOnConfirmButton = this.state.presentNoticeIndex === this.state.noticesData.length - 1;
-
         return (
-            <GenericModal
-                compassDesign={true}
-                onExited={this.onModalDismiss}
-                handleConfirm={this.handleNextButton}
-                handleEnterKeyPress={this.handleNextButton}
-                handleCancel={handlePreviousButton}
-                modalHeaderText={(
-                    <span>
-                        {presentNoticeInfo.title}
-                    </span>
-                )}
-                confirmButtonText={this.confirmButtonText(presentNoticeInfo)}
-                cancelButtonText={this.cancelButtonText()}
-                className='productNotices'
-                autoCloseOnConfirmButton={autoCloseOnConfirmButton}
-                autoCloseOnCancelButton={false}
-            >
-                <span className='productNotices__helpText'>
-                    <Markdown
-                        message={presentNoticeInfo.description}
-                    />
-                </span>
-                {this.renderActionButton(presentNoticeInfo)}
-                <div className='productNotices__imageDiv'>
-                    {this.renderImage(presentNoticeInfo.image)}
-                </div>
-                <div className='productNotices__info'>
-                    {this.renderCicrleIndicators()}
-                    {this.renderAdminOnlyText()}
-                </div>
-            </GenericModal>
+            <div/>
         );
     }
 }
