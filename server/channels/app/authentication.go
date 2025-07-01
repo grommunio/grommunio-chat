@@ -316,6 +316,7 @@ func (a *App) MFARequired(rctx request.CTX) *model.AppError {
 	}
 	// Only required for email and ldap accounts
 	if user.AuthService != "" &&
+		user.AuthService != model.UserAuthServicePam &&
 		user.AuthService != model.UserAuthServiceEmail &&
 		user.AuthService != model.UserAuthServiceLdap {
 		return nil
@@ -384,7 +385,7 @@ func (a *App) authenticateUser(rctx request.CTX, user *model.User, password, mfa
 		return ldapUser, nil
 	}
 
-	if user.AuthService != "" {
+	if user.AuthService != "" && user.AuthService != model.UserAuthServicePam {
 		authService := user.AuthService
 		if authService == model.UserAuthServiceSaml {
 			authService = strings.ToUpper(authService)
