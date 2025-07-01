@@ -16,7 +16,6 @@ import {rudderAnalytics, RudderTelemetryHandler} from 'mattermost-redux/client/r
 import {Preferences} from 'mattermost-redux/constants';
 
 import {measurePageLoadTelemetry, temporarilySetPageLoadContext, trackEvent, trackSelectorMetrics} from 'actions/telemetry_actions.jsx';
-import BrowserStore from 'stores/browser_store';
 
 import {makeAsyncComponent} from 'components/async_load';
 import GlobalHeader from 'components/global_header/global_header';
@@ -37,7 +36,6 @@ import DesktopApp from 'utils/desktop_api';
 import {EmojiIndicesByAlias} from 'utils/emoji';
 import {TEAM_NAME_PATH_PATTERN} from 'utils/path';
 import {getSiteURL} from 'utils/url';
-import {isAndroidWeb, isChromebook, isDesktopApp, isIosWeb} from 'utils/user_agent';
 import {applyTheme, isTextDroppableEvent} from 'utils/utils';
 
 import LuxonController from './luxon_controller';
@@ -61,7 +59,6 @@ const ShouldVerifyEmail = makeAsyncComponent('ShouldVerifyEmail', lazy(() => imp
 const DoVerifyEmail = makeAsyncComponent('DoVerifyEmail', lazy(() => import('components/do_verify_email/do_verify_email')));
 const ClaimController = makeAsyncComponent('ClaimController', lazy(() => import('components/claim')));
 const TermsOfService = makeAsyncComponent('TermsOfService', lazy(() => import('components/terms_of_service')));
-const LinkingLandingPage = makeAsyncComponent('LinkingLandingPage', lazy(() => import('components/linking_landing_page')));
 const AdminConsole = makeAsyncComponent('AdminConsole', lazy(() => import('components/admin_console')));
 const SelectTeam = makeAsyncComponent('SelectTeam', lazy(() => import('components/select_team')));
 const Authorize = makeAsyncComponent('Authorize', lazy(() => import('components/authorize')));
@@ -188,67 +185,6 @@ export default class Root extends React.PureComponent<Props, State> {
         this.showLandingPageIfNecessary();
 
         this.applyTheme();
-    };
-
-    private showLandingPageIfNecessary = () => {
-        // Only show Landing Page if enabled
-        if (!this.props.enableDesktopLandingPage) {
-            return;
-        }
-
-        // We have nothing to redirect to if we're already on Desktop App
-        // Chromebook has no Desktop App to switch to
-        if (isDesktopApp() || isChromebook()) {
-            return;
-        }
-
-        // Nothing to link to if we've removed the Android App download link
-        if (isAndroidWeb() && !this.props.androidDownloadLink) {
-            return;
-        }
-
-        // Nothing to link to if we've removed the iOS App download link
-        if (isIosWeb() && !this.props.iosDownloadLink) {
-            return;
-        }
-
-        // Nothing to link to if we've removed the Desktop App download link
-        if (!this.props.appDownloadLink) {
-            return;
-        }
-
-        // Only show the landing page once
-        if (BrowserStore.hasSeenLandingPage()) {
-            return;
-        }
-
-        // We don't want to show when resetting the password
-        if (this.props.location.pathname === '/reset_password_complete') {
-            return;
-        }
-
-        // We don't want to show when we're doing Desktop App external login
-        if (this.props.location.pathname === '/login/desktop') {
-            return;
-        }
-
-        // Stop this infinitely redirecting
-        if (this.props.location.pathname.includes('/landing')) {
-            return;
-        }
-
-        // Disabled to avoid breaking the CWS flow
-        if (this.props.isCloud) {
-            return;
-        }
-
-        // Disable for Rainforest tests
-        if (window.location.hostname?.endsWith('.test.mattermost.com')) {
-            return;
-        }
-
-        this.props.history.push('/landing#' + this.props.location.pathname + this.props.location.search);
-        BrowserStore.setLandingPageSeen(true);
     };
 
     applyTheme() {
@@ -439,10 +375,6 @@ export default class Root extends React.PureComponent<Props, State> {
                     <LoggedInRoute
                         path={'/terms_of_service'}
                         component={TermsOfService}
-                    />
-                    <Route
-                        path={'/landing'}
-                        component={LinkingLandingPage}
                     />
                     {this.props.isDevModeEnabled && (
                         <Route
