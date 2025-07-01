@@ -72,7 +72,7 @@ const ConfirmIntegration = ({team, location, commands, oauthApps, incomingHooks,
             <p>
                 <FormattedMessage
                     id='add_command.doneHelp'
-                    defaultMessage='Your slash command is set up. The following token will be sent in the outgoing payload. Please use it to verify the request came from your Mattermost team (details at <link>Slash Commands</link>).'
+                    defaultMessage='Your slash command is set up. The following token will be sent in the outgoing payload. Please use it to verify the request came from your grommunio chat team (details at <link>Slash Commands</link>).'
                     values={{
                         link: (msg: string) => (
                             <ExternalLink
@@ -158,7 +158,7 @@ const ConfirmIntegration = ({team, location, commands, oauthApps, incomingHooks,
             <p>
                 <FormattedMessage
                     id='add_outgoing_webhook.doneHelp'
-                    defaultMessage='Your outgoing webhook is set up. The following token will be sent in the outgoing payload. Please use it to verify that the request came from your Mattermost team (details at <link>Outgoing Webhooks</link>).'
+                    defaultMessage='Your outgoing webhook is set up. The following token will be sent in the outgoing payload. Please use it to verify that the request came from your grommunio chat team (details at <link>Outgoing Webhooks</link>).'
                     values={{
                         link: (msg: string) => (
                             <ExternalLink
@@ -388,7 +388,7 @@ const ConfirmIntegration = ({team, location, commands, oauthApps, incomingHooks,
             <p>
                 <FormattedMessage
                     id='bots.manage.created.text'
-                    defaultMessage='Your bot account **{botname}** has been created successfully. Please use the following access token to connect to the bot (see [documentation](https://mattermost.com/pl/default-bot-accounts) for further details).'
+                    defaultMessage='Your bot account **{botname}** has been created successfully. Please use the following access token to connect to the bot (see [documentation](https://grommunio.com/pl/default-bot-accounts) for further details).'
                     values={{
                         botname: bot.display_name || bot.username,
                         b: (msg: string) => <b>{msg}</b>,
