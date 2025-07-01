@@ -98,51 +98,6 @@ const notices: Notice[] = [
         },
     },
     {
-        name: 'ee_upgrade_advice',
-        adminOnly: true,
-        title: (
-            <FormattedMessage
-                id='system_notice.title'
-                defaultMessage='Notice from grommunio chat'
-            />
-        ),
-        body: (
-            <FormattedMessage
-                id='system_notice.body.ee_upgrade_advice'
-                defaultMessage='Enterprise Edition is recommended to ensure optimal operation and reliability. <link>Learn more</link>.'
-                values={{
-                    link: (msg: React.ReactNode) => (
-                        <ExternalLink
-                            href='https://mattermost.com/performance'
-                            location='system_notices'
-                        >
-                            {msg}
-                        </ExternalLink>
-                    ),
-                }}
-            />
-        ),
-        allowForget: false,
-        show: (serverVersion, config, license, analytics) => {
-            const USERS_THRESHOLD = 10000;
-
-            // If we don't have the analytics yet, don't show
-            if (!analytics || Object.hasOwn(analytics, 'TOTAL_USERS')) {
-                return false;
-            }
-
-            if (analytics.TOTAL_USERS && analytics.TOTAL_USERS < USERS_THRESHOLD) {
-                return false;
-            }
-
-            if (license.IsLicensed === 'true' && license.Cluster === 'true') {
-                return false;
-            }
-
-            return true;
-        },
-    },
-    {
         name: 'ie11_deprecation',
         title: (
             <FormattedMessage
