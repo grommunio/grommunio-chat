@@ -265,16 +265,9 @@ export default class LicenseSettings extends React.PureComponent<Props, State> {
     termsAndPolicy = (
         <div className='terms-and-policy'>
             {'See also '}
-            {this.createLink(AboutLinks.TERMS_OF_SERVICE, 'Enterprise Edition Terms of Use')}
+            {this.createLink(AboutLinks.TERMS_OF_SERVICE, 'Terms of Use')}
             {' and '}
             {this.createLink(AboutLinks.PRIVACY_POLICY, 'Privacy Policy')}
-        </div>
-    );
-
-    comparePlans = (
-        <div className='compare-plans-text'>
-            {'Curious about upgrading? '}
-            {this.createLink(CloudLinks.PRICING, 'Compare Plans')}
         </div>
     );
 
@@ -379,12 +372,6 @@ export default class LicenseSettings extends React.PureComponent<Props, State> {
                                     {leftPanel}
                                 </div>
                                 {(!isTrialLicense(license)) && this.termsAndPolicy}
-                            </div>
-                            <div className='right-panel'>
-                                <div className='panel-card'>
-                                    {rightPanel}
-                                </div>
-                                {!isEnterpriseOrE20License(license) && this.comparePlans}
                             </div>
                         </div>
                     </div>

@@ -4,7 +4,6 @@
 import React from 'react';
 import {FormattedMessage, useIntl} from 'react-intl';
 
-import SetupSystemSvg from 'components/common/svg_images_components/setup_system';
 import LoadingWrapper from 'components/widgets/loading/loading_wrapper';
 
 import {format} from 'utils/markdown';
@@ -155,39 +154,7 @@ const TeamEditionRightPanel: React.FC<TeamEditionRightPanelProps> = ({
     }
 
     return (
-        <div className='TeamEditionRightPanel'>
-            <div className='svg-image'>
-                <SetupSystemSvg
-                    width={197}
-                    height={120}
-                />
-            </div>
-            <div className='upgrade-title'>
-                <FormattedMessage
-                    id='admin.license.enterprise.upgrade'
-                    defaultMessage='Upgrade to Enterprise Edition'
-                />
-            </div>
-            <div className='upgrade-subtitle'>
-                <FormattedMessage
-                    id='admin.license.enterprise.license_required_upgrade'
-                    defaultMessage='A license is required to unlock enterprise features'
-                />
-            </div>
-            <div className='advantages-list'>
-                {upgradeAdvantages.map((item: string, i: number) => {
-                    return (
-                        <div
-                            className='item'
-                            key={i.toString()}
-                        >
-                            <i className='fa fa-lock'/>{item}
-                        </div>
-                    );
-                })}
-            </div>
-            {upgradeButton}
-        </div>
+        <div/>
     );
 };
 

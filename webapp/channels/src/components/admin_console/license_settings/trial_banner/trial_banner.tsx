@@ -10,7 +10,6 @@ import {savePreferences} from 'mattermost-redux/actions/preferences';
 import {getBool as getBoolPreference} from 'mattermost-redux/selectors/entities/preferences';
 import {getCurrentUserId} from 'mattermost-redux/selectors/entities/users';
 
-import AlertBanner from 'components/alert_banner';
 import withOpenStartTrialFormModal from 'components/common/hocs/cloud/with_open_start_trial_form_modal';
 import type {TelemetryProps} from 'components/common/hooks/useOpenPricingModal';
 import ExternalLink from 'components/external_link';
@@ -44,7 +43,7 @@ export const EmbargoedEntityTrialError = () => {
     return (
         <FormattedMessage
             id='admin.license.trial-request.embargoed'
-            defaultMessage='We were unable to process the request due to limitations for embargoed countries. <link>Learn more in our documentation</link>, or reach out to legal@grommunio.com for questions around export limitations.'
+            defaultMessage='We were unable to process the request due to limitations for embargoed countries. <link>Learn more in our documentation</link>, or reach out to legal@mattermost.com for questions around export limitations.'
             values={{
                 link: (text: string) => (
                     <ExternalLink
@@ -238,11 +237,11 @@ const TrialBanner = ({
             <>
                 <FormattedMessage
                     id='admin.license.trial-request.title'
-                    defaultMessage='Experience grommunio chat Enterprise Edition for free for the next 30 days. No obligation to buy or credit card required. '
+                    defaultMessage='Experience Mattermost Enterprise Edition for free for the next 30 days. No obligation to buy or credit card required. '
                 />
                 <FormattedMessage
                     id='admin.license.trial-request.accept-terms'
-                    defaultMessage='By clicking <strong>Start trial</strong>, I agree to the <linkEvaluation>grommunio chat Software and Services License Agreement</linkEvaluation>, <linkPrivacy>Privacy Policy</linkPrivacy>, and receiving product emails.'
+                    defaultMessage='By clicking <strong>Start trial</strong>, I agree to the <linkEvaluation>Mattermost Software and Services License Agreement</linkEvaluation>, <linkPrivacy>Privacy Policy</linkPrivacy>, and receiving product emails.'
                     values={{
                         strong: (msg: React.ReactNode) => <strong>{msg}</strong>,
                         linkEvaluation: (msg: React.ReactNode) => (
@@ -300,7 +299,7 @@ const TrialBanner = ({
             <>
                 <FormattedMessage
                     id='admin.license.upgrade-and-trial-request.title'
-                    defaultMessage='Upgrade to Enterprise Edition and Experience grommunio chat Enterprise Edition for free for the next 30 days. No obligation to buy or credit card required. '
+                    defaultMessage='Upgrade to Enterprise Edition and Experience Mattermost Enterprise Edition for free for the next 30 days. No obligation to buy or credit card required. '
                 />
             </>
         );
@@ -310,7 +309,7 @@ const TrialBanner = ({
                 <p className='upgrade-legal-terms'>
                     <FormattedMessage
                         id='admin.license.upgrade-and-trial-request.accept-terms-initial-part'
-                        defaultMessage='By selecting <strong>Upgrade Server And Start trial</strong>, I agree to the <linkEvaluation>grommunio chat Software and Services License Agreement</linkEvaluation>, <linkPrivacy>Privacy Policy</linkPrivacy>, and receiving product emails. '
+                        defaultMessage='By selecting <strong>Upgrade Server And Start trial</strong>, I agree to the <linkEvaluation>Mattermost Software and Services License Agreement</linkEvaluation>, <linkPrivacy>Privacy Policy</linkPrivacy>, and receiving product emails. '
                         values={{
                             strong: (msg: React.ReactNode) => <strong>{msg}</strong>,
                             linkEvaluation: (msg: React.ReactNode) => (
@@ -333,7 +332,7 @@ const TrialBanner = ({
                     />
                     <FormattedMessage
                         id='admin.license.upgrade-and-trial-request.accept-terms-final-part'
-                        defaultMessage='Also, I agree to the terms of the grommunio chat {eeModalTerms}. Upgrading will download the binary and update your Team Edition instance.'
+                        defaultMessage='Also, I agree to the terms of the Mattermost {eeModalTerms}. Upgrading will download the binary and update your Team Edition instance.'
                         values={{eeModalTerms}}
                     />
                 </p>
@@ -362,27 +361,7 @@ const TrialBanner = ({
         );
     }
     return (
-        <AlertBanner
-            mode='info'
-            title={
-                <FormattedMessage
-                    id='licensingPage.infoBanner.startTrialTitle'
-                    defaultMessage='Free 30 day trial!'
-                />
-            }
-            message={
-                <div className='banner-start-trial'>
-                    <p className='license-trial-legal-terms'>
-                        {content}
-                    </p>
-                    <div className='trial'>
-                        {trialButton}
-                    </div>
-                    {upgradeTermsMessage}
-                    {gettingTrialErrorMsg}
-                </div>
-            }
-        />
+        <div/>
     );
 };
 

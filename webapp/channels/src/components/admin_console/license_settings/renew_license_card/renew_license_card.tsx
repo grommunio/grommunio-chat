@@ -7,10 +7,8 @@ import {FormattedMessage} from 'react-intl';
 
 import type {ClientLicense} from '@mattermost/types/config';
 
-import AlertBanner from 'components/alert_banner';
 import ContactUsButton from 'components/announcement_bar/contact_sales/contact_us';
 
-import {getSkuDisplayName} from 'utils/subscription';
 import {getRemainingDaysFromFutureTimestamp} from 'utils/utils';
 
 import './renew_license_card.scss';
@@ -56,52 +54,9 @@ const RenewLicenseCard: React.FC<RenewLicenseCardProps> = ({license, totalUsers,
             />
         );
     }
-    const message = (
-        <div className='RenewLicenseCard__text'>
-            <div className='RenewLicenseCard__text-description bolder'>
-                <FormattedMessage
-                    id='admin.license.renewalCard.description.contact_sales'
-                    defaultMessage='Renew your {licenseSku} license by contacting sales to avoid any disruption.'
-                    values={{
-                        licenseSku: getSkuDisplayName(license.SkuShortName, license.IsGovSku === 'true'),
-                    }}
-                />
-            </div>
-            <div className='RenewLicenseCard__text-description'>
-                <FormattedMessage
-                    id='admin.license.renewalCard.reviewNumbers'
-                    defaultMessage='Review your numbers below to ensure you renew for the right number of users.'
-                />
-            </div>
-            <div className='RenewLicenseCard__licensedUsersNum'>
-                <strong>
-                    <FormattedMessage
-                        id='admin.license.renewalCard.usersNumbers_licensed'
-                        defaultMessage='Licensed Users: '
-                    />
-                </strong>
-                {license.Users}
-            </div>
-            <div className='RenewLicenseCard__activeUsersNum'>
-                <strong>
-                    <FormattedMessage
-                        id='admin.license.renewalCard.usersNumbers_active'
-                        defaultMessage='Active Users: '
-                    />
-                </strong>
-                {totalUsers}
-            </div>
-            <div className='RenewLicenseCard__buttons'>
-                {contactSalesBtn}
-            </div>
-        </div>
-    );
+
     return (
-        <AlertBanner
-            mode={bannerType}
-            title={cardTitle}
-            message={message}
-        />
+        <div/>
     );
 };
 
