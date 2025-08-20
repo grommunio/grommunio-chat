@@ -17,9 +17,7 @@ import {isCurrentUserSystemAdmin} from 'mattermost-redux/selectors/entities/user
 
 import {getHistory} from 'utils/browser_history';
 import {isCustomerCardExpired} from 'utils/cloud_utils';
-import {AnnouncementBarTypes, CloudProducts, ConsolePages} from 'utils/constants';
-
-import AnnouncementBar from '../default_announcement_bar';
+import {CloudProducts, ConsolePages} from 'utils/constants';
 
 export default function PaymentAnnouncementBar() {
     const [requestedCustomer, setRequestedCustomer] = useState(false);
@@ -73,15 +71,7 @@ export default function PaymentAnnouncementBar() {
     }
 
     return (
-        <AnnouncementBar
-            type={AnnouncementBarTypes.CRITICAL}
-            showCloseButton={false}
-            onButtonClick={updatePaymentInfo}
-            modalButtonText={messages.updatePaymentInfo}
-            message={message}
-            showLinkAsButton={true}
-            isTallBanner={true}
-        />
+      <div/>
     );
 }
 
