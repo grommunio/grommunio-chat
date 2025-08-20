@@ -62,7 +62,7 @@ export default class ErrorPage extends React.PureComponent<Props> {
                 <Link to={returnTo}>
                     <FormattedMessage
                         id='error.generic.link'
-                        defaultMessage='Back to Mattermost'
+                        defaultMessage='Back to grommunio chat'
                     />
                 </Link>
             );
@@ -71,7 +71,7 @@ export default class ErrorPage extends React.PureComponent<Props> {
                 <Link to={returnTo}>
                     <FormattedMessage
                         id='error.generic.link'
-                        defaultMessage='Back to Mattermost'
+                        defaultMessage='Back to grommunio chat'
                     />
                 </Link>
             );
