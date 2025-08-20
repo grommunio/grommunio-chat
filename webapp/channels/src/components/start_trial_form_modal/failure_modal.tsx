@@ -55,24 +55,5 @@ export default function StartTrialFormModalResult(props: Props) {
         />
     );
 
-    return (
-        <ResultModal
-            primaryButtonText={buttonText}
-            primaryButtonHandler={handleButtonClick}
-            onHide={handleButtonClick}
-            identifier={ModalIdentifiers.START_TRIAL_FORM_MODAL_RESULT}
-            subtitle={subtitle}
-            title={title}
-            ignoreExit={false}
-            type='small'
-            resultType='failure'
-            icon={
-                <LaptopAlertSvg
-                    width={135}
-                    height={100}
-                />
-            }
-            contactSupportButtonVisible={true}
-        />
-    );
+    return null;
 }
