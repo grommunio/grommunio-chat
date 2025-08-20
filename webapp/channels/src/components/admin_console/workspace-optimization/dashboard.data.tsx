@@ -10,7 +10,6 @@ import {
     ServerVariantIcon,
     ArrowUpBoldCircleOutlineIcon,
     TuneIcon,
-    LockOutlineIcon,
     AccountMultipleOutlineIcon,
 } from '@mattermost/compass-icons/components';
 import type {AdminConfig} from '@mattermost/types/config';
@@ -26,7 +25,6 @@ import {ItemStatus} from './dashboard.type';
 import type {DataModel, Options} from './dashboard.type';
 import {runAccessChecks} from './dashboard_checks/access';
 import {runConfigChecks} from './dashboard_checks/config';
-import {runDataPrivacyChecks} from './dashboard_checks/data_privacy';
 import {runEaseOfUseChecks} from './dashboard_checks/easy_management';
 import {runPerformanceChecks} from './dashboard_checks/performance';
 import {runUpdateChecks} from './dashboard_checks/updates';
@@ -156,34 +154,6 @@ const getPerformanceData = async (
     items: await runPerformanceChecks(config, formatMessage, options),
 });
 
-const getDataPrivacyData = async (
-    config: Partial<AdminConfig>,
-    formatMessage: ReturnType<typeof useIntl>['formatMessage'],
-    options: Options,
-) => ({
-    title: formatMessage({
-        id: 'admin.reporting.workspace_optimization.data_privacy.title',
-        defaultMessage: 'Data privacy',
-    }),
-    description: formatMessage({
-        id: 'admin.reporting.workspace_optimization.data_privacy.description',
-        defaultMessage: 'Get better insight and control over your data.',
-    }),
-    descriptionOk: formatMessage({
-        id: 'admin.reporting.workspace_optimization.data_privacy.descriptionOk',
-        defaultMessage: 'You\'ve enabled data retention and compliance features!',
-    }),
-    icon: (
-        <div className='icon'>
-            <LockOutlineIcon
-                size={20}
-                color={'var(--sys-center-channel-color)'}
-            />
-        </div>
-    ),
-    items: await runDataPrivacyChecks(config, formatMessage, options),
-});
-
 const getEaseOfManagementData = async (
     config: Partial<AdminConfig>,
     formatMessage: ReturnType<typeof useIntl>['formatMessage'],
@@ -260,7 +230,6 @@ const useMetricsData = (
                 configuration: await getConfigurationData(config, formatMessage, options),
                 access: await getAccessData(config, formatMessage, options),
                 performance: await getPerformanceData(config, formatMessage, options),
-                dataPrivacy: await getDataPrivacyData(config, formatMessage, options),
                 easyManagement: await getEaseOfManagementData(config, formatMessage, options),
             };
 
