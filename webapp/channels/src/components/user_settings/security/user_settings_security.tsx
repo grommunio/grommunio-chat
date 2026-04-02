@@ -59,6 +59,7 @@ type Props = {
     enableOAuthServiceProvider: boolean;
     allowedToSwitchToEmail: boolean;
     enableSignUpWithGitLab: boolean;
+    enableSignUpWithKeycloak: boolean;
     enableSignUpWithGoogle: boolean;
     enableSignUpWithOpenId: boolean;
     enableLdap: boolean;
@@ -526,6 +527,7 @@ export class SecurityTab extends React.PureComponent<Props, State> {
         if (active) {
             let emailOption;
             let gitlabOption;
+            let keycloakOption;
             let googleOption;
             let office365Option;
             let openidOption;
@@ -550,6 +552,30 @@ export class SecurityTab extends React.PureComponent<Props, State> {
                                 <FormattedMessage
                                     id='user.settings.security.switchGitlab'
                                     defaultMessage='Switch to Using GitLab SSO'
+                                />
+                            </Link>
+                            <br/>
+                        </div>
+                    );
+                }
+
+                if (this.props.enableSignUpWithKeycloak) {
+                    keycloakOption = (
+                        <div className='pb-3'>
+                            <Link
+                                className='btn btn-primary'
+                                to={
+                                    '/claim/email_to_oauth?email=' +
+                                    encodeURIComponent(user.email) +
+                                    '&old_type=' +
+                                    user.auth_service +
+                                    '&new_type=' +
+                                    Constants.KEYCLOAK_SERVICE
+                                }
+                            >
+                                <FormattedMessage
+                                    id='user.settings.security.switchKeycloak'
+                                    defaultMessage='Switch to Using Keycloak SSO'
                                 />
                             </Link>
                             <br/>
@@ -707,6 +733,7 @@ export class SecurityTab extends React.PureComponent<Props, State> {
                 <div key='userSignInOption'>
                     {emailOption}
                     {gitlabOption}
+                    {keycloakOption}
                     {googleOption}
                     {office365Option}
                     {openidOption}
@@ -958,6 +985,7 @@ export class SecurityTab extends React.PureComponent<Props, State> {
 
         let numMethods = 0;
         numMethods = this.props.enableSignUpWithGitLab ? numMethods + 1 : numMethods;
+        numMethods = this.props.enableSignUpWithKeycloak ? numMethods + 1 : numMethods;
         numMethods = this.props.enableSignUpWithGoogle ? numMethods + 1 : numMethods;
         numMethods = this.props.enableSignUpWithOffice365 ? numMethods + 1 : numMethods;
         numMethods = this.props.enableSignUpWithOpenId ? numMethods + 1 : numMethods;

@@ -42,6 +42,10 @@ func desanitize(actual, target *model.Config) {
 		target.GitLabSettings.Secret = actual.GitLabSettings.Secret
 	}
 
+	if *target.KeycloakSettings.Secret == model.FakeSetting {
+		target.KeycloakSettings.Secret = actual.KeycloakSettings.Secret
+	}
+
 	if target.GoogleSettings.Secret != nil && *target.GoogleSettings.Secret == model.FakeSetting {
 		target.GoogleSettings.Secret = actual.GoogleSettings.Secret
 	}

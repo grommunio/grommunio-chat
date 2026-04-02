@@ -315,6 +315,10 @@ describe('components/AdminSidebar', () => {
                     Secret: 'gitlabSecret',
                     Scope: 'scope',
                 } as SSOSettings,
+                KeycloakSettings: {
+                    Id: 'gitlabID',
+                    Secret: 'gitlabSecret',
+                } as SSOSettings,
                 Office365Settings: {
                     Id: 'office365ID',
                     Secret: 'office365Secret',
