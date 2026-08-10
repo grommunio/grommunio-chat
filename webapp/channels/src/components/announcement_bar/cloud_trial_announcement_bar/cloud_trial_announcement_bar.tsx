@@ -17,7 +17,6 @@ import PricingModal from 'components/pricing_modal';
 import {
     Preferences,
     CloudBanners,
-    AnnouncementBarTypes,
     ModalIdentifiers,
     TELEMETRY_CATEGORIES,
     TrialPeriodDays,
@@ -25,8 +24,6 @@ import {
 import {getLocaleDateFromUTC} from 'utils/utils';
 
 import type {ModalData} from 'types/actions';
-
-import AnnouncementBar from '../default_announcement_bar';
 
 type Props = {
     userIsAdmin: boolean;
@@ -213,16 +210,7 @@ class CloudTrialAnnouncementBar extends React.PureComponent<Props> {
         const dismissable = this.isDismissable();
 
         return (
-            <AnnouncementBar
-                type={dismissable ? AnnouncementBarTypes.ADVISOR : AnnouncementBarTypes.CRITICAL}
-                showCloseButton={dismissable}
-                handleClose={this.handleClose}
-                onButtonClick={this.showModal}
-                modalButtonText={modalButtonText}
-                message={bannerMessage}
-                showLinkAsButton={true}
-                icon={icon}
-            />
+            <div/>
         );
     }
 }

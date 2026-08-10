@@ -35,13 +35,7 @@ const RenewalLink = (props: RenewalLinkProps) => {
     );
 
     return (
-        <button
-            className='btn btn-primary annnouncementBar__renewLicense'
-            disabled={props.isDisabled}
-            onClick={(e) => handleLinkClick(e)}
-        >
-            {btnText}
-        </button>
+        <div/>
     );
 };
 
