@@ -1528,6 +1528,21 @@ components:
               type: string
             UserApiEndpoint:
               type: string
+        KeycloakSettings:
+          type: object
+          properties:
+            Enable:
+              type: boolean
+            Secret:
+              type: string
+            Id:
+              type: string
+            AuthEndpoint:
+              type: string
+            TokenEndpoint:
+              type: string
+            UserApiEndpoint:
+              type: string
         GoogleSettings:
           type: object
           properties:
@@ -1993,6 +2008,21 @@ components:
             Id:
               type: boolean
             Scope:
+              type: boolean
+            AuthEndpoint:
+              type: boolean
+            TokenEndpoint:
+              type: boolean
+            UserApiEndpoint:
+              type: boolean
+        KeycloakSettings:
+          type: object
+          properties:
+            Enable:
+              type: boolean
+            Secret:
+              type: boolean
+            Id:
               type: boolean
             AuthEndpoint:
               type: boolean

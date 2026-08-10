@@ -4502,6 +4502,112 @@ const AdminDefinition: AdminDefinitionType = {
                     ],
                 },
             },
+            keycloak: {
+                url: 'authentication/keycloak',
+                title: defineMessage({id: 'admin.sidebar.keycloak', defaultMessage: 'Keycloak'}),
+                isHidden: it.any(
+                    it.licensed,
+                    it.not(it.userHasReadPermissionOnResource(RESOURCE_KEYS.AUTHENTICATION.OPENID)),
+                ),
+                schema: {
+                    id: 'KeycloakSettings',
+                    name: defineMessage({id: 'admin.authentication.keycloak', defaultMessage: 'Keycloak'}),
+                    onConfigLoad: (config) => {
+                        const newState: {'KeycloakSettings.Url'?: string} = {};
+                        newState['KeycloakSettings.Url'] = config.KeycloakSettings?.UserAPIEndpoint?.replace('/api/v4/user', '');
+                        return newState;
+                    },
+                    onConfigSave: (config) => {
+                        const newConfig = {...config};
+                        newConfig.KeycloakSettings.UserAPIEndpoint = config.KeycloakSettings.Url.replace(/\/$/, '') + '/api/v4/user';
+                        return newConfig;
+                    },
+                    settings: [
+                        {
+                            type: 'bool',
+                            key: 'KeycloakSettings.Enable',
+                            label: defineMessage({id: 'admin.keycloak.enableTitle', defaultMessage: 'Enable authentication with Keycloak: '}),
+                            help_text: defineMessage({id: 'admin.keycloak.enableDescription', defaultMessage: 'When true, grommunio Chat allows team creation and account signup using Keycloak OAuth.{lineBreak} {lineBreak}1. Log in to your Keycloak account and go to Profile Settings -> Applications.{lineBreak}2. Enter Redirect URIs "<loginUrlChunk>your-mattermost-url</loginUrlChunk>" (example: http://localhost:8065/login/keycloak/complete) and "<signupUrlChunk>your-mattermost-url</signupUrlChunk>".\n3. Then use "Application Secret Key" and "Application ID" fields from Keycloak to complete the options below.\n4. Complete the Endpoint URLs below.'}),
+                            help_text_values: {
+                                lineBreak: '\n',
+                                loginUrlChunk: (chunk: string) => `<${chunk}>/login/keycloak/complete"`,
+                                signupUrlChunk: (chunk: string) => `<${chunk}>/signup/keycloak/complete"`,
+                            },
+                            help_text_markdown: true,
+                            isDisabled: it.not(it.userHasWritePermissionOnResource(RESOURCE_KEYS.AUTHENTICATION.OPENID)),
+                        },
+                        {
+                            type: 'text',
+                            key: 'KeycloakSettings.Id',
+                            label: defineMessage({id: 'admin.keycloak.clientIdTitle', defaultMessage: 'Application ID:'}),
+                            help_text: defineMessage({id: 'admin.keycloak.clientIdDescription', defaultMessage: 'Obtain this value via the instructions above for logging into Keycloak.'}),
+                            placeholder: defineMessage({id: 'admin.keycloak.clientIdExample', defaultMessage: 'E.g.: "jcuS8PuvcpGhpgHhlcpT1Mx42pnqMxQY"'}),
+                            isDisabled: it.any(
+                                it.not(it.userHasWritePermissionOnResource(RESOURCE_KEYS.AUTHENTICATION.OPENID)),
+                                it.stateIsFalse('KeycloakSettings.Enable'),
+                            ),
+                        },
+                        {
+                            type: 'text',
+                            key: 'KeycloakSettings.Secret',
+                            label: defineMessage({id: 'admin.keycloak.clientSecretTitle', defaultMessage: 'Application Secret Key:'}),
+                            help_text: defineMessage({id: 'admin.keycloak.clientSecretDescription', defaultMessage: 'Obtain this value via the instructions above for logging into Keycloak.'}),
+                            placeholder: defineMessage({id: 'admin.keycloak.clientSecretExample', defaultMessage: 'E.g.: "jcuS8PuvcpGhpgHhlcpT1Mx42pnqMxQY"'}),
+                            isDisabled: it.any(
+                                it.not(it.userHasWritePermissionOnResource(RESOURCE_KEYS.AUTHENTICATION.OPENID)),
+                                it.stateIsFalse('KeycloakSettings.Enable'),
+                            ),
+                        },
+                        {
+                            type: 'text',
+                            key: 'KeycloakSettings.Url',
+                            label: defineMessage({id: 'admin.keycloak.siteUrl', defaultMessage: 'Keycloak Site URL:'}),
+                            help_text: defineMessage({id: 'admin.keycloak.siteUrlDescription', defaultMessage: 'Enter the URL of your Keycloak instance, e.g. https://example.com:3000. If your Keycloak instance is not set up with SSL, start the URL with http:// instead of https://.'}),
+                            placeholder: defineMessage({id: 'admin.keycloak.siteUrlExample', defaultMessage: 'E.g.: https://'}),
+                            isDisabled: it.any(
+                                it.not(it.userHasWritePermissionOnResource(RESOURCE_KEYS.AUTHENTICATION.OPENID)),
+                                it.stateIsFalse('KeycloakSettings.Enable'),
+                            ),
+                        },
+                        {
+                            type: 'text',
+                            key: 'KeycloakSettings.UserAPIEndpoint',
+                            label: defineMessage({id: 'admin.keycloak.userTitle', defaultMessage: 'User API Endpoint:'}),
+                            dynamic_value: (value, config, state) => {
+                                if (state['KeycloakSettings.Url']) {
+                                    return state['KeycloakSettings.Url'].replace(/\/$/, '') + '/api/v4/user';
+                                }
+                                return '';
+                            },
+                            isDisabled: true,
+                        },
+                        {
+                            type: 'text',
+                            key: 'KeycloakSettings.AuthEndpoint',
+                            label: defineMessage({id: 'admin.keycloak.authTitle', defaultMessage: 'Auth Endpoint:'}),
+                            dynamic_value: (value, config, state) => {
+                                if (state['KeycloakSettings.Url']) {
+                                    return state['KeycloakSettings.Url'].replace(/\/$/, '') + '/oauth/authorize';
+                                }
+                                return '';
+                            },
+                            isDisabled: true,
+                        },
+                        {
+                            type: 'text',
+                            key: 'KeycloakSettings.TokenEndpoint',
+                            label: defineMessage({id: 'admin.keycloak.tokenTitle', defaultMessage: 'Token Endpoint:'}),
+                            dynamic_value: (value, config, state) => {
+                                if (state['KeycloakSettings.Url']) {
+                                    return state['KeycloakSettings.Url'].replace(/\/$/, '') + '/oauth/token';
+                                }
+                                return '';
+                            },
+                            isDisabled: true,
+                        },
+                    ],
+                },
+            },
             oauth: {
                 url: 'authentication/oauth',
                 title: defineMessage({id: 'admin.sidebar.oauth', defaultMessage: 'OAuth 2.0'}),
@@ -4520,9 +4626,12 @@ const AdminDefinition: AdminDefinitionType = {
                     id: 'OAuthSettings',
                     name: defineMessage({id: 'admin.authentication.oauth', defaultMessage: 'OAuth 2.0'}),
                     onConfigLoad: (config) => {
-                        const newState: {oauthType?: string; 'GitLabSettings.Url'?: string} = {};
+                        const newState: {oauthType?: string; 'GitLabSettings.Url'?: string; 'KeycloakSettings.Url'?: string} = {};
                         if (config.GitLabSettings?.Enable) {
                             newState.oauthType = Constants.GITLAB_SERVICE;
+                        }
+                        if (config.KeycloakSettings?.Enable) {
+                            newState.oauthType = Constants.KEYCLOAK_SERVICE;
                         }
                         if (config.Office365Settings?.Enable) {
                             newState.oauthType = Constants.OFFICE365_SERVICE;
@@ -4531,25 +4640,31 @@ const AdminDefinition: AdminDefinitionType = {
                             newState.oauthType = Constants.GOOGLE_SERVICE;
                         }
 
-                        newState['GitLabSettings.Url'] = config.GitLabSettings?.UserAPIEndpoint?.replace('/api/v4/user', '');
+                        newState['KeycloakSettings.Url'] = config.KeycloakSettings?.UserAPIEndpoint?.replace('/api/v4/user', '');
 
                         return newState;
                     },
                     onConfigSave: (config) => {
                         const newConfig = {...config};
                         newConfig.GitLabSettings = config.GitLabSettings || {};
+                        newConfig.KeycloakSettings = config.KeycloakSettings || {};
                         newConfig.Office365Settings = config.Office365Settings || {};
                         newConfig.GoogleSettings = config.GoogleSettings || {};
                         newConfig.OpenIdSettings = config.OpenIdSettings || {};
 
                         newConfig.GitLabSettings.Enable = false;
+                        newConfig.KeycloakSettings.Enable = false;
                         newConfig.Office365Settings.Enable = false;
                         newConfig.GoogleSettings.Enable = false;
                         newConfig.OpenIdSettings.Enable = false;
                         newConfig.GitLabSettings.UserAPIEndpoint = config.GitLabSettings.Url.replace(/\/$/, '') + '/api/v4/user';
+                        newConfig.KeycloakSettings.UserAPIEndpoint = config.KeycloakSettings.Url.replace(/\/$/, '') + '/api/v4/user';
 
                         if (config.oauthType === Constants.GITLAB_SERVICE) {
                             newConfig.GitLabSettings.Enable = true;
+                        }
+                        if (config.oauthType === Constants.KEYCLOAK_SERVICE) {
+                            newConfig.KeycloakSettings.Enable = true;
                         }
                         if (config.oauthType === Constants.OFFICE365_SERVICE) {
                             newConfig.Office365Settings.Enable = true;
@@ -4729,6 +4844,72 @@ const AdminDefinition: AdminDefinitionType = {
                         },
                         {
                             type: 'text',
+                            key: 'KeycloakSettings.Id',
+                            label: defineMessage({id: 'admin.keycloak.clientIdTitle', defaultMessage: 'Application ID:'}),
+                            help_text: defineMessage({id: 'admin.keycloak.clientIdDescription', defaultMessage: 'Obtain this value via the instructions above for logging into Keycloak.'}),
+                            placeholder: defineMessage({id: 'admin.keycloak.clientIdExample', defaultMessage: 'E.g.: "jcuS8PuvcpGhpgHhlcpT1Mx42pnqMxQY"'}),
+                            isHidden: it.not(it.stateEquals('oauthType', 'keycloak')),
+                            isDisabled: it.not(it.userHasWritePermissionOnResource(RESOURCE_KEYS.AUTHENTICATION.OPENID)),
+                        },
+                        {
+                            type: 'text',
+                            key: 'KeycloakSettings.Secret',
+                            label: defineMessage({id: 'admin.keycloak.clientSecretTitle', defaultMessage: 'Application Secret Key:'}),
+                            help_text: defineMessage({id: 'admin.keycloak.clientSecretDescription', defaultMessage: 'Obtain this value via the instructions above for logging into Keycloak.'}),
+                            placeholder: defineMessage({id: 'admin.keycloak.clientSecretExample', defaultMessage: 'E.g.: "jcuS8PuvcpGhpgHhlcpT1Mx42pnqMxQY"'}),
+                            isHidden: it.not(it.stateEquals('oauthType', 'keycloak')),
+                            isDisabled: it.not(it.userHasWritePermissionOnResource(RESOURCE_KEYS.AUTHENTICATION.OPENID)),
+                        },
+                        {
+                            type: 'text',
+                            key: 'KeycloakSettings.Url',
+                            label: defineMessage({id: 'admin.keycloak.siteUrl', defaultMessage: 'Keycloak Site URL:'}),
+                            help_text: defineMessage({id: 'admin.keycloak.siteUrlDescription', defaultMessage: 'Enter the URL of your Keycloak instance, e.g. https://example.com:3000. If your Keycloak instance is not set up with SSL, start the URL with http:// instead of https://.'}),
+                            placeholder: defineMessage({id: 'admin.keycloak.siteUrlExample', defaultMessage: 'E.g.: https://'}),
+                            isHidden: it.not(it.stateEquals('oauthType', 'keycloak')),
+                            isDisabled: it.not(it.userHasWritePermissionOnResource(RESOURCE_KEYS.AUTHENTICATION.OPENID)),
+                        },
+                        {
+                            type: 'text',
+                            key: 'KeycloakSettings.UserAPIEndpoint',
+                            label: defineMessage({id: 'admin.keycloak.userTitle', defaultMessage: 'User API Endpoint:'}),
+                            dynamic_value: (value, config, state) => {
+                                if (state['KeycloakSettings.Url']) {
+                                    return state['KeycloakSettings.Url'].replace(/\/$/, '') + '/api/v4/user';
+                                }
+                                return '';
+                            },
+                            isDisabled: true,
+                            isHidden: it.not(it.stateEquals('oauthType', 'keycloak')),
+                        },
+                        {
+                            type: 'text',
+                            key: 'KeycloakSettings.AuthEndpoint',
+                            label: defineMessage({id: 'admin.keycloak.authTitle', defaultMessage: 'Auth Endpoint:'}),
+                            dynamic_value: (value, config, state) => {
+                                if (state['KeycloakSettings.Url']) {
+                                    return state['KeycloakSettings.Url'].replace(/\/$/, '') + '/oauth/authorize';
+                                }
+                                return '';
+                            },
+                            isDisabled: true,
+                            isHidden: it.not(it.stateEquals('oauthType', 'keycloak')),
+                        },
+                        {
+                            type: 'text',
+                            key: 'KeycloakSettings.TokenEndpoint',
+                            label: defineMessage({id: 'admin.keycloak.tokenTitle', defaultMessage: 'Token Endpoint:'}),
+                            dynamic_value: (value, config, state) => {
+                                if (state['KeycloakSettings.Url']) {
+                                    return state['KeycloakSettings.Url'].replace(/\/$/, '') + '/oauth/token';
+                                }
+                                return '';
+                            },
+                            isDisabled: true,
+                            isHidden: it.not(it.stateEquals('oauthType', 'keycloak')),
+                        },
+                        {
+                            type: 'text',
                             key: 'GoogleSettings.Id',
                             label: defineMessage({id: 'admin.google.clientIdTitle', defaultMessage: 'Client ID:'}),
                             help_text: defineMessage({id: 'admin.google.clientIdDescription', defaultMessage: 'The Client ID you received when registering your application with Google.'}),
@@ -4844,7 +5025,7 @@ const AdminDefinition: AdminDefinitionType = {
                     id: 'OpenIdSettings',
                     name: defineMessage({id: 'admin.authentication.openid', defaultMessage: 'OpenID Connect'}),
                     onConfigLoad: (config) => {
-                        const newState: {openidType?: string; 'GitLabSettings.Url'?: string} = {};
+                        const newState: {openidType?: string; 'GitLabSettings.Url'?: string; 'KeycloakSettings.Url'?: string} = {};
                         if (config.Office365Settings?.Enable) {
                             newState.openidType = Constants.OFFICE365_SERVICE;
                         }
@@ -4854,6 +5035,9 @@ const AdminDefinition: AdminDefinitionType = {
                         if (config.GitLabSettings?.Enable) {
                             newState.openidType = Constants.GITLAB_SERVICE;
                         }
+                        if (config.KeycloakSettings?.Enable) {
+                            newState.openidType = Constants.KEYCLOAK_SERVICE;
+                        }
                         if (config.OpenIdSettings?.Enable) {
                             newState.openidType = Constants.OPENID_SERVICE;
                         }
@@ -4861,6 +5045,11 @@ const AdminDefinition: AdminDefinitionType = {
                             newState['GitLabSettings.Url'] = config.GitLabSettings.UserAPIEndpoint.replace('/api/v4/user', '');
                         } else if (config.GitLabSettings?.DiscoveryEndpoint) {
                             newState['GitLabSettings.Url'] = config.GitLabSettings.DiscoveryEndpoint.replace('/.well-known/openid-configuration', '');
+                        }
+                        if (config.KeycloakSettings?.UserAPIEndpoint) {
+                            newState['KeycloakSettings.Url'] = config.KeycloakSettings.UserAPIEndpoint.replace('/api/v4/user', '');
+                        } else if (config.KeycloakSettings?.DiscoveryEndpoint) {
+                            newState['KeycloakSettings.Url'] = config.KeycloakSettings.DiscoveryEndpoint.replace('/.well-known/openid-configuration', '');
                         }
 
                         return newState;
@@ -4870,11 +5059,13 @@ const AdminDefinition: AdminDefinitionType = {
                         newConfig.Office365Settings = config.Office365Settings || {};
                         newConfig.GoogleSettings = config.GoogleSettings || {};
                         newConfig.GitLabSettings = config.GitLabSettings || {};
+                        newConfig.KeycloakSettings = config.KeycloakSettings || {};
                         newConfig.OpenIdSettings = config.OpenIdSettings || {};
 
                         newConfig.Office365Settings.Enable = false;
                         newConfig.GoogleSettings.Enable = false;
                         newConfig.GitLabSettings.Enable = false;
+                        newConfig.KeycloakSettings.Enable = false;
                         newConfig.OpenIdSettings.Enable = false;
 
                         let configSetting = '';
@@ -4882,8 +5073,8 @@ const AdminDefinition: AdminDefinitionType = {
                             configSetting = 'Office365Settings';
                         } else if (config.openidType === Constants.GOOGLE_SERVICE) {
                             configSetting = 'GoogleSettings';
-                        } else if (config.openidType === Constants.GITLAB_SERVICE) {
-                            configSetting = 'GitLabSettings';
+                        } else if (config.openidType === Constants.KEYCLOAK_SERVICE) {
+                            configSetting = 'KeycloakSettings';
                         } else if (config.openidType === Constants.OPENID_SERVICE) {
                             configSetting = 'OpenIdSettings';
                         }
@@ -5044,6 +5235,48 @@ const AdminDefinition: AdminDefinitionType = {
                             help_text: defineMessage({id: 'admin.openid.clientSecretDescription', defaultMessage: 'Obtaining the Client Secret differs across providers. Please check you provider\'s documentation'}),
                             placeholder: defineMessage({id: 'admin.gitlab.clientSecretExample', defaultMessage: 'E.g.: "jcuS8PuvcpGhpgHhlcpT1Mx442pnqMxQY"'}),
                             isHidden: it.not(it.stateEquals('openidType', Constants.GITLAB_SERVICE)),
+                            isDisabled: it.not(it.userHasWritePermissionOnResource(RESOURCE_KEYS.AUTHENTICATION.OPENID)),
+                        },
+                        {
+                            type: 'text',
+                            key: 'KeycloakSettings.Url',
+                            label: defineMessage({id: 'admin.keycloak.siteUrl', defaultMessage: 'Keycloak Site URL:'}),
+                            help_text: defineMessage({id: 'admin.keycloak.siteUrlDescription', defaultMessage: 'Enter the URL of your Keycloak instance, e.g. https://example.com:3000. If your Keycloak instance is not set up with SSL, start the URL with http:// instead of https://.'}),
+                            placeholder: defineMessage({id: 'admin.keycloak.siteUrlExample', defaultMessage: 'E.g.: https://'}),
+                            isHidden: it.not(it.stateEquals('openidType', Constants.KEYCLOAK_SERVICE)),
+                            isDisabled: it.not(it.userHasWritePermissionOnResource(RESOURCE_KEYS.AUTHENTICATION.OPENID)),
+                        },
+                        {
+                            type: 'text',
+                            key: 'KeycloakSettings.DiscoveryEndpoint',
+                            label: defineMessage({id: 'admin.openid.discoveryEndpointTitle', defaultMessage: 'Discovery Endpoint:'}),
+                            help_text: defineMessage({id: 'admin.keycloak.discoveryEndpointDesc', defaultMessage: 'The URL of the discovery document for OpenID Connect with Keycloak.'}),
+                            help_text_markdown: false,
+                            dynamic_value: (value, config, state) => {
+                                if (state['KeycloakSettings.Url']) {
+                                    return state['KeycloakSettings.Url'].replace(/\/$/, '') + '/.well-known/openid-configuration';
+                                }
+                                return '';
+                            },
+                            isDisabled: true,
+                            isHidden: it.not(it.stateEquals('openidType', Constants.KEYCLOAK_SERVICE)),
+                        },
+                        {
+                            type: 'text',
+                            key: 'KeycloakSettings.Id',
+                            label: defineMessage({id: 'admin.openid.clientIdTitle', defaultMessage: 'Client ID:'}),
+                            help_text: defineMessage({id: 'admin.openid.clientIdDescription', defaultMessage: 'Obtaining the Client ID differs across providers. Please check you provider\'s documentation'}),
+                            placeholder: defineMessage({id: 'admin.keycloak.clientIdExample', defaultMessage: 'E.g.: "jcuS8PuvcpGhpgHhlcpT1Mx42pnqMxQY"'}),
+                            isHidden: it.not(it.stateEquals('openidType', Constants.KEYCLOAK_SERVICE)),
+                            isDisabled: it.not(it.userHasWritePermissionOnResource(RESOURCE_KEYS.AUTHENTICATION.OPENID)),
+                        },
+                        {
+                            type: 'text',
+                            key: 'KeycloakSettings.Secret',
+                            label: defineMessage({id: 'admin.openid.clientSecretTitle', defaultMessage: 'Client Secret:'}),
+                            help_text: defineMessage({id: 'admin.openid.clientSecretDescription', defaultMessage: 'Obtaining the Client Secret differs across providers. Please check you provider\'s documentation'}),
+                            placeholder: defineMessage({id: 'admin.keycloak.clientSecretExample', defaultMessage: 'E.g.: "jcuS8PuvcpGhpgHhlcpT1Mx442pnqMxQY"'}),
+                            isHidden: it.not(it.stateEquals('openidType', Constants.KEYCLOAK_SERVICE)),
                             isDisabled: it.not(it.userHasWritePermissionOnResource(RESOURCE_KEYS.AUTHENTICATION.OPENID)),
                         },
                         {

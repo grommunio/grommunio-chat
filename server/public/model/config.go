@@ -47,6 +47,7 @@ const (
 	PasswordMinimumLength = 5
 
 	ServiceGitlab    = "gitlab"
+	ServiceKeycloak  = "keycloak"
 	ServiceGoogle    = "google"
 	ServiceOffice365 = "office365"
 	ServiceOpenid    = "openid"
@@ -3511,6 +3512,7 @@ type Config struct {
 	AnnouncementSettings      AnnouncementSettings
 	ThemeSettings             ThemeSettings
 	GitLabSettings            SSOSettings
+	KeycloakSettings					SSOSettings
 	GoogleSettings            SSOSettings
 	Office365Settings         Office365Settings
 	OpenIdSettings            SSOSettings
@@ -3574,6 +3576,8 @@ func (o *Config) GetSSOService(service string) *SSOSettings {
 	switch service {
 	case ServiceGitlab:
 		return &o.GitLabSettings
+	case ServiceKeycloak:
+		return &o.KeycloakSettings
 	case ServiceGoogle:
 		return &o.GoogleSettings
 	case ServiceOffice365:
@@ -3617,6 +3621,7 @@ func (o *Config) SetDefaults() {
 	o.Office365Settings.setDefaults()
 	o.Office365Settings.setDefaults()
 	o.GitLabSettings.setDefaults("", "", "", "", "")
+	o.KeycloakSettings.setDefaults("openid", "", "", "", "")
 	o.GoogleSettings.setDefaults(GoogleSettingsDefaultScope, GoogleSettingsDefaultAuthEndpoint, GoogleSettingsDefaultTokenEndpoint, GoogleSettingsDefaultUserAPIEndpoint, "")
 	o.OpenIdSettings.setDefaults(OpenidSettingsDefaultScope, "", "", "", "#145DBF")
 	o.ServiceSettings.SetDefaults(isUpdate)
@@ -4379,6 +4384,10 @@ func (o *Config) Sanitize() {
 
 	if o.GitLabSettings.Secret != nil && *o.GitLabSettings.Secret != "" {
 		*o.GitLabSettings.Secret = FakeSetting
+	}
+
+	if o.KeycloakSettings.Secret != nil && *o.KeycloakSettings.Secret != "" {
+		*o.KeycloakSettings.Secret = FakeSetting
 	}
 
 	if o.GoogleSettings.Secret != nil && *o.GoogleSettings.Secret != "" {

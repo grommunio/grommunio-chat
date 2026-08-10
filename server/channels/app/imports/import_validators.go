@@ -321,6 +321,7 @@ var validAuthServices = []string{
 	"",
 	model.UserAuthServiceEmail,
 	model.UserAuthServiceGitlab,
+	model.UserAuthServiceKeycloak,
 	model.UserAuthServiceSaml,
 	model.UserAuthServiceLdap,
 	model.ServiceGoogle,

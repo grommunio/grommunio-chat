@@ -278,6 +278,10 @@ func GenerateLimitedClientConfig(c *model.Config, telemetryID string, license *m
 	props["GitLabButtonColor"] = *c.GitLabSettings.ButtonColor
 	props["GitLabButtonText"] = *c.GitLabSettings.ButtonText
 
+	props["EnableSignUpWithKeycloak"] = strconv.FormatBool(*c.KeycloakSettings.Enable)
+	props["KeycloakButtonColor"] = *c.KeycloakSettings.ButtonColor
+	props["KeycloakButtonText"] = *c.KeycloakSettings.ButtonText
+
 	props["TermsOfServiceLink"] = *c.SupportSettings.TermsOfServiceLink
 	props["PrivacyPolicyLink"] = *c.SupportSettings.PrivacyPolicyLink
 	props["AboutLink"] = *c.SupportSettings.AboutLink

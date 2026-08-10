@@ -46,6 +46,7 @@ import SaveButton from 'components/save_button';
 import LockIcon from 'components/widgets/icons/lock_icon';
 import LoginGitlabIcon from 'components/widgets/icons/login_gitlab_icon';
 import LoginGoogleIcon from 'components/widgets/icons/login_google_icon';
+import LoginKeycloakIcon from 'components/widgets/icons/login_keycloak_icon';
 import LoginOffice365Icon from 'components/widgets/icons/login_office_365_icon';
 import LoginOpenIDIcon from 'components/widgets/icons/login_openid_icon';
 import CheckInput from 'components/widgets/inputs/check';
@@ -89,6 +90,7 @@ const Signup = ({onCustomizeHeader}: SignupProps) => {
         NoAccounts,
         EnableSignUpWithEmail,
         EnableSignUpWithGitLab,
+        EnableSignUpWithKeycloak,
         EnableSignUpWithGoogle,
         EnableSignUpWithOffice365,
         EnableSignUpWithOpenId,
@@ -100,6 +102,8 @@ const Signup = ({onCustomizeHeader}: SignupProps) => {
         CustomDescriptionText,
         GitLabButtonText,
         GitLabButtonColor,
+        KeycloakButtonText,
+        KeycloakButtonColor,
         OpenIdButtonText,
         OpenIdButtonColor,
         EnableCustomBrand,
@@ -122,6 +126,7 @@ const Signup = ({onCustomizeHeader}: SignupProps) => {
     const noAccounts = NoAccounts === 'true';
     const enableSignUpWithEmail = enableUserCreation && EnableSignUpWithEmail === 'true';
     const enableSignUpWithGitLab = enableUserCreation && EnableSignUpWithGitLab === 'true';
+    const enableSignUpWithKeycloak = enableUserCreation && EnableSignUpWithKeycloak === 'true';
     const enableSignUpWithGoogle = enableUserCreation && EnableSignUpWithGoogle === 'true';
     const enableSignUpWithOffice365 = enableUserCreation && EnableSignUpWithOffice365 === 'true';
     const enableSignUpWithOpenId = enableUserCreation && EnableSignUpWithOpenId === 'true';
@@ -148,7 +153,7 @@ const Signup = ({onCustomizeHeader}: SignupProps) => {
 
     const cwsAvailability = useCWSAvailabilityCheck();
 
-    const enableExternalSignup = enableSignUpWithGitLab || enableSignUpWithOffice365 || enableSignUpWithGoogle || enableSignUpWithOpenId || enableLDAP || enableSAML;
+    const enableExternalSignup = enableSignUpWithGitLab || enableSignUpWithKeycloak || enableSignUpWithOffice365 || enableSignUpWithGoogle || enableSignUpWithOpenId || enableLDAP || enableSAML;
     const hasError = Boolean(emailError || nameError || passwordError || serverError || alertBanner);
     const canSubmit = Boolean(email && name && password) && !hasError && !loading;
     const passwordConfig = useSelector(getPasswordConfig);
@@ -180,6 +185,18 @@ const Signup = ({onCustomizeHeader}: SignupProps) => {
                 icon: <LoginGitlabIcon/>,
                 label: GitLabButtonText || formatMessage({id: 'login.gitlab', defaultMessage: 'GitLab'}),
                 style: {color: GitLabButtonColor, borderColor: GitLabButtonColor},
+                onClick: desktopExternalAuth(url),
+            });
+        }
+
+        if (enableSignUpWithKeycloak) {
+            const url = `${Client4.getOAuthRoute()}/keycloak/signup${search}`;
+            externalLoginOptions.push({
+                id: 'keycloak',
+                url,
+                icon: <LoginKeycloakIcon/>,
+                label: KeycloakButtonText || formatMessage({id: 'login.keycloak', defaultMessage: 'Keycloak'}),
+                style: {color: KeycloakButtonColor, borderColor: KeycloakButtonColor},
                 onClick: desktopExternalAuth(url),
             });
         }
