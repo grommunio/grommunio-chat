@@ -9,7 +9,8 @@ import {Link} from 'react-router-dom';
 import {getConfig, getLicense} from 'mattermost-redux/selectors/entities/general';
 
 import BackButton from 'components/common/back_button';
-import Logo from 'components/common/svg_images_components/logo_dark_blue_svg';
+import Logo_dark_blue_svg from 'components/common/svg_images_components/logo_dark_blue_svg';
+
 
 import './header.scss';
 
@@ -23,35 +24,18 @@ const Header = ({alternateLink, backButtonURL, onBackButtonClick}: HeaderProps) 
     const {SiteName} = useSelector(getConfig);
     const license = useSelector(getLicense);
 
-    const ariaLabel = SiteName || 'Mattermost';
+    const ariaLabel = SiteName || 'grommunio chat';
 
-    let freeBanner = null;
-    if (license.IsLicensed === 'false') {
-        freeBanner = <><Logo/><span className='freeBadge'>{'FREE EDITION'}</span></>;
-    }
 
     let title: React.ReactNode = SiteName;
-    if (title === 'Mattermost') {
-        if (freeBanner) {
-            title = '';
-        } else {
-            title = <Logo/>;
-        }
+    if (title === 'grommunio chat') {
+        title = <Logo_dark_blue_svg height={50} width={303}/>;
     }
 
     return (
-        <div className={classNames('hfroute-header', {'has-free-banner': freeBanner, 'has-custom-site-name': title})}>
+        <div className={classNames('hfroute-header', {'has-custom-site-name': title})}>
             <div className='header-main'>
                 <div>
-                    {freeBanner &&
-                        <Link
-                            className='header-logo-link'
-                            to='/'
-                            aria-label={ariaLabel}
-                        >
-                            {freeBanner}
-                        </Link>
-                    }
                     {title &&
                         <Link
                             className='header-logo-link'

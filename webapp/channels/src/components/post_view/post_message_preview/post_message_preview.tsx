@@ -17,7 +17,7 @@ import PostAttachmentOpenGraph from 'components/post_view/post_attachment_opengr
 import PostMessageView from 'components/post_view/post_message_view';
 import Timestamp from 'components/timestamp';
 import UserProfileComponent from 'components/user_profile';
-import MattermostLogo from 'components/widgets/icons/mattermost_logo';
+import MattermostLogo from 'components/widgets/icons/mattermost_logo_spacing';
 import Avatar from 'components/widgets/users/avatar';
 
 import {Constants} from 'utils/constants';
@@ -88,7 +88,7 @@ const PostMessagePreview = (props: Props) => {
         />
     );
     if (isSystemMessage && !fromWebhook && !isBot) {
-        avatar = (<MattermostLogo className='icon'/>);
+        avatar = (<MattermostLogo spanProps={{className: 'icon'}}/>);
     } else if (user?.id) {
         avatar = (
             <Avatar
