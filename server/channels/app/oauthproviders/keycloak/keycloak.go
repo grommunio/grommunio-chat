@@ -130,6 +130,13 @@ func (gp *KeycloakProvider) GetUserFromIdToken(_ request.CTX, idToken string) (*
 	return nil, nil
 }
 
-func (gp *KeycloakProvider) IsSameUser(_ request.CTX, dbUser, oauthUser *model.User) bool {
-	return dbUser.AuthData == oauthUser.AuthData || (dbUser.AuthService == "pam" && oauthUser.AuthService == "keycloak" && (dbUser.AuthData == nil || *dbUser.AuthData == "") && dbUser.Email == oauthUser.Email)
+func (gp *KeycloakProvider) IsSameUser(c request.CTX, dbUser, oauthUser *model.User) bool {
+	c.Logger().Debug(
+		"keycloak.IsSameUser",
+		mlog.String("dbUser.AuthData", *dbUser.AuthData),
+		mlog.String("oautUser.AuthData", *oauthUser.AuthData),
+		mlog.String("dbUser.AuthService", dbUser.AuthService),
+		mlog.String("oauthUser.AuthService", oauthUser.AuthService),
+	)
+	return (*dbUser.AuthData == *oauthUser.AuthData && (dbUser.AuthService == "gitlab" || dbUser.AuthService == "keycloak")) || (dbUser.AuthService == "pam" && oauthUser.AuthService == "gitlab" && (dbUser.AuthData == nil || *dbUser.AuthData == "") && dbUser.Email == oauthUser.Email)
 }
