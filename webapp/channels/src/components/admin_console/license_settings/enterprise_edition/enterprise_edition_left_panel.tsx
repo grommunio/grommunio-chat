@@ -119,7 +119,7 @@ const EnterpriseEditionLeftPanel = ({
             <div className='subtitle'>
                 <FormattedMessage
                     id='admin.license.enterpriseEdition.subtitle'
-                    defaultMessage='This is an Enterprise Edition for the Mattermost {skuName} plan'
+                    defaultMessage='This is an Enterprise Edition for the grommunio chat {skuName} plan'
                     values={{skuName}}
                 />
             </div>
