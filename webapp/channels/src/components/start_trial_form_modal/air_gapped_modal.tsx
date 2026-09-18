@@ -24,53 +24,7 @@ function AirGappedModal({onClose}: Props) {
             {'https://mattermost.com/trial/'}
         </ExternalLink>
     );
-    return (
-        <Modal
-            className={'AirGappedModal'}
-            dialogClassName={'AirGappedModal__dialog'}
-            show={true}
-            id='airGappedModal'
-            role='dialog'
-            onHide={() => onClose?.()}
-        >
-            <Modal.Header closeButton={true}>
-                <div className='title'>
-                    {formatMessage({id: 'air_gapped_modal.title', defaultMessage: 'Request a trial key'})}
-                </div>
-            </Modal.Header>
-            <Modal.Body>
-                <div className='body'>
-                    <div className='description'>
-                        {
-                            formatMessage(
-                                {
-                                    id: 'air_gapped_modal.description',
-                                    defaultMessage: 'To start your trial, please visit {link} and request a trial key.',
-                                },
-                                {
-                                    link: airGappedLink,
-                                },
-                            )
-                        }
-                    </div>
-                    <div className='icon'>
-                        <AirgappedTrialActivationConfirmSvg
-                            width={256}
-                            height={200}
-                        />
-                    </div>
-                </div>
-                <div className='buttons'>
-                    <Button
-                        className='confirm-btn'
-                        onClick={() => onClose?.()}
-                    >
-                        {formatMessage({id: 'air_gapped_modal.close', defaultMessage: 'Close'})}
-                    </Button>
-                </div>
-            </Modal.Body>
-        </Modal>
-    );
+    return null;
 }
 
 export default AirGappedModal;
