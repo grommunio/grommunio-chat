@@ -392,27 +392,7 @@ func (a *App) CreateOAuthUser(c request.CTX, service string, userData io.Reader,
 		}
 		return nil, model.NewAppError("CreateOAuthUser", "api.user.create_oauth_user.already_attached.app_error", map[string]any{"Service": service, "Auth": userByEmail.AuthService}, "email="+user.Email+" authData="+*user.AuthData, http.StatusBadRequest)
 	}
-
-	user.EmailVerified = true
-
-	ruser, err := a.CreateUser(c, user)
-	if err != nil {
-		return nil, err
-	}
-
-	if teamID != "" {
-		err = a.AddUserToTeamByTeamId(c, teamID, user)
-		if err != nil {
-			return nil, err
-		}
-
-		err = a.AddDirectChannels(c, teamID, user)
-		if err != nil {
-			c.Logger().Warn("Failed to add direct channels", mlog.Err(err))
-		}
-	}
-
-	return ruser, nil
+	return nil, model.NewAppError("CreateOAuthUser", "api.user.create_oauth_user.creation_not_allowed.app_error", map[string]any{}, "email="+user.Email+" authData="+*user.AuthData+" authService="+user.AuthService, http.StatusBadRequest)
 }
 
 func (a *App) GetUser(userID string) (*model.User, *model.AppError) {

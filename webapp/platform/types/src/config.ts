@@ -96,6 +96,7 @@ export type ClientConfig = {
     EnableSignInWithUsername: string;
     EnableSignUpWithEmail: string;
     EnableSignUpWithGitLab: string;
+    EnableSignUpWithKeycloak: string;
     EnableSignUpWithGoogle: string;
     EnableSignUpWithOffice365: string;
     EnableSignUpWithOpenId: string;
@@ -152,6 +153,8 @@ export type ClientConfig = {
     NoAccounts: string;
     GitLabButtonText: string;
     GitLabButtonColor: string;
+    KeycloakButtonText: string;
+    KeycloakButtonColor: string;
     OpenIdButtonText: string;
     OpenIdButtonColor: string;
     PasswordEnableForgotLink: string;
@@ -947,6 +950,7 @@ export type AdminConfig = {
     AnnouncementSettings: AnnouncementSettings;
     ThemeSettings: ThemeSettings;
     GitLabSettings: SSOSettings;
+    KeycloakSettings: SSOSettings;
     GoogleSettings: SSOSettings;
     Office365Settings: Office365Settings;
     OpenIdSettings: SSOSettings;

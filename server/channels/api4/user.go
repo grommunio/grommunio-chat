@@ -1860,11 +1860,12 @@ func login(c *Context, w http.ResponseWriter, r *http.Request) {
 		enableEmail := *config.EmailSettings.EnableSignInWithEmail
 		samlEnabled := *config.SamlSettings.Enable
 		gitlabEnabled := *config.GitLabSettings.Enable
+		keycloakEnabled := *config.KeycloakSettings.Enable
 		openidEnabled := *config.OpenIdSettings.Enable
 		googleEnabled := *config.GoogleSettings.Enable
 		office365Enabled := *config.Office365Settings.Enable
 
-		if samlEnabled || gitlabEnabled || googleEnabled || office365Enabled || openidEnabled {
+		if samlEnabled || gitlabEnabled || keycloakEnabled || googleEnabled || office365Enabled || openidEnabled {
 			c.Err = model.NewAppError("login", "api.user.login.invalid_credentials_sso", nil, "", http.StatusUnauthorized)
 			return
 		}

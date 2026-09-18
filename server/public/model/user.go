@@ -880,11 +880,12 @@ func IsInRole(userRoles string, inRole string) bool {
 }
 
 func (u *User) IsSSOUser() bool {
-	return u.AuthService != "" && u.AuthService != UserAuthServiceEmail
+	return u.AuthService != "" && u.AuthService != UserAuthServiceEmail && u.AuthService != UserAuthServicePam
 }
 
 func (u *User) IsOAuthUser() bool {
 	return u.AuthService == ServiceGitlab ||
+		u.AuthService == ServiceKeycloak ||
 		u.AuthService == ServiceGoogle ||
 		u.AuthService == ServiceOffice365 ||
 		u.AuthService == ServiceOpenid

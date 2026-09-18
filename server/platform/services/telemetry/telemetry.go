@@ -657,6 +657,8 @@ func (ts *TelemetryService) trackConfig() {
 	ts.SendTelemetry(TrackConfigOAuth, map[string]any{
 		"enable_gitlab":    cfg.GitLabSettings.Enable,
 		"openid_gitlab":    *cfg.GitLabSettings.Enable && strings.Contains(*cfg.GitLabSettings.Scope, model.ServiceOpenid),
+		"enable_keycloak":    cfg.KeycloakSettings.Enable,
+		"openid_keycloak":    *cfg.KeycloakSettings.Enable && strings.Contains(*cfg.KeycloakSettings.Scope, model.ServiceOpenid),
 		"enable_google":    cfg.GoogleSettings.Enable,
 		"openid_google":    *cfg.GoogleSettings.Enable && strings.Contains(*cfg.GoogleSettings.Scope, model.ServiceOpenid),
 		"enable_office365": cfg.Office365Settings.Enable,
