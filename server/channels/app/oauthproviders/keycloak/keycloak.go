@@ -150,5 +150,5 @@ func (gp *KeycloakProvider) IsSameUser(c request.CTX, dbUser, oauthUser *model.U
 		mlog.String("dbUser.AuthService", dbUser.AuthService),
 		mlog.String("oauthUser.AuthService", oauthUser.AuthService),
 	)
-	return *dbUser.AuthData == *oauthUser.AuthData && dbUser.AuthService == "keycloak"
+	return *dbUser.AuthData == *oauthUser.AuthData && (dbUser.AuthService == "gitlab" || dbUser.AuthService == "keycloak")
 }
