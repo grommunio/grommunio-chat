@@ -33,13 +33,6 @@ export default function AboutBuildModalCloud(props: Props) {
         companyName = companyInfo.name;
     }
 
-    const title = (
-        <FormattedMessage
-            id='about.cloudEdition'
-            defaultMessage='Cloud'
-        />
-    );
-
     const subTitle = (
         <FormattedMessage
             id='about.enterpriseEditionSst'
@@ -73,7 +66,7 @@ export default function AboutBuildModalCloud(props: Props) {
                 >
                     <FormattedMessage
                         id='about.title'
-                        values={{appTitle: config.SiteName || 'Mattermost'}}
+                        values={{appTitle: config.SiteName || 'grommunio chat'}}
                         defaultMessage='About {appTitle}'
                     />
                 </Modal.Title>
@@ -85,7 +78,7 @@ export default function AboutBuildModalCloud(props: Props) {
                     </div>
                     <div>
                         <h3 className='about-modal__title'>
-                            <strong>{'Mattermost'} {title}</strong>
+                            <strong>{'grommunio chat'}</strong>
                         </h3>
                         <p className='subtitle'>{subTitle}</p>
                         <div className='description'>
@@ -105,7 +98,7 @@ export default function AboutBuildModalCloud(props: Props) {
                                 values={{
                                     linkServer: (msg: React.ReactNode) => (
                                         <ExternalLink
-                                            href='https://github.com/mattermost/mattermost-server/blob/master/NOTICE.txt'
+                                            href='https://github.com/grommunio/grommunio-chat'
                                             location='about_build_modal_cloud'
                                         >
                                             {msg}
@@ -113,7 +106,7 @@ export default function AboutBuildModalCloud(props: Props) {
                                     ),
                                     linkDesktop: (msg: React.ReactNode) => (
                                         <ExternalLink
-                                            href='https://github.com/mattermost/desktop/blob/master/NOTICE.txt'
+                                            href='https://github.com/grommunio/grommunio-desktop'
                                             location='about_build_modal_cloud'
                                         >
                                             {msg}
@@ -121,7 +114,7 @@ export default function AboutBuildModalCloud(props: Props) {
                                     ),
                                     linkMobile: (msg: React.ReactNode) => (
                                         <ExternalLink
-                                            href='https://github.com/mattermost/mattermost-mobile/blob/master/NOTICE.txt'
+                                            href='https://github.com/grommunio/grommunio-chat-mobile'
                                             location='about_build_modal_cloud'
                                         >
                                             {msg}
@@ -131,8 +124,17 @@ export default function AboutBuildModalCloud(props: Props) {
                             />
                             <div className='copy-right'>
                                 <FormattedMessage
-                                    id='about.copyright'
-                                    defaultMessage='Copyright 2015 - {currentYear} grommunio chat, Inc. All rights reserved'
+                                    id='about.copyright.grommunio'
+                                    defaultMessage='Copyright 2020 - {currentYear} grommunio GmbH. All rights reserved'
+                                    values={{
+                                        currentYear: new Date().getFullYear(),
+                                    }}
+                                />
+                            </div>
+                            <div className='copy-right'>
+                                <FormattedMessage
+                                    id='about.copyright.mattermost'
+                                    defaultMessage='Copyright 2015 - {currentYear} Mattermost, Inc. All rights reserved'
                                     values={{
                                         currentYear: new Date().getFullYear(),
                                     }}
