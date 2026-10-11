@@ -879,6 +879,13 @@ func IsInRole(userRoles string, inRole string) bool {
 	return false
 }
 
+// UsesPAMPassword reports whether the password is verified against gromox
+// through PAM. Accounts linked to Keycloak authenticate against the same
+// gromox user, so they keep password login next to single sign-on.
+func (u *User) UsesPAMPassword() bool {
+	return u.AuthService == UserAuthServicePam || u.AuthService == UserAuthServiceKeycloak
+}
+
 func (u *User) IsSSOUser() bool {
 	return u.AuthService != "" && u.AuthService != UserAuthServiceEmail && u.AuthService != UserAuthServicePam
 }
