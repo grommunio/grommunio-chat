@@ -385,7 +385,7 @@ func (a *App) authenticateUser(rctx request.CTX, user *model.User, password, mfa
 		return ldapUser, nil
 	}
 
-	if user.AuthService != "" && user.AuthService != model.UserAuthServicePam {
+	if user.AuthService != "" && !user.UsesPAMPassword() {
 		authService := user.AuthService
 		if authService == model.UserAuthServiceSaml {
 			authService = strings.ToUpper(authService)

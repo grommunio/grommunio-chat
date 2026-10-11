@@ -14,7 +14,7 @@ import (
 )
 
 func CheckUserPassword(user *model.User, password string) error {
-	if user.AuthService == model.UserAuthServicePam {
+	if user.UsesPAMPassword() {
 		ret := CheckUserPasswordPAM(user, password)
 		if !ret {
 			return NewErrInvalidPassword("")

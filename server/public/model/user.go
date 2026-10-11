@@ -879,6 +879,17 @@ func IsInRole(userRoles string, inRole string) bool {
 	return false
 }
 
+// UsesPAMPassword reports whether the password is verified against gromox
+// through PAM. grommunio-chat signs Keycloak users in through the GitLab
+// provider (accounts carried over from 9.x keep "keycloak"); both authenticate
+// against the same gromox user, so they keep password login next to single
+// sign-on.
+func (u *User) UsesPAMPassword() bool {
+	return u.AuthService == UserAuthServicePam ||
+		u.AuthService == UserAuthServiceGitlab ||
+		u.AuthService == "keycloak"
+}
+
 func (u *User) IsSSOUser() bool {
 	return u.AuthService != "" && u.AuthService != UserAuthServiceEmail
 }
